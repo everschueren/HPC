@@ -174,8 +174,9 @@ def ThreeMetrics(M3D,ACCNs,Decoys,filter=0):
 
             if filter == 1:
                 if Specificity[j,i] == 1.0 and Reproducibility[j,i] < 10e-7: Specificity[j,i] = 0.0
-    return (1-Reproducibility,1-Abundancy,1-Specificity,Baits) #changed by erik v
-    # return (Reproducibility,Abundancy,Specificity,Baits)
+    #return (1-Reproducibility,1-Abundancy,1-Specificity,Baits) #changed by erik v
+    #print str(Reproducibility)+"\t"+str(Abundancy)+"\t"+str(Specificity)
+    return (Reproducibility,Abundancy,Specificity,Baits)
         
 # --- Write output for the three metrics
 def OutputMetrics(R,A,S,B,P,out=1,FileName=None):

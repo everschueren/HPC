@@ -20,7 +20,7 @@ The help message goes here.
 
 def readConfig(filename):
 	file = open(filename)
-	config = ConfigParser.RawConfigParser(allow_no_value=True)
+	config = ConfigParser.RawConfigParser()
 	config.readfp(file)
 	
 	return config
@@ -46,8 +46,28 @@ def pipeline(config):
 	print(">> MERGING KEYS TO DATA\t\t" + tmp_in_file)
 	tmp_out_file = dir+'processed/'+bname+".txt"
 	f = open(tmp_out_file,'w')
-	subprocess.call(['FileIO/merge_additions.pl', keys_file, tmp_in_file, config.get("general","simple_format")], stdout=f)
+	subprocess.call(['FileIO/merge_additions.pl', keys_file, tmp_in_file, config.get("general","data_format")], stdout=f)
 	f.close()
+
+	## ##########################
+	## 1.B merge with mastertable
+
+	if config.getboolean('general','master_include'):
+		master_file = config.get('general','master_file')
+		if(config.get('general','master_format')=="S"):
+			#Create the latest mastertable in the right format
+			print(">> CONVERTING MASTERTABLE TO SIMPLE FORMAT\t\t"+master_file)
+			bname = bname+'_wMT'
+			tmp_out_file = dir+'processed/'+bname+".txt"
+			f = open(tmp_out_file,'w')
+			subprocess.call(['awk','-F',"\t",'{print $3"\t"$9"\t"$21"\t"$22"\t"$23"\t"$24"\t"$25"\t"$26"\t"$27"\t"$28"\t"$29"\t"$30}', master_file], stdout=f)	
+			print(">> APPENDING DATA FILE TO MASTERFILE\t\t"+master_file)
+			with open(data_file, 'r') as d:
+				lines = d.readlines()[3:]
+				f.writelines(lines)
+				f.close()
+
+	
 
 	## ################### 
 	## 2. remove carryover
@@ -57,7 +77,7 @@ def pipeline(config):
 		print(">> REMOVING CARRYOVER FROM\t\t" + tmp_in_file)
 		tmp_out_file = dir+'processed/'+bname+'_NoC'+".txt"
 		f = open(tmp_out_file,'w')
-		subprocess.call(['FileIO/carryover_removal_comprehensive.pl', tmp_in_file, config.get("general","simple_format")], stdout=f)
+		subprocess.call(['FileIO/carryover_removal_comprehensive.pl', tmp_in_file, config.get("general","data_format")], stdout=f)
 		f.close()
 
 	## ####################### 
@@ -73,7 +93,7 @@ def pipeline(config):
 	print(">> CONVERTING TO MATRIX\t\t" + tmp_in_file)
 	tmp_out_file = dir+'processed/'+bname+'_MAT'+".txt"
 	f = open(tmp_out_file,'w')
-	subprocess.call(['FileIO/convert_to_matrix_format_comprehensive.pl', tmp_in_file, config.get("general","simple_format"), remove_file, collapse_file, exclusions_file], stdout=f)
+	subprocess.call(['FileIO/convert_to_matrix_format_comprehensive.pl', tmp_in_file, config.get("general","data_format"), remove_file, collapse_file, exclusions_file], stdout=f)
 	f.close()
 
 	## ########################## 
@@ -97,7 +117,7 @@ def pipeline(config):
 	if config.getboolean('mist_self','enabled'):
 		print(">> SCORING MiST [SELF PARAMS]\t\t" + tmp_in_file)
 		tmp_out_file = dir+'processed/'+bname+'_MIST_SELF'+".txt"
-		subprocess.call(['MiST/MiST_invert.py', tmp_in_file, tmp_out_file, config.get('mist_self','filter'), config.get('mist_self','training')]) 
+		subprocess.call(['MiST/MiST.py', tmp_in_file, tmp_out_file, config.get('mist_self','filter'), config.get('mist_self','training')]) 
 
 	######################
 	## 7. COMPPASS scoring 
@@ -124,7 +144,7 @@ def pipeline(config):
 	tmp_out_file = dir+'processed/'+bname+'_ALLSCORES'+".txt"
 	f = open(tmp_out_file,'w')
 	file_dir = config.get("collect","file_dir")
-	subprocess.call(['FileIO/convert_out_to_final_comprehensive.pl', dir+'processed/'+bname, config.get("general","simple_format"), collapse_file, file_dir + config.get("collect","gene_names"), file_dir + config.get("collect","uniprot_entrez")], stdout=f )
+	subprocess.call(['FileIO/convert_out_to_final_comprehensive.pl', dir+'processed/'+bname, config.get("general","data_format"), collapse_file, file_dir + config.get("collect","gene_names"), file_dir + config.get("collect","uniprot_entrez")], stdout=f )
 	f.close() 
 
 class Usage(Exception):
