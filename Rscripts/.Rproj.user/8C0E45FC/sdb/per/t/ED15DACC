@@ -1,0 +1,16 @@
+{
+    "contents" : "vif_diff <- read.delim(\"~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Expression-PTM/Vif-Ub/processed_reversed_labels/042313-tlj-59-62-differential.txt\")\nplot(vif_diff$VIF_GFP_logFC, -log10(vif_diff$VIF_GFP_adjPVal) , pch=20, ylab=\"-log10(FDR)\", xlab = \"log2 FC\")\nabline(h=-log10(0.2),col=\"darkgrey\", lty=2, lwd=2)\nabline(v=c(-1.5,1.5), col=\"darkgrey\", lty=2, lwd=2)\n",
+    "created" : 1372095907217.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "522728102",
+    "id" : "ED15DACC",
+    "lastKnownWriteTime" : 1372132864,
+    "path" : "~/Projects/HPCKrogan/Scripts/Rscripts/PTM/PTMvolcano.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
