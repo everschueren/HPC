@@ -1,0 +1,146 @@
+#! /usr/bin/Rscript --vanilla --default-packages=utils
+
+library(limma)
+library(stringr)
+library(sqldf)
+library(optparse)
+library(compiler)
+  
+options(warn=-1)
+
+# prepare_data = function(data_frame, convert_to_logs=T, normalize="none"){
+#   data_matrix = as.matrix(data_frame[,3:ncol(data_frame)])
+  
+#   print(str_join("NORMALIZATION: ",normalize))
+  
+#   if(normalize!="none"){
+#     data_matrix = normalizeBetweenArrays(data_matrix, method=normalize)
+#   }
+#   if(convert_to_logs){
+#     data_matrix[data_matrix==0]=1
+#     data_matrix = log2(data_matrix)
+#   }
+#   as.data.frame(data_matrix)
+# }
+
+make_design_vector = function(exp_samples, biol_replicates){
+  rep(1:exp_samples, each=biol_replicates)
+}
+
+make_biol_tech_vector = function(exp_samples, biol_replicates){
+  rep(1:(exp_samples*biol_replicates))
+}
+
+make_sample_names = function(exp_samples){
+  str_join("sample_", 1:exp_samples)
+}
+
+make_design_matrix = function(design_vector, sample_names){
+  keys = unique(design_vector)
+  dm = model.matrix(~0 + factor(design_vector))
+  colnames(dm) = sample_names
+  dm
+}
+
+make_contrast_vector = function(sample_names){
+  contrasts = sample_names
+  if(length(sample_names) >= 2){
+    for(i in 1:(length(sample_names)-1)){
+      for(j in (i+1):length(sample_names)){
+        contrasts = c(contrasts, str_join(sample_names[i],"-",sample_names[j]))
+      }
+    } 
+  }
+  makeContrasts(contrasts=contrasts, levels=sample_names)
+} 
+
+make_contrast_vector_from_file = function(file, sample_names){
+  contrast_file = read.delim(file)
+  makeContrasts(contrasts=contrast_file$contrasts, levels=sample_names) 
+}
+
+do_limma = function(data_matrix, design_matrix, contrasts=NULL){
+  
+  lin_fit = lmFit(data_matrix,design_matrix)  
+
+  if(is.null(contrasts)){
+    eb = eBayes(lin_fit)
+    tmp = topTable(eb, adjust.method="BH",number=Inf)
+    tmp = cbind(rownames(tmp), tmp[,c(1,4)])
+    exp_name = colnames(design_matrix)[1]
+    colnames(tmp) =  c("ID",str_join(exp_name,"_logFC"), str_join(exp_name,"_adjPVal"))
+    results = tmp
+  }else{
+    contrasts.fit = eBayes(contrasts.fit(lin_fit, contrasts))
+    #   test_results = decideTests(contrasts.fit, method="global")
+    #   test_results_summary = summary(test_results)
+    for(i in 1:ncol(contrasts)){
+      test_differentials = topTable(contrasts.fit, coef=i, adjust.method="BH",number=Inf)
+      tmp1 = cbind(rownames(test_differentials), test_differentials[,c(1,5)])
+      contrast = colnames(contrasts)[i]
+      colnames(tmp1) = c("ID",str_join(contrast,"_logFC"), str_join(contrast,"_adjPVal"))
+      
+      if(i==1){
+        tmp = tmp1
+      }else{
+        tmp = merge(tmp, tmp1, by="ID")
+      }
+    }
+  }
+  tmp
+}
+
+Limma.main = function(data_file, design_matrix, output_file, contrast_file="none"){
+  data = read.delim(data_file, stringsAsFactors=F)
+  design_matrix = read.delim(design_matrix)
+  sample_names = colnames(design_matrix)
+  data_matrix = data[,3:ncol(data)] 
+  
+  if(contrast_file=="none"){
+    differential_results = do_limma(data_matrix, design_matrix) 
+  }else{
+    if(contrast_file=="auto"){
+      print("AUTO CONTRASTS")
+      contrasts = make_contrast_vector(sample_names=sample_names)
+      print(contrasts)  
+    }else{
+      print(str_join("reading contrasts from file: ", contrast_file))
+      contrasts = make_contrast_vector_from_file(contrast_file, sample_names)
+    }
+    differential_results = do_limma(data_matrix, design_matrix, contrasts) 
+  }
+    
+  tmp = cbind(rownames(data), data[,1:2])
+  colnames(tmp)[1] = "ID"
+  output_frame = merge(tmp, differential_results, by ="ID")
+  write.table(output_frame, file=output_file, eol="\n", sep="\t", quote=F, row.names=F, col.names=T)
+}
+
+
+## READ OPTIONS
+
+option_list <- list(
+  make_option(c("-v", "--verbose"), action="store_true", default=TRUE,
+              help="Print extra output [default]"),
+  make_option(c("-q", "--quietly"), action="store_false",
+              dest="verbose", help="Print little output"),
+  make_option(c("-l", "--convert_to_logs"), default=TRUE,
+              help="Flag to convert values in data-file to log2 values"),
+  make_option(c("-d", "--data_file"),
+              help="data file containing values"),
+  make_option(c("-o", "--output_file"),
+              help="output file for differential peptides"),
+  make_option(c("-m", "--design_matrix"),
+              help="File containing design matrix for the experiment"),
+  make_option(c("-c", "--contrast_file"), default="none",
+              help="File containing the contrasts to be made from the design matrix")
+)
+
+parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
+Limma.main <- cmpfun(Limma.main)
+Limma.main(data_file=parsedArgs$data_file, design_matrix=parsedArgs$design_matrix, output_file=parsedArgs$output_file, contrast_file=parsedArgs$contrast_file)  
+
+
+
+
+

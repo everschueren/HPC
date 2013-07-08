@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-APMSPipeline.py
+SILACPipeline.py
 
-Created by erik verschueren on 2013-06-26.
+Created by erik verschueren on 2013-07-06.
 Copyright (c) 2013 __MyCompanyName__. All rights reserved.
 """
 
@@ -31,11 +31,11 @@ def pipeline(config):
 	## read files
 	dir = config.get("files","dir")	
 	data_file = dir+config.get("files","data")
-	keys_file = dir+config.get("files", "keys")
-	design_file = dir+config.get("files","design")	
+	keys_file = dir+config.get("files", "keys")	
 
 	##derived
 	bname = os.path.splitext(os.path.basename(data_file))[0]
+	tmp_in_file = data_file
 
 	## ################################ 
 	## 1. read maxquant data and filter
@@ -47,34 +47,71 @@ def pipeline(config):
 
 	if config.getboolean("filters","enabled"):
 		bname = bname+"_FLT"
-		tmp_out_file = dir+"/processed/"+bname+".txt"
+		tmp_out_file = dir+"processed/"+bname+".txt"
 		oxidations = config.get("filters","oxidations")
 		unique = config.get("filters","unique")
 		contaminants = config.get("filters","contaminants")
 		modification = config.get("filters","modification")
-		subprocess.call(['Conversion/MaxQFilter.R', '-d', data_file, '-o', tmp_out_file, '--contaminants_filter', contaminants, '-u', unique, '-x', oxidations, '-s', modification])
+		subprocess.call(['Conversion/MaxQFilter.R', '-d', tmp_in_file, '-o', tmp_out_file, '--contaminants_filter', contaminants, '-u', unique, '-x', oxidations, '-s', modification])
+		tmp_in_file = tmp_out_file
 
 	## #############################################
 	## 2. convert to matrix of normalized log-ratios
 	
+	bname = bname+"_MAT"
+	tmp_out_file = dir+"processed/"+bname+".txt"
+
 	if config.get("normalization", "enabled"):
 		normalization = config.get("normalization", "method")
 	else:
 		normalization = "none"
 
-	if config.get("general","use_ratios"):
+	if config.getboolean("general","use_ratios"):
 		rep_treatment = config.get("general","ratio_rep_treatment")
-		#Conversion/MaxQToMatrix.R -i keys_file -d data_file -o tmp_out_file -r rep_treatment -m Ratio_H_L -f $FILTER -u $UNIQUE_ONLY
+		subprocess.call(['Conversion/MaxQToMatrix.R', '-i', keys_file, '-d', tmp_in_file, '-o', tmp_out_file, '-r', rep_treatment, '-m', 'Ratio_H_L', '-n', normalization])
 
-	if config.get("general","use_intensities"):
+	if config.getboolean("general","use_intensities"):
 		rep_treatment = config.get("general","intensity_rep_treatment")
-		subprocess.call(['Conversion/MaxQToMatrix.R', '-i', keys_file, '-d', data_file, '-o', tmp_out_file, '-r', rep_treatment, '-m', 'Intensities', '-n', normalization])
+		subprocess.call(['Conversion/MaxQToMatrix.R', '-i', keys_file, '-d', tmp_in_file, '-o', tmp_out_file, '-r', rep_treatment, '-m', 'Intensities', '-n', normalization])
+	tmp_in_file = tmp_out_file
+
+	## #############################
+	## 3. perform limma differential 
+
+	bname = bname+"_LIM"
+	tmp_out_file = dir+"processed/"+bname+".txt"
+
+	if config.getboolean("limma","enabled"):
+		design_file = dir+config.get("limma","design")
+		if config.getboolean("limma","enable_contrasts"):
+			contrast_file = dir+config.get("limma","contrast")
+		else:
+			contrast_file = "none"
+		subprocess.call(['Stats/Limma.R', '-d', tmp_in_file, '-o', tmp_out_file, '-m', design_file, '-c', contrast_file])
+	tmp_in_file = tmp_out_file		
+
+	## ######################
+	## 4. flatten per protein
+
+	bname = bname+"_PRT"
+	tmp_out_file = dir+"processed/"+bname+".txt"	
+	
+	if config.getboolean("flatten","enabled"):
+		pvl_method = config.get("flatten","pvl_method")
+		subprocess.call(['Stats/Flatten.R', '-d', tmp_in_file, '-o', tmp_out_file, '-m', pvl_method])
+	tmp_in_file = tmp_out_file		
 		
-	## limma
+	## ###########
+	## 5. annotate
 
-	## flatten per protein 
+	bname = bname+"_RES"
+	tmp_out_file = dir+"processed/"+bname+".txt"
 
-
+	if config.getboolean("annotate","enabled"):
+		uniprot_dir = config.get("annotate","file_dir")
+		species = config.get("annotate","species")
+		subprocess.call(['Conversion/AnnotateWithUniprot.R', '-d', tmp_in_file, '-o', tmp_out_file, '-s', species, '-k', "uniprot_ac", '-u', uniprot_dir])
+	tmp_in_file = tmp_out_file
 
 class Usage(Exception):
 	def __init__(self, msg):

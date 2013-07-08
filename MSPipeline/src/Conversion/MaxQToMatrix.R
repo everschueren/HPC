@@ -6,6 +6,7 @@ library(reshape2)
 library(stringr)
 library(optparse)
 library(compiler)
+library(limma)
 
 options(warn=-1)
 
@@ -30,7 +31,7 @@ get_replicate_processing_fun = function(method="none"){
   }else if(method == "max"){
     fun = max
   }else if(method=="mean"){
-    fun = mean
+    fun = function(x) mean(x, na.rm=T)
   }else if(method=="none"){
     fun = identity
   }
@@ -41,7 +42,7 @@ get_replicate_columns = function(keys, sample){
  cnames = as.vector(unlist(sqldf(str_join("select Code from keys where Sample = '",sample,"'")))) 
 }
 
-maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_processing="none", technical_replicates=2, maxq_value="Intensity",sequence_filter="none", uniqueness_filter=T){
+maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_processing="none", maxq_value="Ratio_H_L", normalization="none"){
   
   ## READ DATA
   data = read.delim(data_file, stringsAsFactors=F)
@@ -50,14 +51,18 @@ maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_pr
 
   ## Extract all required columns and replace 'File' name by 'Code' 
   keys = read.delim(index_file, stringsAsFactors=F)
+  #tmp = sqldf(str_join("select  Proteins as 'uniprot_id', Modified_Sequence as 'Sequence', Code, ",maxq_value," from data D join keys K on K.File = D.Raw_File where ",maxq_value," != 'NA'"))
+  tmp = sqldf(str_join("select  Proteins as 'uniprot_ac', Modified_Sequence as 'Sequence', Code, ",maxq_value," from data D join keys K on K.File = D.Raw_File"))
   
   ## CONVERT FROM LONG TO WIDE FORMAT
   fun = get_replicate_processing_fun(replicate_processing)
-  tmp2 = dcast(tmp, uniprot_id+Sequence ~ Code,value.var=maxq_value,  fun.aggregate=fun, fill=1)
+  # tmp2 = dcast(tmp, uniprot_id+Sequence ~ Code,value.var=maxq_value,  fun.aggregate=fun, fill=1)
+  tmp2 = dcast(tmp, uniprot_ac+Sequence ~ Code,value.var=maxq_value,  fun.aggregate=fun)
   data_keys = tmp2[,1:2]
   data_matrix = tmp2[,c(3:ncol(tmp2))]
-  data_matrix[data_matrix==1]=1 
-  ## FLATTEN OVER REPLICATES TO GET ONE VALUE ER BIOLOGICAL SAMPLE 
+  #data_matrix[data_matrix==1]=1 
+
+  ## FLATTEN OVER TECH REPLICATES TO GET ONE VALUE PER BIOLOGICAL SAMPLE 
   data_matrix_flat = c()
   sample_keys = unique(keys$Sample)
   for(i in 1:length(sample_keys)){
@@ -69,8 +74,14 @@ maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_pr
     colnames(data_matrix_flat)[i] = key
   }
   
-  data_matrix_flat = cbind(data_keys, data_matrix_flat)
-  write.table(data_matrix_flat, file=output_file, eol="\n", quote=F, sep="\t", row.names=F, col.names=T)
+  ## NORMALIZE
+  if(normalization != "none"){
+    data_matrix_flat = normalizeBetweenArrays(data_matrix_flat, method=normalization)
+  }
+  ## CONVERT TO LOGS
+  data_matrix_flat = log2(data_matrix_flat)
+  output = cbind(data_keys, data_matrix_flat)
+  write.table(output, file=output_file, eol="\n", quote=F, sep="\t", row.names=F, col.names=T)
 }
 
 ## READ OPTIONS
@@ -88,15 +99,15 @@ option_list <- list(
               help="output file for converted matrix"),
   make_option(c("-r", "--replicate_processing"), default="none", 
               help="function to process replicates: none, max, mean"),
-  make_option(c("-t", "--tech_reps"), default=2, type="integer", 
-              help="number of technical replicates"),
   make_option(c("-m", "--maxq_value"), default="Intensity",
-              help="String indicating whether to parse out the Intensity or Ratio_H_L column")
+              help="String indicating whether to use Intensities or Ratio_H_L column to compute ratios"),
+  make_option(c("-n", "--normalization"), default="none",
+              help="String indicating which normalization method to use")
 )
 
 
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 maxQ_to_matrix <- cmpfun(maxQ_to_matrix)
-maxQ_to_matrix(parsedArgs$data_file, parsedArgs$index_file, parsedArgs$output_file, parsedArgs$replicate_processing, parsedArgs$tech_reps, parsedArgs$maxq_value, parsedArgs$sequence_filter, parsedArgs$uniqueness_filter)  
+maxQ_to_matrix(parsedArgs$data_file, parsedArgs$index_file, parsedArgs$output_file, parsedArgs$replicate_processing, parsedArgs$maxq_value, parsedArgs$normalization)  
 
 
