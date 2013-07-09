@@ -1,12 +1,12 @@
 #! /usr/bin/Rscript --vanilla --default-packages=utils
 ## CONVERTS MAXQUANT OUTPUT TO MATRIX WITH INTENSITIES
 
-library(sqldf)
-library(reshape2)
-library(stringr)
-library(optparse)
-library(compiler)
-library(limma)
+suppressMessages(library(sqldf))
+suppressMessages(library(reshape2))
+suppressMessages(library(stringr))
+suppressMessages(library(optparse))
+suppressMessages(library(compiler))
+suppressMessages(library(limma))
 
 options(warn=-1)
 

@@ -1,9 +1,9 @@
 #! /usr/bin/Rscript --vanilla --default-packages=utils
 
-library(sqldf)
-library(stringr)
-library(optparse)
-library(compiler)
+suppressMessages(library(sqldf))
+suppressMessages(library(stringr))
+suppressMessages(library(optparse))
+suppressMessages(library(compiler))
 
 annotate_with_uniprot = function(data, species="HUMAN", key="uniprot_ac", output_file=NULL, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/"){
   species_split = unlist(str_split(species, "-"))

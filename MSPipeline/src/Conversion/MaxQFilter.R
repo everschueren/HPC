@@ -1,7 +1,7 @@
 #! /usr/bin/Rscript --vanilla --default-packages=utils
 
-library(optparse)
-library(compiler)
+suppressMessages(library(optparse))
+suppressMessages(library(compiler))
 
 options(warn=-1)
 

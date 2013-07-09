@@ -1,9 +1,9 @@
 #! /usr/bin/Rscript --vanilla --default-packages=utils
 
-library(stringr)
-library(sqldf)
-library(optparse)
-library(compiler)
+suppressMessages(library(stringr))
+suppressMessages(library(sqldf))
+suppressMessages(library(optparse))
+suppressMessages(library(compiler))
 
 
 FlattenP.Fisher = function(x) {

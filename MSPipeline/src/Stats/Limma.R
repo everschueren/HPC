@@ -1,10 +1,10 @@
 #! /usr/bin/Rscript --vanilla --default-packages=utils
 
-library(limma)
-library(stringr)
-library(sqldf)
-library(optparse)
-library(compiler)
+suppressMessages(library(limma))
+suppressMessages(library(stringr))
+suppressMessages(library(sqldf))
+suppressMessages(library(optparse))
+suppressMessages(library(compiler))
   
 options(warn=-1)
 
