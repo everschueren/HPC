@@ -15,5 +15,5 @@ annotate_with_uniprot = function(data, key="uniprot_id", organism){
     }
   }
   #print(nrow(Uniprot))
-  sqldf(str_join("select D.",key," , U.Entry as 'uniprot_ac', U.Entry_name as 'uniprot_id', U.Gene_names as 'gene_name', U.Protein_names as 'description', U.Length as 'length', D.* from data D left join  Uniprot U on U.Entry=D.",key))
+ res =  sqldf(str_join("select D.",key," , U.Entry as 'uniprot_ac', U.Entry_name as 'uniprot_id', U.Gene_names as 'gene_name', U.Protein_names as 'description', U.Length as 'length', substr(U.Entry_name,charindex('_',U.Entry_name)+1,length(U.Entry_name)) as 'species', substr(U.Entry_name,0,charindex('_',U.Entry_name,0)) as 'display_name',D.* from data D left join  Uniprot U on U.Entry=D.",key))
 }

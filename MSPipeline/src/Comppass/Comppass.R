@@ -1,6 +1,11 @@
 #! /usr/bin/Rscript --vanilla --default-packages=utils
-library(reshape2)
-library(compiler)
+
+suppressMessages(library(reshape2))
+suppressMessages(library(optparse))
+suppressMessages(library(compiler))
+
+
+options(warn=-1)
 
 Comppass.cleanMatrix = function(data){
   ## get rid of specificity exclusion row and meta-columns
@@ -113,6 +118,7 @@ Comppass.WD = function(stats_tab, speci_tab, repro_tab, normalized=F, WD_T=1){ #
 Comppass.Summary = function(stats_tab, Z, S, D, WD, WD_T=0){ ## WD_T takes everything over this  score
   
   score_table = c()
+  key_table = c()
   
   for(i in 1:nrow(stats_tab)){
     for(j in 1:ncol(stats_tab)){
@@ -124,24 +130,30 @@ Comppass.Summary = function(stats_tab, Z, S, D, WD, WD_T=0){ ## WD_T takes every
         d_score = D[i,j]
         wd_score = WD[i,j]
         tsc = stats_tab[i,j]
-        score_table = rbind(score_table, c(bait, prey, tsc, z_score, s_score, d_score, wd_score))  
+        key_table = rbind(key_table, c(bait, prey))
+        score_table = rbind(score_table, c(tsc, z_score, s_score, d_score, wd_score))
       }
     }
   }
-  score_table = as.data.frame(score_table)
-  colnames(score_table) = c("Baits","Preys","Abundance","Z","S","D","WD")
-  score_table
+  total_table = cbind(key_table, score_table)
+  colnames(total_table) = c("Bait","Prey","Abundance","Z","S","D","WD")
+  total_table
 }
 Comppass.Summary = cmpfun(Comppass.Summary, options=list("optimize",3))  
 
 Comppass.ResampledScreen = function(data_tmp){
-  protein_cnt = 300
+  ## count # identified proteins in each run
+  protein_cnts = apply(data.matrix(data_tmp[,2:ncol(data_tmp)]),2,function(x)sum(x>0))
+  ## count # identified TSC in each run
   tsc_counts = apply(data.matrix(data_tmp[,2:ncol(data_tmp)]), 2, sum)
+  ## cleanup
   Preys = data_tmp$Preys
   rownames(data_tmp) = Preys
   data_tmp = data_tmp[,-1]
   data_tmp = data.matrix(data_tmp, rownames.force=T)
+  ## get TOTAL # of times prey identified
   prey_totals = apply(data_tmp, 1, sum)
+  ## make random proteome 
   random_proteome = rep(rownames(data_tmp), times=prey_totals)
   random_proteome_size = length(random_proteome)
   
@@ -155,8 +167,9 @@ Comppass.ResampledScreen = function(data_tmp){
     p=0
     tsc=0
     tsc_total = tsc_counts[i]
+    protein_total = protein_cnts[i]
     
-    while(p < protein_cnt & tsc < tsc_total){
+    while(p < protein_total | tsc < tsc_total){
       
       ## get a random protein and add it to run
       random_protein_idx = sample(1:random_proteome_size, 1)
@@ -176,8 +189,32 @@ Comppass.ResampledScreen = function(data_tmp){
 }
 Comppass.ResampledScreen = cmpfun(Comppass.ResampledScreen, options=list("optimize",3))
 
+Comppass.ResampledPvalues = function(data_tmp, cnames, summary){
+  random_screen = Comppass.ResampledScreen(data_tmp)
+  random_data_long = Comppass.convertMatrix(random_screen, cnames)
+  random_stats_tab = Comppass.StatsTable(random_data_long)
+  random_repro_tab = Comppass.ReproTable(random_data_long)
+  random_speci_tab = Comppass.SpeciTable(random_stats_tab)
+  random_Z = Comppass.Z(random_stats_tab)
+  random_S = Comppass.S(random_stats_tab, random_speci_tab)
+  random_D = Comppass.D(random_stats_tab, random_speci_tab, random_repro_tab)
+  random_WD = Comppass.WD(random_stats_tab, random_repro_tab, random_speci_tab)
+  random_Z_ecdf = ecdf(random_Z)
+  random_S_ecdf = ecdf(random_S)
+  random_D_ecdf = ecdf(random_D)
+  random_WD_ecdf = ecdf(random_WD)
+  P = c()
+  P = cbind(P, sapply(summary[,"Z"], function(x) 1-random_Z_ecdf(x)))
+  P = cbind(P, sapply(summary[,"S"], function(x) 1-random_S_ecdf(x)))
+  P = cbind(P, sapply(summary[,"D"], function(x) 1-random_D_ecdf(x)))
+  P = cbind(P, sapply(summary[,"WD"], function(x) 1-random_Z_ecdf(x)))
+  colnames(P) = c("pZ","pS","pD","pWD")
+  P
+}
 
-Comppass.main = function(data, output_file){
+Comppass.main = function(data_file, output_file){
+  print("READING")
+  data = read.delim(data_file,  stringsAsFactors=F, header=T,skip=1, check.names=FALSE)
   print("CONVERTING")
   ## convert into intermediate format
   data_tmp = Comppass.cleanMatrix(data)
@@ -200,36 +237,40 @@ Comppass.main = function(data, output_file){
   S = Comppass.S(stats_tab, speci_tab)
   D = Comppass.D(stats_tab, speci_tab, repro_tab)
   WD = Comppass.WD(stats_tab, speci_tab, repro_tab)
-  WD_T = quantile(WD, probs=.95)
-  
-  print("RESAMPLING SCREEN")
-  ## resample the screen
-  random_screen = Comppass.ResampledScreen(data_tmp)
-  random_data_long = Comppass.convertMatrix(random_screen, cnames)
-  random_stats_tab = Comppass.StatsTable(random_data_long)
-  random_repro_tab = Comppass.ReproTable(random_data_long)
-  random_speci_tab = Comppass.SpeciTable(random_stats_tab)
-  random_WD = Comppass.WD(random_stats_tab, random_repro_tab, random_speci_tab)
-  random_WD_dist = ecdf(random_WD[random_WD>0])
   
   print("SUMMARIZING")
   ## compile all scores
-  summary = Comppass.Summary(stats_tab, Z, S, D, WD, WD_T=0)
-  summary = cbind(summary, 1.-random_WD_dist(summary$WD))
-  colnames(summary)[8] = "P"
+  summary = Comppass.Summary(stats_tab, Z, S, D, WD)
+  
+  print("RESAMPLING SCREEN")
+  ## resample the screen
+  P = Comppass.ResampledPvalues(data_tmp, cnames, summary)
+  
+  summary = cbind(summary, P)
   
   print("WRITING")
   ## write out
   write.table(summary, file=output_file, row.names=F, col.names=T, eol="\n", sep="\t", quote=F) 
 }
 
-data = read.delim("~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-Andy-results_wMT_MAT.txt",  stringsAsFactors=F, header=T,skip=1, check.names=FALSE)
-Comppass.main(data, output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-Andy-results_wMT_COMPPASS.txt")
+# Comppass.main("~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-Andy-results_wMT_MAT.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-Andy-results_wMT_COMPPASS.txt")
+# Comppass.main("~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-VP-results_wMT_MAT.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-VP-results_wMT_COMPPASS.txt")
+# Comppass.main("~/Projects/HPCKrogan/Data/HCV/Data/processed/HCV-HuH-results_MAT.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-HuH-results_COMPPASS.txt")
 
-data = read.delim("~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-VP-results_wMT_MAT.txt",  stringsAsFactors=F, header=T,skip=1, check.names=FALSE)
-Comppass.main(data, output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-VP-results_wMT_COMPPASS.txt")
+option_list <- list(
+  make_option(c("-v", "--verbose"), action="store_true", default=TRUE,
+              help="Print extra output [default]"),
+  make_option(c("-q", "--quietly"), action="store_false",
+              dest="verbose", help="Print little output"),
+  make_option(c("-d", "--data_file"),
+              help="data file containing maxquant output"),
+  make_option(c("-o", "--output_file"),
+              help="output file for converted matrix")
+)
 
-data = read.delim("~/Projects/HPCKrogan/Data/HCV/Data/processed/HCV-HuH-results_MAT.txt",  stringsAsFactors=F, header=T,skip=1, check.names=FALSE)
-Comppass.main(data, output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-HuH-results_COMPPASS.txt")
+parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 
-# barplot(apply(data.matrix(data[2:nrow(data),5:ncol(data)]), 2, sum), las=2, cex.names=.3)
+Comppass.main(parsedArgs$data_file,parsedArgs$output_file)  
+
+
+
