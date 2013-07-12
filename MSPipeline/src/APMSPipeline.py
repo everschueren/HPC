@@ -44,6 +44,7 @@ def pipeline(config):
 	remove_file = dir+config.get("files","remove")
 	collapse_file = dir+config.get("files","collapse")
 	exclusions_file = dir+config.get("files","exclusions")
+	output_dir = config.get("files","output_dir") + '/'
 	
 	##derived
 	bname = os.path.splitext(os.path.basename(data_file))[0]
@@ -60,7 +61,7 @@ def pipeline(config):
 
 	tmp_in_file = data_file
 	print(">> MERGING KEYS TO DATA\t\t" + tmp_in_file)
-	tmp_out_file = dir+'processed/'+bname+".txt"
+	tmp_out_file = output_dir+bname+".txt"
 	f = open(tmp_out_file,'w')
 	subprocess.call([src_dir+'FileIO/merge_additions.pl', keys_file, tmp_in_file, config.get("general","data_format")], stdout=f)
 	f.close()
@@ -80,7 +81,7 @@ def pipeline(config):
 			exit(1)
 		else:
 			bname = bname+'_wMT'
-			tmp_out_file = dir+'processed/'+bname+".txt"
+			tmp_out_file = output_dir+bname+".txt"
 			f = open(tmp_out_file,'w')
 			with open(tmp_in_file, 'r') as d:
 				lines = d.readlines()[3:]
@@ -98,7 +99,7 @@ def pipeline(config):
 	if config.get("general","remove_carryover"):
 		tmp_in_file = tmp_out_file
 		print(">> REMOVING CARRYOVER FROM\t\t" + tmp_in_file)
-		tmp_out_file = dir+'processed/'+bname+'_NoC'+".txt"
+		tmp_out_file = output_dir+bname+'_NoC'+".txt"
 		f = open(tmp_out_file,'w')
 		subprocess.call([src_dir+'FileIO/carryover_removal_comprehensive.pl', tmp_in_file, config.get("general","data_format")], stdout=f)
 		f.close()
@@ -114,7 +115,7 @@ def pipeline(config):
 
 	tmp_in_file = tmp_out_file
 	print(">> CONVERTING TO MATRIX\t\t" + tmp_in_file)
-	tmp_out_file = dir+'processed/'+bname+'_MAT'+".txt"
+	tmp_out_file = output_dir+bname+'_MAT'+".txt"
 	f = open(tmp_out_file,'w')
 	subprocess.call([src_dir+'FileIO/convert_to_matrix_format_comprehensive.pl', tmp_in_file, config.get("general","data_format"), remove_file, collapse_file, exclusions_file], stdout=f)
 	f.close()
@@ -131,19 +132,19 @@ def pipeline(config):
 
 	if config.getboolean('mist','enabled'):
 		print(">> SCORING MiST [HIV PARAMS]\t\t" + tmp_in_file)
-		tmp_out_file = dir+'processed/'+bname+'_MIST_HIV'+".txt"
+		tmp_out_file = output_dir+bname+'_MIST_HIV'+".txt"
 		subprocess.call([src_dir+'MiST/MiST.py', tmp_in_file, tmp_out_file, config.get('mist','filter'), config.get('mist','training')]) 
-		mist_hiv_score_file = dir+'processed/'+bname+'_MIST_HIV'+"_scores.txt"
+		mist_hiv_score_file = output_dir+bname+'_MIST_HIV'+"_scores.txt"
 
 	###################################
 	## 6. MiST scoring with SELF params
 
 	if config.getboolean('mist_self','enabled'):
 		print(">> SCORING MiST [SELF PARAMS]\t\t" + tmp_in_file)
-		tmp_out_file = dir+'processed/'+bname+'_MIST_SELF'+".txt"
+		tmp_out_file = output_dir+bname+'_MIST_SELF'+".txt"
 		subprocess.call([src_dir+'MiST/MiST.py', tmp_in_file, tmp_out_file, config.get('mist_self','filter'), config.get('mist_self','training')]) 
-		mist_self_score_file = dir+'processed/'+bname+'_MIST_SELF'+"_scores.txt"
-		mist_metrics_file = dir+'processed/'+bname+'_MIST_SELF'+"_metrics.txt"
+		mist_self_score_file = output_dir+bname+'_MIST_SELF'+"_scores.txt"
+		mist_metrics_file = output_dir+bname+'_MIST_SELF'+"_metrics.txt"
 
 	######################
 	## 7. COMPPASS scoring 
@@ -151,14 +152,14 @@ def pipeline(config):
 	## replaced by newer version
 	# if config.getboolean('comppass','enabled'):
 	# 	print(">> SCORING COMPPASS\t\t" + tmp_in_file)
-	# 	tmp_out_file = dir+'processed/'+bname+'_COMPPASS'+".txt"
+	# 	tmp_out_file = output_dir+bname+'_COMPPASS'+".txt"
 	# 	f = open(tmp_out_file,'w')
 	# 	subprocess.call(['Comppass/GetComppass.py', tmp_in_file], stdout=f)
 	# 	f.close()
 
 	if config.getboolean('comppass','enabled'):
 		print(">> SCORING COMPPASS\t\t" + tmp_in_file)
-		tmp_out_file = dir+'processed/'+bname+'_COMPPASS'+".txt"
+		tmp_out_file = output_dir+bname+'_COMPPASS'+".txt"
 		subprocess.call([src_dir+'Comppass/Comppass.R', '-d', tmp_in_file, '-o', tmp_out_file])
 		comppass_score_file = tmp_out_file
 
@@ -167,19 +168,19 @@ def pipeline(config):
 
 	if config.getboolean('saint','enabled'):
 		print(">> SCORING SAINT\t\t" + tmp_in_file)
-		tmp_out_file = dir+'processed/'+bname+'_SAINT'+".txt"
+		tmp_out_file = output_dir+bname+'_SAINT'+".txt"
 		subprocess.call([bin_dir+'saint/saint-spc-noctrl-matrix', tmp_in_file, tmp_out_file, config.get('saint','nburnin'), config.get('saint','niter'), config.get('saint','ff')])
 
 	####################
 	## 8. COLLECT SCORES
 
 	print(">> COLLECT SCORES AND ANNOTATE\t\t")
-	tmp_out_file = dir+'processed/'+bname+'_ALLSCORES'+".txt"
+	tmp_out_file = output_dir+bname+'_ALLSCORES'+".txt"
 
 	## replaced by newer version
 	# f = open(tmp_out_file,'w')
 	# file_dir = config.get("collect","file_dir")
-	# subprocess.call([src_dir+'FileIO/convert_out_to_final_comprehensive.pl', dir+'processed/'+bname, config.get("general","data_format"), collapse_file, file_dir + config.get("collect","gene_names"), file_dir + config.get("collect","uniprot_entrez")], stdout=f )
+	# subprocess.call([src_dir+'FileIO/convert_out_to_final_comprehensive.pl', output_dir+bname, config.get("general","data_format"), collapse_file, file_dir + config.get("collect","gene_names"), file_dir + config.get("collect","uniprot_entrez")], stdout=f )
 	# f.close()
 
 	uniprot_dir = config.get("collect", "uniprot_dir")
