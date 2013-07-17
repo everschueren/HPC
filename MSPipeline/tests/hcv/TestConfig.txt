@@ -1,45 +1,53 @@
 [files]
 
-dir = /Users/everschueren/Projects/HPCKrogan/Scripts/Pipeline_local/tests/hcv/
+dir = /Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/hcv/
 data = input/HCV-293T-Andy-results.txt
-keys = input/HCV_Keys.txt
-remove = input/samples_to_remove.txt
-collapse = input/collapse.txt
-exclusions = input/specificity_exclusions.txt
-#output = processed/HCV.txt
+keys = input/HCV_keys.txt
+remove = input/HCV_remove.txt
+collapse = input/HCV_collapse.txt
+exclusions = input/HCV_exclusions.txt
+output_dir = processed
 
 [general]
 
 remove_carryover = 1
-simple_format = S
-master_include = 1
-master_file = 
+data_format = S
+master_include = 0
+master_format = S
+master_file = /Users/everschueren/Projects/HPCKrogan/Data/Mastertable/processed/2013_May16_MasterTable_background_simple.txt
+
 
 [mist]
 
-enabled = 0
+enabled = 1
 filter = 0
 training = 0
 
 [mist_self]
 
-enabled = 0
+enabled = 1
 filter = 0
 training = 1
 
 [comppass]
 
-enabled = 0
+enabled = 1
 
 [saint]
 
 enabled = 0
-nburnin = 15000
-niter = 10000
-ff = 0.9
+control_reduction = 5
+burnin = 2000
+iter = 10000
+lowmode = 0
+minfold = 1
+normalize = 1
+
 
 [collect]
 
 file_dir = /Users/everschueren/Projects/HPCKrogan/Scripts/Pipeline_local/files/
 gene_names = Gene_id_Gene_name_02_11_2011.txt
 uniprot_entrez = uniprot_to_entrez_human.txt
+uniprot_dir = /Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/files/
+species = HUMAN-HCV
