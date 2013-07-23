@@ -1,0 +1,1108 @@
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+O84066	6PGD_CHLTR	reviewed	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)	gnd CT_063	Chlamydia trachomatis (strain D/UW-3/Cx)	480
+O84189	6PGL_CHLTR	reviewed	6-phosphogluconolactonase (6PGL) (EC 3.1.1.31)	pgl devB CT_186	Chlamydia trachomatis (strain D/UW-3/Cx)	256
+B0B7U1	AAXA_CHLT2	reviewed	Porin AaxA (Outer membrane protein AaxA)	aaxA CTL0626	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	461
+Q3KLY4	AAXA_CHLTA	reviewed	Porin AaxA (Outer membrane protein AaxA)	aaxA CTA_0404	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	461
+B0BC06	AAXA_CHLTB	reviewed	Porin AaxA (Outer membrane protein AaxA)	aaxA CTLon_0624	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	461
+O84377	AAXA_CHLTR	reviewed	Porin AaxA (Outer membrane protein AaxA)	aaxA CT_372	Chlamydia trachomatis (strain D/UW-3/Cx)	461
+P0C8R4	AAXB_CHLT2	reviewed	Pyruvoyl-dependent arginine decarboxylase AaxB (PvlArgDC) (EC 4.1.1.19) (Biodegradative arginine decarboxylase) [Cleaved into: Pyruvoyl-dependent arginine decarboxylase subunit beta; Pyruvoyl-dependent arginine decarboxylase subunit alpha]	aaxB CTL0627	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	195
+Q3KLY3	AAXB_CHLTA	reviewed	Pyruvoyl-dependent arginine decarboxylase AaxB (PvlArgDC) (EC 4.1.1.19) (Biodegradative arginine decarboxylase) [Cleaved into: Pyruvoyl-dependent arginine decarboxylase subunit beta; Pyruvoyl-dependent arginine decarboxylase subunit alpha]	aaxB CTA_0405	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	195
+P0C8R5	AAXB_CHLTB	reviewed	Pyruvoyl-dependent arginine decarboxylase AaxB (PvlArgDC) (EC 4.1.1.19) (Biodegradative arginine decarboxylase) [Cleaved into: Pyruvoyl-dependent arginine decarboxylase subunit beta; Pyruvoyl-dependent arginine decarboxylase subunit alpha]	aaxB CTLon_0625	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	195
+O84378	AAXB_CHLTR	reviewed	Pyruvoyl-dependent arginine decarboxylase AaxB (PvlArgDC) (EC 4.1.1.19) (Biodegradative arginine decarboxylase) [Cleaved into: Pyruvoyl-dependent arginine decarboxylase subunit beta; Pyruvoyl-dependent arginine decarboxylase subunit alpha]	aaxB CT_373	Chlamydia trachomatis (strain D/UW-3/Cx)	195
+B0B7U3	AAXC_CHLT2	reviewed	Arginine/agmatine antiporter	aaxC arcD CTL0628	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	483
+Q3KLY0	AAXC_CHLTA	reviewed	Arginine/agmatine antiporter	aaxC arcD CTA_0406/CTA_0407/CTA_0408	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	483
+B0BC08	AAXC_CHLTB	reviewed	Arginine/agmatine antiporter	aaxC arcD CTLon_0626	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	483
+O84379	AAXC_CHLTR	reviewed	Arginine/agmatine antiporter	aaxC arcD CT_374	Chlamydia trachomatis (strain D/UW-3/Cx)	483
+B0B7I1	ACCA_CHLT2	reviewed	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (ACCase subunit alpha) (Acetyl-CoA carboxylase carboxyltransferase subunit alpha) (EC 6.4.1.2)	accA CTL0517	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	324
+Q3KM97	ACCA_CHLTA	reviewed	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (ACCase subunit alpha) (Acetyl-CoA carboxylase carboxyltransferase subunit alpha) (EC 6.4.1.2)	accA CTA_0287	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	324
+B0BBP6	ACCA_CHLTB	reviewed	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (ACCase subunit alpha) (Acetyl-CoA carboxylase carboxyltransferase subunit alpha) (EC 6.4.1.2)	accA CTLon_0513	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	324
+O84267	ACCA_CHLTR	reviewed	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (ACCase subunit alpha) (Acetyl-CoA carboxylase carboxyltransferase subunit alpha) (EC 6.4.1.2)	accA CT_265	Chlamydia trachomatis (strain D/UW-3/Cx)	324
+B0B9K8	ACPS_CHLT2	reviewed	Holo-[acyl-carrier-protein] synthase (Holo-ACP synthase) (EC 2.7.8.7) (4'-phosphopantetheinyl transferase AcpS)	acpS CTL0355	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	119
+Q3KMS0	ACPS_CHLTA	reviewed	Holo-[acyl-carrier-protein] synthase (Holo-ACP synthase) (EC 2.7.8.7) (4'-phosphopantetheinyl transferase AcpS)	acpS CTA_0106	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	119
+B0BB87	ACPS_CHLTB	reviewed	Holo-[acyl-carrier-protein] synthase (Holo-ACP synthase) (EC 2.7.8.7) (4'-phosphopantetheinyl transferase AcpS)	acpS CTLon_0351	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	119
+O84102	ACPS_CHLTR	reviewed	Holo-[acyl-carrier-protein] synthase (Holo-ACP synthase) (EC 2.7.8.7) (4'-phosphopantetheinyl transferase AcpS)	acpS CT_100	Chlamydia trachomatis (strain D/UW-3/Cx)	119
+B0B7F2	ACP_CHLT2	reviewed	Acyl carrier protein (ACP)	acpP CTL0488	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	77
+Q3KMC6	ACP_CHLTA	reviewed	Acyl carrier protein (ACP)	acpP CTA_0258	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	77
+B0BBL7	ACP_CHLTB	reviewed	Acyl carrier protein (ACP)	acpP CTLon_0484	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	77
+O84239	ACP_CHLTR	reviewed	Acyl carrier protein (ACP)	acpP CT_236	Chlamydia trachomatis (strain D/UW-3/Cx)	77
+O84367	AK_CHLTR	reviewed	Aspartokinase (EC 2.7.2.4) (Aspartate kinase)	lysC CT_362	Chlamydia trachomatis (strain D/UW-3/Cx)	431
+O84217	ALF1_CHLTR	reviewed	Probable fructose-bisphosphate aldolase class 1 (EC 4.1.2.13) (Probable fructose-bisphosphate aldolase class I) (FBP aldolase)	fbaB CT_215	Chlamydia trachomatis (strain D/UW-3/Cx)	348
+B0B9F3	AMPA_CHLT2	reviewed	Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)	pepA CTL0301	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	499
+Q3KMX6	AMPA_CHLTA	reviewed	Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)	pepA CTA_0049	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	499
+B0BB32	AMPA_CHLTB	reviewed	Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)	pepA CTLon_0296	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	499
+O84049	AMPA_CHLTR	reviewed	Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)	pepA CT_045	Chlamydia trachomatis (strain D/UW-3/Cx)	499
+O84859	AMPM_CHLTR	reviewed	Methionine aminopeptidase (MAP) (EC 3.4.11.18) (Peptidase M)	map CT_851	Chlamydia trachomatis (strain D/UW-3/Cx)	291
+O84080	APBE_CHLTR	reviewed	Thiamine biosynthesis lipoprotein ApbE	apbE CT_077	Chlamydia trachomatis (strain D/UW-3/Cx)	316
+B0B7T5	AROA_CHLT2	reviewed	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)	aroA CTL0620	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	440
+Q3KLZ0	AROA_CHLTA	reviewed	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)	aroA CTA_0398	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	440
+B0BC00	AROA_CHLTB	reviewed	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)	aroA CTLon_0618	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	440
+O84371	AROA_CHLTR	reviewed	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)	aroA CT_366	Chlamydia trachomatis (strain D/UW-3/Cx)	440
+B0B7T8	AROB_CHLT2	reviewed	3-dehydroquinate synthase (EC 4.2.3.4)	aroB CTL0623	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	373
+Q3KLY7	AROB_CHLTA	reviewed	3-dehydroquinate synthase (EC 4.2.3.4)	aroB CTA_0401	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	373
+B0BC03	AROB_CHLTB	reviewed	3-dehydroquinate synthase (EC 4.2.3.4)	aroB CTLon_0621	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	373
+O84374	AROB_CHLTR	reviewed	3-dehydroquinate synthase (EC 4.2.3.4)	aroB CT_369	Chlamydia trachomatis (strain D/UW-3/Cx)	373
+B0B7T7	AROC_CHLT2	reviewed	Chorismate synthase (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	aroC CTL0622	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	357
+Q3KLY8	AROC_CHLTA	reviewed	Chorismate synthase (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	aroC CTA_0400	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	357
+B0BC02	AROC_CHLTB	reviewed	Chorismate synthase (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	aroC CTLon_0620	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	357
+O84373	AROC_CHLTR	reviewed	Chorismate synthase (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	aroC CT_368	Chlamydia trachomatis (strain D/UW-3/Cx)	357
+O84375	ARODE_CHLTR	reviewed	Shikimate biosynthesis protein AroDE [Includes: 3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type I DHQase); Shikimate dehydrogenase (EC 1.1.1.25)]	aroE aroD/E CT_370	Chlamydia trachomatis (strain D/UW-3/Cx)	478
+O84372	AROK_CHLTR	reviewed	Shikimate kinase (SK) (EC 2.7.1.71)	aroK CT_367	Chlamydia trachomatis (strain D/UW-3/Cx)	184
+O84385	ARTJ_CHLTR	reviewed	Probable ABC transporter arginine-binding protein ArtJ	artJ CT_381	Chlamydia trachomatis (strain D/UW-3/Cx)	257
+O84125	BCCP_CHLTR	reviewed	Biotin carboxyl carrier protein of acetyl-CoA carboxylase (BCCP)	accB CT_123	Chlamydia trachomatis (strain D/UW-3/Cx)	164
+O84179	BDBC_CHLTR	reviewed	Probable disulfide formation protein (Disulfide oxidoreductase) (Thiol-disulfide oxidoreductase)	CT_176	Chlamydia trachomatis (strain D/UW-3/Cx)	135
+O84457	CDSA_CHLTR	reviewed	Phosphatidate cytidylyltransferase (EC 2.7.7.41) (CDP-DAG synthase) (CDP-DG synthase) (CDP-diacylglycerol synthase) (CDS) (CDP-diglyceride pyrophosphorylase) (CDP-diglyceride synthase) (CTP:phosphatidate cytidylyltransferase)	cdsA CT_451	Chlamydia trachomatis (strain D/UW-3/Cx)	305
+B0B9A0	CDUB1_CHLT2	reviewed	Deubiquitinase and deneddylase Dub1 (ChlaDub1) (EC 3.4.22.-)	cdu1 CTL0247	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	401
+Q3KKG8	CDUB1_CHLTA	reviewed	Deubiquitinase and deneddylase Dub1 (ChlaDub1) (EC 3.4.22.-)	cdu1 CTA_0948	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	418
+B0BAX9	CDUB1_CHLTB	reviewed	Deubiquitinase and deneddylase Dub1 (ChlaDub1) (EC 3.4.22.-)	cdu1 CTLon_0243	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	403
+C4PQR0	CDUB1_CHLTJ	reviewed	Deubiquitinase and deneddylase Dub1 (ChlaDub1) (EC 3.4.22.-)	cdu1 JALI_8791	Chlamydia trachomatis serovar B (strain Jali20/OT)	418
+O84876	CDUB1_CHLTR	reviewed	Deubiquitinase and deneddylase Dub1 (ChlaDub1) (EC 3.4.22.-)	cdu1 CT_868	Chlamydia trachomatis (strain D/UW-3/Cx)	418
+D3UTF4	CDUB1_CHLTS	reviewed	Deubiquitinase and deneddylase Dub1 (ChlaDub1) (EC 3.4.22.-)	cdu1 SW2_8841	Chlamydia trachomatis serovar E (strain Sweden2)	418
+C4PLJ5	CDUB1_CHLTZ	reviewed	Deubiquitinase and deneddylase Dub1 (ChlaDub1) (EC 3.4.22.-)	cdu1 CTB_8791	Chlamydia trachomatis serovar B (strain TZ1A828/OT)	418
+B0B999	CDUB2_CHLT2	reviewed	Deubiquitinase and deneddylase Dub2 (ChlaDub2) (EC 3.4.22.-)	cdu2 CTL0246	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	339
+Q3KKG9	CDUB2_CHLTA	reviewed	Deubiquitinase and deneddylase Dub2 (ChlaDub2) (EC 3.4.22.-)	cdu2 CTA_0947	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	339
+B0BAX8	CDUB2_CHLTB	reviewed	Deubiquitinase and deneddylase Dub2 (ChlaDub2) (EC 3.4.22.-)	cdu2 CTLon_0242	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	339
+C4PQQ9	CDUB2_CHLTJ	reviewed	Deubiquitinase and deneddylase Dub2 (ChlaDub2) (EC 3.4.22.-)	cdu2 JALI_8781	Chlamydia trachomatis serovar B (strain Jali20/OT)	339
+O84875	CDUB2_CHLTR	reviewed	Deubiquitinase and deneddylase Dub2 (ChlaDub2) (EC 3.4.22.-)	cdu2 CT_867	Chlamydia trachomatis (strain D/UW-3/Cx)	339
+D3UTF3	CDUB2_CHLTS	reviewed	Deubiquitinase and deneddylase Dub2 (ChlaDub2) (EC 3.4.22.-)	cdu2 SW2_8831	Chlamydia trachomatis serovar E (strain Sweden2)	339
+C4PLJ4	CDUB2_CHLTZ	reviewed	Deubiquitinase and deneddylase Dub2 (ChlaDub2) (EC 3.4.22.-)	cdu2 CTB_8781	Chlamydia trachomatis serovar B (strain TZ1A828/OT)	339
+B0B9L9	CH10_CHLT2	reviewed	10 kDa chaperonin (GroES protein) (Protein Cpn10)	groS groES CTL0366	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	102
+Q3KMQ8	CH10_CHLTA	reviewed	10 kDa chaperonin (11.2 kDa stress response protein) (GroES protein) (Heat shock protein 10) (HSP10) (Protein Cpn10)	groS groES hypA CTA_0118	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	102
+B0BB98	CH10_CHLTB	reviewed	10 kDa chaperonin (GroES protein) (Protein Cpn10)	groS groES CTLon_0362	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	102
+P0C0Z8	CH10_CHLTR	reviewed	10 kDa chaperonin (11.2 kDa stress response protein) (GroES protein) (Heat shock protein 10) (HSP10) (Protein Cpn10)	groS groES hypA mopB CT_111	Chlamydia trachomatis (strain D/UW-3/Cx)	102
+B0B9L8	CH60_CHLT2	reviewed	60 kDa chaperonin (GroEL protein) (Protein Cpn60)	groL groEL CTL0365	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	544
+Q3KMQ9	CH60_CHLTA	reviewed	60 kDa chaperonin (57 kDa chlamydial hypersensitivity antigen) (GroEL protein) (Heat shock protein 60) (HSP60) (Protein Cpn60)	groL groEL groEL_1 hypB CTA_0117	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	544
+B0BB97	CH60_CHLTB	reviewed	60 kDa chaperonin (GroEL protein) (Protein Cpn60)	groL groEL CTLon_0361	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	544
+P0C0Z7	CH60_CHLTR	reviewed	60 kDa chaperonin (57 kDa chlamydial hypersensitivity antigen) (GroEL protein) (Heat shock protein 60) (HSP60) (Protein Cpn60)	groL groEL hypB mopA CT_110	Chlamydia trachomatis (strain D/UW-3/Cx)	544
+O84115	CLPB_CHLTR	reviewed	Chaperone protein ClpB	clpB CT_113	Chlamydia trachomatis (strain D/UW-3/Cx)	867
+O84288	CLPC_CHLTR	reviewed	Probable ATP-dependent Clp protease ATP-binding subunit	clpC CT_286	Chlamydia trachomatis (strain D/UW-3/Cx)	854
+B0B803	CLPP1_CHLT2	reviewed	ATP-dependent Clp protease proteolytic subunit 1 (EC 3.4.21.92) (Endopeptidase Clp 1)	clpP1 CTL0690	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	192
+Q3KLR9	CLPP1_CHLTA	reviewed	ATP-dependent Clp protease proteolytic subunit 1 (EC 3.4.21.92) (Endopeptidase Clp 1)	clpP1 CTA_0471	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	192
+P38002	CLPP1_CHLTR	reviewed	ATP-dependent Clp protease proteolytic subunit 1 (EC 3.4.21.92) (Endopeptidase Clp 1)	clpP1 CT_431	Chlamydia trachomatis (strain D/UW-3/Cx)	192
+Q3KKY8	CLPP2_CHLTA	reviewed	ATP-dependent Clp protease proteolytic subunit 2 (EC 3.4.21.92) (Endopeptidase Clp 2)	clpP2 CTA_0767	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	203
+O84712	CLPP2_CHLTR	reviewed	ATP-dependent Clp protease proteolytic subunit 2 (EC 3.4.21.92) (Endopeptidase Clp 2)	clpP2 CT_706	Chlamydia trachomatis (strain D/UW-3/Cx)	203
+B0B8T1	CLPX_CHLT2	reviewed	ATP-dependent Clp protease ATP-binding subunit ClpX	clpX CTL0074	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	419
+Q3KKY9	CLPX_CHLTA	reviewed	ATP-dependent Clp protease ATP-binding subunit ClpX	clpX CTA_0766	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	419
+B0BAG0	CLPX_CHLTB	reviewed	ATP-dependent Clp protease ATP-binding subunit ClpX	clpX CTLon_0074	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	419
+O84711	CLPX_CHLTR	reviewed	ATP-dependent Clp protease ATP-binding subunit ClpX	clpX CT_705	Chlamydia trachomatis (strain D/UW-3/Cx)	419
+Q3KLK5	COAE_CHLTA	reviewed	Dephospho-CoA kinase (EC 2.7.1.24) (Dephosphocoenzyme A kinase)	coaE CTA_0539	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	202
+O84499	COAE_CHLTR	reviewed	Dephospho-CoA kinase (EC 2.7.1.24) (Dephosphocoenzyme A kinase)	coaE CT_492	Chlamydia trachomatis (strain D/UW-3/Cx)	202
+O84693	CSD_CHLTR	reviewed	Probable cysteine desulfurase (EC 2.8.1.7)	csd CT_687	Chlamydia trachomatis (strain D/UW-3/Cx)	401
+B0B7W0	DAPAT_CHLT2	reviewed	LL-diaminopimelate aminotransferase (DAP-AT) (DAP-aminotransferase) (LL-DAP-aminotransferase) (EC 2.6.1.83)	dapL CTL0646	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	394
+Q3KLW3	DAPAT_CHLTA	reviewed	LL-diaminopimelate aminotransferase (DAP-AT) (DAP-aminotransferase) (LL-DAP-aminotransferase) (EC 2.6.1.83)	dapL CTA_0425	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	394
+B0BC25	DAPAT_CHLTB	reviewed	LL-diaminopimelate aminotransferase (DAP-AT) (DAP-aminotransferase) (LL-DAP-aminotransferase) (EC 2.6.1.83)	dapL CTLon_0643	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	394
+O84395	DAPAT_CHLTR	reviewed	LL-diaminopimelate aminotransferase (DAP-AT) (DAP-aminotransferase) (LL-DAP-aminotransferase) (EC 2.6.1.83)	dapL aspC CT_390	Chlamydia trachomatis (strain D/UW-3/Cx)	394
+Q3KLZ5	DAPA_CHLTA	reviewed	4-hydroxy-tetrahydrodipicolinate synthase (HTPA synthase) (EC 4.3.3.7)	dapA CTA_0393	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	286
+O84366	DAPA_CHLTR	reviewed	4-hydroxy-tetrahydrodipicolinate synthase (HTPA synthase) (EC 4.3.3.7)	dapA CT_361	Chlamydia trachomatis (strain D/UW-3/Cx)	286
+Q3KLZ2	DAPB_CHLTA	reviewed	4-hydroxy-tetrahydrodipicolinate reductase (HTPA reductase) (EC 1.17.1.8)	dapB CTA_0396	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	253
+O84369	DAPB_CHLTR	reviewed	4-hydroxy-tetrahydrodipicolinate reductase (HTPA reductase) (EC 1.17.1.8)	dapB CT_364	Chlamydia trachomatis (strain D/UW-3/Cx)	246
+B0B802	DAPF_CHLT2	reviewed	Diaminopimelate epimerase (DAP epimerase) (EC 5.1.1.7)	dapF CTL0689	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	275
+Q3KLS0	DAPF_CHLTA	reviewed	Diaminopimelate epimerase (DAP epimerase) (EC 5.1.1.7)	dapF CTA_0470	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	275
+B0BC67	DAPF_CHLTB	reviewed	Diaminopimelate epimerase (DAP epimerase) (EC 5.1.1.7)	dapF CTLon_0685	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	275
+O84437	DAPF_CHLTR	reviewed	Diaminopimelate epimerase (DAP epimerase) (EC 5.1.1.7)	dapF CT_430	Chlamydia trachomatis (strain D/UW-3/Cx)	275
+P64386	DBH_CHLTR	reviewed	Probable DNA-binding protein HU	hup CT_267	Chlamydia trachomatis (strain D/UW-3/Cx)	100
+B0B9E6	DCD_CHLT2	reviewed	Deoxycytidine triphosphate deaminase (dCTP deaminase) (EC 3.5.4.13)	dcd CTL0294	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	190
+Q3KMY3	DCD_CHLTA	reviewed	Deoxycytidine triphosphate deaminase (dCTP deaminase) (EC 3.5.4.13)	dcd CTA_0042	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	190
+B0BB25	DCD_CHLTB	reviewed	Deoxycytidine triphosphate deaminase (dCTP deaminase) (EC 3.5.4.13)	dcd CTLon_0289	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	190
+O84042	DCD_CHLTR	reviewed	Deoxycytidine triphosphate deaminase (dCTP deaminase) (EC 3.5.4.13)	dcd CT_039	Chlamydia trachomatis (strain D/UW-3/Cx)	190
+B0B8X3	DCUP_CHLT2	reviewed	Uroporphyrinogen decarboxylase (UPD) (URO-D) (EC 4.1.1.37)	hemE CTL0116	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	336
+Q3KKU6	DCUP_CHLTA	reviewed	Uroporphyrinogen decarboxylase (UPD) (URO-D) (EC 4.1.1.37)	hemE CTA_0813	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	336
+B0BAK2	DCUP_CHLTB	reviewed	Uroporphyrinogen decarboxylase (UPD) (URO-D) (EC 4.1.1.37)	hemE CTLon_0116	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	336
+O84752	DCUP_CHLTR	reviewed	Uroporphyrinogen decarboxylase (UPD) (URO-D) (EC 4.1.1.37)	hemE CT_747	Chlamydia trachomatis (strain D/UW-3/Cx)	336
+B0B7S2	DEF_CHLT2	reviewed	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	def CTL0607	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	181
+Q3KM05	DEF_CHLTA	reviewed	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	def CTA_0382	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	181
+B0BBY7	DEF_CHLTB	reviewed	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	def CTLon_0605	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	181
+O84357	DEF_CHLTR	reviewed	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	def CT_353	Chlamydia trachomatis (strain D/UW-3/Cx)	181
+P18584	DEGPL_CHLTR	reviewed	Probable periplasmic serine endoprotease DegP-like (EC 3.4.21.107) (59 kDa immunogenic protein) (Protease Do) (SK59)	htrA CT_823	Chlamydia trachomatis (strain D/UW-3/Cx)	497
+B0B8S9	DER_CHLT2	reviewed	GTPase Der (GTP-binding protein EngA)	der engA CTL0072	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	490
+Q3KKZ1	DER_CHLTA	reviewed	GTPase Der (GTP-binding protein EngA)	der engA CTA_0764	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	490
+B0BAF8	DER_CHLTB	reviewed	GTPase Der (GTP-binding protein EngA)	der engA CTLon_0072	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	490
+O84709	DER_CHLTR	reviewed	GTPase Der (GTP-binding protein EngA)	der engA CT_703	Chlamydia trachomatis (strain D/UW-3/Cx)	490
+O84561	DLDH_CHLTR	reviewed	Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (Dihydrolipoamide dehydrogenase) (E3 component of 2-oxoglutarate dehydrogenase complex)	lpdA CT_557	Chlamydia trachomatis (strain D/UW-3/Cx)	465
+O84252	DNAA1_CHLTR	reviewed	Chromosomal replication initiator protein DnaA 1	dnaA1 CT_250	Chlamydia trachomatis (strain D/UW-3/Cx)	456
+O84277	DNAA2_CHLTR	reviewed	Chromosomal replication initiator protein DnaA 2	dnaA2 CT_275	Chlamydia trachomatis (strain D/UW-3/Cx)	455
+B0B7R0	DNAJ_CHLT2	reviewed	Chaperone protein DnaJ	dnaJ CTL0595	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	392
+Q3KM17	DNAJ_CHLTA	reviewed	Chaperone protein DnaJ	dnaJ CTA_0370	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	392
+B0BBX5	DNAJ_CHLTB	reviewed	Chaperone protein DnaJ	dnaJ CTLon_0593	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	392
+O84345	DNAJ_CHLTR	reviewed	Chaperone protein DnaJ	dnaJ CT_341	Chlamydia trachomatis (strain D/UW-3/Cx)	392
+B0B7W6	DNAK_CHLT2	reviewed	Chaperone protein DnaK (HSP70) (Heat shock 70 kDa protein) (Heat shock protein 70)	dnaK CTL0652	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	660
+Q3KLV7	DNAK_CHLTA	reviewed	Chaperone protein DnaK (HSP70) (Heat shock 70 kDa protein) (Heat shock protein 70)	dnaK CTA_0431	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	660
+B0BC31	DNAK_CHLTB	reviewed	Chaperone protein DnaK (HSP70) (Heat shock 70 kDa protein) (Heat shock protein 70)	dnaK CTLon_0649	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	660
+P17821	DNAK_CHLTR	reviewed	Chaperone protein DnaK (75 kDa membrane protein) (HSP70) (Heat shock 70 kDa protein) (Heat shock protein 70)	dnaK CT_396	Chlamydia trachomatis (strain D/UW-3/Cx)	660
+B0B9Q4	DNLJ_CHLT2	reviewed	DNA ligase (EC 6.5.1.2) (Polydeoxyribonucleotide synthase [NAD(+)])	ligA CTL0401	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	663
+Q3KMM3	DNLJ_CHLTA	reviewed	DNA ligase (EC 6.5.1.2) (Polydeoxyribonucleotide synthase [NAD(+)])	ligA CTA_0155	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	663
+B0BBD3	DNLJ_CHLTB	reviewed	DNA ligase (EC 6.5.1.2) (Polydeoxyribonucleotide synthase [NAD(+)])	ligA CTLon_0397	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	663
+O84148	DNLJ_CHLTR	reviewed	DNA ligase (EC 6.5.1.2) (Polydeoxyribonucleotide synthase [NAD(+)])	ligA CT_146	Chlamydia trachomatis (strain D/UW-3/Cx)	663
+O84549	DPO3A_CHLTR	reviewed	DNA polymerase III subunit alpha (EC 2.7.7.7)	dnaE CT_545	Chlamydia trachomatis (strain D/UW-3/Cx)	1237
+O84078	DPO3B_CHLTR	reviewed	DNA polymerase III subunit beta (EC 2.7.7.7)	dnaN CT_075	Chlamydia trachomatis (strain D/UW-3/Cx)	416
+B0B7K8	DUT_CHLT2	reviewed	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dUTPase) (EC 3.6.1.23) (dUTP pyrophosphatase)	dut CTL0544	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	145
+Q3KM70	DUT_CHLTA	reviewed	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dUTPase) (EC 3.6.1.23) (dUTP pyrophosphatase)	dut CTA_0314	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	145
+B0BBS3	DUT_CHLTB	reviewed	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dUTPase) (EC 3.6.1.23) (dUTP pyrophosphatase)	dut CTLon_0540	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	145
+O84294	DUT_CHLTR	reviewed	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dUTPase) (EC 3.6.1.23) (dUTP pyrophosphatase)	dut CT_292	Chlamydia trachomatis (strain D/UW-3/Cx)	145
+B0B9H9	DXR_CHLT2	reviewed	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	dxr CTL0327	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	379
+Q3KMV0	DXR_CHLTA	reviewed	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	dxr CTA_0076	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	379
+B0BB58	DXR_CHLTB	reviewed	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	dxr CTLon_0322	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	379
+O84074	DXR_CHLTR	reviewed	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	dxr CT_071	Chlamydia trachomatis (strain D/UW-3/Cx)	379
+B0B7P9	DXS_CHLT2	reviewed	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	dxs CTL0585	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	640
+Q3KM28	DXS_CHLTA	reviewed	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	dxs CTA_0359	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	640
+B0BBW4	DXS_CHLTB	reviewed	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	dxs CTLon_0582	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	640
+O84335	DXS_CHLTR	reviewed	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	dxs CT_331	Chlamydia trachomatis (strain D/UW-3/Cx)	640
+B0B809	EFG_CHLT2	reviewed	Elongation factor G (EF-G)	fusA CTL0696	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	694
+Q3KLR3	EFG_CHLTA	reviewed	Elongation factor G (EF-G)	fusA CTA_0477	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	694
+B0BC74	EFG_CHLTB	reviewed	Elongation factor G (EF-G)	fusA CTLon_0692	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	694
+O84444	EFG_CHLTR	reviewed	Elongation factor G (EF-G)	fusA CT_437	Chlamydia trachomatis (strain D/UW-3/Cx)	694
+O84124	EFP1_CHLTR	reviewed	Elongation factor P 1 (EF-P 1)	efp1 CT_122	Chlamydia trachomatis (strain D/UW-3/Cx)	185
+O84757	EFP2_CHLTR	reviewed	Elongation factor P 2 (EF-P 2)	efp2 CT_752	Chlamydia trachomatis (strain D/UW-3/Cx)	190
+B0B8Q5	EFTS_CHLT2	reviewed	Elongation factor Ts (EF-Ts)	tsf CTL0048	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	282
+Q3KL15	EFTS_CHLTA	reviewed	Elongation factor Ts (EF-Ts)	tsf CTA_0739	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	282
+B0BAD4	EFTS_CHLTB	reviewed	Elongation factor Ts (EF-Ts)	tsf CTLon_0048	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	282
+O84686	EFTS_CHLTR	reviewed	Elongation factor Ts (EF-Ts)	tsf CT_679	Chlamydia trachomatis (strain D/UW-3/Cx)	282
+B0B7N8	EFTU_CHLT2	reviewed	Elongation factor Tu (EF-Tu)	tuf CTL0574	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	394
+Q3KM40	EFTU_CHLTA	reviewed	Elongation factor Tu (EF-Tu)	tuf CTA_0345	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	394
+B0BBV3	EFTU_CHLTB	reviewed	Elongation factor Tu (EF-Tu)	tuf CTLon_0570	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	394
+P0CD71	EFTU_CHLTR	reviewed	Elongation factor Tu (EF-Tu)	tuf tufA tufB CT_322	Chlamydia trachomatis (strain D/UW-3/Cx)	394
+B0B8K0	END4_CHLT2	reviewed	Probable endonuclease 4 (EC 3.1.21.2) (Endodeoxyribonuclease IV) (Endonuclease IV)	nfo CTL0889	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	288
+Q3KL70	END4_CHLTA	reviewed	Probable endonuclease 4 (EC 3.1.21.2) (Endodeoxyribonuclease IV) (Endonuclease IV)	nfo CTA_0678	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	288
+B0BA79	END4_CHLTB	reviewed	Probable endonuclease 4 (EC 3.1.21.2) (Endodeoxyribonuclease IV) (Endonuclease IV)	nfo CTLon_0883	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	288
+O84630	END4_CHLTR	reviewed	Probable endonuclease 4 (EC 3.1.21.2) (Endodeoxyribonuclease IV) (Endonuclease IV)	nfo CT_625	Chlamydia trachomatis (strain D/UW-3/Cx)	288
+B0B8G1	ENO_CHLT2	reviewed	Enolase (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lyase) (2-phosphoglycerate dehydratase)	eno CTL0850	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	424
+Q3KLB0	ENO_CHLTA	reviewed	Enolase (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lyase) (2-phosphoglycerate dehydratase)	eno CTA_0637	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	424
+B0BA40	ENO_CHLTB	reviewed	Enolase (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lyase) (2-phosphoglycerate dehydratase)	eno CTLon_0844	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	424
+O84591	ENO_CHLTR	reviewed	Enolase (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lyase) (2-phosphoglycerate dehydratase)	eno CT_587	Chlamydia trachomatis (strain D/UW-3/Cx)	424
+O84645	EX5B_CHLTR	reviewed	Exodeoxyribonuclease V beta chain (EC 3.1.11.5)	recB CT_639	Chlamydia trachomatis (strain D/UW-3/Cx)	1026
+B0B7P6	EX7L_CHLT2	reviewed	Exodeoxyribonuclease 7 large subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII large subunit) (Exonuclease VII large subunit)	xseA CTL0583	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	516
+Q3KM31	EX7L_CHLTA	reviewed	Exodeoxyribonuclease 7 large subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII large subunit) (Exonuclease VII large subunit)	xseA CTA_0356	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	516
+B0BBW1	EX7L_CHLTB	reviewed	Exodeoxyribonuclease 7 large subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII large subunit) (Exonuclease VII large subunit)	xseA CTLon_0579	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	516
+O84333	EX7L_CHLTR	reviewed	Exodeoxyribonuclease 7 large subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII large subunit) (Exonuclease VII large subunit)	xseA CT_329	Chlamydia trachomatis (strain D/UW-3/Cx)	516
+B0B7P7	EX7S_CHLT2	reviewed	Exodeoxyribonuclease 7 small subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII small subunit) (Exonuclease VII small subunit)	xseB CTL0583.1 CTL0583A	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	72
+Q3KM30	EX7S_CHLTA	reviewed	Exodeoxyribonuclease 7 small subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII small subunit) (Exonuclease VII small subunit)	xseB CTA_0357	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	72
+B0BBW2	EX7S_CHLTB	reviewed	Exodeoxyribonuclease 7 small subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII small subunit) (Exonuclease VII small subunit)	xseB CTLon_0580	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	72
+P58001	EX7S_CHLTR	reviewed	Exodeoxyribonuclease 7 small subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII small subunit) (Exonuclease VII small subunit)	xseB CT_329.1	Chlamydia trachomatis (strain D/UW-3/Cx)	72
+P38004	FABG_CHLTR	reviewed	3-oxoacyl-[acyl-carrier-protein] reductase FabG (EC 1.1.1.100) (3-ketoacyl-acyl carrier protein reductase) (Beta-Ketoacyl-acyl carrier protein reductase) (Beta-ketoacyl-ACP reductase)	fabG CT_237	Chlamydia trachomatis (strain D/UW-3/Cx)	248
+Q3KMC3	FABH_CHLTA	reviewed	3-oxoacyl-[acyl-carrier-protein] synthase 3 (EC 2.3.1.180) (3-oxoacyl-[acyl-carrier-protein] synthase III) (Beta-ketoacyl-ACP synthase III) (KAS III)	fabH CTA_0261	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	327
+O84242	FABH_CHLTR	reviewed	3-oxoacyl-[acyl-carrier-protein] synthase 3 (EC 2.3.1.180) (3-oxoacyl-[acyl-carrier-protein] synthase III) (Beta-ketoacyl-ACP synthase III) (KAS III)	fabH CT_239	Chlamydia trachomatis (strain D/UW-3/Cx)	327
+B0B8A6	FABZ_CHLT2	reviewed	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (EC 4.2.1.59) ((3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase) ((3R)-hydroxymyristoyl-ACP dehydrase) (Beta-hydroxyacyl-ACP dehydratase)	fabZ CTL0794	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	153
+Q3KLG5	FABZ_CHLTA	reviewed	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (EC 4.2.1.59) ((3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase) ((3R)-hydroxymyristoyl-ACP dehydrase) (Beta-hydroxyacyl-ACP dehydratase)	fabZ CTA_0581	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	153
+B0B9Y5	FABZ_CHLTB	reviewed	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (EC 4.2.1.59) ((3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase) ((3R)-hydroxymyristoyl-ACP dehydrase) (Beta-hydroxyacyl-ACP dehydratase)	fabZ CTLon_0789	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	153
+O84537	FABZ_CHLTR	reviewed	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (EC 4.2.1.59) ((3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase) ((3R)-hydroxymyristoyl-ACP dehydrase) (Beta-hydroxyacyl-ACP dehydratase)	fabZ CT_532	Chlamydia trachomatis (strain D/UW-3/Cx)	153
+B0B8A4	FMT_CHLT2	reviewed	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	fmt CTL0792	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	316
+Q3KLG7	FMT_CHLTA	reviewed	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	fmt CTA_0579	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	316
+B0B9Y3	FMT_CHLTB	reviewed	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	fmt CTLon_0787	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	316
+O84535	FMT_CHLTR	reviewed	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	fmt CT_530	Chlamydia trachomatis (strain D/UW-3/Cx)	316
+O84620	FOLB_CHLTR	reviewed	Probable dihydroneopterin aldolase (DHNA) (EC 4.1.2.25)	folB CT_614	Chlamydia trachomatis (strain D/UW-3/Cx)	124
+B0B9I6	FOLD_CHLT2	reviewed	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	folD CTL0334	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	287
+Q3KMU3	FOLD_CHLTA	reviewed	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	folD CTA_0083	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	287
+B0BB65	FOLD_CHLTB	reviewed	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	folD CTLon_0329	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	287
+O84081	FOLD_CHLTR	reviewed	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	folD CT_078	Chlamydia trachomatis (strain D/UW-3/Cx)	287
+O84619	FOLKP_CHLTR	reviewed	Folate synthesis bifunctional protein [Includes: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3) (6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase) (PPPK) (7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase) (HPPK); Dihydropteroate synthase (DHPS) (EC 2.5.1.15) (Dihydropteroate pyrophosphorylase)]	folKP CT_613	Chlamydia trachomatis (strain D/UW-3/Cx)	450
+B0B970	FTSH_CHLT2	reviewed	ATP-dependent zinc metalloprotease FtsH (EC 3.4.24.-)	ftsH CTL0213	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	913
+O84744	FTSK_CHLTR	reviewed	DNA translocase FtsK	ftsK CT_739	Chlamydia trachomatis (strain D/UW-3/Cx)	799
+O84863	FUMC_CHLTR	reviewed	Fumarate hydratase class II (Fumarase C) (EC 4.2.1.2)	fumC CT_855	Chlamydia trachomatis (strain D/UW-3/Cx)	463
+B0B879	G3P_CHLT2	reviewed	Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) (EC 1.2.1.12)	gap gapA CTL0767	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	334
+P0CE13	G3P_CHLTR	reviewed	Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) (EC 1.2.1.12)	gap gapA CT_505	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+O84188	G6PD_CHLTR	reviewed	Glucose-6-phosphate 1-dehydrogenase (G6PD) (EC 1.1.1.49)	zwf CT_185	Chlamydia trachomatis (strain D/UW-3/Cx)	439
+B0B7U7	G6PI_CHLT2	reviewed	Glucose-6-phosphate isomerase (GPI) (EC 5.3.1.9) (Phosphoglucose isomerase) (PGI) (Phosphohexose isomerase) (PHI)	pgi CTL0633	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	525
+Q3KLX6	G6PI_CHLTA	reviewed	Glucose-6-phosphate isomerase (GPI) (EC 5.3.1.9) (Phosphoglucose isomerase) (PGI) (Phosphohexose isomerase) (PHI)	pgi CTA_0412	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	524
+B0BC12	G6PI_CHLTB	reviewed	Glucose-6-phosphate isomerase (GPI) (EC 5.3.1.9) (Phosphoglucose isomerase) (PGI) (Phosphohexose isomerase) (PHI)	pgi CTLon_0630	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	525
+P0CD72	G6PI_CHLTR	reviewed	Glucose-6-phosphate isomerase (GPI) (EC 5.3.1.9) (Phosphoglucose isomerase) (PGI) (Phosphohexose isomerase) (PHI)	pgi CT_378	Chlamydia trachomatis (strain D/UW-3/Cx)	525
+B0B9B0	GATA_CHLT2	reviewed	Glutamyl-tRNA(Gln) amidotransferase subunit A (Glu-ADT subunit A) (EC 6.3.5.-)	gatA CTL0258	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	491
+Q3KN19	GATA_CHLTA	reviewed	Glutamyl-tRNA(Gln) amidotransferase subunit A (Glu-ADT subunit A) (EC 6.3.5.-)	gatA CTA_0004	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	491
+B0BAY9	GATA_CHLTB	reviewed	Glutamyl-tRNA(Gln) amidotransferase subunit A (Glu-ADT subunit A) (EC 6.3.5.-)	gatA CTLon_0253	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	491
+O84006	GATA_CHLTR	reviewed	Glutamyl-tRNA(Gln) amidotransferase subunit A (Glu-ADT subunit A) (EC 6.3.5.-)	gatA CT_003	Chlamydia trachomatis (strain D/UW-3/Cx)	491
+B0B9B1	GATB_CHLT2	reviewed	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (Asp/Glu-ADT subunit B) (EC 6.3.5.-)	gatB CTL0259	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	488
+Q3KN18	GATB_CHLTA	reviewed	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (Asp/Glu-ADT subunit B) (EC 6.3.5.-)	gatB CTA_0005	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	488
+B0BAZ0	GATB_CHLTB	reviewed	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (Asp/Glu-ADT subunit B) (EC 6.3.5.-)	gatB CTLon_0254	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	488
+O84007	GATB_CHLTR	reviewed	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (Asp/Glu-ADT subunit B) (EC 6.3.5.-)	gatB CT_004	Chlamydia trachomatis (strain D/UW-3/Cx)	488
+B0B9A9	GATC_CHLT2	reviewed	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C (Asp/Glu-ADT subunit C) (EC 6.3.5.-)	gatC CTL0257	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	100
+Q3KN20	GATC_CHLTA	reviewed	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C (Asp/Glu-ADT subunit C) (EC 6.3.5.-)	gatC CTA_0003	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	100
+B0BAY8	GATC_CHLTB	reviewed	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C (Asp/Glu-ADT subunit C) (EC 6.3.5.-)	gatC CTLon_0252	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	100
+O84005	GATC_CHLTR	reviewed	Glutamyl-tRNA(Gln) amidotransferase subunit C (Glu-ADT subunit C) (EC 6.3.5.-)	gatC CT_002	Chlamydia trachomatis (strain D/UW-3/Cx)	100
+B0B9U7	GCP_CHLT2	reviewed	Probable tRNA threonylcarbamoyladenosine biosynthesis protein Gcp (t(6)A37 threonylcarbamoyladenosine biosynthesis protein)	gcp CTL0449	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	338
+Q3KMG5	GCP_CHLTA	reviewed	Probable tRNA threonylcarbamoyladenosine biosynthesis protein Gcp (t(6)A37 threonylcarbamoyladenosine biosynthesis protein)	gcp CTA_0215	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	338
+B0BBH7	GCP_CHLTB	reviewed	Probable tRNA threonylcarbamoyladenosine biosynthesis protein Gcp (t(6)A37 threonylcarbamoyladenosine biosynthesis protein)	gcp CTLon_0444	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	338
+O84200	GCP_CHLTR	reviewed	Probable tRNA threonylcarbamoyladenosine biosynthesis protein Gcp (t(6)A37 threonylcarbamoyladenosine biosynthesis protein)	gcp CT_197	Chlamydia trachomatis (strain D/UW-3/Cx)	338
+B0B7J8	GCSH_CHLT2	reviewed	Glycine cleavage system H protein	gcvH CTL0534	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	117
+Q3KM80	GCSH_CHLTA	reviewed	Glycine cleavage system H protein	gcvH CTA_0304	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	117
+B0BBR3	GCSH_CHLTB	reviewed	Glycine cleavage system H protein	gcvH CTLon_0530	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	117
+O84284	GCSH_CHLTR	reviewed	Glycine cleavage system H protein	gcvH gcsH CT_282	Chlamydia trachomatis (strain D/UW-3/Cx)	117
+B0B925	GLGA_CHLT2	reviewed	Glycogen synthase (EC 2.4.1.21) (Starch [bacterial glycogen] synthase)	glgA CTL0167	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	474
+Q3KKP3	GLGA_CHLTA	reviewed	Glycogen synthase (EC 2.4.1.21) (Starch [bacterial glycogen] synthase)	glgA CTA_0869	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	474
+B0BAQ4	GLGA_CHLTB	reviewed	Glycogen synthase (EC 2.4.1.21) (Starch [bacterial glycogen] synthase)	glgA CTLon_0168	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	474
+O84804	GLGA_CHLTR	reviewed	Glycogen synthase (EC 2.4.1.21) (Starch [bacterial glycogen] synthase)	glgA CT_798	Chlamydia trachomatis (strain D/UW-3/Cx)	474
+B0B998	GLGB_CHLT2	reviewed	1,4-alpha-glucan branching enzyme GlgB (EC 2.4.1.18) (1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase) (Alpha-(1->4)-glucan branching enzyme) (Glycogen branching enzyme) (BE)	glgB CTL0245	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	738
+Q3KKH0	GLGB_CHLTA	reviewed	1,4-alpha-glucan branching enzyme GlgB (EC 2.4.1.18) (1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase) (Alpha-(1->4)-glucan branching enzyme) (Glycogen branching enzyme) (BE)	glgB CTA_0946	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	738
+B0BAX7	GLGB_CHLTB	reviewed	1,4-alpha-glucan branching enzyme GlgB (EC 2.4.1.18) (1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase) (Alpha-(1->4)-glucan branching enzyme) (Glycogen branching enzyme) (BE)	glgB CTLon_0241	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	738
+O84874	GLGB_CHLTR	reviewed	1,4-alpha-glucan branching enzyme GlgB (EC 2.4.1.18) (1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase) (Alpha-(1->4)-glucan branching enzyme) (Glycogen branching enzyme) (BE)	glgB CT_866	Chlamydia trachomatis (strain D/UW-3/Cx)	738
+B0B944	GLMM_CHLT2	reviewed	Phosphoglucosamine mutase (EC 5.4.2.10)	glmM CTL0187	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	458
+Q3KKM5	GLMM_CHLTA	reviewed	Phosphoglucosamine mutase (EC 5.4.2.10)	glmM CTA_0888	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	458
+B0BAS3	GLMM_CHLTB	reviewed	Phosphoglucosamine mutase (EC 5.4.2.10)	glmM CTLon_0187	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	458
+O84822	GLMM_CHLTR	reviewed	Phosphoglucosamine mutase (EC 5.4.2.10)	glmM CT_815	Chlamydia trachomatis (strain D/UW-3/Cx)	458
+O84823	GLMS_CHLTR	reviewed	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16) (D-fructose-6-phosphate amidotransferase) (GFAT) (Glucosamine-6-phosphate synthase) (Hexosephosphate aminotransferase) (L-glutamine--D-fructose-6-phosphate amidotransferase)	glmS CT_816	Chlamydia trachomatis (strain D/UW-3/Cx)	606
+B0B804	GLYA_CHLT2	reviewed	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	glyA CTL0691	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	497
+Q3KLR8	GLYA_CHLTA	reviewed	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	glyA CTA_0472	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	497
+B0BC69	GLYA_CHLTB	reviewed	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	glyA CTLon_0687	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	497
+O84439	GLYA_CHLTR	reviewed	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	glyA CT_432	Chlamydia trachomatis (strain D/UW-3/Cx)	497
+B0BCM3	GP1D_CHLT2	reviewed	Probable plasmid replicative DNA helicase (EC 3.6.4.12) (DnaB-like protein) (Protein P-3) (Virulence plasmid protein pGP1-D)	pL2-03	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	451
+B0BCM2	GP2D_CHLT2	reviewed	Virulence plasmid protein pGP2-D (Protein P-4)	pL2-04	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	354
+B0BCM1	GP3D_CHLT2	reviewed	Virulence plasmid protein pGP3-D (Proteins P-6/P-7)	pL2-05	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	264
+B0BCM0	GP4D_CHLT2	reviewed	Virulence plasmid protein pGP4-D (Protein P-8)	pL2-06	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	102
+O84587	GP6R_CHLTR	reviewed	Virulence plasmid protein pGP6-D-related protein	CT_583	Chlamydia trachomatis (strain D/UW-3/Cx)	263
+B0BCM5	GP7D_CHLT2	reviewed	Virulence plasmid integrase pGP7-D (Protein P-11)	pL2-01	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	305
+B0BCM4	GP8D_CHLT2	reviewed	Virulence plasmid integrase pGP8-D (Protein N-1/N-2)	pL2-02	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	330
+B0B8U0	GPDA_CHLT2	reviewed	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94) (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase)	gpsA CTL0083	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	334
+Q3KKY0	GPDA_CHLTA	reviewed	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94) (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase)	gpsA CTA_0776	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	334
+B0BAG9	GPDA_CHLTB	reviewed	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94) (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase)	gpsA CTLon_0083	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	334
+O84719	GPDA_CHLTR	reviewed	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94) (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase)	gpsA CT_714	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+B0B8U8	GPMA_CHLT2	reviewed	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (BPG-dependent PGAM) (PGAM) (Phosphoglyceromutase) (dPGM) (EC 5.4.2.1)	gpmA CTL0091	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	226
+Q3KKX2	GPMA_CHLTA	reviewed	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (BPG-dependent PGAM) (PGAM) (Phosphoglyceromutase) (dPGM) (EC 5.4.2.1)	gpmA CTA_0784	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	226
+B0BAH7	GPMA_CHLTB	reviewed	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (BPG-dependent PGAM) (PGAM) (Phosphoglyceromutase) (dPGM) (EC 5.4.2.1)	gpmA CTLon_0091	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	226
+O84727	GPMA_CHLTR	reviewed	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (BPG-dependent PGAM) (PGAM) (Phosphoglyceromutase) (dPGM) (EC 5.4.2.1)	gpmA pgm CT_722	Chlamydia trachomatis (strain D/UW-3/Cx)	226
+O84641	GREA_CHLTR	reviewed	Transcription elongation factor GreA (Transcript cleavage factor GreA)	greA CT_636	Chlamydia trachomatis (strain D/UW-3/Cx)	715
+B0B7W5	GRPE_CHLT2	reviewed	Protein GrpE (HSP-70 cofactor)	grpE CTL0651	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	190
+Q3KLV8	GRPE_CHLTA	reviewed	Protein GrpE (HSP-70 cofactor)	grpE CTA_0430	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	190
+B0BC30	GRPE_CHLTB	reviewed	Protein GrpE (HSP-70 cofactor)	grpE CTLon_0648	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	190
+P36424	GRPE_CHLTR	reviewed	Protein GrpE (HSP-70 cofactor)	grpE CT_395	Chlamydia trachomatis (strain D/UW-3/Cx)	190
+B0B9W0	GSA_CHLT2	reviewed	Glutamate-1-semialdehyde 2,1-aminomutase (GSA) (EC 5.4.3.8) (Glutamate-1-semialdehyde aminotransferase) (GSA-AT)	hemL CTL0462	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	422
+Q3KMF2	GSA_CHLTA	reviewed	Glutamate-1-semialdehyde 2,1-aminomutase (GSA) (EC 5.4.3.8) (Glutamate-1-semialdehyde aminotransferase) (GSA-AT)	hemL CTA_0230	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	422
+B0BBJ0	GSA_CHLTB	reviewed	Glutamate-1-semialdehyde 2,1-aminomutase (GSA) (EC 5.4.3.8) (Glutamate-1-semialdehyde aminotransferase) (GSA-AT)	hemL CTLon_0457	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	422
+O84212	GSA_CHLTR	reviewed	Glutamate-1-semialdehyde 2,1-aminomutase (GSA) (EC 5.4.3.8) (Glutamate-1-semialdehyde aminotransferase) (GSA-AT)	hemL CT_210	Chlamydia trachomatis (strain D/UW-3/Cx)	422
+O84192	GYRA_CHLTR	reviewed	DNA gyrase subunit A (EC 5.99.1.3)	gyrA CT_189	Chlamydia trachomatis (strain D/UW-3/Cx)	836
+O84193	GYRB_CHLTR	reviewed	DNA gyrase subunit B (EC 5.99.1.3)	gyrB CT_190	Chlamydia trachomatis (strain D/UW-3/Cx)	804
+Q06280	HC2D_CHLTR	reviewed	Histone-like protein HC2	hctB CT_046	Chlamydia trachomatis (strain D/UW-3/Cx)	201
+B0B8W9	HCT1_CHLT2	reviewed	Histone H1-like protein Hc1 (18 kDa histone analog)	hctA CTL0112	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	125
+P0CE15	HCT1_CHLTR	reviewed	Histone H1-like protein Hc1 (18 kDa histone analog)	hctA CT_743	Chlamydia trachomatis (strain D/UW-3/Cx)	125
+Q46397	HCT2_CHLT2	reviewed	Histone H1-like protein HC2 (HC2 nucleoprotein)	hctB hct2 CTL0302	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	221
+B0B8N8	HEM1_CHLT2	reviewed	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	hemA CTL0031	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	335
+Q3KL32	HEM1_CHLTA	reviewed	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	hemA CTA_0719	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	335
+B0BAB7	HEM1_CHLTB	reviewed	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	hemA CTLon_0031	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	335
+O84669	HEM1_CHLTR	reviewed	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	hemA CT_662	Chlamydia trachomatis (strain D/UW-3/Cx)	335
+O84638	HEM2_CHLTR	reviewed	Delta-aminolevulinic acid dehydratase (ALAD) (ALADH) (EC 4.2.1.24) (Porphobilinogen synthase)	hemB CT_633	Chlamydia trachomatis (strain D/UW-3/Cx)	338
+O84301	HEM3_CHLTR	reviewed	Probable porphobilinogen deaminase (PBG) (EC 2.5.1.61) (Hydroxymethylbilane synthase) (HMBS) (Pre-uroporphyrinogen synthase)	hemC CT_299	Chlamydia trachomatis (strain D/UW-3/Cx)	241
+B0B858	HEMH_CHLT2	reviewed	Ferrochelatase (EC 4.99.1.1) (Heme synthase) (Protoheme ferro-lyase)	hemH CTL0746	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	314
+Q3KLL2	HEMH_CHLTA	reviewed	Ferrochelatase (EC 4.99.1.1) (Heme synthase) (Protoheme ferro-lyase)	hemH CTA_0532	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	314
+B0BCC3	HEMH_CHLTB	reviewed	Ferrochelatase (EC 4.99.1.1) (Heme synthase) (Protoheme ferro-lyase)	hemH CTLon_0741	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	314
+O84492	HEMH_CHLTR	reviewed	Ferrochelatase (EC 4.99.1.1) (Heme synthase) (Protoheme ferro-lyase)	hemH CT_485	Chlamydia trachomatis (strain D/UW-3/Cx)	314
+B0B7W4	HRCA_CHLT2	reviewed	Heat-inducible transcription repressor HrcA	hrcA CTL0650	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	392
+Q3KLV9	HRCA_CHLTA	reviewed	Heat-inducible transcription repressor HrcA	hrcA CTA_0429	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	392
+B0BC29	HRCA_CHLTB	reviewed	Heat-inducible transcription repressor HrcA	hrcA CTLon_0647	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	392
+P36426	HRCA_CHLTR	reviewed	Heat-inducible transcription repressor HrcA	hrcA CT_394	Chlamydia trachomatis (strain D/UW-3/Cx)	392
+Q3KM39	IF1_CHLTA	reviewed	Translation initiation factor IF-1	infA CTA_0347	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	73
+P65106	IF1_CHLTR	reviewed	Translation initiation factor IF-1	infA CT_323	Chlamydia trachomatis (strain D/UW-3/Cx)	73
+B0B9K4	IF2_CHLT2	reviewed	Translation initiation factor IF-2	infB CTL0351	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	896
+Q3KMS4	IF2_CHLTA	reviewed	Translation initiation factor IF-2	infB CTA_0102	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	892
+B0BB83	IF2_CHLTB	reviewed	Translation initiation factor IF-2	infB CTLon_0347	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	896
+O84098	IF2_CHLTR	reviewed	Translation initiation factor IF-2	infB CT_096	Chlamydia trachomatis (strain D/UW-3/Cx)	892
+O84840	IF3_CHLTR	reviewed	Translation initiation factor IF-3	infC CT_833	Chlamydia trachomatis (strain D/UW-3/Cx)	175
+P0CI27	INCA1_CHLTR	reviewed	Inclusion membrane protein A	incA CT_119	Chlamydia trachomatis (strain D/UW-3/Cx)	273
+D6YXE8	INCA_CHLT9	reviewed	Inclusion membrane protein A	incA CTG9301_00615	Chlamydia trachomatis serovar G (strain G/9301)	273
+B0B9M3	INCD_CHLT2	reviewed	Inclusion membrane protein D	incD CTL0370	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	146
+P0DJI3	INCD_CHLTR	reviewed	Inclusion membrane protein D	incD CT_115	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+B0B9M4	INCE_CHLT2	reviewed	Inclusion membrane protein E	incE CTL0371	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	132
+P0DJI4	INCE_CHLTR	reviewed	Inclusion membrane protein E	incE CT_116	Chlamydia trachomatis (strain D/UW-3/Cx)	132
+B0B9M5	INCF_CHLT2	reviewed	Inclusion membrane protein F	incF CTL0372	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	104
+P0DJI5	INCF_CHLTR	reviewed	Inclusion membrane protein F	incF CT_117	Chlamydia trachomatis (strain D/UW-3/Cx)	104
+O84120	INCG_CHLTR	reviewed	Inclusion membrane protein G	incG CT_118	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+B0B8Z8	IPYR_CHLT2	reviewed	Inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)	ppa CTL0141	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	209
+Q3KKS0	IPYR_CHLTA	reviewed	Inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)	ppa CTA_0842	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	209
+B0BAM7	IPYR_CHLTB	reviewed	Inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)	ppa CTLon_0141	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	209
+O84777	IPYR_CHLTR	reviewed	Inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)	ppa CT_772	Chlamydia trachomatis (strain D/UW-3/Cx)	209
+B0B835	ISPD_CHLT2	reviewed	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	ispD CTL0722	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	219
+Q3KLN6	ISPD_CHLTA	reviewed	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	ispD CTA_0505	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	219
+B0BCA0	ISPD_CHLTB	reviewed	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	ispD CTLon_0718	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	219
+O84468	ISPD_CHLTR	reviewed	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	ispD CT_462	Chlamydia trachomatis (strain D/UW-3/Cx)	219
+B0B931	ISPE_CHLT2	reviewed	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	ispE CTL0173	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	288
+Q3KKN7	ISPE_CHLTA	reviewed	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	ispE CTA_0876	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	288
+B0BAR0	ISPE_CHLTB	reviewed	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	ispE CTLon_0174	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	288
+O84810	ISPE_CHLTR	reviewed	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	ispE CT_804	Chlamydia trachomatis (strain D/UW-3/Cx)	288
+B0B806	ISPF_CHLT2	reviewed	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	ispF CTL0693	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	178
+Q3KLR6	ISPF_CHLTA	reviewed	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	ispF CTA_0474	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	178
+B0BC71	ISPF_CHLTB	reviewed	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	ispF CTLon_0689	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	178
+O84441	ISPF_CHLTR	reviewed	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	ispF CT_434	Chlamydia trachomatis (strain D/UW-3/Cx)	178
+B0B9G5	ISPG_CHLT2	reviewed	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (EC 1.17.7.1) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)	ispG CTL0313	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	602
+Q3KMW4	ISPG_CHLTA	reviewed	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (EC 1.17.7.1) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)	ispG CTA_0061	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	602
+B0BB44	ISPG_CHLTB	reviewed	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (EC 1.17.7.1) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)	ispG CTLon_0308	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	602
+O84060	ISPG_CHLTR	reviewed	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (EC 1.17.7.1) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)	ispG gcpE CT_057	Chlamydia trachomatis (strain D/UW-3/Cx)	602
+B0B991	ISPH_CHLT2	reviewed	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	ispH CTL0234	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	307
+Q3KKH8	ISPH_CHLTA	reviewed	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	ispH CTA_0937	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	307
+B0BAX0	ISPH_CHLTB	reviewed	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	ispH CTLon_0234	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	307
+O84867	ISPH_CHLTR	reviewed	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	ispH lytB CT_859	Chlamydia trachomatis (strain D/UW-3/Cx)	307
+O84456	ISPT_CHLTR	reviewed	Isoprenyl transferase (EC 2.5.1.-)	uppS CT_450	Chlamydia trachomatis (strain D/UW-3/Cx)	253
+B0B9N6	KAD_CHLT2	reviewed	Adenylate kinase (AK) (EC 2.7.4.3) (ATP-AMP transphosphorylase) (ATP:AMP phosphotransferase) (Adenylate monophosphate kinase)	adk CTL0383	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	245
+Q3KMP1	KAD_CHLTA	reviewed	Adenylate kinase (AK) (EC 2.7.4.3) (ATP-AMP transphosphorylase) (ATP:AMP phosphotransferase) (Adenylate monophosphate kinase)	adk CTA_0135	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	245
+B0BBB5	KAD_CHLTB	reviewed	Adenylate kinase (AK) (EC 2.7.4.3) (ATP-AMP transphosphorylase) (ATP:AMP phosphotransferase) (Adenylate monophosphate kinase)	adk CTLon_0379	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	245
+O84130	KAD_CHLTR	reviewed	Adenylate kinase (AK) (EC 2.7.4.3) (ATP-AMP transphosphorylase) (ATP:AMP phosphotransferase) (Adenylate monophosphate kinase)	adk CT_128	Chlamydia trachomatis (strain D/UW-3/Cx)	245
+B0B825	KCY_CHLT2	reviewed	Cytidylate kinase (CK) (EC 2.7.4.25) (Cytidine monophosphate kinase) (CMP kinase)	cmk CTL0712	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	216
+Q3KLP6	KCY_CHLTA	reviewed	Cytidylate kinase (CK) (EC 2.7.4.25) (Cytidine monophosphate kinase) (CMP kinase)	cmk CTA_0494	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	216
+B0BC90	KCY_CHLTB	reviewed	Cytidylate kinase (CK) (EC 2.7.4.25) (Cytidine monophosphate kinase) (CMP kinase)	cmk CTLon_0708	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	216
+O84458	KCY_CHLTR	reviewed	Cytidylate kinase (CK) (EC 2.7.4.25) (Cytidine monophosphate kinase) (CMP kinase)	cmk CT_452	Chlamydia trachomatis (strain D/UW-3/Cx)	216
+B0B8N1	KDSA_CHLT2	reviewed	2-dehydro-3-deoxyphosphooctonate aldolase (EC 2.5.1.55) (3-deoxy-D-manno-octulosonic acid 8-phosphate synthase) (KDO-8-phosphate synthase) (KDO 8-P synthase) (KDOPS) (Phospho-2-dehydro-3-deoxyoctonate aldolase)	kdsA CTL0024	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	269
+Q3KL39	KDSA_CHLTA	reviewed	2-dehydro-3-deoxyphosphooctonate aldolase (EC 2.5.1.55) (3-deoxy-D-manno-octulosonic acid 8-phosphate synthase) (KDO-8-phosphate synthase) (KDO 8-P synthase) (KDOPS) (Phospho-2-dehydro-3-deoxyoctonate aldolase)	kdsA CTA_0711	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	269
+B0BAB0	KDSA_CHLTB	reviewed	2-dehydro-3-deoxyphosphooctonate aldolase (EC 2.5.1.55) (3-deoxy-D-manno-octulosonic acid 8-phosphate synthase) (KDO-8-phosphate synthase) (KDO 8-P synthase) (KDOPS) (Phospho-2-dehydro-3-deoxyoctonate aldolase)	kdsA CTLon_0024	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	269
+P0CD74	KDSA_CHLTR	reviewed	2-dehydro-3-deoxyphosphooctonate aldolase (EC 2.5.1.55) (3-deoxy-D-manno-octulosonic acid 8-phosphate synthase) (KDO-8-phosphate synthase) (KDO 8-P synthase) (KDOPS) (Phospho-2-dehydro-3-deoxyoctonate aldolase)	kdsA CT_655	Chlamydia trachomatis (strain D/UW-3/Cx)	269
+B0B9T2	KDSB_CHLT2	reviewed	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38) (CMP-2-keto-3-deoxyoctulosonic acid synthase) (CKS) (CMP-KDO synthase)	kdsB CTL0434	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	254
+Q3KMI0	KDSB_CHLTA	reviewed	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38) (CMP-2-keto-3-deoxyoctulosonic acid synthase) (CKS) (CMP-KDO synthase)	kdsB CTA_0200	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	254
+B0BBG2	KDSB_CHLTB	reviewed	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38) (CMP-2-keto-3-deoxyoctulosonic acid synthase) (CKS) (CMP-KDO synthase)	kdsB CTLon_0429	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	254
+P0CD75	KDSB_CHLTR	reviewed	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38) (CMP-2-keto-3-deoxyoctulosonic acid synthase) (CKS) (CMP-KDO synthase)	kdsB CT_182	Chlamydia trachomatis (strain D/UW-3/Cx)	254
+B0B9V8	KDTA_CHLT2	reviewed	3-deoxy-D-manno-octulosonic acid transferase (Kdo transferase) (EC 2.4.99.12) (EC 2.4.99.13) (EC 2.4.99.14) (Kdo(2)-lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Kdo-lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Trifunctional Kdo transferase)	waaA gseA kdtA CTL0460	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	431
+Q3KMF4	KDTA_CHLTA	reviewed	3-deoxy-D-manno-octulosonic acid transferase (Kdo transferase) (EC 2.4.99.12) (EC 2.4.99.13) (EC 2.4.99.14) (Kdo(2)-lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Kdo-lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase)	waaA gseA kdtA CTA_0228	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	431
+P0CE14	KDTA_CHLTR	reviewed	3-deoxy-D-manno-octulosonic acid transferase (Kdo transferase) (EC 2.4.99.12) (EC 2.4.99.13) (EC 2.4.99.14) (Kdo(2)-lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Kdo-lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Trifunctional Kdo transferase)	waaA gseA kdtA CT_208	Chlamydia trachomatis (strain D/UW-3/Cx)	431
+Q3KMZ2	KGUA_CHLTA	reviewed	Guanylate kinase (EC 2.7.4.8) (GMP kinase)	gmk CTA_0032	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	205
+O84033	KGUA_CHLTR	reviewed	Guanylate kinase (EC 2.7.4.8) (GMP kinase)	gmk CT_030	Chlamydia trachomatis (strain D/UW-3/Cx)	205
+B0B7Q0	KPYK_CHLT2	reviewed	Pyruvate kinase (PK) (EC 2.7.1.40)	pyk pykF CTL0586	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	485
+P0CE21	KPYK_CHLTR	reviewed	Pyruvate kinase (PK) (EC 2.7.1.40)	pyk pykF CT_332	Chlamydia trachomatis (strain D/UW-3/Cx)	485
+B0B9T8	KTHY_CHLT2	reviewed	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	tmk CTL0440	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	203
+Q3KMH4	KTHY_CHLTA	reviewed	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	tmk CTA_0206	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	203
+B0BBG8	KTHY_CHLTB	reviewed	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	tmk CTLon_0435	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	203
+O84191	KTHY_CHLTR	reviewed	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	tmk CT_188	Chlamydia trachomatis (strain D/UW-3/Cx)	203
+B0B9H2	LEPA_CHLT2	reviewed	Elongation factor 4 (EF-4) (EC 3.6.5.n1) (Ribosomal back-translocase LepA)	lepA CTL0320	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	602
+Q3KMV7	LEPA_CHLTA	reviewed	Elongation factor 4 (EF-4) (EC 3.6.5.n1) (Ribosomal back-translocase LepA)	lepA CTA_0069	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	602
+B0BB51	LEPA_CHLTB	reviewed	Elongation factor 4 (EF-4) (EC 3.6.5.n1) (Ribosomal back-translocase LepA)	lepA CTLon_0315	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	602
+O84067	LEPA_CHLTR	reviewed	Elongation factor 4 (EF-4) (EC 3.6.5.n1) (Ribosomal back-translocase LepA)	lepA CT_064	Chlamydia trachomatis (strain D/UW-3/Cx)	602
+O84254	LGT_CHLTR	reviewed	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)	lgt CT_252	Chlamydia trachomatis (strain D/UW-3/Cx)	272
+B0B8D2	LIPA_CHLT2	reviewed	Lipoyl synthase (EC 2.8.1.8) (Lip-syn) (LS) (Lipoate synthase) (Lipoic acid synthase) (Sulfur insertion protein LipA)	lipA CTL0821	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	311
+Q3KLD9	LIPA_CHLTA	reviewed	Lipoyl synthase (EC 2.8.1.8) (Lip-syn) (LS) (Lipoate synthase) (Lipoic acid synthase) (Sulfur insertion protein LipA)	lipA CTA_0608	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	311
+B0BA11	LIPA_CHLTB	reviewed	Lipoyl synthase (EC 2.8.1.8) (Lip-syn) (LS) (Lipoate synthase) (Lipoic acid synthase) (Sulfur insertion protein LipA)	lipA CTLon_0815	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	311
+O84562	LIPA_CHLTR	reviewed	Lipoyl synthase (EC 2.8.1.8) (Lip-syn) (LS) (Lipoate synthase) (Lipoic acid synthase) (Sulfur insertion protein LipA)	lipA CT_558	Chlamydia trachomatis (strain D/UW-3/Cx)	311
+O84539	LNT_CHLTR	reviewed	Apolipoprotein N-acyltransferase (ALP N-acyltransferase) (EC 2.3.1.-)	lnt CT_534	Chlamydia trachomatis (strain D/UW-3/Cx)	542
+O84348	LON_CHLTR	reviewed	Lon protease (EC 3.4.21.53) (ATP-dependent protease La)	lon CT_344	Chlamydia trachomatis (strain D/UW-3/Cx)	819
+B0B8A5	LPXA_CHLT2	reviewed	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (UDP-N-acetylglucosamine acyltransferase) (EC 2.3.1.129)	lpxA CTL0793	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	280
+Q3KLG6	LPXA_CHLTA	reviewed	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (UDP-N-acetylglucosamine acyltransferase) (EC 2.3.1.129)	lpxA CTA_0580	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	280
+B0B9Y4	LPXA_CHLTB	reviewed	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (UDP-N-acetylglucosamine acyltransferase) (EC 2.3.1.129)	lpxA CTLon_0788	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	280
+O84536	LPXA_CHLTR	reviewed	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (UDP-N-acetylglucosamine acyltransferase) (EC 2.3.1.129)	lpxA CT_531	Chlamydia trachomatis (strain D/UW-3/Cx)	280
+Q3KLU2	LPXB_CHLTA	reviewed	Lipid-A-disaccharide synthase (EC 2.4.1.182)	lpxB CTA_0446	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	607
+O84416	LPXB_CHLTR	reviewed	Lipid-A-disaccharide synthase (EC 2.4.1.182)	lpxB CT_411	Chlamydia trachomatis (strain D/UW-3/Cx)	607
+B0B8A7	LPXC_CHLT2	reviewed	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.-) (UDP-3-O-acyl-GlcNAc deacetylase)	lpxC CTL0795	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	286
+Q3KLG4	LPXC_CHLTA	reviewed	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.-) (UDP-3-O-acyl-GlcNAc deacetylase)	lpxC CTA_0582	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	286
+B0B9Y6	LPXC_CHLTB	reviewed	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.-) (UDP-3-O-acyl-GlcNAc deacetylase)	lpxC CTLon_0790	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	286
+O84538	LPXC_CHLTR	reviewed	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.-) (UDP-3-O-acyl-GlcNAc deacetylase)	lpxC CT_533	Chlamydia trachomatis (strain D/UW-3/Cx)	286
+B0B7F9	LPXD_CHLT2	reviewed	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.-)	lpxD CTL0495	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	354
+Q3KMB9	LPXD_CHLTA	reviewed	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.-)	lpxD CTA_0265	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	354
+B0BBM4	LPXD_CHLTB	reviewed	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.-)	lpxD CTLon_0491	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	354
+P0CD76	LPXD_CHLTR	reviewed	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.-)	lpxD CT_243	Chlamydia trachomatis (strain D/UW-3/Cx)	354
+O84407	LPXK_CHLTR	reviewed	Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130) (Lipid A 4'-kinase)	lpxK CT_402	Chlamydia trachomatis (strain D/UW-3/Cx)	369
+B0B7X8	LSPA_CHLT2	reviewed	Lipoprotein signal peptidase (EC 3.4.23.36) (Prolipoprotein signal peptidase) (Signal peptidase II) (SPase II)	lspA CTL0665	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	167
+Q3KLU5	LSPA_CHLTA	reviewed	Lipoprotein signal peptidase (EC 3.4.23.36) (Prolipoprotein signal peptidase) (Signal peptidase II) (SPase II)	lspA CTA_0443	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	167
+B0BC43	LSPA_CHLTB	reviewed	Lipoprotein signal peptidase (EC 3.4.23.36) (Prolipoprotein signal peptidase) (Signal peptidase II) (SPase II)	lspA CTLon_0661	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	167
+O84413	LSPA_CHLTR	reviewed	Lipoprotein signal peptidase (EC 3.4.23.36) (Prolipoprotein signal peptidase) (Signal peptidase II) (SPase II)	lspA CT_408	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+Q46403	LTUA_CHLTR	reviewed	Late transcription unit A protein	ltuA CT_377	Chlamydia trachomatis (strain D/UW-3/Cx)	46
+Q46404	LTUB_CHLTR	reviewed	Late transcription unit B protein	ltuB CT_080	Chlamydia trachomatis (strain D/UW-3/Cx)	97
+O84089	MALQ_CHLTR	reviewed	4-alpha-glucanotransferase (EC 2.4.1.25) (Amylomaltase) (Disproportionating enzyme) (D-enzyme)	malQ CT_087	Chlamydia trachomatis (strain D/UW-3/Cx)	527
+B0B7U5	MDH_CHLT2	reviewed	Malate dehydrogenase (EC 1.1.1.37)	mdh CTL0630	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	326
+Q3KLX8	MDH_CHLTA	reviewed	Malate dehydrogenase (EC 1.1.1.37)	mdh CTA_0410	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	326
+B0BC10	MDH_CHLTB	reviewed	Malate dehydrogenase (EC 1.1.1.37)	mdh CTLon_0628	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	326
+O84381	MDH_CHLTR	reviewed	Malate dehydrogenase (EC 1.1.1.37)	mdh mdhC CT_376	Chlamydia trachomatis (strain D/UW-3/Cx)	326
+B0B8Z2	MIAA_CHLT2	reviewed	tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)	miaA CTL0135	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	339
+Q3KKS6	MIAA_CHLTA	reviewed	tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)	miaA CTA_0836	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	339
+B0BAM1	MIAA_CHLTB	reviewed	tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)	miaA CTLon_0135	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	339
+O84771	MIAA_CHLTR	reviewed	tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)	miaA CT_766	Chlamydia trachomatis (strain D/UW-3/Cx)	314
+P26623	MIP_CHLTR	reviewed	Peptidyl-prolyl cis-trans isomerase Mip (PPIase) (EC 5.2.1.8) (27 kDa membrane protein) (Chl-Mip) (Rotamase)	mip CT_541	Chlamydia trachomatis (strain D/UW-3/Cx)	243
+B0B7K3	MNMA_CHLT2	reviewed	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.-)	mnmA CTL0539	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	358
+Q3KM75	MNMA_CHLTA	reviewed	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.-)	mnmA trmU CTA_0309	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	358
+B0BBR8	MNMA_CHLTB	reviewed	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.-)	mnmA CTLon_0535	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	358
+O84289	MNMA_CHLTR	reviewed	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.-)	mnmA trmU CT_287	Chlamydia trachomatis (strain D/UW-3/Cx)	358
+B0B8S4	MNME_CHLT2	reviewed	tRNA modification GTPase MnmE (EC 3.6.-.-)	mnmE trmE CTL0067	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	444
+Q3KKZ6	MNME_CHLTA	reviewed	tRNA modification GTPase MnmE (EC 3.6.-.-)	mnmE trmE CTA_0759	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	444
+B0BAF3	MNME_CHLTB	reviewed	tRNA modification GTPase MnmE (EC 3.6.-.-)	mnmE trmE CTLon_0067	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	444
+O84704	MNME_CHLTR	reviewed	tRNA modification GTPase MnmE (EC 3.6.-.-)	mnmE thdF trmE CT_698	Chlamydia trachomatis (strain D/UW-3/Cx)	444
+B0B872	MNMG_CHLT2	reviewed	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (Glucose-inhibited division protein A)	mnmG gidA CTL0760	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	610
+Q3KLJ9	MNMG_CHLTA	reviewed	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (Glucose-inhibited division protein A)	mnmG gidA CTA_0546	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	610
+B0BCD7	MNMG_CHLTB	reviewed	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (Glucose-inhibited division protein A)	mnmG gidA CTLon_0755	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	610
+P0CD73	MNMG_CHLTR	reviewed	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (Glucose-inhibited division protein A)	mnmG gidA CT_498	Chlamydia trachomatis (strain D/UW-3/Cx)	610
+Q46409	MOMPD_CHLTR	reviewed	Major outer membrane porin, serovar D (MOMP)	ompA omp1 CT_681	Chlamydia trachomatis (strain D/UW-3/Cx)	393
+P06597	MOMP_CHLT2	reviewed	Major outer membrane porin (MOMP)	ompA omp1L2 CTL0050	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	394
+B0B8Y3	MRAY_CHLT2	reviewed	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13) (UDP-MurNAc-pentapeptide phosphotransferase)	mraY CTL0126	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	336
+Q3KKT5	MRAY_CHLTA	reviewed	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13) (UDP-MurNAc-pentapeptide phosphotransferase)	mraY CTA_0827	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	336
+B0BAL2	MRAY_CHLTB	reviewed	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13) (UDP-MurNAc-pentapeptide phosphotransferase)	mraY CTLon_0126	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	336
+O84762	MRAY_CHLTR	reviewed	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13) (UDP-MurNAc-pentapeptide phosphotransferase)	mraY CT_757	Chlamydia trachomatis (strain D/UW-3/Cx)	336
+O84767	MUDD_CHLTR	reviewed	Bifunctional enzyme MurC/Ddl [Includes: UDP-N-acetylmuramate--L-alanine ligase (EC 6.3.2.8) (UDP-N-acetylmuramoyl-L-alanine synthetase); D-alanine--D-alanine ligase (EC 6.3.2.4) (D-Ala-D-Ala ligase) (D-alanylalanine synthetase)]	murC/ddl CT_762	Chlamydia trachomatis (strain D/UW-3/Cx)	803
+Q3KLP3	MURA_CHLTA	reviewed	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7) (Enoylpyruvate transferase) (UDP-N-acetylglucosamine enolpyruvyl transferase) (EPT)	murA CTA_0497	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	444
+O84461	MURA_CHLTR	reviewed	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7) (Enoylpyruvate transferase) (UDP-N-acetylglucosamine enolpyruvyl transferase) (EPT)	murA CT_455	Chlamydia trachomatis (strain D/UW-3/Cx)	444
+B0B960	MURB_CHLT2	reviewed	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98) (UDP-N-acetylmuramate dehydrogenase)	murB CTL0203	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	291
+Q3KKK8	MURB_CHLTA	reviewed	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98) (UDP-N-acetylmuramate dehydrogenase)	murB CTA_0906	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	291
+B0BAT9	MURB_CHLTB	reviewed	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98) (UDP-N-acetylmuramate dehydrogenase)	murB CTLon_0203	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	291
+P0CD77	MURB_CHLTR	reviewed	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98) (UDP-N-acetylmuramate dehydrogenase)	murB CT_831	Chlamydia trachomatis (strain D/UW-3/Cx)	291
+B0B8Y4	MURD_CHLT2	reviewed	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9) (D-glutamic acid-adding enzyme) (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase)	murD CTL0127	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	416
+Q3KKT4	MURD_CHLTA	reviewed	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9) (D-glutamic acid-adding enzyme) (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase)	murD CTA_0828	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	416
+B0BAL3	MURD_CHLTB	reviewed	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9) (D-glutamic acid-adding enzyme) (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase)	murD CTLon_0127	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	416
+O84763	MURD_CHLTR	reviewed	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9) (D-glutamic acid-adding enzyme) (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase)	murD CT_758	Chlamydia trachomatis (strain D/UW-3/Cx)	416
+Q3KM93	MURE_CHLTA	reviewed	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase (EC 6.3.2.13) (Meso-A2pm-adding enzyme) (Meso-diaminopimelate-adding enzyme) (UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase) (UDP-MurNAc-tripeptide synthetase) (UDP-N-acetylmuramyl-tripeptide synthetase)	murE CTA_0291	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	483
+O84271	MURE_CHLTR	reviewed	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase (EC 6.3.2.13) (Meso-A2pm-adding enzyme) (Meso-diaminopimelate-adding enzyme) (UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase) (UDP-MurNAc-tripeptide synthetase) (UDP-N-acetylmuramyl-tripeptide synthetase)	murE CT_269	Chlamydia trachomatis (strain D/UW-3/Cx)	483
+B0B8Y7	MURG_CHLT2	reviewed	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227) (Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase)	murG CTL0130	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	352
+Q3KKT1	MURG_CHLTA	reviewed	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227) (Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase)	murG CTA_0831	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	352
+B0BAL6	MURG_CHLTB	reviewed	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227) (Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase)	murG CTLon_0130	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	352
+O84766	MURG_CHLTR	reviewed	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227) (Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase)	murG CT_761	Chlamydia trachomatis (strain D/UW-3/Cx)	352
+Q46378	MURJ_CHLTR	reviewed	Protein MurJ homolog	murJ mviN CT_624	Chlamydia trachomatis (strain D/UW-3/Cx)	536
+B0B8E9	MUTL_CHLT2	reviewed	DNA mismatch repair protein MutL	mutL CTL0838	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	576
+Q3KLC2	MUTL_CHLTA	reviewed	DNA mismatch repair protein MutL	mutL CTA_0625	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	576
+B0BA28	MUTL_CHLTB	reviewed	DNA mismatch repair protein MutL	mutL CTLon_0832	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	576
+O84579	MUTL_CHLTR	reviewed	DNA mismatch repair protein MutL	mutL CT_575	Chlamydia trachomatis (strain D/UW-3/Cx)	576
+B0B918	MUTS_CHLT2	reviewed	DNA mismatch repair protein MutS	mutS CTL0160	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	820
+Q3KKQ0	MUTS_CHLTA	reviewed	DNA mismatch repair protein MutS	mutS CTA_0862	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	820
+B0BAP7	MUTS_CHLTB	reviewed	DNA mismatch repair protein MutS	mutS CTLon_0161	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	820
+O84797	MUTS_CHLTR	reviewed	DNA mismatch repair protein MutS	mutS CT_792	Chlamydia trachomatis (strain D/UW-3/Cx)	820
+B0B874	NDK_CHLT2	reviewed	Nucleoside diphosphate kinase (NDK) (NDP kinase) (EC 2.7.4.6) (Nucleoside-2-P kinase)	ndk CTL0762	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	141
+Q3KLJ7	NDK_CHLTA	reviewed	Nucleoside diphosphate kinase (NDK) (NDP kinase) (EC 2.7.4.6) (Nucleoside-2-P kinase)	ndk CTA_0548	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	141
+B0BCD9	NDK_CHLTB	reviewed	Nucleoside diphosphate kinase (NDK) (NDP kinase) (EC 2.7.4.6) (Nucleoside-2-P kinase)	ndk CTLon_0757	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	141
+O84508	NDK_CHLTR	reviewed	Nucleoside diphosphate kinase (NDK) (NDP kinase) (EC 2.7.4.6) (Nucleoside-2-P kinase)	ndk CT_500	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+B0B8K9	NQRA_CHLT2	reviewed	Na(+)-translocating NADH-quinone reductase subunit A (Na(+)-NQR subunit A) (Na(+)-translocating NQR subunit A) (EC 1.6.5.-) (NQR complex subunit A) (NQR-1 subunit A)	nqrA CTL0002	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	465
+Q3KL61	NQRA_CHLTA	reviewed	Na(+)-translocating NADH-quinone reductase subunit A (Na(+)-NQR subunit A) (Na(+)-translocating NQR subunit A) (EC 1.6.5.-) (NQR complex subunit A) (NQR-1 subunit A)	nqrA CTA_0688	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	465
+B0BA88	NQRA_CHLTB	reviewed	Na(+)-translocating NADH-quinone reductase subunit A (Na(+)-NQR subunit A) (Na(+)-translocating NQR subunit A) (EC 1.6.5.-) (NQR complex subunit A) (NQR-1 subunit A)	nqrA CTLon_0002	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	465
+O84639	NQRA_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit A (Na(+)-NQR subunit A) (Na(+)-translocating NQR subunit A) (EC 1.6.5.-) (NQR complex subunit A) (NQR-1 subunit A)	nqrA nqr1 CT_634	Chlamydia trachomatis (strain D/UW-3/Cx)	465
+B0B7J4	NQRB_CHLT2	reviewed	Na(+)-translocating NADH-quinone reductase subunit B (Na(+)-NQR subunit B) (Na(+)-translocating NQR subunit B) (EC 1.6.5.-) (NQR complex subunit B) (NQR-1 subunit B)	nqrB CTL0530	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	503
+Q3KM84	NQRB_CHLTA	reviewed	Na(+)-translocating NADH-quinone reductase subunit B (Na(+)-NQR subunit B) (Na(+)-translocating NQR subunit B) (EC 1.6.5.-) (NQR complex subunit B) (NQR-1 subunit B)	nqrB CTA_0300	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	503
+B0BBQ9	NQRB_CHLTB	reviewed	Na(+)-translocating NADH-quinone reductase subunit B (Na(+)-NQR subunit B) (Na(+)-translocating NQR subunit B) (EC 1.6.5.-) (NQR complex subunit B) (NQR-1 subunit B)	nqrB CTLon_0526	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	503
+O84280	NQRB_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit B (Na(+)-NQR subunit B) (Na(+)-translocating NQR subunit B) (EC 1.6.5.-) (NQR complex subunit B) (NQR-1 subunit B)	nqrB nqr2 CT_278	Chlamydia trachomatis (strain D/UW-3/Cx)	503
+O84281	NQRC_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit C (Na(+)-NQR subunit C) (Na(+)-translocating NQR subunit C) (EC 1.6.5.-) (NQR complex subunit C) (NQR-1 subunit C)	nqrC nqr3 CT_279	Chlamydia trachomatis (strain D/UW-3/Cx)	316
+B0B7J6	NQRD_CHLT2	reviewed	Na(+)-translocating NADH-quinone reductase subunit D (Na(+)-NQR subunit D) (Na(+)-translocating NQR subunit D) (EC 1.6.5.-) (NQR complex subunit D) (NQR-1 subunit D)	nqrD CTL0532	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	213
+Q3KM82	NQRD_CHLTA	reviewed	Na(+)-translocating NADH-quinone reductase subunit D (Na(+)-NQR subunit D) (Na(+)-translocating NQR subunit D) (EC 1.6.5.-) (NQR complex subunit D) (NQR-1 subunit D)	nqrD CTA_0302	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	213
+B0BBR1	NQRD_CHLTB	reviewed	Na(+)-translocating NADH-quinone reductase subunit D (Na(+)-NQR subunit D) (Na(+)-translocating NQR subunit D) (EC 1.6.5.-) (NQR complex subunit D) (NQR-1 subunit D)	nqrD CTLon_0528	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	213
+O84282	NQRD_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit D (Na(+)-NQR subunit D) (Na(+)-translocating NQR subunit D) (EC 1.6.5.-) (NQR complex subunit D) (NQR-1 subunit D)	nqrD nqr4 CT_280	Chlamydia trachomatis (strain D/UW-3/Cx)	213
+B0B7J7	NQRE_CHLT2	reviewed	Na(+)-translocating NADH-quinone reductase subunit E (Na(+)-NQR subunit E) (Na(+)-translocating NQR subunit E) (EC 1.6.5.-) (NQR complex subunit E) (NQR-1 subunit E)	nqrE CTL0533	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	244
+Q3KM81	NQRE_CHLTA	reviewed	Na(+)-translocating NADH-quinone reductase subunit E (Na(+)-NQR subunit E) (Na(+)-translocating NQR subunit E) (EC 1.6.5.-) (NQR complex subunit E) (NQR-1 subunit E)	nqrE CTA_0303	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	244
+B0BBR2	NQRE_CHLTB	reviewed	Na(+)-translocating NADH-quinone reductase subunit E (Na(+)-NQR subunit E) (Na(+)-translocating NQR subunit E) (EC 1.6.5.-) (NQR complex subunit E) (NQR-1 subunit E)	nqrE CTLon_0529	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	244
+O84283	NQRE_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit E (Na(+)-NQR subunit E) (Na(+)-translocating NQR subunit E) (EC 1.6.5.-) (NQR complex subunit E) (NQR-1 subunit E)	nqrE nqr5 CT_281	Chlamydia trachomatis (strain D/UW-3/Cx)	244
+Q3KKV3	NQRF_CHLTA	reviewed	Na(+)-translocating NADH-quinone reductase subunit F (Na(+)-NQR subunit F) (Na(+)-translocating NQR subunit F) (EC 1.6.5.-) (NQR complex subunit F) (NQR-1 subunit F)	nqrF CTA_0806	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	431
+O84745	NQRF_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit F (Na(+)-NQR subunit F) (Na(+)-translocating NQR subunit F) (EC 1.6.5.-) (NQR complex subunit F) (NQR-1 subunit F)	nqrF nqr6 CT_740	Chlamydia trachomatis (strain D/UW-3/Cx)	431
+B0B7X6	NRDR_CHLT2	reviewed	Transcriptional repressor NrdR	nrdR CTL0663	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	154
+Q3KLU7	NRDR_CHLTA	reviewed	Transcriptional repressor NrdR	nrdR CTA_0441	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	154
+B0BC41	NRDR_CHLTB	reviewed	Transcriptional repressor NrdR	nrdR CTLon_0659	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	154
+O84411	NRDR_CHLTR	reviewed	Transcriptional repressor NrdR	nrdR CT_406	Chlamydia trachomatis (strain D/UW-3/Cx)	154
+B0B8I0	NTPA_CHLT2	reviewed	Non-canonical purine NTP pyrophosphatase (EC 3.6.1.19) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)	CTL0869	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	209
+Q3KL90	NTPA_CHLTA	reviewed	Non-canonical purine NTP pyrophosphatase (EC 3.6.1.19) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)	CTA_0658	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	209
+B0BA59	NTPA_CHLTB	reviewed	Non-canonical purine NTP pyrophosphatase (EC 3.6.1.19) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)	CTLon_0863	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	209
+O84611	NTPA_CHLTR	reviewed	Non-canonical purine NTP pyrophosphatase (EC 3.6.1.19) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)	CT_606	Chlamydia trachomatis (strain D/UW-3/Cx)	209
+B0B961	NUSB_CHLT2	reviewed	N utilization substance protein B homolog (Protein NusB)	nusB CTL0204	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	168
+Q3KKK7	NUSB_CHLTA	reviewed	N utilization substance protein B homolog (Protein NusB)	nusB CTA_0907	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	168
+B0BAU0	NUSB_CHLTB	reviewed	N utilization substance protein B homolog (Protein NusB)	nusB CTLon_0204	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	168
+O84839	NUSB_CHLTR	reviewed	N utilization substance protein B homolog (Protein NusB)	nusB CT_832	Chlamydia trachomatis (strain D/UW-3/Cx)	168
+O84322	NUSG_CHLTR	reviewed	Transcription termination/antitermination protein NusG	nusG CT_320	Chlamydia trachomatis (strain D/UW-3/Cx)	182
+B0B7Y8	OBG_CHLT2	reviewed	GTPase obg (GTP-binding protein obg)	obg CTL0675	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	335
+Q3KLT5	OBG_CHLTA	reviewed	GTPase obg (GTP-binding protein obg)	obg CTA_0454	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	335
+B0BC53	OBG_CHLTB	reviewed	GTPase obg (GTP-binding protein obg)	obg CTLon_0671	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	335
+O84423	OBG_CHLTR	reviewed	GTPase obg (GTP-binding protein obg)	obg CT_418	Chlamydia trachomatis (strain D/UW-3/Cx)	335
+B0B816	OMCA_CHLT2	reviewed	Small cysteine-rich outer membrane protein OmcA (Small-CRP) (9 kDa cysteine-rich lipoprotein) (9kDa-CRP)	omcA omp3 CTL0703	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	88
+C4PRC2	OMCA_CHLTJ	reviewed	Small cysteine-rich outer membrane protein OmcA (Small-CRP) (9 kDa cysteine-rich lipoprotein) (9kDa-CRP)	omcA JALI_4451	Chlamydia trachomatis serovar B (strain Jali20/OT)	88
+P0CC05	OMCA_CHLTR	reviewed	Small cysteine-rich outer membrane protein OmcA (Small-CRP) (9 kDa cysteine-rich lipoprotein) (9kDa-CRP)	omcA omp2A omp3 CT_444	Chlamydia trachomatis (strain D/UW-3/Cx)	88
+P0CC04	OMCBD_CHLTR	reviewed	Large cysteine-rich periplasmic protein OmcB (Large-CRP) (60 kDa cysteine-rich OMP) (60 kDa outer membrane protein) (Cysteine-rich outer membrane protein) (CRP)	omcB omp2 omp2B CT_443	Chlamydia trachomatis (strain D/UW-3/Cx)	547
+B0B815	OMCB_CHLT2	reviewed	Large cysteine-rich periplasmic protein OmcB (Large-CRP) (60 kDa CRP) (60 kDa outer membrane protein) (Cysteine-rich outer membrane protein) [Cleaved into: Large cysteine-rich periplasmic protein OmcB, isoform 1; Large cysteine-rich periplasmic protein OmcB, isoform 2]	omcB omp2 omp2B CTL0702	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	547
+Q3KLQ7	OMCB_CHLTA	reviewed	Large cysteine-rich periplasmic protein OmcB (Large-CRP) (60 kDa CRP) (60 kDa outer membrane protein) (Cysteine-rich outer membrane protein)	omcB CTA_0483	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	547
+C4PRC1	OMCB_CHLTJ	reviewed	Large cysteine-rich periplasmic protein OmcB (Large-CRP) (60 kDa cysteine-rich OMP) (60 kDa outer membrane protein) (Cysteine-rich outer membrane protein) (CRP)	omcB JALI_4441	Chlamydia trachomatis serovar B (strain Jali20/OT)	547
+P38006	OMP2_CHLTR	reviewed	Outer membrane protein B	ompB porB CT_713	Chlamydia trachomatis (strain D/UW-3/Cx)	340
+O84573	OMPX_CHLTR	reviewed	Putative outer membrane protein CT_569	CT_569	Chlamydia trachomatis (strain D/UW-3/Cx)	124
+O84376	OMPY_CHLTR	reviewed	Putative outer membrane protein CT_371	CT_371	Chlamydia trachomatis (strain D/UW-3/Cx)	261
+O84222	PAAD_CHLTR	reviewed	Probable aromatic acid decarboxylase (EC 4.1.1.-)	CT_220	Chlamydia trachomatis (strain D/UW-3/Cx)	192
+O84586	PARA_CHLTR	reviewed	ParA family protein CT_582	CT_582	Chlamydia trachomatis (strain D/UW-3/Cx)	255
+O84694	PARB_CHLTR	reviewed	Probable chromosome-partitioning protein ParB	parB CT_688	Chlamydia trachomatis (strain D/UW-3/Cx)	281
+O84716	PCKG_CHLTR	reviewed	Phosphoenolpyruvate carboxykinase [GTP] (PEP carboxykinase) (PEPCK) (EC 4.1.1.32) (Phosphoenolpyruvate carboxylase)	pckG CT_710	Chlamydia trachomatis (strain D/UW-3/Cx)	599
+B0B8R9	PGK_CHLT2	reviewed	Phosphoglycerate kinase (EC 2.7.2.3)	pgk CTL0062	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	403
+Q3KL01	PGK_CHLTA	reviewed	Phosphoglycerate kinase (EC 2.7.2.3)	pgk CTA_0754	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	403
+B0BAE8	PGK_CHLTB	reviewed	Phosphoglycerate kinase (EC 2.7.2.3)	pgk CTLon_0062	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	403
+P0CD78	PGK_CHLTR	reviewed	Phosphoglycerate kinase (EC 2.7.2.3)	pgk CT_693	Chlamydia trachomatis (strain D/UW-3/Cx)	403
+O84250	PHSG_CHLTR	reviewed	Glycogen phosphorylase (EC 2.4.1.1)	glgP CT_248	Chlamydia trachomatis (strain D/UW-3/Cx)	814
+O84147	PKN1_CHLTR	reviewed	Serine/threonine-protein kinase pkn1 (EC 2.7.11.1)	pkn1 CT_145	Chlamydia trachomatis (strain D/UW-3/Cx)	614
+B0B7L7	PKND_CHLT2	reviewed	Serine/threonine-protein kinase PknD (EC 2.7.11.1)	pknD CTL0553	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	934
+Q3KM61	PKND_CHLTA	reviewed	Serine/threonine-protein kinase PknD (EC 2.7.11.1)	pknD CTA_0323	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	934
+B0BBT2	PKND_CHLTB	reviewed	Serine/threonine-protein kinase PknD (EC 2.7.11.1)	pknD CTLon_0549	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	934
+O84303	PKND_CHLTR	reviewed	Serine/threonine-protein kinase PknD (EC 2.7.11.1)	pknD CT_301	Chlamydia trachomatis (strain D/UW-3/Cx)	934
+B0B939	PLSX_CHLT2	reviewed	Phosphate acyltransferase (EC 2.3.1.n2) (Acyl-ACP phosphotransacylase) (Acyl-[acyl-carrier-protein]--phosphate acyltransferase) (Phosphate-acyl-ACP acyltransferase)	plsX CTL0182	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	321
+Q3KKN0	PLSX_CHLTA	reviewed	Phosphate acyltransferase (EC 2.3.1.n2) (Acyl-ACP phosphotransacylase) (Acyl-[acyl-carrier-protein]--phosphate acyltransferase) (Phosphate-acyl-ACP acyltransferase)	plsX CTA_0883	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	321
+B0BAR8	PLSX_CHLTB	reviewed	Phosphate acyltransferase (EC 2.3.1.n2) (Acyl-ACP phosphotransacylase) (Acyl-[acyl-carrier-protein]--phosphate acyltransferase) (Phosphate-acyl-ACP acyltransferase)	plsX CTLon_0182	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	321
+O84817	PLSX_CHLTR	reviewed	Phosphate acyltransferase (EC 2.3.1.n2) (Acyl-ACP phosphotransacylase) (Acyl-[acyl-carrier-protein]--phosphate acyltransferase) (Phosphate-acyl-ACP acyltransferase)	plsX CT_811	Chlamydia trachomatis (strain D/UW-3/Cx)	321
+O84417	PMPA_CHLTR	reviewed	Probable outer membrane protein PmpA (Polymorphic membrane protein A)	pmpA CT_412	Chlamydia trachomatis (strain D/UW-3/Cx)	975
+O84418	PMPB_CHLTR	reviewed	Probable outer membrane protein PmpB (Polymorphic membrane protein B)	pmpB CT_413	Chlamydia trachomatis (strain D/UW-3/Cx)	1754
+O84419	PMPC_CHLTR	reviewed	Probable outer membrane protein PmpC (Polymorphic membrane protein C)	pmpC CT_414	Chlamydia trachomatis (strain D/UW-3/Cx)	1770
+O84818	PMPD_CHLTR	reviewed	Probable outer membrane protein PmpD (Polymorphic membrane protein D)	pmpD CT_812	Chlamydia trachomatis (strain D/UW-3/Cx)	1531
+O84877	PMPE_CHLTR	reviewed	Probable outer membrane protein PmpE (Polymorphic membrane protein E)	pmpE CT_869	Chlamydia trachomatis (strain D/UW-3/Cx)	964
+P38008	PMPF_CHLTR	reviewed	Probable outer membrane protein PmpF (Polymorphic membrane protein F)	pmpF CT_870	Chlamydia trachomatis (strain D/UW-3/Cx)	1034
+O84879	PMPG_CHLTR	reviewed	Probable outer membrane protein PmpG (Polymorphic membrane protein G)	pmpG CT_871	Chlamydia trachomatis (strain D/UW-3/Cx)	1013
+O84880	PMPH_CHLTR	reviewed	Probable outer membrane protein PmpH (Polymorphic membrane protein H)	pmpH CT_872	Chlamydia trachomatis (strain D/UW-3/Cx)	1016
+O84882	PMPI_CHLTR	reviewed	Probable outer membrane protein PmpI (Polymorphic membrane protein I)	pmpI CT_874	Chlamydia trachomatis (strain D/UW-3/Cx)	878
+B0B971	PNP_CHLT2	reviewed	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8) (Polynucleotide phosphorylase) (PNPase)	pnp CTL0214	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	695
+Q3KKJ7	PNP_CHLTA	reviewed	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8) (Polynucleotide phosphorylase) (PNPase)	pnp CTA_0918	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	695
+B0BAV0	PNP_CHLTB	reviewed	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8) (Polynucleotide phosphorylase) (PNPase)	pnp CTLon_0214	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	695
+O84849	PNP_CHLTR	reviewed	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8) (Polynucleotide phosphorylase) (PNPase)	pnp CT_842	Chlamydia trachomatis (strain D/UW-3/Cx)	695
+O84616	PQQCL_CHLTR	reviewed	PqqC-like protein (Chlamydia protein associating with death domains) (CADD)	CT_610	Chlamydia trachomatis (strain D/UW-3/Cx)	231
+O84783	PRIA_CHLTR	reviewed	Primosomal protein N' (EC 3.6.4.-) (ATP-dependent helicase PriA) (Replication factor Y)	priA CT_778	Chlamydia trachomatis (strain D/UW-3/Cx)	753
+O84799	PRIM_CHLTR	reviewed	DNA primase (EC 2.7.7.-)	dnaG CT_794	Chlamydia trachomatis (strain D/UW-3/Cx)	595
+B0B9D1	PRMC_CHLT2	reviewed	Release factor glutamine methyltransferase (RF MTase) (EC 2.1.1.n16) (N5-glutamine methyltransferase PrmC) (Protein-(glutamine-N5) MTase PrmC) (Protein-glutamine N-methyltransferase PrmC)	prmC CTL0279	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	290
+O84027	PRMC_CHLTR	reviewed	Release factor glutamine methyltransferase (RF MTase) (EC 2.1.1.n16) (N5-glutamine methyltransferase PrmC) (Protein-(glutamine-N5) MTase PrmC) (Protein-glutamine N-methyltransferase PrmC)	prmC CT_024	Chlamydia trachomatis (strain D/UW-3/Cx)	290
+B0B8S5	PSD_CHLT2	reviewed	Phosphatidylserine decarboxylase proenzyme (EC 4.1.1.65) [Cleaved into: Phosphatidylserine decarboxylase alpha chain; Phosphatidylserine decarboxylase beta chain]	psd CTL0068	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	301
+Q3KKZ5	PSD_CHLTA	reviewed	Phosphatidylserine decarboxylase proenzyme (EC 4.1.1.65) [Cleaved into: Phosphatidylserine decarboxylase alpha chain; Phosphatidylserine decarboxylase beta chain]	psd CTA_0760	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	301
+B0BAF4	PSD_CHLTB	reviewed	Phosphatidylserine decarboxylase proenzyme (EC 4.1.1.65) [Cleaved into: Phosphatidylserine decarboxylase alpha chain; Phosphatidylserine decarboxylase beta chain]	psd CTLon_0068	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	301
+P0CD79	PSD_CHLTR	reviewed	Phosphatidylserine decarboxylase proenzyme (EC 4.1.1.65) [Cleaved into: Phosphatidylserine decarboxylase alpha chain; Phosphatidylserine decarboxylase beta chain]	psd psdD CT_699	Chlamydia trachomatis (strain D/UW-3/Cx)	301
+O84340	PT1_CHLTR	reviewed	Phosphoenolpyruvate-protein phosphotransferase (EC 2.7.3.9) (Phosphotransferase system, enzyme I)	ptsI CT_336	Chlamydia trachomatis (strain D/UW-3/Cx)	571
+O84341	PTHP_CHLTR	reviewed	Phosphocarrier protein HPr (EC 2.7.11.-) (Histidine-containing protein)	ptsH CT_337	Chlamydia trachomatis (strain D/UW-3/Cx)	109
+B0B927	PTH_CHLT2	reviewed	Peptidyl-tRNA hydrolase (PTH) (EC 3.1.1.29)	pth CTL0169	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	179
+Q3KKP1	PTH_CHLTA	reviewed	Peptidyl-tRNA hydrolase (PTH) (EC 3.1.1.29)	pth CTA_0872	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	179
+B0BAQ6	PTH_CHLTB	reviewed	Peptidyl-tRNA hydrolase (PTH) (EC 3.1.1.29)	pth CTLon_0170	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	179
+O84806	PTH_CHLTR	reviewed	Peptidyl-tRNA hydrolase (PTH) (EC 3.1.1.29)	pth CT_800	Chlamydia trachomatis (strain D/UW-3/Cx)	179
+B0B9T3	PYRG_CHLT2	reviewed	CTP synthase (EC 6.3.4.2) (CTP synthetase) (UTP--ammonia ligase)	pyrG CTL0435	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	539
+Q3KMH9	PYRG_CHLTA	reviewed	CTP synthase (EC 6.3.4.2) (CTP synthetase) (UTP--ammonia ligase)	pyrG CTA_0201	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	539
+B0BBG3	PYRG_CHLTB	reviewed	CTP synthase (EC 6.3.4.2) (CTP synthetase) (UTP--ammonia ligase)	pyrG CTLon_0430	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	539
+Q59321	PYRG_CHLTR	reviewed	CTP synthase (EC 6.3.4.2) (CTP synthetase) (UTP--ammonia ligase)	pyrG CT_183	Chlamydia trachomatis (strain D/UW-3/Cx)	539
+Q3KL16	PYRH_CHLTA	reviewed	Uridylate kinase (UK) (EC 2.7.4.22) (Uridine monophosphate kinase) (UMP kinase) (UMPK)	pyrH CTA_0738	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	245
+O84685	PYRH_CHLTR	reviewed	Uridylate kinase (UK) (EC 2.7.4.22) (Uridine monophosphate kinase) (UMP kinase) (UMPK)	pyrH CT_678	Chlamydia trachomatis (strain D/UW-3/Cx)	245
+O84300	RADA_CHLTR	reviewed	DNA repair protein RadA homolog (DNA repair protein Sms homolog)	radA CT_298	Chlamydia trachomatis (strain D/UW-3/Cx)	454
+B0B9K3	RBFA_CHLT2	reviewed	Ribosome-binding factor A	rbfA CTL0350	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	123
+Q3KMS5	RBFA_CHLTA	reviewed	Ribosome-binding factor A	rbfA CTA_0101	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	123
+B0BB82	RBFA_CHLTB	reviewed	Ribosome-binding factor A	rbfA CTLon_0346	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	123
+O84097	RBFA_CHLTR	reviewed	Ribosome-binding factor A	rbfA CT_095	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+B0B8M5	RECA_CHLT2	reviewed	Protein RecA (Recombinase A)	recA CTL0018	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	352
+Q3KL45	RECA_CHLTA	reviewed	Protein RecA (Recombinase A)	recA CTA_0705	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	352
+B0BAA4	RECA_CHLTB	reviewed	Protein RecA (Recombinase A)	recA CTLon_0018	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	352
+P0CD80	RECA_CHLTR	reviewed	Protein RecA (Recombinase A)	recA CT_650	Chlamydia trachomatis (strain D/UW-3/Cx)	352
+B0B9I2	RECF_CHLT2	reviewed	DNA replication and repair protein RecF	recF CTL0330	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	365
+Q3KMU7	RECF_CHLTA	reviewed	DNA replication and repair protein RecF	recF CTA_0079	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	365
+B0BB61	RECF_CHLTB	reviewed	DNA replication and repair protein RecF	recF CTLon_0325	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	365
+O84077	RECF_CHLTR	reviewed	DNA replication and repair protein RecF	recF CT_074	Chlamydia trachomatis (strain D/UW-3/Cx)	365
+B0B843	RECO_CHLT2	reviewed	DNA repair protein RecO (Recombination protein O)	recO CTL0730	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	243
+Q3KLM8	RECO_CHLTA	reviewed	DNA repair protein RecO (Recombination protein O)	recO CTA_0515	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	243
+B0BCA8	RECO_CHLTB	reviewed	DNA repair protein RecO (Recombination protein O)	recO CTLon_0726	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	243
+O84476	RECO_CHLTR	reviewed	DNA repair protein RecO (Recombination protein O)	recO CT_470	Chlamydia trachomatis (strain D/UW-3/Cx)	243
+B0B7F6	RECR_CHLT2	reviewed	Recombination protein RecR	recR CTL0492	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	200
+Q3KMC2	RECR_CHLTA	reviewed	Recombination protein RecR	recR CTA_0262	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	200
+B0BBM1	RECR_CHLTB	reviewed	Recombination protein RecR	recR CTLon_0488	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	200
+O84243	RECR_CHLTR	reviewed	Recombination protein RecR	recR CT_240	Chlamydia trachomatis (strain D/UW-3/Cx)	200
+B0B9D0	RF1_CHLT2	reviewed	Peptide chain release factor 1 (RF-1)	prfA CTL0278	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	359
+Q3KMZ9	RF1_CHLTA	reviewed	Peptide chain release factor 1 (RF-1)	prfA CTA_0025	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	359
+B0BB09	RF1_CHLTB	reviewed	Peptide chain release factor 1 (RF-1)	prfA CTLon_0273	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	359
+O84026	RF1_CHLTR	reviewed	Peptide chain release factor 1 (RF-1)	prfA CT_023	Chlamydia trachomatis (strain D/UW-3/Cx)	359
+B0B832	RF2_CHLT2	reviewed	Peptide chain release factor 2 (RF-2)	prfB CTL0719	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	368
+Q3KLN9	RF2_CHLTA	reviewed	Peptide chain release factor 2 (RF-2)	prfB CTA_0501	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	369
+B0BC97	RF2_CHLTB	reviewed	Peptide chain release factor 2 (RF-2)	prfB CTLon_0715	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	368
+O84465	RF2_CHLTR	reviewed	Peptide chain release factor 2 (RF-2)	prfB CT_459	Chlamydia trachomatis (strain D/UW-3/Cx)	369
+O84736	RIBBA_CHLTR	reviewed	Riboflavin biosynthesis protein RibBA [Includes: 3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12); GTP cyclohydrolase-2 (EC 3.5.4.25) (GTP cyclohydrolase II)]	ribBA ribA/ribB CT_731	Chlamydia trachomatis (strain D/UW-3/Cx)	424
+O84735	RIBD_CHLTR	reviewed	Riboflavin biosynthesis protein RibD [Includes: Diaminohydroxyphosphoribosylaminopyrimidine deaminase (DRAP deaminase) (EC 3.5.4.26) (Riboflavin-specific deaminase); 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193) (HTP reductase)]	ribD CT_730	Chlamydia trachomatis (strain D/UW-3/Cx)	375
+O84834	RIR1_CHLTR	reviewed	Ribonucleoside-diphosphate reductase subunit alpha (EC 1.17.4.1) (Ribonucleotide reductase)	nrdA CT_827	Chlamydia trachomatis (strain D/UW-3/Cx)	1047
+O84835	RIR2_CHLTR	reviewed	Ribonucleoside-diphosphate reductase subunit beta (EC 1.17.4.1) (Ribonucleotide reductase small subunit)	nrdB CT_828	Chlamydia trachomatis (strain D/UW-3/Cx)	346
+O84410	RISA_CHLTR	reviewed	Riboflavin synthase (RS) (EC 2.5.1.9)	ribE ribC CT_405	Chlamydia trachomatis (strain D/UW-3/Cx)	199
+B0B8V8	RISB_CHLT2	reviewed	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	ribH CTL0101	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	157
+Q3KKW2	RISB_CHLTA	reviewed	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	ribH CTA_0794	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	157
+B0BAI7	RISB_CHLTB	reviewed	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	ribH CTLon_0101	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	157
+O84737	RISB_CHLTR	reviewed	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	ribH ribE CT_732	Chlamydia trachomatis (strain D/UW-3/Cx)	157
+B0B7N3	RL10_CHLT2	reviewed	50S ribosomal protein L10	rplJ CTL0569	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	172
+Q3KM45	RL10_CHLTA	reviewed	50S ribosomal protein L10	rplJ CTA_0339	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	172
+B0BBU8	RL10_CHLTB	reviewed	50S ribosomal protein L10	rplJ CTLon_0565	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	172
+O84319	RL10_CHLTR	reviewed	50S ribosomal protein L10	rplJ rl10 CT_317	Chlamydia trachomatis (strain D/UW-3/Cx)	172
+B0B7N5	RL11_CHLT2	reviewed	50S ribosomal protein L11	rplK CTL0571	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	141
+Q3KM43	RL11_CHLTA	reviewed	50S ribosomal protein L11	rplK CTA_0341	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	141
+B0BBV0	RL11_CHLTB	reviewed	50S ribosomal protein L11	rplK CTLon_0567	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	141
+O84321	RL11_CHLTR	reviewed	50S ribosomal protein L11	rplK rl11 CT_319	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+B0B9N3	RL13_CHLT2	reviewed	50S ribosomal protein L13	rplM CTL0380	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	150
+Q3KMP4	RL13_CHLTA	reviewed	50S ribosomal protein L13	rplM CTA_0132	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	150
+B0BBB2	RL13_CHLTB	reviewed	50S ribosomal protein L13	rplM CTLon_0376	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	150
+O84127	RL13_CHLTR	reviewed	50S ribosomal protein L13	rplM rl13 CT_125	Chlamydia trachomatis (strain D/UW-3/Cx)	150
+B0B892	RL14_CHLT2	reviewed	50S ribosomal protein L14	rplN CTL0780	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	122
+Q3KLH9	RL14_CHLTA	reviewed	50S ribosomal protein L14	rplN CTA_0567	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	122
+B0BCF7	RL14_CHLTB	reviewed	50S ribosomal protein L14	rplN CTLon_0775	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	122
+P0CD81	RL14_CHLTR	reviewed	50S ribosomal protein L14	rplN rl14 CT_518	Chlamydia trachomatis (strain D/UW-3/Cx)	122
+B0B885	RL15_CHLT2	reviewed	50S ribosomal protein L15	rplO CTL0773	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	144
+Q3KLI6	RL15_CHLTA	reviewed	50S ribosomal protein L15	rplO CTA_0560	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	144
+B0BCF0	RL15_CHLTB	reviewed	50S ribosomal protein L15	rplO CTLon_0768	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	144
+P0CD82	RL15_CHLTR	reviewed	50S ribosomal protein L15	rplO rl15 CT_511	Chlamydia trachomatis (strain D/UW-3/Cx)	144
+B0B895	RL16_CHLT2	reviewed	50S ribosomal protein L16	rplP CTL0783	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	138
+Q3KLH6	RL16_CHLTA	reviewed	50S ribosomal protein L16	rplP CTA_0570	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	138
+B0BCG0	RL16_CHLTB	reviewed	50S ribosomal protein L16	rplP CTLon_0778	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	138
+P0CD83	RL16_CHLTR	reviewed	50S ribosomal protein L16	rplP rl16 CT_521	Chlamydia trachomatis (strain D/UW-3/Cx)	138
+B0B880	RL17_CHLT2	reviewed	50S ribosomal protein L17	rplQ CTL0768	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	141
+Q3KLJ1	RL17_CHLTA	reviewed	50S ribosomal protein L17	rplQ CTA_0555	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	141
+B0BCE5	RL17_CHLTB	reviewed	50S ribosomal protein L17	rplQ CTLon_0763	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	141
+P0CD84	RL17_CHLTR	reviewed	50S ribosomal protein L17	rplQ rl17 CT_506	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+B0B887	RL18_CHLT2	reviewed	50S ribosomal protein L18	rplR CTL0775	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	123
+Q3KLI4	RL18_CHLTA	reviewed	50S ribosomal protein L18	rplR CTA_0562	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	123
+B0BCF2	RL18_CHLTB	reviewed	50S ribosomal protein L18	rplR CTLon_0770	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	123
+P0CD85	RL18_CHLTR	reviewed	50S ribosomal protein L18	rplR rl18 CT_513	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+B0B9D5	RL19_CHLT2	reviewed	50S ribosomal protein L19	rplS CTL0283	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	121
+Q3KMZ4	RL19_CHLTA	reviewed	50S ribosomal protein L19	rplS CTA_0030	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	121
+B0BB14	RL19_CHLTB	reviewed	50S ribosomal protein L19	rplS CTLon_0278	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	121
+O84031	RL19_CHLTR	reviewed	50S ribosomal protein L19	rplS rl19 CT_028	Chlamydia trachomatis (strain D/UW-3/Cx)	121
+B0B7N4	RL1_CHLT2	reviewed	50S ribosomal protein L1	rplA CTL0570	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	232
+Q3KM44	RL1_CHLTA	reviewed	50S ribosomal protein L1	rplA CTA_0340	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	232
+B0BBU9	RL1_CHLTB	reviewed	50S ribosomal protein L1	rplA CTLon_0566	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	232
+O84320	RL1_CHLTR	reviewed	50S ribosomal protein L1	rplA rl1 CT_318	Chlamydia trachomatis (strain D/UW-3/Cx)	232
+B0B964	RL20_CHLT2	reviewed	50S ribosomal protein L20	rplT CTL0207	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	123
+Q3KKK4	RL20_CHLTA	reviewed	50S ribosomal protein L20	rplT CTA_0910	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	123
+B0BAU3	RL20_CHLTB	reviewed	50S ribosomal protein L20	rplT CTLon_0207	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	123
+O84842	RL20_CHLTR	reviewed	50S ribosomal protein L20	rplT rl20 CT_835	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+B0B7Z0	RL21_CHLT2	reviewed	50S ribosomal protein L21	rplU CTL0677	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	107
+Q3KLT3	RL21_CHLTA	reviewed	50S ribosomal protein L21	rplU CTA_0456	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	107
+B0BC55	RL21_CHLTB	reviewed	50S ribosomal protein L21	rplU CTLon_0673	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	107
+O84425	RL21_CHLTR	reviewed	50S ribosomal protein L21	rplU rl21 CT_420	Chlamydia trachomatis (strain D/UW-3/Cx)	107
+B0B897	RL22_CHLT2	reviewed	50S ribosomal protein L22	rplV CTL0785	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	111
+Q3KLH4	RL22_CHLTA	reviewed	50S ribosomal protein L22	rplV CTA_0572	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	111
+B0BCG2	RL22_CHLTB	reviewed	50S ribosomal protein L22	rplV CTLon_0780	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	111
+O84528	RL22_CHLTR	reviewed	50S ribosomal protein L22	rplV rl22 CT_523	Chlamydia trachomatis (strain D/UW-3/Cx)	111
+B0B8A0	RL23_CHLT2	reviewed	50S ribosomal protein L23	rplW CTL0788	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	111
+Q3KLH1	RL23_CHLTA	reviewed	50S ribosomal protein L23	rplW CTA_0575	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	111
+B0BCG5	RL23_CHLTB	reviewed	50S ribosomal protein L23	rplW CTLon_0783	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	111
+O84531	RL23_CHLTR	reviewed	50S ribosomal protein L23	rplW rl23 CT_526	Chlamydia trachomatis (strain D/UW-3/Cx)	111
+B0B891	RL24_CHLT2	reviewed	50S ribosomal protein L24	rplX CTL0779	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	111
+Q3KLI0	RL24_CHLTA	reviewed	50S ribosomal protein L24	rplX CTA_0566	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	111
+B0BCF6	RL24_CHLTB	reviewed	50S ribosomal protein L24	rplX CTLon_0774	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	111
+P0CD86	RL24_CHLTR	reviewed	50S ribosomal protein L24	rplX rl24 CT_517	Chlamydia trachomatis (strain D/UW-3/Cx)	111
+B0B926	RL25_CHLT2	reviewed	50S ribosomal protein L25 (General stress protein CTC)	rplY ctc CTL0168	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	185
+Q3KKP2	RL25_CHLTA	reviewed	50S ribosomal protein L25 (General stress protein CTC)	rplY ctc CTA_0871	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	185
+B0BAQ5	RL25_CHLTB	reviewed	50S ribosomal protein L25 (General stress protein CTC)	rplY ctc CTLon_0169	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	185
+O84805	RL25_CHLTR	reviewed	50S ribosomal protein L25 (General stress protein CTC)	rplY ctc CT_799	Chlamydia trachomatis (strain D/UW-3/Cx)	185
+B0B7Y9	RL27_CHLT2	reviewed	50S ribosomal protein L27	rpmA CTL0676	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	83
+Q3KLT4	RL27_CHLTA	reviewed	50S ribosomal protein L27	rpmA CTA_0455	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	83
+B0BC54	RL27_CHLTB	reviewed	50S ribosomal protein L27	rpmA CTLon_0672	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	83
+P66123	RL27_CHLTR	reviewed	50S ribosomal protein L27	rpmA rl27 CT_419	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+B0B9J4	RL28_CHLT2	reviewed	50S ribosomal protein L28	rpmB CTL0341	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	89
+Q3KMT5	RL28_CHLTA	reviewed	50S ribosomal protein L28	rpmB CTA_0091	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	89
+B0BB73	RL28_CHLTB	reviewed	50S ribosomal protein L28	rpmB CTLon_0337	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	89
+O84088	RL28_CHLTR	reviewed	50S ribosomal protein L28	rpmB rl28 CT_086	Chlamydia trachomatis (strain D/UW-3/Cx)	89
+B0B894	RL29_CHLT2	reviewed	50S ribosomal protein L29	rpmC CTL0782	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	72
+B0BCF9	RL29_CHLTB	reviewed	50S ribosomal protein L29	rpmC CTLon_0777	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	72
+P0CD87	RL29_CHLTR	reviewed	50S ribosomal protein L29	rpmC rl29 CT_520	Chlamydia trachomatis (strain D/UW-3/Cx)	72
+B0B899	RL2_CHLT2	reviewed	50S ribosomal protein L2	rplB CTL0787	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	284
+Q3KLH2	RL2_CHLTA	reviewed	50S ribosomal protein L2	rplB CTA_0574	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	284
+B0BCG4	RL2_CHLTB	reviewed	50S ribosomal protein L2	rplB CTLon_0782	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	284
+O84530	RL2_CHLTR	reviewed	50S ribosomal protein L2	rplB rl2 CT_525	Chlamydia trachomatis (strain D/UW-3/Cx)	284
+B0B9C9	RL31B_CHLT2	reviewed	50S ribosomal protein L31 type B	rpmE2 CTL0277	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	108
+Q3KN00	RL31B_CHLTA	reviewed	50S ribosomal protein L31 type B	rpmE2 CTA_0024	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	108
+B0BB08	RL31B_CHLTB	reviewed	50S ribosomal protein L31 type B	rpmE2 CTLon_0272	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	108
+O84025	RL31B_CHLTR	reviewed	50S ribosomal protein L31 type B	rpmE2 rl31 CT_022	Chlamydia trachomatis (strain D/UW-3/Cx)	108
+Q3KKN1	RL32_CHLTA	reviewed	50S ribosomal protein L32	rpmF CTA_0882	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	59
+O84816	RL32_CHLTR	reviewed	50S ribosomal protein L32	rpmF rl32 CT_810	Chlamydia trachomatis (strain D/UW-3/Cx)	59
+B0B9Q8	RL33_CHLT2	reviewed	50S ribosomal protein L33	rpmG CTL0405	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	52
+Q3KML9	RL33_CHLTA	reviewed	50S ribosomal protein L33	rpmG CTA_0159	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	52
+B0BBD7	RL33_CHLTB	reviewed	50S ribosomal protein L33	rpmG CTLon_0401	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	52
+O84152	RL33_CHLTR	reviewed	50S ribosomal protein L33	rpmG rl33 CT_150	Chlamydia trachomatis (strain D/UW-3/Cx)	52
+B0B911	RL34_CHLT2	reviewed	50S ribosomal protein L34	rpmH CTL0153.1 CTL0153A	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	45
+Q3KKQ7	RL34_CHLTA	reviewed	50S ribosomal protein L34	rpmH CTA_0855	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	45
+B0BAP0	RL34_CHLTB	reviewed	50S ribosomal protein L34	rpmH CTLon_0154	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	45
+O84790	RL34_CHLTR	reviewed	50S ribosomal protein L34	rpmH rl34 CT_785	Chlamydia trachomatis (strain D/UW-3/Cx)	45
+Q3KKK5	RL35_CHLTA	reviewed	50S ribosomal protein L35	rpmI CTA_0909	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	64
+P66267	RL35_CHLTR	reviewed	50S ribosomal protein L35	rpmI rl35 CT_834	Chlamydia trachomatis (strain D/UW-3/Cx)	64
+B0B912	RL36_CHLT2	reviewed	50S ribosomal protein L36	rpmJ CTL0154	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	45
+Q3KKQ6	RL36_CHLTA	reviewed	50S ribosomal protein L36	rpmJ CTA_0856	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	45
+B0BAP1	RL36_CHLTB	reviewed	50S ribosomal protein L36	rpmJ CTLon_0155	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	45
+P66288	RL36_CHLTR	reviewed	50S ribosomal protein L36	rpmJ rl36 CT_786	Chlamydia trachomatis (strain D/UW-3/Cx)	45
+B0B8A2	RL3_CHLT2	reviewed	50S ribosomal protein L3	rplC CTL0790	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	221
+Q3KLG9	RL3_CHLTA	reviewed	50S ribosomal protein L3	rplC CTA_0577	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	221
+B0BCG7	RL3_CHLTB	reviewed	50S ribosomal protein L3	rplC CTLon_0785	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	221
+O84533	RL3_CHLTR	reviewed	50S ribosomal protein L3	rplC rl3 CT_528	Chlamydia trachomatis (strain D/UW-3/Cx)	221
+B0B8A1	RL4_CHLT2	reviewed	50S ribosomal protein L4	rplD CTL0789	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	222
+Q3KLH0	RL4_CHLTA	reviewed	50S ribosomal protein L4	rplD CTA_0576	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	222
+B0BCG6	RL4_CHLTB	reviewed	50S ribosomal protein L4	rplD CTLon_0784	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	222
+O84532	RL4_CHLTR	reviewed	50S ribosomal protein L4	rplD rl4 CT_527	Chlamydia trachomatis (strain D/UW-3/Cx)	222
+B0B890	RL5_CHLT2	reviewed	50S ribosomal protein L5	rplE CTL0778	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	180
+Q3KLI1	RL5_CHLTA	reviewed	50S ribosomal protein L5	rplE CTA_0565	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	180
+B0BCF5	RL5_CHLTB	reviewed	50S ribosomal protein L5	rplE CTLon_0773	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	180
+P0CD88	RL5_CHLTR	reviewed	50S ribosomal protein L5	rplE rl5 CT_516	Chlamydia trachomatis (strain D/UW-3/Cx)	180
+B0B888	RL6_CHLT2	reviewed	50S ribosomal protein L6	rplF CTL0776	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	183
+Q3KLI3	RL6_CHLTA	reviewed	50S ribosomal protein L6	rplF CTA_0563	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	183
+B0BCF3	RL6_CHLTB	reviewed	50S ribosomal protein L6	rplF CTLon_0771	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	183
+P0CE01	RL6_CHLTR	reviewed	50S ribosomal protein L6	rplF rl6 CT_514	Chlamydia trachomatis (strain D/UW-3/Cx)	183
+B0B7N2	RL7_CHLT2	reviewed	50S ribosomal protein L7/L12	rplL CTL0568	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	130
+Q3KM46	RL7_CHLTA	reviewed	50S ribosomal protein L7/L12	rplL CTA_0338	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	130
+B0BBU7	RL7_CHLTB	reviewed	50S ribosomal protein L7/L12	rplL CTLon_0564	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	130
+O84318	RL7_CHLTR	reviewed	50S ribosomal protein L7/L12	rplL rl7 CT_316	Chlamydia trachomatis (strain D/UW-3/Cx)	130
+B0B930	RL9_CHLT2	reviewed	50S ribosomal protein L9	rplI CTL0172	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	167
+Q3KKN8	RL9_CHLTA	reviewed	50S ribosomal protein L9	rplI CTA_0875	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	167
+B0BAQ9	RL9_CHLTB	reviewed	50S ribosomal protein L9	rplI CTLon_0173	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	167
+O84809	RL9_CHLTR	reviewed	50S ribosomal protein L9	rplI rl9 CT_803	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+O84832	RMUC_CHLTR	reviewed	DNA recombination protein RmuC homolog	rmuC CT_825	Chlamydia trachomatis (strain D/UW-3/Cx)	427
+B0B7L3	RNC_CHLT2	reviewed	Ribonuclease 3 (EC 3.1.26.3) (Ribonuclease III) (RNase III)	rnc CTL0549	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	231
+Q3KM65	RNC_CHLTA	reviewed	Ribonuclease 3 (EC 3.1.26.3) (Ribonuclease III) (RNase III)	rnc CTA_0319	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	231
+B0BBS8	RNC_CHLTB	reviewed	Ribonuclease 3 (EC 3.1.26.3) (Ribonuclease III) (RNase III)	rnc CTLon_0545	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	231
+O84299	RNC_CHLTR	reviewed	Ribonuclease 3 (EC 3.1.26.3) (Ribonuclease III) (RNase III)	rnc CT_297	Chlamydia trachomatis (strain D/UW-3/Cx)	231
+B0B9D6	RNH2_CHLT2	reviewed	Ribonuclease HII (RNase HII) (EC 3.1.26.4)	rnhB CTL0284	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	217
+Q3KMZ3	RNH2_CHLTA	reviewed	Ribonuclease HII (RNase HII) (EC 3.1.26.4)	rnhB CTA_0031	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	217
+B0BB15	RNH2_CHLTB	reviewed	Ribonuclease HII (RNase HII) (EC 3.1.26.4)	rnhB CTLon_0279	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	217
+O84032	RNH2_CHLTR	reviewed	Ribonuclease HII (RNase HII) (EC 3.1.26.4)	rnhB CT_029	Chlamydia trachomatis (strain D/UW-3/Cx)	217
+B0B9B5	RNH3_CHLT2	reviewed	Ribonuclease HIII (RNase HIII) (EC 3.1.26.4)	rnhC CTL0263	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	300
+Q3KN14	RNH3_CHLTA	reviewed	Ribonuclease HIII (RNase HIII) (EC 3.1.26.4)	rnhC CTA_0009	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	300
+B0BAZ4	RNH3_CHLTB	reviewed	Ribonuclease HIII (RNase HIII) (EC 3.1.26.4)	rnhC CTLon_0258	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	300
+O84011	RNH3_CHLTR	reviewed	Ribonuclease HIII (RNase HIII) (EC 3.1.26.4)	rnhC CT_008	Chlamydia trachomatis (strain D/UW-3/Cx)	300
+B0B910	RNPA_CHLT2	reviewed	Ribonuclease P protein component (RNase P protein) (RNaseP protein) (EC 3.1.26.5) (Protein C5)	rnpA CTL0153	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	120
+Q3KKQ8	RNPA_CHLTA	reviewed	Ribonuclease P protein component (RNase P protein) (RNaseP protein) (EC 3.1.26.5) (Protein C5)	rnpA CTA_0854	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	120
+B0BAN9	RNPA_CHLTB	reviewed	Ribonuclease P protein component (RNase P protein) (RNaseP protein) (EC 3.1.26.5) (Protein C5)	rnpA CTLon_0153	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	120
+O84789	RNPA_CHLTR	reviewed	Ribonuclease P protein component (RNase P protein) (RNaseP protein) (EC 3.1.26.5) (Protein C5)	rnpA CT_784	Chlamydia trachomatis (strain D/UW-3/Cx)	120
+O84402	RNR_CHLTR	reviewed	Ribonuclease R (RNase R) (EC 3.1.13.1) (VacB protein homolog)	rnr vacB CT_397	Chlamydia trachomatis (strain D/UW-3/Cx)	694
+B0B7R5	RNZ_CHLT2	reviewed	Ribonuclease Z (RNase Z) (EC 3.1.26.11) (tRNA 3 endonuclease) (tRNase Z)	rnz CTL0600	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	304
+Q3KM12	RNZ_CHLTA	reviewed	Ribonuclease Z (RNase Z) (EC 3.1.26.11) (tRNA 3 endonuclease) (tRNase Z)	rnz CTA_0375	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	304
+B0BBY0	RNZ_CHLTB	reviewed	Ribonuclease Z (RNase Z) (EC 3.1.26.11) (tRNA 3 endonuclease) (tRNase Z)	rnz CTLon_0598	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	304
+O84350	RNZ_CHLTR	reviewed	Ribonuclease Z (RNase Z) (EC 3.1.26.11) (tRNA 3 endonuclease) (tRNase Z)	rnz CT_346	Chlamydia trachomatis (strain D/UW-3/Cx)	304
+O84123	RPE_CHLTR	reviewed	Ribulose-phosphate 3-epimerase (EC 5.1.3.1) (Pentose-5-phosphate 3-epimerase) (PPE) (R5P3E)	rpe CT_121	Chlamydia trachomatis (strain D/UW-3/Cx)	233
+B0B9W3	RPIA_CHLT2	reviewed	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	rpiA CTL0465	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	242
+Q3KME9	RPIA_CHLTA	reviewed	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	rpiA CTA_0233	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	242
+B0BBJ3	RPIA_CHLTB	reviewed	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	rpiA CTLon_0460	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	242
+O84215	RPIA_CHLTR	reviewed	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	rpiA CT_213	Chlamydia trachomatis (strain D/UW-3/Cx)	242
+B0B881	RPOA_CHLT2	reviewed	DNA-directed RNA polymerase subunit alpha (RNAP subunit alpha) (EC 2.7.7.6) (RNA polymerase subunit alpha) (Transcriptase subunit alpha)	rpoA CTL0769	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	377
+Q3KLJ0	RPOA_CHLTA	reviewed	DNA-directed RNA polymerase subunit alpha (RNAP subunit alpha) (EC 2.7.7.6) (RNA polymerase subunit alpha) (Transcriptase subunit alpha)	rpoA CTA_0556	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	377
+B0BCE6	RPOA_CHLTB	reviewed	DNA-directed RNA polymerase subunit alpha (RNAP subunit alpha) (EC 2.7.7.6) (RNA polymerase subunit alpha) (Transcriptase subunit alpha)	rpoA CTLon_0764	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	377
+P0CE08	RPOA_CHLTR	reviewed	DNA-directed RNA polymerase subunit alpha (RNAP subunit alpha) (EC 2.7.7.6) (RNA polymerase subunit alpha) (Transcriptase subunit alpha)	rpoA CT_507	Chlamydia trachomatis (strain D/UW-3/Cx)	377
+B0B7N1	RPOB_CHLT2	reviewed	DNA-directed RNA polymerase subunit beta (RNAP subunit beta) (EC 2.7.7.6) (RNA polymerase subunit beta) (Transcriptase subunit beta)	rpoB CTL0567	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	1252
+Q3KM47	RPOB_CHLTA	reviewed	DNA-directed RNA polymerase subunit beta (RNAP subunit beta) (EC 2.7.7.6) (RNA polymerase subunit beta) (Transcriptase subunit beta)	rpoB CTA_0337	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	1252
+B0BBU6	RPOB_CHLTB	reviewed	DNA-directed RNA polymerase subunit beta (RNAP subunit beta) (EC 2.7.7.6) (RNA polymerase subunit beta) (Transcriptase subunit beta)	rpoB CTLon_0563	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	1252
+P0CE09	RPOB_CHLTR	reviewed	DNA-directed RNA polymerase subunit beta (RNAP subunit beta) (EC 2.7.7.6) (RNA polymerase subunit beta) (Transcriptase subunit beta)	rpoB CT_315	Chlamydia trachomatis (strain D/UW-3/Cx)	1252
+B0B7N0	RPOC_CHLT2	reviewed	DNA-directed RNA polymerase subunit beta' (RNAP subunit beta') (EC 2.7.7.6) (RNA polymerase subunit beta') (Transcriptase subunit beta')	rpoC CTL0566	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	1396
+Q3KM48	RPOC_CHLTA	reviewed	DNA-directed RNA polymerase subunit beta' (RNAP subunit beta') (EC 2.7.7.6) (RNA polymerase subunit beta') (Transcriptase subunit beta')	rpoC CTA_0336	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	1396
+B0BBU5	RPOC_CHLTB	reviewed	DNA-directed RNA polymerase subunit beta' (RNAP subunit beta') (EC 2.7.7.6) (RNA polymerase subunit beta') (Transcriptase subunit beta')	rpoC CTLon_0562	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	1396
+O84316	RPOC_CHLTR	reviewed	DNA-directed RNA polymerase subunit beta' (RNAP subunit beta') (EC 2.7.7.6) (RNA polymerase subunit beta') (Transcriptase subunit beta')	rpoC CT_314	Chlamydia trachomatis (strain D/UW-3/Cx)	1396
+P18333	RPOD_CHLTR	reviewed	RNA polymerase sigma factor RpoD (Sigma-A) (Sigma-66) (Sigma-70)	rpoD sigA CT_615	Chlamydia trachomatis (strain D/UW-3/Cx)	571
+B0B8Q3	RRF_CHLT2	reviewed	Ribosome-recycling factor (RRF) (Ribosome-releasing factor)	frr CTL0046	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	179
+Q3KL17	RRF_CHLTA	reviewed	Ribosome-recycling factor (RRF) (Ribosome-releasing factor)	frr CTA_0737	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	179
+B0BAD2	RRF_CHLTB	reviewed	Ribosome-recycling factor (RRF) (Ribosome-releasing factor)	frr CTLon_0046	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	179
+O84684	RRF_CHLTR	reviewed	Ribosome-recycling factor (RRF) (Ribosome-releasing factor)	frr rrf CT_677	Chlamydia trachomatis (strain D/UW-3/Cx)	179
+B0B808	RS10_CHLT2	reviewed	30S ribosomal protein S10	rpsJ CTL0695	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	105
+Q3KLR4	RS10_CHLTA	reviewed	30S ribosomal protein S10	rpsJ CTA_0476	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	105
+B0BC73	RS10_CHLTB	reviewed	30S ribosomal protein S10	rpsJ CTLon_0691	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	105
+P0CE02	RS10_CHLTR	reviewed	30S ribosomal protein S10	rpsJ rs10 CT_436	Chlamydia trachomatis (strain D/UW-3/Cx)	105
+B0B882	RS11_CHLT2	reviewed	30S ribosomal protein S11	rpsK CTL0770	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	132
+Q3KLI9	RS11_CHLTA	reviewed	30S ribosomal protein S11	rpsK CTA_0557	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	132
+B0BCE7	RS11_CHLTB	reviewed	30S ribosomal protein S11	rpsK CTLon_0765	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	132
+P0CE03	RS11_CHLTR	reviewed	30S ribosomal protein S11	rpsK rs11 CT_508	Chlamydia trachomatis (strain D/UW-3/Cx)	132
+Q3KLR1	RS12_CHLTA	reviewed	30S ribosomal protein S12	rpsL CTA_0479	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	123
+P66370	RS12_CHLTR	reviewed	30S ribosomal protein S12	rpsL rs12 CT_439	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+B0B883	RS13_CHLT2	reviewed	30S ribosomal protein S13	rpsM CTL0771	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	122
+Q3KLI8	RS13_CHLTA	reviewed	30S ribosomal protein S13	rpsM CTA_0558	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	122
+B0BCE8	RS13_CHLTB	reviewed	30S ribosomal protein S13	rpsM CTLon_0766	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	122
+P0CE04	RS13_CHLTR	reviewed	30S ribosomal protein S13	rpsM rs13 CT_509	Chlamydia trachomatis (strain D/UW-3/Cx)	122
+B0B913	RS14_CHLT2	reviewed	30S ribosomal protein S14	rpsN CTL0155	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	101
+Q3KKQ5	RS14_CHLTA	reviewed	30S ribosomal protein S14	rpsN CTA_0857	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	101
+B0BAP2	RS14_CHLTB	reviewed	30S ribosomal protein S14	rpsN CTLon_0156	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	101
+O84792	RS14_CHLTR	reviewed	30S ribosomal protein S14	rpsN rs14 CT_787	Chlamydia trachomatis (strain D/UW-3/Cx)	101
+B0B972	RS15_CHLT2	reviewed	30S ribosomal protein S15	rpsO CTL0215	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	89
+Q3KKJ6	RS15_CHLTA	reviewed	30S ribosomal protein S15	rpsO CTA_0919	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	89
+B0BAV1	RS15_CHLTB	reviewed	30S ribosomal protein S15	rpsO CTLon_0215	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	89
+P66427	RS15_CHLTR	reviewed	30S ribosomal protein S15	rpsO rs15 CT_843	Chlamydia trachomatis (strain D/UW-3/Cx)	89
+B0B9D3	RS16_CHLT2	reviewed	30S ribosomal protein S16	rpsP CTL0281	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	116
+Q3KMZ6	RS16_CHLTA	reviewed	30S ribosomal protein S16	rpsP CTA_0028	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	116
+B0BB12	RS16_CHLTB	reviewed	30S ribosomal protein S16	rpsP CTLon_0276	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	116
+O84029	RS16_CHLTR	reviewed	30S ribosomal protein S16	rpsP rs16 CT_026	Chlamydia trachomatis (strain D/UW-3/Cx)	116
+B0B893	RS17_CHLT2	reviewed	30S ribosomal protein S17	rpsQ CTL0781	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	83
+Q3KLH8	RS17_CHLTA	reviewed	30S ribosomal protein S17	rpsQ CTA_0568	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	83
+B0BCF8	RS17_CHLTB	reviewed	30S ribosomal protein S17	rpsQ CTLon_0776	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	83
+P0CE05	RS17_CHLTR	reviewed	30S ribosomal protein S17	rpsQ rs17 CT_519	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+B0B929	RS18_CHLT2	reviewed	30S ribosomal protein S18	rpsR CTL0171	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	81
+Q3KKN9	RS18_CHLTA	reviewed	30S ribosomal protein S18	rpsR CTA_0874	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	81
+B0BAQ8	RS18_CHLTB	reviewed	30S ribosomal protein S18	rpsR CTLon_0172	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	81
+O84808	RS18_CHLTR	reviewed	30S ribosomal protein S18	rpsR rs18 CT_802	Chlamydia trachomatis (strain D/UW-3/Cx)	81
+B0B898	RS19_CHLT2	reviewed	30S ribosomal protein S19	rpsS CTL0786	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	88
+Q3KLH3	RS19_CHLTA	reviewed	30S ribosomal protein S19	rpsS CTA_0573	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	88
+B0BCG3	RS19_CHLTB	reviewed	30S ribosomal protein S19	rpsS CTLon_0781	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	88
+P66480	RS19_CHLTR	reviewed	30S ribosomal protein S19	rpsS rs19 CT_524	Chlamydia trachomatis (strain D/UW-3/Cx)	88
+O84100	RS1_CHLTR	reviewed	30S ribosomal protein S1	rpsA rs1 CT_098	Chlamydia trachomatis (strain D/UW-3/Cx)	569
+B0B8J2	RS20_CHLT2	reviewed	30S ribosomal protein S20	rpsT CTL0881	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	98
+Q3KL78	RS20_CHLTA	reviewed	30S ribosomal protein S20	rpsT CTA_0670	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	98
+B0BA71	RS20_CHLTB	reviewed	30S ribosomal protein S20	rpsT CTLon_0875	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	98
+O84622	RS20_CHLTR	reviewed	30S ribosomal protein S20	rpsT rs20 CT_617	Chlamydia trachomatis (strain D/UW-3/Cx)	98
+B0B7R1	RS21_CHLT2	reviewed	30S ribosomal protein S21	rpsU CTL0596	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	58
+Q3KM16	RS21_CHLTA	reviewed	30S ribosomal protein S21	rpsU CTA_0371	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	58
+B0BBX6	RS21_CHLTB	reviewed	30S ribosomal protein S21	rpsU CTLon_0594	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	58
+P66516	RS21_CHLTR	reviewed	30S ribosomal protein S21	rpsU rs21 CT_342	Chlamydia trachomatis (strain D/UW-3/Cx)	58
+Q3KL14	RS2_CHLTA	reviewed	30S ribosomal protein S2	rpsB CTA_0740	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	282
+O84687	RS2_CHLTR	reviewed	30S ribosomal protein S2	rpsB rs2 CT_680	Chlamydia trachomatis (strain D/UW-3/Cx)	282
+B0B896	RS3_CHLT2	reviewed	30S ribosomal protein S3	rpsC CTL0784	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	224
+Q3KLH5	RS3_CHLTA	reviewed	30S ribosomal protein S3	rpsC CTA_0571	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	224
+B0BCG1	RS3_CHLTB	reviewed	30S ribosomal protein S3	rpsC CTLon_0779	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	224
+O84527	RS3_CHLTR	reviewed	30S ribosomal protein S3	rpsC rs3 CT_522	Chlamydia trachomatis (strain D/UW-3/Cx)	224
+B0B8K1	RS4_CHLT2	reviewed	30S ribosomal protein S4	rpsD CTL0890	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	209
+Q3KL69	RS4_CHLTA	reviewed	30S ribosomal protein S4	rpsD CTA_0679	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	209
+B0BA80	RS4_CHLTB	reviewed	30S ribosomal protein S4	rpsD CTLon_0884	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	209
+O84631	RS4_CHLTR	reviewed	30S ribosomal protein S4	rpsD rs4 CT_626	Chlamydia trachomatis (strain D/UW-3/Cx)	209
+Q3KLI5	RS5_CHLTA	reviewed	30S ribosomal protein S5	rpsE CTA_0561	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	165
+P0A4C8	RS5_CHLTR	reviewed	30S ribosomal protein S5	rpsE rs5 CT_512	Chlamydia trachomatis (strain D/UW-3/Cx)	165
+B0B928	RS6_CHLT2	reviewed	30S ribosomal protein S6	rpsF CTL0170	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	112
+Q3KKP0	RS6_CHLTA	reviewed	30S ribosomal protein S6	rpsF CTA_0873	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	112
+B0BAQ7	RS6_CHLTB	reviewed	30S ribosomal protein S6	rpsF CTLon_0171	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	112
+O84807	RS6_CHLTR	reviewed	30S ribosomal protein S6	rpsF rs6 CT_801	Chlamydia trachomatis (strain D/UW-3/Cx)	112
+B0B810	RS7_CHLT2	reviewed	30S ribosomal protein S7	rpsG CTL0697	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	157
+Q3KLR2	RS7_CHLTA	reviewed	30S ribosomal protein S7	rpsG CTA_0478	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	157
+B0BC75	RS7_CHLTB	reviewed	30S ribosomal protein S7	rpsG CTLon_0693	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	157
+P0CE06	RS7_CHLTR	reviewed	30S ribosomal protein S7	rpsG rs7 CT_438	Chlamydia trachomatis (strain D/UW-3/Cx)	157
+B0B889	RS8_CHLT2	reviewed	30S ribosomal protein S8	rpsH CTL0777	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	133
+Q3KLI2	RS8_CHLTA	reviewed	30S ribosomal protein S8	rpsH CTA_0564	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	133
+B0BCF4	RS8_CHLTB	reviewed	30S ribosomal protein S8	rpsH CTLon_0772	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	133
+P0CE07	RS8_CHLTR	reviewed	30S ribosomal protein S8	rpsH rs8 CT_515	Chlamydia trachomatis (strain D/UW-3/Cx)	133
+B0B9N4	RS9_CHLT2	reviewed	30S ribosomal protein S9	rpsI CTL0381	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	129
+Q3KMP3	RS9_CHLTA	reviewed	30S ribosomal protein S9	rpsI CTA_0133	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	129
+B0BBB3	RS9_CHLTB	reviewed	30S ribosomal protein S9	rpsI CTLon_0377	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	129
+O84128	RS9_CHLTR	reviewed	30S ribosomal protein S9	rpsI rs9 CT_126	Chlamydia trachomatis (strain D/UW-3/Cx)	129
+B0B7S3	RSMA_CHLT2	reviewed	Ribosomal RNA small subunit methyltransferase A (EC 2.1.1.182) (16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase) (16S rRNA dimethyladenosine transferase) (16S rRNA dimethylase) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase)	rsmA ksgA CTL0608	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	277
+Q3KM04	RSMA_CHLTA	reviewed	Ribosomal RNA small subunit methyltransferase A (EC 2.1.1.182) (16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase) (16S rRNA dimethyladenosine transferase) (16S rRNA dimethylase) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase)	rsmA ksgA CTA_0383	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	277
+B0BBY8	RSMA_CHLTB	reviewed	Ribosomal RNA small subunit methyltransferase A (EC 2.1.1.182) (16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase) (16S rRNA dimethyladenosine transferase) (16S rRNA dimethylase) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase)	rsmA ksgA CTLon_0606	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	277
+O84358	RSMA_CHLTR	reviewed	Ribosomal RNA small subunit methyltransferase A (EC 2.1.1.182) (16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase) (16S rRNA dimethyladenosine transferase) (16S rRNA dimethylase) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase)	rsmA kgsA ksgA CT_354	Chlamydia trachomatis (strain D/UW-3/Cx)	277
+B0B7I8	RSMH_CHLT2	reviewed	Ribosomal RNA small subunit methyltransferase H (EC 2.1.1.199) (16S rRNA m(4)C1402 methyltransferase) (rRNA (cytosine-N(4)-)-methyltransferase RsmH)	rsmH mraW CTL0524	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	300
+Q3KM90	RSMH_CHLTA	reviewed	Ribosomal RNA small subunit methyltransferase H (EC 2.1.1.199) (16S rRNA m(4)C1402 methyltransferase) (rRNA (cytosine-N(4)-)-methyltransferase RsmH)	rsmH mraW CTA_0294	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	300
+B0BBQ3	RSMH_CHLTB	reviewed	Ribosomal RNA small subunit methyltransferase H (EC 2.1.1.199) (16S rRNA m(4)C1402 methyltransferase) (rRNA (cytosine-N(4)-)-methyltransferase RsmH)	rsmH mraW CTLon_0520	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	300
+O84274	RSMH_CHLTR	reviewed	Ribosomal RNA small subunit methyltransferase H (EC 2.1.1.199) (16S rRNA m(4)C1402 methyltransferase) (rRNA (cytosine-N(4)-)-methyltransferase RsmH)	rsmH mraW CT_272	Chlamydia trachomatis (strain D/UW-3/Cx)	300
+B0B875	RUVA_CHLT2	reviewed	Holliday junction ATP-dependent DNA helicase RuvA (EC 3.6.4.12)	ruvA CTL0763	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	200
+Q3KLJ6	RUVA_CHLTA	reviewed	Holliday junction ATP-dependent DNA helicase RuvA (EC 3.6.4.12)	ruvA CTA_0549	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	200
+B0BCE0	RUVA_CHLTB	reviewed	Holliday junction ATP-dependent DNA helicase RuvA (EC 3.6.4.12)	ruvA CTLon_0758	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	200
+O84509	RUVA_CHLTR	reviewed	Holliday junction ATP-dependent DNA helicase RuvA (EC 3.6.4.12)	ruvA CT_501	Chlamydia trachomatis (strain D/UW-3/Cx)	200
+B0B9E8	RUVB_CHLT2	reviewed	Holliday junction ATP-dependent DNA helicase RuvB (EC 3.6.4.12)	ruvB CTL0296	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	334
+Q3KMY1	RUVB_CHLTA	reviewed	Holliday junction ATP-dependent DNA helicase RuvB (EC 3.6.4.12)	ruvB CTA_0044	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	334
+B0BB27	RUVB_CHLTB	reviewed	Holliday junction ATP-dependent DNA helicase RuvB (EC 3.6.4.12)	ruvB CTLon_0291	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	334
+O84044	RUVB_CHLTR	reviewed	Holliday junction ATP-dependent DNA helicase RuvB (EC 3.6.4.12)	ruvB CT_040	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+B0B876	RUVC_CHLT2	reviewed	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4) (Holliday junction nuclease RuvC) (Holliday junction resolvase RuvC)	ruvC CTL0764	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	170
+Q3KLJ5	RUVC_CHLTA	reviewed	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4) (Holliday junction nuclease RuvC) (Holliday junction resolvase RuvC)	ruvC CTA_0550	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	170
+B0BCE1	RUVC_CHLTB	reviewed	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4) (Holliday junction nuclease RuvC) (Holliday junction resolvase RuvC)	ruvC CTLon_0759	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	170
+O84510	RUVC_CHLTR	reviewed	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4) (Holliday junction nuclease RuvC) (Holliday junction resolvase RuvC)	ruvC CT_502	Chlamydia trachomatis (strain D/UW-3/Cx)	170
+B0B9T4	RUVX_CHLT2	reviewed	Putative Holliday junction resolvase (EC 3.1.-.-)	CTL0436	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	148
+Q3KMH8	RUVX_CHLTA	reviewed	Putative Holliday junction resolvase (EC 3.1.-.-)	CTA_0202	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	148
+B0BBG4	RUVX_CHLTB	reviewed	Putative Holliday junction resolvase (EC 3.1.-.-)	CTLon_0431	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	148
+Q46370	RUVX_CHLTR	reviewed	Putative Holliday junction resolvase (EC 3.1.-.-)	CT_184	Chlamydia trachomatis (strain D/UW-3/Cx)	148
+B0B8F4	SAMHT_CHLT2	reviewed	S-adenosylmethionine/S-adenosylhomocysteine transporter (SAM/SAH transporter) (SAMHT)	CTL0843	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	327
+O84584	SAMHT_CHLTR	reviewed	S-adenosylmethionine/S-adenosylhomocysteine transporter (SAM/SAH transporter) (SAMHT)	CT_580	Chlamydia trachomatis (strain D/UW-3/Cx)	327
+B0B8S7	SECA_CHLT2	reviewed	Protein translocase subunit SecA	secA CTL0070	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	969
+Q3KKZ3	SECA_CHLTA	reviewed	Protein translocase subunit SecA	secA CTA_0762	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	969
+B0BAF6	SECA_CHLTB	reviewed	Protein translocase subunit SecA	secA CTLon_0070	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	969
+O84707	SECA_CHLTR	reviewed	Protein translocase subunit SecA	secA CT_701	Chlamydia trachomatis (strain D/UW-3/Cx)	969
+P28539	SECY_CHLTR	reviewed	Protein translocase subunit SecY	secY CT_510	Chlamydia trachomatis (strain D/UW-3/Cx)	457
+Q9ZN58	SKPL_CHLTR	reviewed	Skp-like protein	CT_242	Chlamydia trachomatis (strain D/UW-3/Cx)	173
+O84296	SODM_CHLTR	reviewed	Superoxide dismutase [Mn] (EC 1.15.1.1)	sodA sodM CT_294	Chlamydia trachomatis (strain D/UW-3/Cx)	206
+O84449	SRPD_CHLTR	reviewed	Sulfur-rich protein, serovar D (15 kDa cysteine-rich outer membrane protein) (Cysteine-rich protein A)	srp crpA CT_442	Chlamydia trachomatis (strain D/UW-3/Cx)	150
+Q3KLQ8	SRP_CHLTA	reviewed	Sulfur-rich protein (Cysteine-rich protein A)	srp crpA CTA_0482	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	152
+O84048	SSB_CHLTR	reviewed	Single-stranded DNA-binding protein (SSB) (Helix-destabilizing protein)	ssb CT_044	Chlamydia trachomatis (strain D/UW-3/Cx)	157
+Q3KMU5	SSRP_CHLTA	reviewed	SsrA-binding protein	smpB CTA_0081	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	151
+O84079	SSRP_CHLTR	reviewed	SsrA-binding protein	smpB CT_076	Chlamydia trachomatis (strain D/UW-3/Cx)	151
+B0B950	SUCC_CHLT2	reviewed	Succinyl-CoA ligase [ADP-forming] subunit beta (EC 6.2.1.5) (Succinyl-CoA synthetase subunit beta) (SCS-beta)	sucC CTL0193	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	386
+Q3KKL8	SUCC_CHLTA	reviewed	Succinyl-CoA ligase [ADP-forming] subunit beta (EC 6.2.1.5) (Succinyl-CoA synthetase subunit beta) (SCS-beta)	sucC CTA_0895	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	386
+B0BAS9	SUCC_CHLTB	reviewed	Succinyl-CoA ligase [ADP-forming] subunit beta (EC 6.2.1.5) (Succinyl-CoA synthetase subunit beta) (SCS-beta)	sucC CTLon_0193	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	386
+O84828	SUCC_CHLTR	reviewed	Succinyl-CoA ligase [ADP-forming] subunit beta (EC 6.2.1.5) (Succinyl-CoA synthetase subunit beta) (SCS-beta)	sucC CT_821	Chlamydia trachomatis (strain D/UW-3/Cx)	386
+B0B9W8	SURE_CHLT2	reviewed	5'-nucleotidase SurE (EC 3.1.3.5) (Nucleoside 5'-monophosphate phosphohydrolase)	surE CTL0470	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	283
+Q3KME4	SURE_CHLTA	reviewed	5'-nucleotidase SurE (EC 3.1.3.5) (Nucleoside 5'-monophosphate phosphohydrolase)	surE CTA_0238	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	283
+B0BBJ8	SURE_CHLTB	reviewed	5'-nucleotidase SurE (EC 3.1.3.5) (Nucleoside 5'-monophosphate phosphohydrolase)	surE CTLon_0465	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	283
+O84220	SURE_CHLTR	reviewed	5'-nucleotidase SurE (EC 3.1.3.5) (Nucleoside 5'-monophosphate phosphohydrolase)	surE CT_218	Chlamydia trachomatis (strain D/UW-3/Cx)	283
+B0B8X5	SYA_CHLT2	reviewed	Alanine--tRNA ligase (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)	alaS CTL0118	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	875
+Q3KKU4	SYA_CHLTA	reviewed	Alanine--tRNA ligase (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)	alaS CTA_0815	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	875
+B0BAK4	SYA_CHLTB	reviewed	Alanine--tRNA ligase (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)	alaS CTLon_0118	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	875
+O84754	SYA_CHLTR	reviewed	Alanine--tRNA ligase (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)	alaS CT_749	Chlamydia trachomatis (strain D/UW-3/Cx)	875
+Q3KKR0	SYC_CHLTA	reviewed	Cysteine--tRNA ligase (EC 6.1.1.16) (Cysteinyl-tRNA synthetase) (CysRS)	cysS CTA_0852	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	477
+O84787	SYC_CHLTR	reviewed	Cysteine--tRNA ligase (EC 6.1.1.16) (Cysteinyl-tRNA synthetase) (CysRS)	cysS CT_782	Chlamydia trachomatis (strain D/UW-3/Cx)	477
+B0B8B6	SYD_CHLT2	reviewed	Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)	aspS CTL0804	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	582
+Q3KLF5	SYD_CHLTA	reviewed	Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)	aspS CTA_0592	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	582
+B0B9Z5	SYD_CHLTB	reviewed	Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)	aspS CTLon_0799	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	582
+O84546	SYD_CHLTR	reviewed	Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)	aspS CT_542	Chlamydia trachomatis (strain D/UW-3/Cx)	582
+B0B818	SYE_CHLT2	reviewed	Glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS)	gltX CTL0705	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	506
+Q3KLQ4	SYE_CHLTA	reviewed	Glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS)	gltX CTA_0486	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	506
+B0BC83	SYE_CHLTB	reviewed	Glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS)	gltX CTLon_0701	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	506
+O84451	SYE_CHLTR	reviewed	Glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS)	gltX CT_445	Chlamydia trachomatis (strain D/UW-3/Cx)	506
+Q3KKK3	SYFA_CHLTA	reviewed	Phenylalanine--tRNA ligase alpha subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase alpha subunit) (PheRS)	pheS CTA_0911	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	342
+O84843	SYFA_CHLTR	reviewed	Phenylalanine--tRNA ligase alpha subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase alpha subunit) (PheRS)	pheS CT_836	Chlamydia trachomatis (strain D/UW-3/Cx)	342
+Q3KLM3	SYFB_CHLTA	reviewed	Phenylalanine--tRNA ligase beta subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase beta subunit) (PheRS)	pheT CTA_0521	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	790
+O84481	SYFB_CHLTR	reviewed	Phenylalanine--tRNA ligase beta subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase beta subunit) (PheRS)	pheT CT_475	Chlamydia trachomatis (strain D/UW-3/Cx)	790
+B0B923	SYG_CHLT2	reviewed	Glycine--tRNA ligase (Glycyl-tRNA synthetase) (GlyRS) (EC 6.1.1.14) [Includes: Glycine--tRNA ligase alpha subunit (Glycyl-tRNA synthetase alpha subunit); Glycine--tRNA ligase beta subunit (Glycyl-tRNA synthetase beta subunit)]	glyQS glyQ glyS CTL0165	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	1003
+P0CE22	SYG_CHLTR	reviewed	Glycine--tRNA ligase (Glycyl-tRNA synthetase) (GlyRS) (EC 6.1.1.14) [Includes: Glycine--tRNA ligase alpha subunit (Glycyl-tRNA synthetase alpha subunit); Glycine--tRNA ligase beta subunit (Glycyl-tRNA synthetase beta subunit)]	glyQS glyQ glyS CT_796	Chlamydia trachomatis (strain D/UW-3/Cx)	1003
+B0B8B7	SYH_CHLT2	reviewed	Histidine--tRNA ligase (EC 6.1.1.21) (Histidyl-tRNA synthetase) (HisRS)	hisS CTL0805	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	428
+Q3KLF4	SYH_CHLTA	reviewed	Histidine--tRNA ligase (EC 6.1.1.21) (Histidyl-tRNA synthetase) (HisRS)	hisS CTA_0593	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	428
+B0B9Z6	SYH_CHLTB	reviewed	Histidine--tRNA ligase (EC 6.1.1.21) (Histidyl-tRNA synthetase) (HisRS)	hisS CTLon_0800	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	428
+O84547	SYH_CHLTR	reviewed	Histidine--tRNA ligase (EC 6.1.1.21) (Histidyl-tRNA synthetase) (HisRS)	hisS CT_543	Chlamydia trachomatis (strain D/UW-3/Cx)	428
+B0B9C6	SYI_CHLT2	reviewed	Isoleucine--tRNA ligase (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IleRS)	ileS CTL0274	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	1036
+Q3KN03	SYI_CHLTA	reviewed	Isoleucine--tRNA ligase (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IleRS)	ileS CTA_0021	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	1036
+B0BB05	SYI_CHLTB	reviewed	Isoleucine--tRNA ligase (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IleRS)	ileS CTLon_0269	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	1036
+O84022	SYI_CHLTR	reviewed	Isoleucine--tRNA ligase (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IleRS)	ileS CT_019	Chlamydia trachomatis (strain D/UW-3/Cx)	1036
+B0B907	SYK_CHLT2	reviewed	Lysine--tRNA ligase (EC 6.1.1.6) (Lysyl-tRNA synthetase) (LysRS)	lysS CTL0150	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	526
+Q3KKR1	SYK_CHLTA	reviewed	Lysine--tRNA ligase (EC 6.1.1.6) (Lysyl-tRNA synthetase) (LysRS)	lysS CTA_0851	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	526
+B0BAN6	SYK_CHLTB	reviewed	Lysine--tRNA ligase (EC 6.1.1.6) (Lysyl-tRNA synthetase) (LysRS)	lysS CTLon_0150	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	526
+O84786	SYK_CHLTR	reviewed	Lysine--tRNA ligase (EC 6.1.1.6) (Lysyl-tRNA synthetase) (LysRS)	lysS CT_781	Chlamydia trachomatis (strain D/UW-3/Cx)	526
+B0B9V9	SYL_CHLT2	reviewed	Leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)	leuS CTL0461	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	819
+Q3KMF3	SYL_CHLTA	reviewed	Leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)	leuS CTA_0229	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	819
+B0BBI9	SYL_CHLTB	reviewed	Leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)	leuS CTLon_0456	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	819
+O84211	SYL_CHLTR	reviewed	Leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)	leuS CT_209	Chlamydia trachomatis (strain D/UW-3/Cx)	819
+B0B9D9	SYM_CHLT2	reviewed	Methionine--tRNA ligase (EC 6.1.1.10) (Methionyl-tRNA synthetase) (MetRS)	metG CTL0287	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	550
+Q3KMZ0	SYM_CHLTA	reviewed	Methionine--tRNA ligase (EC 6.1.1.10) (Methionyl-tRNA synthetase) (MetRS)	metG CTA_0034	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	550
+B0BB18	SYM_CHLTB	reviewed	Methionine--tRNA ligase (EC 6.1.1.10) (Methionyl-tRNA synthetase) (MetRS)	metG CTLon_0282	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	550
+O84035	SYM_CHLTR	reviewed	Methionine--tRNA ligase (EC 6.1.1.10) (Methionyl-tRNA synthetase) (MetRS)	metG CT_032	Chlamydia trachomatis (strain D/UW-3/Cx)	550
+B0B7W3	SYP_CHLT2	reviewed	Proline--tRNA ligase (EC 6.1.1.15) (Prolyl-tRNA synthetase) (ProRS)	proS CTL0649	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	581
+Q3KLW0	SYP_CHLTA	reviewed	Proline--tRNA ligase (EC 6.1.1.15) (Prolyl-tRNA synthetase) (ProRS)	proS CTA_0428	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	581
+B0BC28	SYP_CHLTB	reviewed	Proline--tRNA ligase (EC 6.1.1.15) (Prolyl-tRNA synthetase) (ProRS)	proS CTLon_0646	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	581
+P36431	SYP_CHLTR	reviewed	Proline--tRNA ligase (EC 6.1.1.15) (Prolyl-tRNA synthetase) (ProRS)	proS CT_393	Chlamydia trachomatis (strain D/UW-3/Cx)	581
+Q3KLP4	SYR_CHLTA	reviewed	Arginine--tRNA ligase (EC 6.1.1.19) (Arginyl-tRNA synthetase) (ArgRS)	argS CTA_0496	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	563
+O84460	SYR_CHLTR	reviewed	Arginine--tRNA ligase (EC 6.1.1.19) (Arginyl-tRNA synthetase) (ArgRS)	argS CT_454	Chlamydia trachomatis (strain D/UW-3/Cx)	563
+B0B8V5	SYS_CHLT2	reviewed	Serine--tRNA ligase (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)	serS CTL0098	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	428
+Q3KKW5	SYS_CHLTA	reviewed	Serine--tRNA ligase (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)	serS CTA_0791	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	428
+B0BAI4	SYS_CHLTB	reviewed	Serine--tRNA ligase (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)	serS CTLon_0098	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	428
+O84734	SYS_CHLTR	reviewed	Serine--tRNA ligase (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)	serS CT_729	Chlamydia trachomatis (strain D/UW-3/Cx)	428
+B0B8F5	SYT_CHLT2	reviewed	Threonine--tRNA ligase (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS)	thrS CTL0844	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	635
+Q3KLB6	SYT_CHLTA	reviewed	Threonine--tRNA ligase (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS)	thrS CTA_0631	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	635
+B0BA34	SYT_CHLTB	reviewed	Threonine--tRNA ligase (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS)	thrS CTLon_0838	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	635
+O84585	SYT_CHLTR	reviewed	Threonine--tRNA ligase (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS)	thrS CT_581	Chlamydia trachomatis (strain D/UW-3/Cx)	635
+B0B7L8	SYV_CHLT2	reviewed	Valine--tRNA ligase (EC 6.1.1.9) (Valyl-tRNA synthetase) (ValRS)	valS CTL0554	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	939
+Q3KM60	SYV_CHLTA	reviewed	Valine--tRNA ligase (EC 6.1.1.9) (Valyl-tRNA synthetase) (ValRS)	valS CTA_0324	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	939
+B0BBT3	SYV_CHLTB	reviewed	Valine--tRNA ligase (EC 6.1.1.9) (Valyl-tRNA synthetase) (ValRS)	valS CTLon_0550	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	939
+O84304	SYV_CHLTR	reviewed	Valine--tRNA ligase (EC 6.1.1.9) (Valyl-tRNA synthetase) (ValRS)	valS CT_302	Chlamydia trachomatis (strain D/UW-3/Cx)	939
+O84589	SYW_CHLTR	reviewed	Tryptophan--tRNA ligase (EC 6.1.1.2) (Tryptophanyl-tRNA synthetase) (TrpRS)	trpS CT_585	Chlamydia trachomatis (strain D/UW-3/Cx)	346
+B0B9H0	SYY_CHLT2	reviewed	Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)	tyrS CTL0318	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	412
+Q3KMV9	SYY_CHLTA	reviewed	Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)	tyrS CTA_0067	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	412
+B0BB49	SYY_CHLTB	reviewed	Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)	tyrS CTLon_0313	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	412
+O84065	SYY_CHLTR	reviewed	Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)	tyrS CT_062	Chlamydia trachomatis (strain D/UW-3/Cx)	412
+Q3KM49	TAL_CHLTA	reviewed	Transaldolase (EC 2.2.1.2)	tal CTA_0335	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	327
+O84315	TAL_CHLTR	reviewed	Transaldolase (EC 2.2.1.2)	tal CT_313	Chlamydia trachomatis (strain D/UW-3/Cx)	327
+Q6GX35	TARP_CHLT2	reviewed	Translocated actin-recruiting phosphoprotein (Tarp protein)	tarP CTL0716	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	1005
+O84462	TARP_CHLTR	reviewed	Translocated actin-recruiting phosphoprotein (Tarp protein)	tarP CT_456	Chlamydia trachomatis (strain D/UW-3/Cx)	1005
+B0B9U3	TGT_CHLT2	reviewed	Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)	tgt CTL0445	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	372
+Q3KMG9	TGT_CHLTA	reviewed	Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)	tgt CTA_0211	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	372
+B0BBH3	TGT_CHLTB	reviewed	Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)	tgt CTLon_0440	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	372
+O84196	TGT_CHLTR	reviewed	Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)	tgt CT_193	Chlamydia trachomatis (strain D/UW-3/Cx)	372
+O84544	THIO_CHLTR	reviewed	Thioredoxin (Trx)	trxA CT_539	Chlamydia trachomatis (strain D/UW-3/Cx)	102
+B0B8T3	TIG_CHLT2	reviewed	Trigger factor (TF) (EC 5.2.1.8) (PPIase)	tig CTL0076	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	442
+Q3KKY7	TIG_CHLTA	reviewed	Trigger factor (TF) (EC 5.2.1.8) (PPIase)	tig CTA_0768	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	442
+B0BAG2	TIG_CHLTB	reviewed	Trigger factor (TF) (EC 5.2.1.8) (PPIase)	tig CTLon_0076	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	442
+O84713	TIG_CHLTR	reviewed	Trigger factor (TF) (EC 5.2.1.8) (PPIase)	tig CT_707	Chlamydia trachomatis (strain D/UW-3/Cx)	442
+B0B969	TILS_CHLT2	reviewed	tRNA(Ile)-lysidine synthase (EC 6.3.4.19) (tRNA(Ile)-2-lysyl-cytidine synthase) (tRNA(Ile)-lysidine synthetase)	tilS CTL0212	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	321
+Q3KKJ9	TILS_CHLTA	reviewed	tRNA(Ile)-lysidine synthase (EC 6.3.4.19) (tRNA(Ile)-2-lysyl-cytidine synthase) (tRNA(Ile)-lysidine synthetase)	tilS CTA_0916	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	321
+B0BAU8	TILS_CHLTB	reviewed	tRNA(Ile)-lysidine synthase (EC 6.3.4.19) (tRNA(Ile)-2-lysyl-cytidine synthase) (tRNA(Ile)-lysidine synthetase)	tilS CTLon_0212	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	321
+O84847	TILS_CHLTR	reviewed	tRNA(Ile)-lysidine synthase (EC 6.3.4.19) (tRNA(Ile)-2-lysyl-cytidine synthase) (tRNA(Ile)-lysidine synthetase)	tilS CT_840	Chlamydia trachomatis (strain D/UW-3/Cx)	321
+O84068	TLC1_CHLTR	reviewed	ADP,ATP carrier protein 1 (ADP/ATP translocase 1)	tlcA CT_065	Chlamydia trachomatis (strain D/UW-3/Cx)	528
+O84502	TLC2_CHLTR	reviewed	ADP,ATP carrier protein 2 (ADP/ATP translocase 2)	tlcB CT_495	Chlamydia trachomatis (strain D/UW-3/Cx)	540
+B0B8H3	TOLB_CHLT2	reviewed	Protein TolB	tolB CTL0862	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	431
+Q3KL97	TOLB_CHLTA	reviewed	Protein TolB	tolB CTA_0650	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	431
+B0BA52	TOLB_CHLTB	reviewed	Protein TolB	tolB CTLon_0856	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	431
+O84604	TOLB_CHLTR	reviewed	Protein TolB	tolB CT_599	Chlamydia trachomatis (strain D/UW-3/Cx)	431
+B0B7P5	TPIS_CHLT2	reviewed	Triosephosphate isomerase (TIM) (EC 5.3.1.1) (Triose-phosphate isomerase)	tpiA CTL0582	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	274
+Q3KM32	TPIS_CHLTA	reviewed	Triosephosphate isomerase (TIM) (EC 5.3.1.1) (Triose-phosphate isomerase)	tpiA CTA_0355	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	274
+B0BBW0	TPIS_CHLTB	reviewed	Triosephosphate isomerase (TIM) (EC 5.3.1.1) (Triose-phosphate isomerase)	tpiA CTLon_0578	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	274
+O84332	TPIS_CHLTR	reviewed	Triosephosphate isomerase (TIM) (EC 5.3.1.1) (Triose-phosphate isomerase)	tpiA tpi CT_328	Chlamydia trachomatis (strain D/UW-3/Cx)	274
+Q3KKL0	TRMB_CHLTA	reviewed	tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33) (tRNA (guanine(46)-N(7))-methyltransferase) (tRNA(m7G46)-methyltransferase)	trmB CTA_0903	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	219
+O84836	TRMB_CHLTR	reviewed	tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33) (tRNA (guanine(46)-N(7))-methyltransferase) (tRNA(m7G46)-methyltransferase)	trmB CT_829	Chlamydia trachomatis (strain D/UW-3/Cx)	224
+B0B9D4	TRMD_CHLT2	reviewed	tRNA (guanine-N(1)-)-methyltransferase (EC 2.1.1.228) (M1G-methyltransferase) (tRNA [GM37] methyltransferase)	trmD CTL0282	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	352
+Q3KMZ5	TRMD_CHLTA	reviewed	tRNA (guanine-N(1)-)-methyltransferase (EC 2.1.1.228) (M1G-methyltransferase) (tRNA [GM37] methyltransferase)	trmD CTA_0029	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	352
+B0BB13	TRMD_CHLTB	reviewed	tRNA (guanine-N(1)-)-methyltransferase (EC 2.1.1.228) (M1G-methyltransferase) (tRNA [GM37] methyltransferase)	trmD CTLon_0277	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	352
+O84030	TRMD_CHLTR	reviewed	tRNA (guanine-N(1)-)-methyltransferase (EC 2.1.1.228) (M1G-methyltransferase) (tRNA [GM37] methyltransferase)	trmD CT_027	Chlamydia trachomatis (strain D/UW-3/Cx)	352
+O84173	TRPA_CHLTR	reviewed	Tryptophan synthase alpha chain (EC 4.2.1.20)	trpA CT_171	Chlamydia trachomatis (strain D/UW-3/Cx)	253
+O84172	TRPB_CHLTR	reviewed	Tryptophan synthase beta chain (EC 4.2.1.20)	trpB CT_170	Chlamydia trachomatis (strain D/UW-3/Cx)	392
+B0B7P4	TRPF_CHLT2	reviewed	N-(5'-phosphoribosyl)anthranilate isomerase (PRAI) (EC 5.3.1.24)	trpF CTL0581	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	208
+Q3KM33	TRPF_CHLTA	reviewed	N-(5'-phosphoribosyl)anthranilate isomerase (PRAI) (EC 5.3.1.24)	trpF CTA_0354	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	208
+B0BBV9	TRPF_CHLTB	reviewed	N-(5'-phosphoribosyl)anthranilate isomerase (PRAI) (EC 5.3.1.24)	trpF CTLon_0577	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	208
+O84331	TRPF_CHLTR	reviewed	N-(5'-phosphoribosyl)anthranilate isomerase (PRAI) (EC 5.3.1.24)	trpF CT_327	Chlamydia trachomatis (strain D/UW-3/Cx)	208
+B0B9S0	TRPR_CHLT2	reviewed	Trp operon repressor homolog	trpR CTL0422	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	94
+Q3KMJ6	TRPR_CHLTA	reviewed	Trp operon repressor homolog	trpR CTA_0182	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	94
+B0BBF0	TRPR_CHLTB	reviewed	Trp operon repressor homolog	trpR CTLon_0416	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	94
+O84171	TRPR_CHLTR	reviewed	Trp operon repressor homolog	trpR CT_169	Chlamydia trachomatis (strain D/UW-3/Cx)	94
+B0B836	TRUA_CHLT2	reviewed	tRNA pseudouridine synthase A (EC 5.4.99.12) (tRNA pseudouridine(38-40) synthase) (tRNA pseudouridylate synthase I) (tRNA-uridine isomerase I)	truA CTL0723	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	267
+Q3KLN5	TRUA_CHLTA	reviewed	tRNA pseudouridine synthase A (EC 5.4.99.12) (tRNA pseudouridine(38-40) synthase) (tRNA pseudouridylate synthase I) (tRNA-uridine isomerase I)	truA CTA_0506	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	267
+B0BCA1	TRUA_CHLTB	reviewed	tRNA pseudouridine synthase A (EC 5.4.99.12) (tRNA pseudouridine(38-40) synthase) (tRNA pseudouridylate synthase I) (tRNA-uridine isomerase I)	truA CTLon_0719	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	267
+O84469	TRUA_CHLTR	reviewed	tRNA pseudouridine synthase A (EC 5.4.99.12) (tRNA pseudouridine(38-40) synthase) (tRNA pseudouridylate synthase I) (tRNA-uridine isomerase I)	truA CT_463	Chlamydia trachomatis (strain D/UW-3/Cx)	267
+B0B9K2	TRUB_CHLT2	reviewed	tRNA pseudouridine synthase B (EC 5.4.99.25) (tRNA pseudouridine(55) synthase) (Psi55 synthase) (tRNA pseudouridylate synthase) (tRNA-uridine isomerase)	truB CTL0349	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	241
+B0BB81	TRUB_CHLTB	reviewed	tRNA pseudouridine synthase B (EC 5.4.99.25) (tRNA pseudouridine(55) synthase) (Psi55 synthase) (tRNA pseudouridylate synthase) (tRNA-uridine isomerase)	truB CTLon_0345	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	241
+O84096	TRUB_CHLTR	reviewed	tRNA pseudouridine synthase B (EC 5.4.99.25) (tRNA pseudouridine(55) synthase) (Psi55 synthase) (tRNA pseudouridylate synthase) (tRNA-uridine isomerase)	truB CT_094	Chlamydia trachomatis (strain D/UW-3/Cx)	241
+O84101	TRXB_CHLTR	reviewed	Thioredoxin reductase (TRXR) (EC 1.8.1.9)	trxB CT_099	Chlamydia trachomatis (strain D/UW-3/Cx)	312
+B0B800	UBIE_CHLT2	reviewed	Demethylmenaquinone methyltransferase (EC 2.1.1.163) (Menaquinone biosynthesis methyltransferase ubiE)	ubiE CTL0687	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	229
+Q3KLS2	UBIE_CHLTA	reviewed	Demethylmenaquinone methyltransferase (EC 2.1.1.163) (Menaquinone biosynthesis methyltransferase ubiE)	ubiE CTA_0468	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	229
+B0BC65	UBIE_CHLTB	reviewed	Demethylmenaquinone methyltransferase (EC 2.1.1.163) (Menaquinone biosynthesis methyltransferase ubiE)	ubiE CTLon_0683	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	229
+O84435	UBIE_CHLTR	reviewed	Demethylmenaquinone methyltransferase (EC 2.1.1.163) (Menaquinone biosynthesis methyltransferase ubiE)	ubiE CT_428	Chlamydia trachomatis (strain D/UW-3/Cx)	229
+O84548	UHPT_CHLTR	reviewed	Probable hexose phosphate transport protein	CT_544	Chlamydia trachomatis (strain D/UW-3/Cx)	456
+B0B8I2	UNG_CHLT2	reviewed	Uracil-DNA glycosylase (UDG) (EC 3.2.2.27)	ung CTL0871	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	229
+Q3KL88	UNG_CHLTA	reviewed	Uracil-DNA glycosylase (UDG) (EC 3.2.2.27)	ung CTA_0660	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	229
+B0BA61	UNG_CHLTB	reviewed	Uracil-DNA glycosylase (UDG) (EC 3.2.2.27)	ung CTLon_0865	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	229
+O84613	UNG_CHLTR	reviewed	Uracil-DNA glycosylase (UDG) (EC 3.2.2.27)	ung CT_607	Chlamydia trachomatis (strain D/UW-3/Cx)	229
+O84337	UVRA_CHLTR	reviewed	UvrABC system protein A (UvrA protein) (Excinuclease ABC subunit A)	uvrA CT_333	Chlamydia trachomatis (strain D/UW-3/Cx)	1786
+Q3KLB1	UVRB_CHLTA	reviewed	UvrABC system protein B (Protein UvrB) (Excinuclease ABC subunit B)	uvrB CTA_0636	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	668
+O84590	UVRB_CHLTR	reviewed	UvrABC system protein B (Protein UvrB) (Excinuclease ABC subunit B)	uvrB CT_586	Chlamydia trachomatis (strain D/UW-3/Cx)	668
+Q3KKQ1	UVRC_CHLTA	reviewed	UvrABC system protein C (Protein UvrC) (Excinuclease ABC subunit C)	uvrC CTA_0861	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	598
+O84796	UVRC_CHLTR	reviewed	UvrABC system protein C (Protein UvrC) (Excinuclease ABC subunit C)	uvrC CT_791	Chlamydia trachomatis (strain D/UW-3/Cx)	598
+B0B7M4	VATA_CHLT2	reviewed	V-type ATP synthase alpha chain (EC 3.6.3.14) (V-ATPase subunit A)	atpA CTL0560	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	591
+Q3KM54	VATA_CHLTA	reviewed	V-type ATP synthase alpha chain (EC 3.6.3.14) (V-ATPase subunit A)	atpA CTA_0330	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	591
+B0BBT9	VATA_CHLTB	reviewed	V-type ATP synthase alpha chain (EC 3.6.3.14) (V-ATPase subunit A)	atpA CTLon_0556	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	591
+O84310	VATA_CHLTR	reviewed	V-type ATP synthase alpha chain (EC 3.6.3.14) (V-ATPase subunit A)	atpA CT_308	Chlamydia trachomatis (strain D/UW-3/Cx)	591
+B0B7M3	VATB_CHLT2	reviewed	V-type ATP synthase beta chain (V-ATPase subunit B)	atpB CTL0559	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	438
+Q3KM55	VATB_CHLTA	reviewed	V-type ATP synthase beta chain (V-ATPase subunit B)	atpB CTA_0329	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	438
+B0BBT8	VATB_CHLTB	reviewed	V-type ATP synthase beta chain (V-ATPase subunit B)	atpB CTLon_0555	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	438
+O84309	VATB_CHLTR	reviewed	V-type ATP synthase beta chain (V-ATPase subunit B)	atpB CT_307	Chlamydia trachomatis (strain D/UW-3/Cx)	438
+B0B7M2	VATD_CHLT2	reviewed	V-type ATP synthase subunit D (V-ATPase subunit D)	atpD CTL0558	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	203
+Q3KM56	VATD_CHLTA	reviewed	V-type ATP synthase subunit D (V-ATPase subunit D)	atpD CTA_0328	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	203
+B0BBT7	VATD_CHLTB	reviewed	V-type ATP synthase subunit D (V-ATPase subunit D)	atpD CTLon_0554	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	203
+O84308	VATD_CHLTR	reviewed	V-type ATP synthase subunit D (V-ATPase subunit D)	atpD CT_306	Chlamydia trachomatis (strain D/UW-3/Cx)	203
+B0B7M6	VATE_CHLT2	reviewed	V-type proton ATPase subunit E (V-ATPase subunit E)	atpE CTL0562	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	208
+Q3KM52	VATE_CHLTA	reviewed	V-type ATP synthase subunit E (V-ATPase subunit E)	atpE CTA_0332	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	208
+B0BBU1	VATE_CHLTB	reviewed	V-type proton ATPase subunit E (V-ATPase subunit E)	atpE CTLon_0558	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	208
+O84312	VATE_CHLTR	reviewed	V-type ATP synthase subunit E (V-ATPase subunit E)	atpE CT_310	Chlamydia trachomatis (strain D/UW-3/Cx)	208
+O84307	VATI_CHLTR	reviewed	V-type ATP synthase subunit I (V-ATPase subunit I)	atpI CT_305	Chlamydia trachomatis (strain D/UW-3/Cx)	649
+B0B7R6	XERC_CHLT2	reviewed	Tyrosine recombinase XerC	xerC CTL0601	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	315
+Q3KM11	XERC_CHLTA	reviewed	Tyrosine recombinase XerC	xerC CTA_0376	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	315
+B0BBY1	XERC_CHLTB	reviewed	Tyrosine recombinase XerC	xerC CTLon_0599	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	315
+O84351	XERC_CHLTR	reviewed	Tyrosine recombinase XerC	xerC CT_347	Chlamydia trachomatis (strain D/UW-3/Cx)	315
+O84872	XERD_CHLTR	reviewed	Tyrosine recombinase XerD	xerD CT_864	Chlamydia trachomatis (strain D/UW-3/Cx)	300
+O84008	Y005_CHLTR	reviewed	Uncharacterized protein CT_005	CT_005	Chlamydia trachomatis (strain D/UW-3/Cx)	363
+O84009	Y006_CHLTR	reviewed	Uncharacterized protein CT_006	CT_006	Chlamydia trachomatis (strain D/UW-3/Cx)	189
+O84010	Y007_CHLTR	reviewed	Uncharacterized protein CT_007	CT_007	Chlamydia trachomatis (strain D/UW-3/Cx)	316
+O84034	Y031_CHLTR	reviewed	Uncharacterized protein CT_031	CT_031	Chlamydia trachomatis (strain D/UW-3/Cx)	100
+O84038	Y035_CHLTR	reviewed	Uncharacterized protein CT_035	CT_035	Chlamydia trachomatis (strain D/UW-3/Cx)	257
+O84039	Y036_CHLTR	reviewed	Uncharacterized protein CT_036	CT_036	Chlamydia trachomatis (strain D/UW-3/Cx)	403
+O84045	Y041_CHLTR	reviewed	Uncharacterized protein CT_041	CT_041	Chlamydia trachomatis (strain D/UW-3/Cx)	270
+Q9S529	Y067_CHLTR	reviewed	Uncharacterized metal-binding lipoprotein CT_067	CT_067	Chlamydia trachomatis (strain D/UW-3/Cx)	326
+O84071	Y068_CHLTR	reviewed	Probable metal transport system ATP-binding protein CT_068	CT_068	Chlamydia trachomatis (strain D/UW-3/Cx)	259
+O84072	Y069_CHLTR	reviewed	Probable metal transport system membrane protein CT_069	CT_069	Chlamydia trachomatis (strain D/UW-3/Cx)	451
+O84073	Y070_CHLTR	reviewed	Probable metal transport system membrane protein CT_070	CT_070	Chlamydia trachomatis (strain D/UW-3/Cx)	318
+O84075	Y072_CHLTR	reviewed	Putative zinc metalloprotease CT_072 (EC 3.4.24.-)	CT_072	Chlamydia trachomatis (strain D/UW-3/Cx)	619
+O84087	Y085_CHLTR	reviewed	Uncharacterized protein CT_085	CT_085	Chlamydia trachomatis (strain D/UW-3/Cx)	579
+O84110	Y108_CHLTR	reviewed	UPF0135 protein CT_108	CT_108	Chlamydia trachomatis (strain D/UW-3/Cx)	251
+O84206	Y203_CHLTR	reviewed	Uncharacterized protein CT_203	CT_203	Chlamydia trachomatis (strain D/UW-3/Cx)	251
+O84213	Y211_CHLTR	reviewed	UPF0301 protein CT_211	CT_211	Chlamydia trachomatis (strain D/UW-3/Cx)	189
+Q3KMF1	Y231_CHLTA	reviewed	UPF0301 protein CTA_0231	CTA_0231	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	189
+O84275	Y273_CHLTR	reviewed	Uncharacterized protein CT_273	CT_273	Chlamydia trachomatis (strain D/UW-3/Cx)	188
+O84290	Y288_CHLTR	reviewed	Uncharacterized protein CT_288	CT_288	Chlamydia trachomatis (strain D/UW-3/Cx)	563
+O84311	Y309_CHLTR	reviewed	Uncharacterized protein CT_309	CT_309	Chlamydia trachomatis (strain D/UW-3/Cx)	266
+O84339	Y335_CHLTR	reviewed	Nucleoid-associated protein CT_335	CT_335	Chlamydia trachomatis (strain D/UW-3/Cx)	96
+O84353	Y349_CHLTR	reviewed	Maf-like protein CT_349	CT_349	Chlamydia trachomatis (strain D/UW-3/Cx)	196
+O84359	Y355_CHLTR	reviewed	Uncharacterized protein CT_355	CT_355	Chlamydia trachomatis (strain D/UW-3/Cx)	353
+Q3KM24	Y363_CHLTA	reviewed	Nucleoid-associated protein CTA_0363	CTA_0363	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	96
+Q3KM09	Y378_CHLTA	reviewed	Maf-like protein CTA_0378	CTA_0378	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	196
+O84391	Y386_CHLTR	reviewed	UPF0160 protein CT_386	CT_386	Chlamydia trachomatis (strain D/UW-3/Cx)	289
+O84393	Y388_CHLTR	reviewed	UPF0235 protein CT_388	CT_388	Chlamydia trachomatis (strain D/UW-3/Cx)	115
+P36427	Y392_CHLTR	reviewed	Uncharacterized protein CT_392 (ORFB)	CT_392	Chlamydia trachomatis (strain D/UW-3/Cx)	377
+O84404	Y399_CHLTR	reviewed	Uncharacterized protein CT_399	CT_399	Chlamydia trachomatis (strain D/UW-3/Cx)	328
+O84420	Y415_CHLTR	reviewed	Uncharacterized periplasmic metal-binding protein CT_415	CT_415	Chlamydia trachomatis (strain D/UW-3/Cx)	276
+O84421	Y416_CHLTR	reviewed	Probable metal transport system ATP-binding protein CT_416	CT_416	Chlamydia trachomatis (strain D/UW-3/Cx)	236
+O84422	Y417_CHLTR	reviewed	Probable metal transport system membrane protein CT_417	CT_417	Chlamydia trachomatis (strain D/UW-3/Cx)	293
+Q3KLW5	Y423_CHLTA	reviewed	UPF0235 protein CTA_0423	CTA_0423	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	115
+O84432	Y425_CHLTR	reviewed	Uncharacterized protein CT_425	CT_425	Chlamydia trachomatis (strain D/UW-3/Cx)	621
+O84436	Y429_CHLTR	reviewed	UPF0158 protein CT_429	CT_429	Chlamydia trachomatis (strain D/UW-3/Cx)	329
+O84452	Y446_CHLTR	reviewed	Uncharacterized protein CT_446 (EUO)	CT_446	Chlamydia trachomatis (strain D/UW-3/Cx)	183
+O84463	Y457_CHLTR	reviewed	Probable transcriptional regulatory protein CT_457	CT_457	Chlamydia trachomatis (strain D/UW-3/Cx)	238
+B0BBJ1	Y458_CHLTB	reviewed	UPF0301 protein CTLon_0458	CTLon_0458	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	189
+O84467	Y461_CHLTR	reviewed	Uncharacterized metallophosphoesterase CT_461 (EC 3.1.-.-)	CT_461	Chlamydia trachomatis (strain D/UW-3/Cx)	329
+B0B9W1	Y463_CHLT2	reviewed	UPF0301 protein CTL0463	CTL0463	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	189
+O84480	Y474_CHLTR	reviewed	Uncharacterized protein CT_474	CT_474	Chlamydia trachomatis (strain D/UW-3/Cx)	309
+Q3KLP1	Y499_CHLTA	reviewed	Probable transcriptional regulatory protein CTA_0499	CTA_0499	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	238
+O84512	Y504_CHLTR	reviewed	Uncharacterized protein CT_504	CT_504	Chlamydia trachomatis (strain D/UW-3/Cx)	288
+O84540	Y535_CHLTR	reviewed	Uncharacterized acyl-CoA thioester hydrolase CT_535 (EC 3.1.2.-)	CT_535	Chlamydia trachomatis (strain D/UW-3/Cx)	160
+O84543	Y538_CHLTR	reviewed	Uncharacterized protein CT_538	CT_538	Chlamydia trachomatis (strain D/UW-3/Cx)	238
+O84583	Y579_CHLTR	reviewed	Protein CT_579	CT_579	Chlamydia trachomatis (strain D/UW-3/Cx)	439
+O84588	Y584_CHLTR	reviewed	Protein CT_584	CT_584	Chlamydia trachomatis (strain D/UW-3/Cx)	183
+B0BBW8	Y586_CHLTB	reviewed	Nucleoid-associated protein CTLon_0586	CTLon_0586	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	96
+B0B7Q3	Y589_CHLT2	reviewed	Nucleoid-associated protein CTL0589	CTL0589	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	96
+B0BBY3	Y601_CHLTB	reviewed	Maf-like protein CTLon_0601	CTLon_0601	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	196
+B0B7R8	Y603_CHLT2	reviewed	Maf-like protein CTL0603	CTL0603	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	196
+O84621	Y616_CHLTR	reviewed	UPF0242 protein CT_616	CT_616	Chlamydia trachomatis (strain D/UW-3/Cx)	429
+O84632	Y627_CHLTR	reviewed	UPF0176 protein CT_627	CT_627	Chlamydia trachomatis (strain D/UW-3/Cx)	327
+O84637	Y632_CHLTR	reviewed	UPF0159 protein CT_632	CT_632	Chlamydia trachomatis (strain D/UW-3/Cx)	529
+O84640	Y635_CHLTR	reviewed	Protein CT_635	CT_635	Chlamydia trachomatis (strain D/UW-3/Cx)	144
+B0BC23	Y641_CHLTB	reviewed	UPF0235 protein CTLon_0641	CTLon_0641	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	115
+B0B7V8	Y644_CHLT2	reviewed	UPF0235 protein CTL0644	CTL0644	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	115
+O84666	Y659_CHLTR	reviewed	UPF0109 protein CT_659	CT_659	Chlamydia trachomatis (strain D/UW-3/Cx)	78
+O84670	Y663_CHLTR	reviewed	Uncharacterized protein CT_663	CT_663	Chlamydia trachomatis (strain D/UW-3/Cx)	133
+O84672	Y665_CHLTR	reviewed	Uncharacterized protein CT_665	CT_665	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+O84673	Y666_CHLTR	reviewed	Uncharacterized protein CT_666	CT_666	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+O84678	Y671_CHLTR	reviewed	Uncharacterized protein CT_671	CT_671	Chlamydia trachomatis (strain D/UW-3/Cx)	283
+O84682	Y675_CHLTR	reviewed	Putative ATP:guanido phosphotransferase CT_675 (EC 2.7.3.-)	CT_675	Chlamydia trachomatis (strain D/UW-3/Cx)	356
+Q3KL68	Y680_CHLTA	reviewed	UPF0176 protein CTA_0680	CTA_0680	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	327
+O84697	Y691_CHLTR	reviewed	UPF0111 protein CT_691	CT_691	Chlamydia trachomatis (strain D/UW-3/Cx)	224
+O84702	Y696_CHLTR	reviewed	Uncharacterized protein CT_696	CT_696	Chlamydia trachomatis (strain D/UW-3/Cx)	392
+B0BC95	Y713_CHLTB	reviewed	Probable transcriptional regulatory protein CTLon_0713	CTLon_0713	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	238
+B0B830	Y717_CHLT2	reviewed	Probable transcriptional regulatory protein CTL0717	CTL0717	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	238
+O84739	Y734_CHLTR	reviewed	Probable lipoprotein CT_734	CT_734	Chlamydia trachomatis (strain D/UW-3/Cx)	221
+O84741	Y736_CHLTR	reviewed	UPF0098 protein CT_736	CT_736	Chlamydia trachomatis (strain D/UW-3/Cx)	150
+O84746	Y741_CHLTR	reviewed	UPF0092 membrane protein CT_741	CT_741	Chlamydia trachomatis (strain D/UW-3/Cx)	114
+P55137	Y742_CHLTR	reviewed	Uncharacterized RNA methyltransferase CT_742 (EC 2.1.1.-) (Protein HOM1)	CT_742	Chlamydia trachomatis (strain D/UW-3/Cx)	396
+O84826	Y819_CHLTR	reviewed	Uncharacterized protein CT_819	CT_819	Chlamydia trachomatis (strain D/UW-3/Cx)	238
+O84860	Y852_CHLTR	reviewed	UPF0056 membrane protein CT_852	CT_852	Chlamydia trachomatis (strain D/UW-3/Cx)	204
+O84866	Y858_CHLTR	reviewed	Protein CT_858	CT_858	Chlamydia trachomatis (strain D/UW-3/Cx)	601
+O84883	Y875_CHLTR	reviewed	Uncharacterized protein CT_875	CT_875	Chlamydia trachomatis (strain D/UW-3/Cx)	591
+B0BA81	Y885_CHLTB	reviewed	UPF0176 protein CTLon_0885	CTLon_0885	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	327
+B0B8K2	Y891_CHLT2	reviewed	UPF0176 protein CTL0891	CTL0891	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	327
+O84698	Y962_CHLTR	reviewed	Putative phosphate permease CT_962	CT_692	Chlamydia trachomatis (strain D/UW-3/Cx)	426
+B0B7Z4	YBEY_CHLT2	reviewed	Endoribonuclease YbeY (EC 3.1.-.-)	ybeY CTL0681	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	161
+Q3KLS9	YBEY_CHLTA	reviewed	Endoribonuclease YbeY (EC 3.1.-.-)	ybeY CTA_0461	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	161
+B0BC59	YBEY_CHLTB	reviewed	Endoribonuclease YbeY (EC 3.1.-.-)	ybeY CTLon_0677	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	161
+O84429	YBEY_CHLTR	reviewed	Endoribonuclease YbeY (EC 3.1.-.-)	ybeY CT_422	Chlamydia trachomatis (strain D/UW-3/Cx)	161
+O84390	YHIT_CHLTR	reviewed	Uncharacterized HIT-like protein CT_385	CT_385	Chlamydia trachomatis (strain D/UW-3/Cx)	111
+O84253	YIDC_CHLTR	reviewed	Membrane protein insertase YidC (Foldase YidC) (Membrane integrase YidC) (Membrane protein YidC)	yidC CT_251	Chlamydia trachomatis (strain D/UW-3/Cx)	787
+B0B846	YIDD_CHLT2	reviewed	Putative membrane protein insertion efficiency factor	CTL0734	Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)	104
+Q3KLM5	YIDD_CHLTA	reviewed	Putative membrane protein insertion efficiency factor	CTA_0519	Chlamydia trachomatis serovar A (strain HAR-13 / ATCC VR-571B)	104
+B0BCB1	YIDD_CHLTB	reviewed	Putative membrane protein insertion efficiency factor	CTLon_0729	Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis)	104
+O84479	YIDD_CHLTR	reviewed	Putative membrane protein insertion efficiency factor	CT_473	Chlamydia trachomatis (strain D/UW-3/Cx)	104

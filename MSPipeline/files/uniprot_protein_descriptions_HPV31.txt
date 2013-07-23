@@ -1,0 +1,9 @@
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+P17382	VE1_HPV31	reviewed	Replication protein E1 (EC 3.6.4.12) (ATP-dependent helicase E1)	E1	Human papillomavirus type 31	629
+P17383	VE2_HPV31	reviewed	Regulatory protein E2	E2	Human papillomavirus type 31	372
+P17384	VE4_HPV31	reviewed	Probable protein E4	E4	Human papillomavirus type 31	102
+P17385	VE5_HPV31	reviewed	Probable protein E5	E5	Human papillomavirus type 31	84
+P17386	VE6_HPV31	reviewed	Protein E6	E6	Human papillomavirus type 31	149
+P17387	VE7_HPV31	reviewed	Protein E7	E7	Human papillomavirus type 31	98
+P17388	VL1_HPV31	reviewed	Major capsid protein L1	L1	Human papillomavirus type 31	504
+P17389	VL2_HPV31	reviewed	Minor capsid protein L2	L2	Human papillomavirus type 31	466
