@@ -41,7 +41,7 @@ def removeFileTodict(remove_file):
 			d[key] = True
 	return d
 
-def prospectorToSaintFormat(prospector_file, dir, collapse_file, remove_file):
+def prospectorToSaintFormat(prospector_file, dir, collapse_file, remove_file, format):
 
 	interactions_file = dir + "/" + "saint_interactions.txt"
 	bait_file = dir + "/" + "saint_baits.txt"
@@ -49,46 +49,62 @@ def prospectorToSaintFormat(prospector_file, dir, collapse_file, remove_file):
 
 	collapse_dict = collapseFileTodict(collapse_file)
 	remove_dict = removeFileTodict(remove_file)
+	
+	if format =="S":
+		ip_idx = 1
+		bait_idx = 0
+		prey_idx = 4
+		tsc_idx = 5
+		mw_idx = 9
+	elif format == "F":
+		ip_idx = 2
+		bait_idx = 8
+		prey_idx = 22
+		tsc_idx = 23
+		mw_idx = 27
 
 	## write the interactions file
 	with open(prospector_file,"r") as csvfile:
 		reader = csv.reader(csvfile, delimiter="\t")
 		reader.next()
 		reader.next()
-		with open(interactions_file,"w") as interactions_out, open(bait_file,"w") as bait_out, open(prey_file,"w") as prey_out:
+		with open(interactions_file,"w") as interactions_out:
+			with open(bait_file,"w") as bait_out:
+				with open(prey_file,"w") as prey_out:
 			
-			prev_ip = ""
-			prey_set = set()
-
-			for line in reader:
-				ip = line[1]
-				
-				## check if the IP is in the 'remove'  list
-				if ip not in remove_dict.keys():
-					bait = line[0]
-					if bait in collapse_dict.keys():
-						bait = collapse_dict[bait] ## give the bait the name from the collapse list
-					prey = line[4]
-					tsc = line[5]
-					mw = line[9]
-
-					## 1. write out ALL interactions
-					interactions_out.write(ip+"\t"+bait+"\t"+prey+"\t"+tsc+"\n")
-
-					## 2. for the bait file only write out info if we're dealing with a new IP
-					## assuming all IPs are SORTED in the prospectorfile
-					if ip != prev_ip:	
-						if(bait == "negative" or bait == "control" or bait == "none"):
-							control = "C" ## CONTROL
-						else:
-							control = "T" ## TEST
-						bait_out.write((ip+"\t"+bait+"\t"+control+"\n"))
-						prev_ip = ip
-
-					## 3. write out prey info if it wasn't observed before
-					if prey not in prey_set:
-						prey_out.write(prey+"\t"+mw+"\t"+prey+"\n")
-						prey_set.add(prey)
+					prev_ip = ""
+					prey_set = set()
+		
+					for line in reader:
+						ip = line[ip_idx]
+						
+						## check if the IP is in the 'remove'  list
+						if ip not in remove_dict.keys():
+							bait = line[bait_idx]
+							if bait in collapse_dict.keys():
+								bait = collapse_dict[bait] ## give the bait the name from the collapse list
+							prey = line[prey_idx]
+							tsc = line[tsc_idx]
+							mw = line[mw_idx]
+		
+							## 1. write out ALL interactions
+							interactions_out.write(ip+"\t"+bait+"\t"+prey+"\t"+tsc+"\n")
+		
+							## 2. for the bait file only write out info if we're dealing with a new IP
+							## assuming all IPs are SORTED in the prospectorfile
+							if ip != prev_ip:
+								bait_l = bait.lower()	
+								if(bait_l == "negative" or bait_l == "control" or bait_l == "none" or bait_l == "vector"):
+									control = "C" ## CONTROL
+								else:
+									control = "T" ## TEST
+								bait_out.write((ip+"\t"+bait+"\t"+control+"\n"))
+								prev_ip = ip
+		
+							## 3. write out prey info if it wasn't observed before
+							if prey not in prey_set:
+								prey_out.write(prey+"\t"+mw+"\t"+prey+"\n")
+								prey_set.add(prey)
 			
 			interactions_out.close()
 			bait_out.close()
@@ -108,13 +124,13 @@ def main(argv=None):
 	prospector_file = ""
 	collapse_file = ""
 	remove_file= ""
-	
+	format = "S"
 
 	if argv is None:
 		argv = sys.argv
 	try:
 		try:
-			opts, args = getopt.getopt(argv[1:], "ho:dpcr", ["help", "output=", "dir=", "prospector_file=", "collapse_file=", "remove_file="])
+			opts, args = getopt.getopt(argv[1:], "ho:dpcrf", ["help", "output=", "dir=", "prospector_file=", "collapse_file=", "remove_file=", "data_format="])
 		except getopt.error, msg:
 			raise Usage(msg)
 	
@@ -132,9 +148,11 @@ def main(argv=None):
 				collapse_file = value
 			if option in ("-r", "--remove_file"):
 				remove_file = value
+			if option in ("-f", "--data_format"):
+				format = value
 
 		print(collapse_file)
-		prospectorToSaintFormat(prospector_file, dir, collapse_file, remove_file)
+		prospectorToSaintFormat(prospector_file, dir, collapse_file, remove_file, format)
 
 	except Usage, err:
 		print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)

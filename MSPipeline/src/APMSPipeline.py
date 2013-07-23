@@ -23,9 +23,10 @@ help_message = '''
 The help message goes here.
 '''
 
-src_dir = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/src/"
-bin_dir = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/bin/"
-
+MS_PIPELINE_PATH = "/netapp/home/erikv/Scripts/MSPipeline/"
+src_dir = MS_PIPELINE_PATH + "/src/"
+bin_dir = MS_PIPELINE_PATH + "/bin/"
+os.environ['MS_PIPELINE_PATH'] = MS_PIPELINE_PATH
 
 def readConfig(filename):
 	file = open(filename)
@@ -58,22 +59,27 @@ def pipeline(config):
 	mist_self_score_file=""
 	mist_hiv_score_file=""
 	comppass_score_file=""
+	saint_score_file=""
 
 
 	## ################## 
-	## 1. merge additions
+	## merge additions
 
 	tmp_in_file = data_file
 	
-	print(">> MERGING KEYS TO DATA\t\t" + tmp_in_file)
-	bname = bname + "_wKEYS"
-	tmp_out_file = output_dir+bname+".txt"
-	f = open(tmp_out_file,'w')
-	subprocess.call([src_dir+'FileIO/merge_additions.pl', keys_file, tmp_in_file, config.get("general","data_format")], stdout=f)
-	f.close()
+	if config.get('general','data_format') == 'S': ## simple format so merge keys
+		print(">> MERGING KEYS TO DATA\t\t" + tmp_in_file)
+		bname = bname + "_wKEYS"
+		tmp_out_file = output_dir+bname+".txt"
+		f = open(tmp_out_file,'w')
+		subprocess.call([src_dir+'FileIO/merge_additions.pl', keys_file, tmp_in_file, config.get("general","data_format")], stdout=f)
+		f.close()
+	else:
+		print(">> FULL FORMAT: NO KEYS WERE MERGED\t\t" + tmp_in_file)
+		tmp_out_file = tmp_in_file ## no action
 
 	## ##########################
-	## 1.B merge with mastertable
+	## merge with mastertable
 
 	tmp_in_file = tmp_out_file
 
@@ -100,16 +106,16 @@ def pipeline(config):
 			f.close()	
 
 	
-
 	## ################### 
-	## 2. remove carryover
+	## remove carryover
 
 	tmp_in_file = tmp_out_file
 
 	if config.get("general","remove_carryover"):
 		
 		print(">> REMOVING CARRYOVER FROM\t\t" + tmp_in_file)
-		tmp_out_file = output_dir+bname+'_NoC'+".txt"
+		bname = bname+'_NoC'
+		tmp_out_file = output_dir+bname+".txt"
 		f = open(tmp_out_file,'w')
 		subprocess.call([src_dir+'FileIO/carryover_removal_comprehensive.pl', tmp_in_file, config.get("general","data_format")], stdout=f)
 		f.close()
@@ -119,12 +125,13 @@ def pipeline(config):
 		prospector_noc = tmp_in_file
 
 	## ####################### 
-	## 3. converting to matrix
+	## converting to matrix
 
 	tmp_in_file = tmp_out_file
 
 	print(">> CONVERTING TO MATRIX\t\t" + tmp_in_file)
-	tmp_out_file = output_dir+bname+'_MAT'+".txt"
+	bname = bname + "_MAT"
+	tmp_out_file = output_dir+bname+".txt"
 	f = open(tmp_out_file,'w')
 	subprocess.call([src_dir+'FileIO/convert_to_matrix_format_comprehensive.pl', tmp_in_file, config.get("general","data_format"), remove_file, collapse_file, exclusions_file], stdout=f)
 	f.close()
@@ -132,8 +139,19 @@ def pipeline(config):
 	print(">> CHECKING MATRIX INTEGRITY\t\t" + tmp_in_file)
 	subprocess.call([src_dir+'FileIO/FileCheck.py', tmp_in_file])
 
+	####################
+	## CLUSTERING IPS
+
+	tmp_in_file = tmp_out_file
+
+	if(config.getboolean("cluster","enabled")):
+		print(">> CLUSTER IP MATRIX\t\t" + tmp_in_file)
+		tmp_out_file = output_dir+bname+'_CLUSTERED.pdf'
+		subprocess.call([src_dir+'Stats/Cluster.R', '-d', tmp_in_file, '-o', tmp_out_file])
+		
+
 	###################################
-	## 4. MiST scoring with HIV/SELF params
+	## MiST scoring with HIV/SELF params
 	
 	tmp_in_file = tmp_out_file ## MATRIX FORMAT 
 
@@ -155,7 +173,7 @@ def pipeline(config):
 		mist_metrics_file = mist_dir+bname+'_MIST_SELF'+"_metrics.txt"
 
 	#######################
-	## 5. COMPPASS scoring 
+	## COMPPASS scoring 
 
 	comppass_dir = output_dir+"/COMPPASS/"
 	if not os.path.exists(comppass_dir):
@@ -168,7 +186,7 @@ def pipeline(config):
 		comppass_score_file = tmp_out_file
 
 	###################
-	## 7. SAiNT scoring
+	## SAiNT scoring
 
 	saint_dir = output_dir+"SAINT/"
 	if not os.path.exists(saint_dir):
@@ -183,21 +201,24 @@ def pipeline(config):
 		lowmode = config.get("saint", "lowmode")
 		minfold = config.get("saint", "minfold")
 		normalize = config.get("saint", "normalize")
-
-		subprocess.call([src_dir+"Saint/SaintInput.py", '--dir', saint_dir, '--prospector_file', prospector_noc, '--collapse_file', collapse_file, '--remove_file', remove_file])
+		
+		subprocess.call([src_dir+"Saint/SaintInput.py", '--dir', saint_dir, '--prospector_file', prospector_noc, '--collapse_file', collapse_file, '--remove_file', remove_file, '--data_format', config.get('general','data_format')])
 		subprocess.call([bin_dir+"saint/saint-reformat", saint_dir+"saint_interactions.txt", saint_dir+"saint_preys.txt", saint_dir+"saint_baits.txt", control_reduction])
-		subprocess.call([bin_dir+'saint/saint-spc-ctrl', saint_dir+"interaction.new", saint_dir+"prey.new", saint_dir+"bait.new", burnin, iter, lowmode, minfold, normalize])		
+		subprocess.call([bin_dir+'saint/saint-spc-ctrl', saint_dir+"interaction.new", saint_dir+"prey.new", saint_dir+"bait.new", burnin, iter, lowmode, minfold, normalize])
+		saint_score_file = saint_dir + "/RESULT/unique_interactions" 		
 
 
 	####################
-	## 8. COLLECT SCORES
+	## COLLECT SCORES
 
-	print(">> COLLECT SCORES AND ANNOTATE\t\t")
-	tmp_out_file = output_dir+bname+'_ALLSCORES'+".txt"
+	if config.getboolean('collect','enabled'):
+		print(">> COLLECT SCORES AND ANNOTATE\t\t")
+		tmp_out_file = output_dir+bname+'_ALLSCORES'+".txt"
 
-	uniprot_dir = config.get("collect", "uniprot_dir")
-	species = config.get("collect", "species") 
-	subprocess.call([src_dir+'FileIO/CompileResults.R', '-d', "", '-o', tmp_out_file, '-f', mist_hiv_score_file, '-t', mist_self_score_file, '-m', mist_metrics_file, '-c', comppass_score_file, '-u', uniprot_dir, '-s', species, '-i', src_dir ])
+		uniprot_dir = config.get("collect", "uniprot_dir")
+		species = config.get("collect", "species") 
+		# print(src_dir+'FileIO/CompileResults.R'+ ' -d '+ ""+ ' -o '+ tmp_out_file+ ' -f '+ mist_hiv_score_file+ ' -t '+ mist_self_score_file+ ' -m '+ mist_metrics_file+ ' -c '+ comppass_score_file+ ' -s '+ saint_score_file+ ' -u '+ uniprot_dir+ ' -n '+ species+ ' -i '+ src_dir)
+		subprocess.call([src_dir+'FileIO/CompileResults.R', '-d', "", '-o', tmp_out_file, '-f', mist_hiv_score_file, '-t', mist_self_score_file, '-m', mist_metrics_file, '-c', comppass_score_file, '-s', saint_score_file, '-u', uniprot_dir, '-n', species, '-i', src_dir ])
 
 
 class Usage(Exception):
@@ -240,7 +261,7 @@ def main(argv=None):
 				alone = value
 
 		## first read config from file 
-		config = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/hcv/TestConfig.txt"
+		## config = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/hcv/TestConfig.txt"
 		cfg = readConfig(config) 
 		## then overwrite with command line args
 		## to implement

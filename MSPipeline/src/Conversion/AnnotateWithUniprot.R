@@ -1,6 +1,7 @@
 #! /usr/bin/Rscript --vanilla --default-packages=utils
 
-source("AnnotateWithUniprot_lib.R")
+INSTALL_DIR = Sys.getenv("MS_PIPELINE_PATH") 
+source(paste(INSTALL_DIR,"src/Conversion/AnnotateWithUniprot_lib.R",sep=""))
 
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))

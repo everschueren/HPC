@@ -4,7 +4,7 @@ suppressMessages(library(optparse))
 suppressMessages(library(compiler))
 
 
-CompileResults = function(dir, output_file, mist_metrics_file="", mist_self_score_file="", mist_hiv_score_file="", comppass_score_file="", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN"){
+CompileResults = function(dir, output_file, mist_metrics_file="", mist_self_score_file="", mist_hiv_score_file="", comppass_score_file="", saint_score_file="", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN"){
 
 	tmp = NULL
 	header = c("BAIT", "PREY")
@@ -49,6 +49,17 @@ CompileResults = function(dir, output_file, mist_metrics_file="", mist_self_scor
 		header = c(header, c("COMPPASS_A","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD","COMPPASS_pZ","COMPPASS_pS","COMPPASS_pD","COMPPASS_pWD"))
 	}
 
+	if(saint_score_file!=""){
+		saint_results = read.delim(paste(dir, saint_score_file, sep=""), stringsAsFactors=F)
+		if(is.null(tmp)){
+			tmp = saint_results
+		}else{
+			print("ADDING SAINT_SCORES")
+			tmp = merge(tmp, saint_results[,c("Bait","Prey","AvgP","MaxP")], by=c("Bait","Prey"))	
+		}
+		header = c(header, c("SAINT_AVG_P","SAINT_MAX_P"))
+	}
+
 	colnames(tmp) = header
 
 	if(filter_zeros & comppass_score_file != ""){
@@ -81,13 +92,15 @@ option_list <- list(
               help="file containing MIST metrics"),
   make_option(c("-c", "--comppass_score_file"),
               help="file containing COMPPASS scores"),
+  make_option(c("-s", "--saint_score_file"),
+              help="file containing SAINT scores"),
   make_option(c("-z", "--filter_zeros"), default=TRUE,
               help="filter unobserved bait-prey pairs from the scores"),
   make_option(c("-a", "--annotate"), default=TRUE,
               help="annotate results with uniprot fields"),
   make_option(c("-u", "--uniprot_dir"), 
               help="directory containing uniprot files"),
-  make_option(c("-s", "--uniprot_species"), default="HUMAN", 
+  make_option(c("-n", "--uniprot_species"), default="HUMAN", 
               help="species for which to read uniprot files"),
   make_option(c("-i", "--install_dir"), default="", 
               help="install dir of the pipeline")
@@ -98,7 +111,7 @@ parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandA
 
 source(paste(parsedArgs$install_dir, "Conversion/AnnotateWithUniprot_lib.R",sep=""))
 
-CompileResults(parsedArgs$dir, parsedArgs$output_file, mist_metrics_file=parsedArgs$mist_metrics_file, mist_self_score_file=parsedArgs$mist_self_score_file, mist_hiv_score_file=parsedArgs$mist_hiv_score_file, comppass_score_file=parsedArgs$comppass_score_file, filter_zeros=parsedArgs$filter_zeros, annotate=parsedArgs$annotate, uniprot_dir=parsedArgs$uniprot_dir, species=parsedArgs$species)  
+CompileResults(parsedArgs$dir, parsedArgs$output_file, mist_metrics_file=parsedArgs$mist_metrics_file, mist_self_score_file=parsedArgs$mist_self_score_file, mist_hiv_score_file=parsedArgs$mist_hiv_score_file, comppass_score_file=parsedArgs$comppass_score_file, saint_score_file=parsedArgs$saint_score_file, filter_zeros=parsedArgs$filter_zeros, annotate=parsedArgs$annotate, uniprot_dir=parsedArgs$uniprot_dir, species=parsedArgs$species)  
 
 
 

@@ -54,9 +54,10 @@ make_contrast_vector = function(sample_names){
   makeContrasts(contrasts=contrasts, levels=sample_names)
 } 
 
-make_contrast_vector_from_file = function(file, sample_names){
-  contrast_file = read.delim(file)
-  makeContrasts(contrasts=contrast_file$contrasts, levels=sample_names) 
+make_contrast_vector_from_file = function(contrast_file, sample_names){
+  cf = as.data.frame(read.delim(contrast_file, header=F))
+  contrasts = makeContrasts(contrasts=cf[,1], levels=sample_names) 
+  contrasts
 }
 
 do_limma = function(data_matrix, design_matrix, contrasts=NULL){
@@ -68,7 +69,7 @@ do_limma = function(data_matrix, design_matrix, contrasts=NULL){
     tmp = topTable(eb, adjust.method="BH",number=Inf)
     tmp = cbind(rownames(tmp), tmp[,c(1,4)])
     exp_name = colnames(design_matrix)[1]
-    colnames(tmp) =  c("ID",str_join(exp_name,"_logFC"), str_join(exp_name,"_adjPVal"))
+    colnames(tmp) =  c("ID","FC","Padj")
     results = tmp
   }else{
     contrasts.fit = eBayes(contrasts.fit(lin_fit, contrasts))
@@ -77,17 +78,17 @@ do_limma = function(data_matrix, design_matrix, contrasts=NULL){
     for(i in 1:ncol(contrasts)){
       test_differentials = topTable(contrasts.fit, coef=i, adjust.method="BH",number=Inf)
       tmp1 = cbind(rownames(test_differentials), test_differentials[,c(1,5)])
-      contrast = colnames(contrasts)[i]
-      colnames(tmp1) = c("ID",str_join(contrast,"_logFC"), str_join(contrast,"_adjPVal"))
+      ctr = colnames(contrasts)[i]
+      colnames(tmp1) = c("ID","FC","Padj")
       
       if(i==1){
-        tmp = tmp1
+        results = tmp1
       }else{
-        tmp = merge(tmp, tmp1, by="ID")
+        results = merge(results, tmp1, by="ID")
       }
     }
   }
-  tmp
+  results
 }
 
 Limma.main = function(data_file, design_matrix, output_file, contrast_file="none"){
@@ -110,9 +111,9 @@ Limma.main = function(data_file, design_matrix, output_file, contrast_file="none
     differential_results = do_limma(data_matrix, design_matrix, contrasts) 
   }
     
-  tmp = cbind(rownames(data), data[,1:2])
-  colnames(tmp)[1] = "ID"
-  output_frame = merge(tmp, differential_results, by ="ID")
+  keys = cbind(rownames(data), data[,1:2])
+  colnames(keys)[1] = "ID"
+  output_frame = merge(keys, differential_results, by ="ID")
   write.table(output_frame, file=output_file, eol="\n", sep="\t", quote=F, row.names=F, col.names=T)
 }
 
@@ -140,6 +141,7 @@ parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandA
 Limma.main <- cmpfun(Limma.main)
 Limma.main(data_file=parsedArgs$data_file, design_matrix=parsedArgs$design_matrix, output_file=parsedArgs$output_file, contrast_file=parsedArgs$contrast_file)  
 
+# Limma.main(data_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/processed/vpr_timecourse_FLT_MAT.txt", design_matrix="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/input/vpr_design_conditions.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/processed/vpr_timecourse_FLT_MAT_LIM.txt", contrast_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/input/vpr_timecourse_contrasts.txt")  
 
 
 

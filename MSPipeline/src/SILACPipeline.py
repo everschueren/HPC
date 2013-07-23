@@ -18,7 +18,11 @@ help_message = '''
 The help message goes here.
 '''
 
-install_dir = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/src/"
+MS_PIPELINE_PATH = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/"
+src_dir = MS_PIPELINE_PATH + "/src/"
+bin_dir = MS_PIPELINE_PATH + "/bin/"
+os.environ['MS_PIPELINE_PATH'] = MS_PIPELINE_PATH
+
 
 def readConfig(filename):
 	file = open(filename)
@@ -38,7 +42,16 @@ def pipeline(config):
 	##derived
 	bname = os.path.splitext(os.path.basename(data_file))[0]
 	tmp_in_file = data_file
+	
+	#################################
+	## PREPARE CONTAINERS FOR RESULTS
 
+	output_dir = dir + config.get("files","output_dir") + '/'
+	if not os.path.exists(output_dir):
+		os.mkdir(output_dir)
+
+	out_commands = open(output_dir+"commands.sh",'w')	
+	
 	## ################################ 
 	## 1. read maxquant data and filter
 	
@@ -55,7 +68,8 @@ def pipeline(config):
 		unique = config.get("filters","unique")
 		contaminants = config.get("filters","contaminants")
 		modification = config.get("filters","modification")
-		subprocess.call([install_dir+'Conversion/MaxQFilter.R', '-d', tmp_in_file, '-o', tmp_out_file, '--contaminants_filter', contaminants, '-u', unique, '-x', oxidations, '-s', modification])
+
+		subprocess.call([src_dir+'Conversion/MaxQFilter.R', '-d', tmp_in_file, '-o', tmp_out_file, '--contaminants_filter', contaminants, '-u', unique, '-x', oxidations, '-s', modification])
 		tmp_in_file = tmp_out_file
 
 	## #############################################
@@ -73,12 +87,12 @@ def pipeline(config):
 	if config.getboolean("general","use_ratios"):
 		rep_treatment = config.get("general","ratio_rep_treatment")
 		print(">> CONVERTING TO MATRIX:\tRATIOS")
-		subprocess.call([install_dir+'Conversion/MaxQToMatrix.R', '-i', keys_file, '-d', tmp_in_file, '-o', tmp_out_file, '-r', rep_treatment, '-m', 'Ratio_H_L', '-n', normalization])
+		subprocess.call([src_dir+'Conversion/MaxQToMatrix.R', '-i', keys_file, '-d', tmp_in_file, '-o', tmp_out_file, '-r', rep_treatment, '-m', 'Ratio_H_L', '-n', normalization])
 
 	if config.getboolean("general","use_intensities"):
 		print(">> CONVERTING TO MATRIX:\tINTENSITIES")
 		rep_treatment = config.get("general","intensity_rep_treatment")
-		subprocess.call([install_dir+'Conversion/MaxQToMatrix.R', '-i', keys_file, '-d', tmp_in_file, '-o', tmp_out_file, '-r', rep_treatment, '-m', 'Intensities', '-n', normalization])
+		subprocess.call([src_dir+'Conversion/MaxQToMatrix.R', '-i', keys_file, '-d', tmp_in_file, '-o', tmp_out_file, '-r', rep_treatment, '-m', 'Intensity', '-n', normalization])
 	tmp_in_file = tmp_out_file
 
 	## #############################
@@ -94,7 +108,7 @@ def pipeline(config):
 			contrast_file = dir+config.get("limma","contrast")
 		else:
 			contrast_file = "none"
-		subprocess.call([install_dir+'Stats/Limma.R', '-d', tmp_in_file, '-o', tmp_out_file, '-m', design_file, '-c', contrast_file])
+		subprocess.call([src_dir+'Stats/Limma.R', '-d', tmp_in_file, '-o', tmp_out_file, '-m', design_file, '-c', contrast_file])
 	tmp_in_file = tmp_out_file		
 
 	## ######################
@@ -106,20 +120,21 @@ def pipeline(config):
 	if config.getboolean("flatten","enabled"):
 		print(">> FLATTEN TO PROTEINS")
 		pvl_method = config.get("flatten","pvl_method")
-		subprocess.call([install_dir+'Stats/Flatten.R', '-d', tmp_in_file, '-o', tmp_out_file, '-m', pvl_method])
+		subprocess.call([src_dir+'Stats/Flatten.R', '-d', tmp_in_file, '-o', tmp_out_file, '-m', pvl_method])
 	tmp_in_file = tmp_out_file		
 		
 	## ###########
 	## 5. annotate
 
 	bname = bname+"_RES"
-	tmp_out_file = dir+"processed/"+bname+".txt"
+	# tmp_out_file = dir+"processed/"+bname+".txt"
+	tmp_out_file = dir+ config.get("files", "output_dir") + "/" + config.get("files", "output_file")
 
 	if config.getboolean("annotate","enabled"):
 		print(">> ANNOTATING WITH UNIPROT")
 		uniprot_dir = config.get("annotate","file_dir")
 		species = config.get("annotate","species")
-		subprocess.call([install_dir+'Conversion/AnnotateWithUniprot.R', '-d', tmp_in_file, '-o', tmp_out_file, '-s', species, '-k', "uniprot_ac", '-u', uniprot_dir])
+		subprocess.call([src_dir+'Conversion/AnnotateWithUniprot.R', '-d', tmp_in_file, '-o', tmp_out_file, '-s', species, '-k', "uniprot_ac", '-u', uniprot_dir])
 	tmp_in_file = tmp_out_file
 
 class Usage(Exception):
@@ -152,7 +167,8 @@ def main(argv=None):
 			if option in ("-o", "--output"):
 				output = value
 
-		# config = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/ptm/ptm.cfg"		
+		# config = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/ptm/ptm.cfg"
+		# config = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/apms_maxq.cfg"
 		## first read config from file 
 		cfg = readConfig(config)
 		## then overwrite with command line args

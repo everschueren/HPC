@@ -12,9 +12,9 @@ FlattenP.Fisher = function(x) {
 
 
 Flatten = function(data_file, output_file, method="Fisher"){
-  data = read.delim(data_file, stringsAsFactors=F)
-  lfc_col = colnames(data)[4] ## HARDCODED
-  data_flat = sqldf(str_join("select uniprot_ac, avg(",lfc_col,") as 'LFC_avg', stdev(",lfc_col,") as 'LFC_std', count(*) as 'pep_count' from data where ",lfc_col," != 'NA' group by uniprot_ac order by uniprot_ac asc"))
+  data = read.delim(data_file, stringsAsFactors=F, check.names=F)
+  lfc_col = colnames(data)[4]
+  data_flat = sqldf(str_join("select uniprot_ac, avg(`",lfc_col,"`) as 'LFC_avg', stdev(`",lfc_col,"`) as 'LFC_std', count(*) as 'pep_count' from data where `",lfc_col,"` != 'NA' group by uniprot_ac order by uniprot_ac asc"))
   if(method=="Fisher"){
     pvls = data[,c(2,5)] ## HARDCODED
     pvls_agg = aggregate(. ~ uniprot_ac, data=pvls, FUN=FlattenP.Fisher)
@@ -40,3 +40,5 @@ option_list <- list(
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 Flatten <- cmpfun(Flatten)
 Flatten(data_file=parsedArgs$data_file, output_file=parsedArgs$output_file, method=parsedArgs$method)  
+
+# Flatten(data_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/processed/vpr_timecourse_FLT_MAT_LIM.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/processed/vpr_timecourse_FLT_MAT_LIM_AVG.txt", method="Fisher")  

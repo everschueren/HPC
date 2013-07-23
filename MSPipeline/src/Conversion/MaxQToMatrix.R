@@ -29,7 +29,7 @@ get_replicate_processing_fun = function(method="none"){
   if(method=="max_ratio"){
     fun = max_ratios
   }else if(method == "max"){
-    fun = max
+    fun = function(x) max(x, na.rm=T)
   }else if(method=="mean"){
     fun = function(x) mean(x, na.rm=T)
   }else if(method=="none"){
@@ -76,6 +76,7 @@ maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_pr
   
   ## NORMALIZE
   if(normalization != "none"){
+    data_matrix_flat[is.infinite(data_matrix_flat)] = NA
     data_matrix_flat = normalizeBetweenArrays(data_matrix_flat, method=normalization)
   }
   ## CONVERT TO LOGS
@@ -110,4 +111,5 @@ parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandA
 maxQ_to_matrix <- cmpfun(maxQ_to_matrix)
 maxQ_to_matrix(parsedArgs$data_file, parsedArgs$index_file, parsedArgs$output_file, parsedArgs$replicate_processing, parsedArgs$maxq_value, parsedArgs$normalization)  
 
+# maxQ_to_matrix(index_file='/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/input/vpr_timecourse_keys.txt', data_file='/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/processed/vpr_timecourse_FLT.txt',  output_file='/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/processed/vpr_timecourse_FLT_MAT.txt', replicate_processing='max', maxq_value='Intensity', normalization='NONE')
 
