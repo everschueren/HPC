@@ -23,7 +23,9 @@ help_message = '''
 The help message goes here.
 '''
 
-MS_PIPELINE_PATH = "/netapp/home/erikv/Scripts/MSPipeline/"
+# MS_PIPELINE_PATH = "/netapp/home/erikv/Scripts/MSPipeline/"
+MS_PIPELINE_PATH = "/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/"
+
 src_dir = MS_PIPELINE_PATH + "/src/"
 bin_dir = MS_PIPELINE_PATH + "/bin/"
 os.environ['MS_PIPELINE_PATH'] = MS_PIPELINE_PATH
@@ -152,8 +154,6 @@ def pipeline(config):
 
 	###################################
 	## MiST scoring with HIV/SELF params
-	
-	tmp_in_file = tmp_out_file ## MATRIX FORMAT 
 
 	mist_dir = output_dir+"/MIST/"
 	if not os.path.exists(mist_dir):

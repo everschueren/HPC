@@ -1,5 +1,4 @@
 [files]
-
 dir = /Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/hcv/
 data = input/HCV-293T-Andy-results.txt
 keys = input/HCV_keys.txt
@@ -9,33 +8,30 @@ exclusions = input/HCV_exclusions.txt
 output_dir = processed
 
 [general]
-
 remove_carryover = 1
 data_format = S
 master_include = 0
 master_format = S
 master_file = /Users/everschueren/Projects/HPCKrogan/Data/Mastertable/processed/2013_May16_MasterTable_background_simple.txt
 
+[cluster]
+enabled = 1
 
 [mist]
-
-enabled = 1
+enabled = 0
 filter = 0
 training = 0
 
 [mist_self]
-
-enabled = 1
+enabled = 0
 filter = 0
 training = 1
 
 [comppass]
-
-enabled = 1
+enabled = 0
 
 [saint]
-
-enabled = 0
+enabled = 1
 control_reduction = 5
 burnin = 2000
 iter = 10000
@@ -43,11 +39,8 @@ lowmode = 0
 minfold = 1
 normalize = 1
 
-
 [collect]
-
-file_dir = /Users/everschueren/Projects/HPCKrogan/Scripts/Pipeline_local/files/
-gene_names = Gene_id_Gene_name_02_11_2011.txt
-uniprot_entrez = uniprot_to_entrez_human.txt
+enabled = 0
+file_dir = /Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/files/
 uniprot_dir = /Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/files/
-species = HUMAN-HCV
+species = HUMAN
