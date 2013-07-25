@@ -3,8 +3,10 @@
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))
 
+INSTALL_DIR = Sys.getenv("MS_PIPELINE_PATH") 
+source(paste(INSTALL_DIR,"src/Conversion/AnnotateWithUniprot_lib.R",sep=""))
 
-CompileResults = function(dir, output_file, mist_metrics_file="", mist_self_score_file="", mist_hiv_score_file="", comppass_score_file="", saint_score_file="", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN"){
+CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_self_score_file="", mist_hiv_score_file="", comppass_score_file="", saint_score_file="", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN"){
 
 	tmp = NULL
 	header = c("BAIT", "PREY")
@@ -46,7 +48,7 @@ CompileResults = function(dir, output_file, mist_metrics_file="", mist_self_scor
 			print("ADDING COMPPASS_SCORES")
 			tmp = merge(tmp, comppass_results, by=c("Bait","Prey"))	
 		}
-		header = c(header, c("COMPPASS_A","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD","COMPPASS_pZ","COMPPASS_pS","COMPPASS_pD","COMPPASS_pWD"))
+		header = c(header, c("TSC_AVG","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD","COMPPASS_pZ","COMPPASS_pS","COMPPASS_pD","COMPPASS_pWD"))
 	}
 
 	if(saint_score_file!=""){
@@ -63,10 +65,12 @@ CompileResults = function(dir, output_file, mist_metrics_file="", mist_self_scor
 	colnames(tmp) = header
 
 	if(filter_zeros & comppass_score_file != ""){
-		tmp = tmp[tmp$COMPPASS_A > 0,]	
+		tmp = tmp[tmp$TSC_AVG > 0,]	
 	}
 
 	if(annotate){
+		print("ANNOTATING WITH UNIPROT")
+		# print(colnames(tmp))
 		output = annotate_with_uniprot(as.data.frame(tmp), species="HUMAN-HCV", key="PREY", output_file=output_file, uniprot_dir=uniprot_dir)	
 	}else{
 		output = tmp
@@ -109,9 +113,8 @@ option_list <- list(
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 
 
-source(paste(parsedArgs$install_dir, "Conversion/AnnotateWithUniprot_lib.R",sep=""))
-
 CompileResults(parsedArgs$dir, parsedArgs$output_file, mist_metrics_file=parsedArgs$mist_metrics_file, mist_self_score_file=parsedArgs$mist_self_score_file, mist_hiv_score_file=parsedArgs$mist_hiv_score_file, comppass_score_file=parsedArgs$comppass_score_file, saint_score_file=parsedArgs$saint_score_file, filter_zeros=parsedArgs$filter_zeros, annotate=parsedArgs$annotate, uniprot_dir=parsedArgs$uniprot_dir, species=parsedArgs$species)  
 
 
-
+# CompileResults(dir="", output_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2/HCV-HuH-results_wKEYS_NoC_MAT_ALLSCORES.txt", mist_metrics_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_SELF_metrics.txt", mist_self_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_SELF_scores.txt", mist_hiv_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_HIV_scores.txt", comppass_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//COMPPASS/HCV-HuH-results_wKEYS_NoC_MAT_COMPPASS.txt", saint_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2/SAINT//RESULT/unique_interactions", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN-HCV")
+  

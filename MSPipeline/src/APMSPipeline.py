@@ -163,15 +163,24 @@ def pipeline(config):
 		print(">> SCORING MiST [HIV PARAMS]\t\t" + tmp_in_file)
 		tmp_out_file = mist_dir+bname+'_MIST_HIV'+".txt"
 		subprocess.call([src_dir+'MiST/MiST.py', tmp_in_file, tmp_out_file, config.get('mist','filter'), config.get('mist','training')]) 
-		mist_hiv_score_file = mist_dir+bname+'_MIST_HIV'+"_scores.txt"
+	
+	mist_hiv_score_file = mist_dir+bname+'_MIST_HIV'+"_scores.txt"
+	
+	if not os.path.exists(mist_hiv_score_file):
+		mist_hiv_score_file = ""
 
 	if config.getboolean('mist_self','enabled'):
 		print(">> SCORING MiST [SELF PARAMS]\t\t" + tmp_in_file)
 		tmp_out_file = mist_dir+bname+'_MIST_SELF'+".txt"
-		subprocess.call([src_dir+'MiST/MiST.py', tmp_in_file, tmp_out_file, config.get('mist_self','filter'), config.get('mist_self','training')]) 
-		mist_self_score_file = mist_dir+bname+'_MIST_SELF'+"_scores.txt"
-		mist_metrics_file = mist_dir+bname+'_MIST_SELF'+"_metrics.txt"
+		subprocess.call([src_dir+'MiST/MiST.py', tmp_in_file, tmp_out_file, config.get('mist_self','filter'), config.get('mist_self','training')])
 
+	mist_self_score_file = mist_dir+bname+'_MIST_SELF'+"_scores.txt"
+	mist_metrics_file = mist_dir+bname+'_MIST_SELF'+"_metrics.txt"
+
+	if not os.path.exists(mist_self_score_file):
+		mist_self_score_file = ""
+		mist_metrics_file = ""		
+		
 	#######################
 	## COMPPASS scoring 
 
@@ -183,7 +192,11 @@ def pipeline(config):
 		print(">> SCORING COMPPASS\t\t" + tmp_in_file)
 		tmp_out_file = comppass_dir+bname+'_COMPPASS'+".txt"
 		subprocess.call([src_dir+'Comppass/Comppass.R', '-d', tmp_in_file, '-o', tmp_out_file])
-		comppass_score_file = tmp_out_file
+
+	comppass_score_file = comppass_dir+bname+'_COMPPASS'+".txt"
+		
+	if not os.path.exists(comppass_score_file):
+		comppass_score_file = ""
 
 	###################
 	## SAiNT scoring
@@ -205,8 +218,11 @@ def pipeline(config):
 		subprocess.call([src_dir+"Saint/SaintInput.py", '--dir', saint_dir, '--prospector_file', prospector_noc, '--collapse_file', collapse_file, '--remove_file', remove_file, '--data_format', config.get('general','data_format')])
 		subprocess.call([bin_dir+"saint/saint-reformat", saint_dir+"saint_interactions.txt", saint_dir+"saint_preys.txt", saint_dir+"saint_baits.txt", control_reduction])
 		subprocess.call([bin_dir+'saint/saint-spc-ctrl', saint_dir+"interaction.new", saint_dir+"prey.new", saint_dir+"bait.new", burnin, iter, lowmode, minfold, normalize])
-		saint_score_file = saint_dir + "/RESULT/unique_interactions" 		
+	
+	saint_score_file = saint_dir + "/RESULT/unique_interactions" 		
 
+	if not os.path.exists(saint_score_file):
+		saint_score_file = ""
 
 	####################
 	## COLLECT SCORES
@@ -216,9 +232,11 @@ def pipeline(config):
 		tmp_out_file = output_dir+bname+'_ALLSCORES'+".txt"
 
 		uniprot_dir = config.get("collect", "uniprot_dir")
-		species = config.get("collect", "species") 
-		# print(src_dir+'FileIO/CompileResults.R'+ ' -d '+ ""+ ' -o '+ tmp_out_file+ ' -f '+ mist_hiv_score_file+ ' -t '+ mist_self_score_file+ ' -m '+ mist_metrics_file+ ' -c '+ comppass_score_file+ ' -s '+ saint_score_file+ ' -u '+ uniprot_dir+ ' -n '+ species+ ' -i '+ src_dir)
-		subprocess.call([src_dir+'FileIO/CompileResults.R', '-d', "", '-o', tmp_out_file, '-f', mist_hiv_score_file, '-t', mist_self_score_file, '-m', mist_metrics_file, '-c', comppass_score_file, '-s', saint_score_file, '-u', uniprot_dir, '-n', species, '-i', src_dir ])
+		species = config.get("collect", "species")
+		annotate =  config.get("collect", "annotate")
+
+		# print(src_dir+'FileIO/CompileResults.R'+  ' -o '+ tmp_out_file+ ' -f '+ mist_hiv_score_file+ ' -t '+ mist_self_score_file+ ' -m '+ mist_metrics_file+ ' -c '+ comppass_score_file+ ' -s '+ saint_score_file+ ' -u '+ uniprot_dir+ ' -n '+ species+ ' -i '+ src_dir + '-a ' + annotate)
+		subprocess.call([src_dir+'FileIO/CompileResults.R', '-d', "", '-o', tmp_out_file, '-f', mist_hiv_score_file, '-t', mist_self_score_file, '-m', mist_metrics_file, '-c', comppass_score_file, '-s', saint_score_file, '-u', uniprot_dir, '-n', species, '-i', src_dir, '-a', annotate ])
 
 
 class Usage(Exception):
