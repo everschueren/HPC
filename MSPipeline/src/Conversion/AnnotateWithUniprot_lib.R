@@ -8,9 +8,11 @@ annotate_with_uniprot = function(data, species="HUMAN", key="uniprot_ac", output
   data = as.data.frame(data)
 
   species_split = unlist(str_split(species, "-"))
+  
   #print(organism_split)
   Uniprot = NULL
   for(org in species_split){
+    print(paste("LOADING",org),sep="\t")
     tmp = read.delim2(str_join(uniprot_dir,"uniprot_protein_descriptions_",org,".txt"), stringsAsFactors=F, quote="")    
     if(is.null(Uniprot)){
       Uniprot = as.data.frame(tmp)

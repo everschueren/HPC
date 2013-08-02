@@ -46,6 +46,8 @@ if($format eq "F"){
 	while ( <msfile> ) {
 		chomp;
 		@l = split(/\t/);
+		
+
 		if(!$rem_smp{$l[2]} ){ #if the sample is of good quality continue
 			$l[8] =~ s/^\s+|\s+$//g; #removes white space from uniprot id
 			#$l[2] =~ s/^\s+|\s+$//g; #removes white space from sample id
@@ -76,8 +78,12 @@ elsif($format eq "S"){
 		@l = split(/\t/);
 		$b = $l[0];
 		$s = $l[1];
+
+
 		if(!$rem_smp{$s} ){ #if the sample is of good quality continue
+
 			$b =~ s/^\s+|\s+$//g; #removes white space from uniprot id
+			
 			if( $collapsed{$b} ) { $b = $collapsed{$b}; } #collapse the names of baits if specified
 	 
 			if( $l[3] > 0 || $l[3] eq "" ) { #require uniq peptides

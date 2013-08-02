@@ -25,6 +25,7 @@ Comppass.convertMatrix = function(data, cnames){
   ## make clean version of #replicated bait names w/o R re-naming
   cnames_rep = rep(cnames, each=nrow(data))
   ## convert into long format so we can later re-convert to wide format with an aggregate function
+  # print(colnames(data))
   data_l = melt(data, id=c("Preys"),  measure.vars=colnames(data)[2:ncol(data)])
   ## put the clean version of of #replicated bait names
   data_l$variable = cnames_rep

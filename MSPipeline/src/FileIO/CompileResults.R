@@ -71,7 +71,7 @@ CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_sel
 	if(annotate){
 		print("ANNOTATING WITH UNIPROT")
 		# print(colnames(tmp))
-		output = annotate_with_uniprot(as.data.frame(tmp), species="HUMAN-HCV", key="PREY", output_file=output_file, uniprot_dir=uniprot_dir)	
+		output = annotate_with_uniprot(as.data.frame(tmp), species=species, key="PREY", output_file=output_file, uniprot_dir=uniprot_dir)	
 	}else{
 		output = tmp
 	}
@@ -113,7 +113,7 @@ option_list <- list(
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 
 
-CompileResults(parsedArgs$dir, parsedArgs$output_file, mist_metrics_file=parsedArgs$mist_metrics_file, mist_self_score_file=parsedArgs$mist_self_score_file, mist_hiv_score_file=parsedArgs$mist_hiv_score_file, comppass_score_file=parsedArgs$comppass_score_file, saint_score_file=parsedArgs$saint_score_file, filter_zeros=parsedArgs$filter_zeros, annotate=parsedArgs$annotate, uniprot_dir=parsedArgs$uniprot_dir, species=parsedArgs$species)  
+CompileResults(parsedArgs$dir, parsedArgs$output_file, mist_metrics_file=parsedArgs$mist_metrics_file, mist_self_score_file=parsedArgs$mist_self_score_file, mist_hiv_score_file=parsedArgs$mist_hiv_score_file, comppass_score_file=parsedArgs$comppass_score_file, saint_score_file=parsedArgs$saint_score_file, filter_zeros=parsedArgs$filter_zeros, annotate=parsedArgs$annotate, uniprot_dir=parsedArgs$uniprot_dir, species=parsedArgs$uniprot_species)  
 
 
 # CompileResults(dir="", output_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2/HCV-HuH-results_wKEYS_NoC_MAT_ALLSCORES.txt", mist_metrics_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_SELF_metrics.txt", mist_self_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_SELF_scores.txt", mist_hiv_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_HIV_scores.txt", comppass_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//COMPPASS/HCV-HuH-results_wKEYS_NoC_MAT_COMPPASS.txt", saint_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2/SAINT//RESULT/unique_interactions", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN-HCV")
