@@ -67,6 +67,7 @@ filter_peptides_by_oxidation = function(data){
 }
 
 filterData = function(data_file, output_file, contaminants_filter=T, uniqueness_filter=T, oxidations_filter=T, sequence_filter="none"){
+  print(output_file)
   data = read.delim(data_file, stringsAsFactors=F)
   if(contaminants_filter){
     data = filter_peptides_by_contaminants(data)

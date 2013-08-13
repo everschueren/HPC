@@ -50,7 +50,7 @@ def pipeline(config):
 	if not os.path.exists(output_dir):
 		os.mkdir(output_dir)
 
-	out_commands = open(output_dir+"commands.sh",'w')	
+	# out_commands = open(output_dir+"commands.sh",'w')	
 	
 	## ################################ 
 	## 1. read maxquant data and filter
@@ -63,7 +63,7 @@ def pipeline(config):
 	if config.getboolean("filters","enabled"):
 		print(">> FILTERING DATA")
 		bname = bname+"_FLT"
-		tmp_out_file = dir+"processed/"+bname+".txt"
+		tmp_out_file = output_dir+bname+".txt"
 		oxidations = config.get("filters","oxidations")
 		unique = config.get("filters","unique")
 		contaminants = config.get("filters","contaminants")
@@ -76,7 +76,7 @@ def pipeline(config):
 	## 2. convert to matrix of normalized log-ratios
 	
 	bname = bname+"_MAT"
-	tmp_out_file = dir+"processed/"+bname+".txt"
+	tmp_out_file = output_dir+bname+".txt"
 
 	if config.get("normalization", "enabled"):
 		print(">> NORMALIZING BETWEEN REPLICATES")
@@ -99,7 +99,7 @@ def pipeline(config):
 	## 3. perform limma differential 
 
 	bname = bname+"_LIM"
-	tmp_out_file = dir+"processed/"+bname+".txt"
+	tmp_out_file = output_dir+bname+".txt"
 
 	if config.getboolean("limma","enabled"):
 		print(">> LIMMA DIFFRENTIAL CHANGES")
@@ -115,7 +115,7 @@ def pipeline(config):
 	## 4. flatten per protein
 
 	bname = bname+"_PRT"
-	tmp_out_file = dir+"processed/"+bname+".txt"	
+	tmp_out_file = output_dir+bname+".txt"	
 	
 	if config.getboolean("flatten","enabled"):
 		print(">> FLATTEN TO PROTEINS")
@@ -127,7 +127,7 @@ def pipeline(config):
 	## 5. annotate
 
 	bname = bname+"_RES"
-	# tmp_out_file = dir+"processed/"+bname+".txt"
+	# tmp_out_file = output_dir+bname+".txt"
 	tmp_out_file = dir+ config.get("files", "output_dir") + "/" + config.get("files", "output_file")
 
 	if config.getboolean("annotate","enabled"):

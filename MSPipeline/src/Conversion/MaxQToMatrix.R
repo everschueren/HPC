@@ -48,11 +48,14 @@ maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_pr
   data = read.delim(data_file, stringsAsFactors=F)
   print("SAMPLECODES IN DATAFILE:")
   print(unique(data$Raw.file))
+  
 
   ## Extract all required columns and replace 'File' name by 'Code' 
   keys = read.delim(index_file, stringsAsFactors=F)
   #tmp = sqldf(str_join("select  Proteins as 'uniprot_id', Modified_Sequence as 'Sequence', Code, ",maxq_value," from data D join keys K on K.File = D.Raw_File where ",maxq_value," != 'NA'"))
-  tmp = sqldf(str_join("select  Proteins as 'uniprot_ac', Modified_Sequence as 'Sequence', Code, ",maxq_value," from data D join keys K on K.File = D.Raw_File"))
+  tmp = sqldf(str_join("select  Proteins as 'uniprot_ac', Modified_sequence as 'Sequence', Code, ",maxq_value," from data D join keys K on K.File = D.Raw_file"))
+  print(colnames(tmp))
+  print(nrow(tmp))
   
   ## CONVERT FROM LONG TO WIDE FORMAT
   fun = get_replicate_processing_fun(replicate_processing)
