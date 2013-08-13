@@ -99,10 +99,13 @@ def pipeline(config):
 			bname = bname+'_wMT'
 			tmp_out_file = output_dir+bname+".txt"
 			f = open(tmp_out_file,'w')
+			
 			with open(tmp_in_file, 'r') as d:
-				lines = d.readlines()[3:]
+				
+				lines = d.readlines()[1:]
 				f.writelines(lines)
 			with open(master_file, 'r') as m:
+				
 				lines = m.readlines()[2:]
 				f.writelines(lines)	
 			f.close()	

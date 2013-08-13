@@ -46,7 +46,7 @@ CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_sel
 			tmp = comppass_results
 		}else{
 			print("ADDING COMPPASS_SCORES")
-			tmp = merge(tmp, comppass_results, by=c("Bait","Prey"))	
+			tmp = merge(tmp, comppass_results, by=c("Bait","Prey"), all=T)	
 		}
 		header = c(header, c("TSC_AVG","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD","COMPPASS_pZ","COMPPASS_pS","COMPPASS_pD","COMPPASS_pWD"))
 	}
@@ -59,7 +59,7 @@ CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_sel
 			print("ADDING SAINT_SCORES")
 			tmp = merge(tmp, saint_results[,c("Bait","Prey","AvgP","MaxP")], by=c("Bait","Prey"))	
 		}
-		header = c(header, c("SAINT_AVG_P","SAINT_MAX_P"))
+		header = c(header, c("SAINT_AVG_P","SAINT_MAX_P"), all=T)
 	}
 
 	colnames(tmp) = header

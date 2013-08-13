@@ -94,7 +94,7 @@ def prospectorToSaintFormat(prospector_file, dir, collapse_file, remove_file, fo
 							## assuming all IPs are SORTED in the prospectorfile
 							if ip != prev_ip:
 								bait_l = bait.lower()	
-								if(bait_l == "negative" or bait_l == "control" or bait_l == "none" or bait_l == "vector"):
+								if(bait_l == "negative" or bait_l == "negative_strep" or bait_l == "negative_flag" or bait_l == "control" or bait_l == "none" or bait_l == "vector"):
 									control = "C" ## CONTROL
 								else:
 									control = "T" ## TEST
