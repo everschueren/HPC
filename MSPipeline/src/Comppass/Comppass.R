@@ -115,31 +115,60 @@ Comppass.WD = function(stats_tab, speci_tab, repro_tab, normalized=F, WD_T=1){ #
     WD
   }
 }
+# 
+# Comppass.Summary = function(stats_tab, Z, S, D, WD, WD_T=0){ ## WD_T takes everything over this  score
+#   
+#   score_table = c()
+#   key_table = c()
+#   
+#   for(i in 1:nrow(stats_tab)){
+#     for(j in 1:ncol(stats_tab)){
+#       if(WD[i,j] >= WD_T){
+#         bait = colnames(stats_tab)[j]
+#         prey = rownames(stats_tab)[i]
+#         z_score = Z[i,j]
+#         s_score = S[i,j]
+#         d_score = D[i,j]
+#         wd_score = WD[i,j]
+#         tsc = stats_tab[i,j]
+#         key_table = rbind(key_table, c(bait, prey))
+#         score_table = rbind(score_table, c(tsc, z_score, s_score, d_score, wd_score))
+#       }
+#     }
+#   }
+#   total_table = cbind(key_table, score_table)
+#   colnames(total_table) = c("Bait","Prey","Abundance","Z","S","D","WD")
+#   total_table
+# }
 
-Comppass.Summary = function(stats_tab, Z, S, D, WD, WD_T=0){ ## WD_T takes everything over this  score
+Comppass.Summary = function(stats_tab, Z, S, D, WD, WD_T=0){ 
+  baits = colnames(stats_tab)
   
-  score_table = c()
-  key_table = c()
+  stats_m = cbind(rownames(stats_tab),stats_tab)
+  colnames(stats_m)[1]="Prey"
+  stats_m = melt(stats_tab, id.vars=baits)
   
-  for(i in 1:nrow(stats_tab)){
-    for(j in 1:ncol(stats_tab)){
-      if(WD[i,j] >= WD_T){
-        bait = colnames(stats_tab)[j]
-        prey = rownames(stats_tab)[i]
-        z_score = Z[i,j]
-        s_score = S[i,j]
-        d_score = D[i,j]
-        wd_score = WD[i,j]
-        tsc = stats_tab[i,j]
-        key_table = rbind(key_table, c(bait, prey))
-        score_table = rbind(score_table, c(tsc, z_score, s_score, d_score, wd_score))
-      }
-    }
-  }
-  total_table = cbind(key_table, score_table)
-  colnames(total_table) = c("Bait","Prey","Abundance","Z","S","D","WD")
-  total_table
+  Z_m = cbind(rownames(Z),Z)
+  colnames(Z_m)[1]="Prey"
+  Z_m = melt(Z, id.vars=baits)
+  
+  S_m = cbind(rownames(S),S)
+  colnames(S_m)[1]="Prey"
+  S_m = melt(S, id.vars=baits)
+  
+  D_m = cbind(rownames(D),D)
+  colnames(D_m)[1]="Prey"
+  D_m = melt(D, id.vars=baits)
+  
+  WD_m = cbind(rownames(WD),WD)
+  colnames(WD_m)[1]="Prey"
+  WD_m = melt(WD, id.vars=baits)
+  
+  M = cbind(stats_m[,2],stats_m[,c(1,3)], Z_m[,3], S_m[,3], D_m[,3], WD_m[,3])
+  colnames(M) = c("Bait","Prey","Abundance","Z","S","D","WD")  
+  M
 }
+
 Comppass.Summary = cmpfun(Comppass.Summary, options=list("optimize",3))  
 
 Comppass.ResampledScreen = function(data_tmp){
@@ -254,7 +283,7 @@ Comppass.main = function(data_file, output_file){
   write.table(summary, file=output_file, row.names=F, col.names=T, eol="\n", sep="\t", quote=F) 
 }
 
-# Comppass.main("~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-Andy-results_wMT_MAT.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-Andy-results_wMT_COMPPASS.txt")
+# Comppass.main(data_file="~/Projects/HPCKrogan/Data/HCV/Data/processed_293_andy/HCV-293T-Andy-results_wKEYS_NoC_MAT.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-Andy-results_wMT_COMPPASS.txt")
 # Comppass.main("~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-VP-results_wMT_MAT.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-293T-VP-results_wMT_COMPPASS.txt")
 # Comppass.main("~/Projects/HPCKrogan/Data/HCV/Data/processed/HCV-HuH-results_MAT.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/comppass/HCV-HuH-results_COMPPASS.txt")
 
