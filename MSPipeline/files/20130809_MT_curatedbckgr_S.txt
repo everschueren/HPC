@@ -1,0 +1,794 @@
+BAIT	IP_Sample_ID	Rank	Uniq_Pep	Acc__	Num_Unique	X__Cov	Best_Disc_Score	Best_Expect_Val	Protein_MW	Species	Protein_Name
+negative_strep	JKIP34-2	[1]		Q13085	77	40.3	5.1	8.30E-09	265556.2	HOMO SAPIENS	ACACA_HUMAN Acetyl-CoA carboxylase 1
+negative_strep	JKIP34-2	[2]		Q9HCC0	32	58.3	7.75	1.30E-12	61333.7	HOMO SAPIENS	MCCB_HUMAN Methylcrotonoyl-CoA carboxylase beta chain, mitochondrial
+negative_strep	JKIP34-2	[3]		Q96RQ3	29	50.1	5.82	5.50E-09	80473.8	HOMO SAPIENS	MCCA_HUMAN Methylcrotonoyl-CoA carboxylase subunit alpha, mitochondrial
+negative_strep	JKIP34-2	[4]		P04264	21	34.5	5.05	2.00E-09	66039.2	HOMO SAPIENS	K2C1_HUMAN Keratin, type II cytoskeletal 1
+negative_strep	JKIP34-2	[4-1]	10	P35908	12	23.8	3.47	2.60E-06	65433.4	HOMO SAPIENS	K22E_HUMAN Keratin, type II cytoskeletal 2 epidermal
+negative_strep	JKIP34-2	[4-2]	2	P04259	3	5.5	2.16	1.10E-04	60067.4	HOMO SAPIENS	K2C6B_HUMAN Keratin, type II cytoskeletal 6B
+negative_strep	JKIP34-2	[4-3]	1	P19013	2	3.7	2.79	5.70E-06	57285.7	HOMO SAPIENS	K2C4_HUMAN Keratin, type II cytoskeletal 4
+negative_strep	JKIP34-2	[5]		P52272	20	28.5	4.94	5.90E-08	77516.4	HOMO SAPIENS	HNRPM_HUMAN Heterogeneous nuclear ribonucleoprotein M
+negative_strep	JKIP34-2	[6]		P11498	18	23	4.81	6.60E-08	129634.7	HOMO SAPIENS	PYC_HUMAN Pyruvate carboxylase, mitochondrial
+negative_strep	JKIP34-2	[7]		Q8WWM7	20	25.6	4.19	2.10E-07	113374.5	HOMO SAPIENS	ATX2L_HUMAN Ataxin-2-like protein
+negative_strep	JKIP34-2	[8]		P35527	16	34.5	6.04	2.70E-11	62064.8	HOMO SAPIENS	K1C9_HUMAN Keratin, type I cytoskeletal 9
+negative_strep	JKIP34-2	[8-1]	12	P13645	13	22.1	3.83	2.60E-07	58827.5	HOMO SAPIENS	K1C10_HUMAN Keratin, type I cytoskeletal 10
+negative_strep	JKIP34-2	[8-2]	4	P02533	5	8.1	1.85	4.10E-04	51561.9	HOMO SAPIENS	K1C14_HUMAN Keratin, type I cytoskeletal 14
+negative_strep	JKIP34-2	[8-3]	4	P08779	5	8	1.85	4.10E-04	51268.3	HOMO SAPIENS	K1C16_HUMAN Keratin, type I cytoskeletal 16
+negative_strep	JKIP34-2	[9]		P05166	13	33.6	4.81	2.30E-08	58216.2	HOMO SAPIENS	PCCB_HUMAN Propionyl-CoA carboxylase beta chain, mitochondrial
+negative_strep	JKIP34-2	[10]		O60814	10	42.1	5.25	3.40E-09	13890.3	HOMO SAPIENS	H2B1K_HUMAN Histone H2B type 1-K
+negative_strep	JKIP34-2	[10-1]	1	P06899	9	41.3	5.25	3.40E-09	13904.3	HOMO SAPIENS	H2B1J_HUMAN Histone H2B type 1-J
+negative_strep	JKIP34-2	[10-2]	1	P23527	9	41.3	5.25	3.40E-09	13906.3	HOMO SAPIENS	H2B1O_HUMAN Histone H2B type 1-O
+negative_strep	JKIP34-2	[10-3]	1	P33778	9	41.3	5.25	3.40E-09	13950.3	HOMO SAPIENS	H2B1B_HUMAN Histone H2B type 1-B
+negative_strep	JKIP34-2	[10-4]	1	Q16778	9	41.3	5.25	3.40E-09	13920.3	HOMO SAPIENS	H2B2E_HUMAN Histone H2B type 2-E
+negative_strep	JKIP34-2	[10-5]	1	Q8N257	9	41.3	5.25	3.40E-09	13908.2	HOMO SAPIENS	H2B3B_HUMAN Histone H2B type 3-B
+negative_strep	JKIP34-2	[11]		P06748	9	29.9	5.65	5.30E-10	32575.3	HOMO SAPIENS	NPM_HUMAN Nucleophosmin
+negative_strep	JKIP34-2	[12]		Q9HAV7	9	48.8	5.09	2.20E-08	24279.3	HOMO SAPIENS	GRPE1_HUMAN GrpE protein homolog 1, mitochondrial
+negative_strep	JKIP34-2	[13]		P19338	11	18.6	3.95	1.80E-07	76615	HOMO SAPIENS	NUCL_HUMAN Nucleolin
+negative_strep	JKIP34-2	[14]		P05165	9	15.5	5.04	1.50E-08	80059.7	HOMO SAPIENS	PCCA_HUMAN Propionyl-CoA carboxylase alpha chain, mitochondrial
+negative_strep	JKIP34-2	[15]		P62805	9	55.3	4.04	2.80E-06	11367.4	HOMO SAPIENS	H4_HUMAN Histone H4
+negative_strep	JKIP34-2	[16]		P07910	8	25.5	4.84	2.10E-07	33670.3	HOMO SAPIENS	HNRPC_HUMAN Heterogeneous nuclear ribonucleoproteins C1/C2
+negative_strep	JKIP34-2	[17]		P38646	13	21.2	3.04	1.80E-06	73681.1	HOMO SAPIENS	GRP75_HUMAN Stress-70 protein, mitochondrial
+negative_strep	JKIP34-2	[18]		P11142	9	17.2	3.53	9.00E-07	70898.7	HOMO SAPIENS	HSP7C_HUMAN Heat shock cognate 71 kDa protein
+negative_strep	JKIP34-2	[18-1]	4	P08107	7	15.6	3.06	1.60E-05	70052.8	HOMO SAPIENS	HSP71_HUMAN Heat shock 70 kDa protein 1A/1B
+negative_strep	JKIP34-2	[18-2]	2	P34931	4	7.6	3.06	1.60E-05	70375.6	HOMO SAPIENS	HS71L_HUMAN Heat shock 70 kDa protein 1-like
+negative_strep	JKIP34-2	[18-3]	1	P11021	2	3.1	3.01	2.10E-05	72333.5	HOMO SAPIENS	GRP78_HUMAN 78 kDa glucose-regulated protein
+negative_strep	JKIP34-2	[19]		Q00839	6	12.6	4.56	5.30E-08	90585.2	HOMO SAPIENS	HNRPU_HUMAN Heterogeneous nuclear ribonucleoprotein U
+negative_strep	JKIP34-2	[20]		P09651	4	16.1	5.25	8.10E-09	38746.9	HOMO SAPIENS	ROA1_HUMAN Heterogeneous nuclear ribonucleoprotein A1
+negative_strep	JKIP34-2	[21]		P22626	6	21.5	3.21	8.90E-07	37430	HOMO SAPIENS	ROA2_HUMAN Heterogeneous nuclear ribonucleoproteins A2/B1
+negative_strep	JKIP34-2	[22]		P0C0S8	4	35.4	5.36	3.20E-09	14091.6	HOMO SAPIENS	H2A1_HUMAN Histone H2A type 1
+negative_strep	JKIP34-2	[22-1]	1	P04908	4	35.4	5.36	3.20E-09	14135.6	HOMO SAPIENS	H2A1B_HUMAN Histone H2A type 1-B/E
+negative_strep	JKIP34-2	[22-2]	1	Q7L7L0	4	35.4	5.36	3.20E-09	14121.6	HOMO SAPIENS	H2A3_HUMAN Histone H2A type 3
+negative_strep	JKIP34-2	[22-3]	1	Q93077	4	35.4	5.36	3.20E-09	14105.6	HOMO SAPIENS	H2A1C_HUMAN Histone H2A type 1-C
+negative_strep	JKIP34-2	[22-4]	2	P16104	4	32.2	2.19	2.30E-04	15144.7	HOMO SAPIENS	H2AX_HUMAN Histone H2A.x
+negative_strep	JKIP34-2	[22-5]	2	Q96QV6	4	35.1	2.19	2.30E-04	14233.6	HOMO SAPIENS	H2A1A_HUMAN Histone H2A type 1-A
+negative_strep	JKIP34-2	[22-6]	2	Q8IUE6	3	30	2.19	2.30E-04	13995.4	HOMO SAPIENS	H2A2B_HUMAN Histone H2A type 2-B
+negative_strep	JKIP34-2	[23]		P05387	4	69.6	5.25	2.80E-09	11665	HOMO SAPIENS	RLA2_HUMAN 60S acidic ribosomal protein P2
+negative_strep	JKIP34-2	[24]		P30050	3	26.1	5.28	1.40E-07	17818.7	HOMO SAPIENS	RL12_HUMAN 60S ribosomal protein L12
+negative_strep	JKIP34-2	[25]		P05388	6	26.5	3.11	5.80E-07	34273.8	HOMO SAPIENS	RLA0_HUMAN 60S acidic ribosomal protein P0
+negative_strep	JKIP34-2	[26]		P05141	5	13.8	3.15	2.10E-06	32852.5	HOMO SAPIENS	ADT2_HUMAN ADP/ATP translocase 2
+negative_strep	JKIP34-2	[26-1]	1	P12236	3	5.7	1.27	3.50E-04	32866.6	HOMO SAPIENS	ADT3_HUMAN ADP/ATP translocase 3
+negative_strep	JKIP34-2	[27]		P62913	3	20.2	4.28	5.60E-08	20252.6	HOMO SAPIENS	RL11_HUMAN 60S ribosomal protein L11
+negative_strep	JKIP34-2	[28]		Q3MHD2	3	23.1	4.58	8.50E-09	21700.9	HOMO SAPIENS	LSM12_HUMAN Protein LSM12 homolog
+negative_strep	JKIP34-2	[29]		P05386	3	80.7	4.1	8.20E-08	11514	HOMO SAPIENS	RLA1_HUMAN 60S acidic ribosomal protein P1
+negative_strep	JKIP34-2	[30]		P63261	3	12.3	4.43	1.40E-08	41793.2	HOMO SAPIENS	ACTG_HUMAN Actin, cytoplasmic 2
+negative_strep	JKIP34-2	[30-1]	1	A5A3E0	2	2	1.63	0.0012	121445.7	HOMO SAPIENS	POTEF_HUMAN POTE ankyrin domain family member F
+negative_strep	JKIP34-2	[30-2]	1	P0CG38	2	2	1.63	0.0012	121283.5	HOMO SAPIENS	POTEI_HUMAN POTE ankyrin domain family member I
+negative_strep	JKIP34-2	[30-3]	1	P0CG39	2	2	1.63	0.0012	117391	HOMO SAPIENS	POTEJ_HUMAN POTE ankyrin domain family member J
+negative_strep	JKIP34-2	[30-4]	1	Q6S8J3	2	2	1.63	0.0012	121364.6	HOMO SAPIENS	POTEE_HUMAN POTE ankyrin domain family member E
+negative_strep	JKIP34-2	[31]		P68363	3	10	3.11	1.70E-06	50152.1	HOMO SAPIENS	TBA1B_HUMAN Tubulin alpha-1B chain
+negative_strep	JKIP34-2	[32]		Q8NC51	2	6.6	5.16	5.00E-09	44965.7	HOMO SAPIENS	PAIRB_HUMAN Plasminogen activator inhibitor 1 RNA-binding protein
+negative_strep	JKIP34-2	[33]		P68104	3	13.6	3.29	2.80E-06	50141.3	HOMO SAPIENS	EF1A1_HUMAN Elongation factor 1-alpha 1
+negative_strep	JKIP34-2	[34]		P62269	3	19.1	2.6	4.30E-05	17718.8	HOMO SAPIENS	RS18_HUMAN 40S ribosomal protein S18
+negative_strep	JKIP34-2	[35]		P39019	4	24.8	1.86	4.70E-04	16060.6	HOMO SAPIENS	RS19_HUMAN 40S ribosomal protein S19
+negative_strep	JKIP34-2	[36]		P50914	2	10.7	3.59	3.20E-06	23432.1	HOMO SAPIENS	RL14_HUMAN 60S ribosomal protein L14
+negative_strep	JKIP34-2	[37]		P38159	4	9.7	1.71	6.40E-04	42332.2	HOMO SAPIENS	RBMX_HUMAN RNA-binding motif protein, X chromosome
+negative_strep	JKIP34-2	[38]		P22061	4	30.4	2.07	3.20E-04	24636.6	HOMO SAPIENS	PIMT_HUMAN Protein-L-isoaspartate(D-aspartate) O-methyltransferase
+negative_strep	JKIP34-2	[39]		Q7Z3Y7	4	5.4	1.85	4.10E-04	50567.8	HOMO SAPIENS	K1C28_HUMAN Keratin, type I cytoskeletal 28
+negative_strep	JKIP34-2	[40]		P25398	1	17.4	5.43	9.10E-09	14515.1	HOMO SAPIENS	RS12_HUMAN 40S ribosomal protein S12
+negative_strep	JKIP34-2	[41]		P07437	4	10.1	2.04	1.70E-05	49671.3	HOMO SAPIENS	TBB5_HUMAN Tubulin beta chain
+negative_strep	JKIP34-2	[41-1]	1	P68371	4	9.4	2.04	1.70E-05	49831.5	HOMO SAPIENS	TBB4B_HUMAN Tubulin beta-4B chain
+negative_strep	JKIP34-2	[42]		P62241	2	10.6	2.74	8.20E-06	24205.4	HOMO SAPIENS	RS8_HUMAN 40S ribosomal protein S8
+negative_strep	JKIP34-2	[43]		Q99729	1	3.9	4.55	6.70E-08	36225.2	HOMO SAPIENS	ROAA_HUMAN Heterogeneous nuclear ribonucleoprotein A/B
+negative_strep	JKIP34-2	[44]		Q5XKE5	3	9.5	2.01	1.30E-04	57836.1	HOMO SAPIENS	K2C79_HUMAN Keratin, type II cytoskeletal 79
+negative_strep	JKIP34-2	[44-1]	1	P02538	2	3.7	2.14	1.30E-04	60045.4	HOMO SAPIENS	K2C6A_HUMAN Keratin, type II cytoskeletal 6A
+negative_strep	JKIP34-2	[44-2]	1	P48668	2	3.7	2.14	1.30E-04	60025.4	HOMO SAPIENS	K2C6C_HUMAN Keratin, type II cytoskeletal 6C
+negative_strep	JKIP34-2	[44-3]	1	Q01546	2	2.8	1.91	5.10E-04	65841.3	HOMO SAPIENS	K22O_HUMAN Keratin, type II cytoskeletal 2 oral
+negative_strep	JKIP34-2	[44-4]	1	P13647	2	3.6	2.01	1.30E-04	62378.9	HOMO SAPIENS	K2C5_HUMAN Keratin, type II cytoskeletal 5
+negative_strep	JKIP34-2	[45]		Q15428	1	3	3.96	1.90E-07	49256	HOMO SAPIENS	SF3A2_HUMAN Splicing factor 3A subunit 2
+negative_strep	JKIP34-2	[46]		P62701	2	6.5	2.4	3.30E-05	29598	HOMO SAPIENS	RS4X_HUMAN 40S ribosomal protein S4, X isoform
+negative_strep	JKIP34-2	[47]		P26196	3	9.5	1.28	5.10E-04	54417.3	HOMO SAPIENS	DDX6_HUMAN Probable ATP-dependent RNA helicase DDX6
+negative_strep	JKIP34-2	[48]		Q86U42	1	5.6	3.49	5.80E-07	32749.3	HOMO SAPIENS	PABP2_HUMAN Polyadenylate-binding protein 2
+negative_strep	JKIP34-2	[49]		P62263	2	8.6	2.19	4.00E-05	16272.9	HOMO SAPIENS	RS14_HUMAN 40S ribosomal protein S14
+negative_strep	JKIP34-2	[50]		O75400	4	4.7	0.94	0.0038	108805.9	HOMO SAPIENS	PR40A_HUMAN Pre-mRNA-processing factor 40 homolog A
+negative_strep	JKIP34-2	[51]		P62857	2	29	1.61	0.0012	7841.1	HOMO SAPIENS	RS28_HUMAN 40S ribosomal protein S28
+negative_strep	JKIP34-2	[52]		P23396	2	14.8	1.95	1.70E-05	26688.6	HOMO SAPIENS	RS3_HUMAN 40S ribosomal protein S3
+negative_strep	JKIP34-2	[53]		P68431	2	13.2	1.77	5.30E-04	15404.2	HOMO SAPIENS	H31_HUMAN Histone H3.1
+negative_strep	JKIP34-2	[54]		P09874	2	2	1.57	0.001	113084.8	HOMO SAPIENS	PARP1_HUMAN Poly [ADP-ribose] polymerase 1
+negative_strep	JKIP34-2	[55]		P15880	2	6.5	1.56	2.80E-04	31324.7	HOMO SAPIENS	RS2_HUMAN 40S ribosomal protein S2
+negative_strep	JKIP34-2	[56]		P31943	2	5.8	1.49	8.40E-04	49229.9	HOMO SAPIENS	HNRH1_HUMAN Heterogeneous nuclear ribonucleoprotein H
+negative_strep	JKIP34-2	[56-1]	1	P52597	2	8.2	1.11	8.40E-04	45672.3	HOMO SAPIENS	HNRPF_HUMAN Heterogeneous nuclear ribonucleoprotein F
+negative_strep	JKIP34-2	[57]		P62888	3	25.2	1.15	8.30E-04	12784.2	HOMO SAPIENS	RL30_HUMAN 60S ribosomal protein L30
+negative_strep	JKIP34-2	[58]		P46782	1	8.8	2.57	8.10E-06	22876.6	HOMO SAPIENS	RS5_HUMAN 40S ribosomal protein S5
+negative_strep	JKIP34-2	[59]		Q02543	2	11.9	1.43	8.90E-04	20762.6	HOMO SAPIENS	RL18A_HUMAN 60S ribosomal protein L18a
+negative_strep	JKIP34-2	[60]		P61247	2	8	1.27	8.30E-04	29945.2	HOMO SAPIENS	RS3A_HUMAN 40S ribosomal protein S3a
+negative_strep	JKIP34-2	[61]		P62424	2	10.2	1.24	0.0026	29995.9	HOMO SAPIENS	RL7A_HUMAN 60S ribosomal protein L7a
+negative_strep	JKIP34-2	[62]		C9JLW8	1	11.3	2.27	3.60E-06	10920.3	HOMO SAPIENS	F195B_HUMAN Protein FAM195B
+negative_strep	JKIP34-2	[63]		P46779	2	16.1	1.4	5.30E-04	15747.6	HOMO SAPIENS	RL28_HUMAN 60S ribosomal protein L28
+negative_strep	JKIP34-2	[64]		P08708	1	16.3	2.05	1.90E-04	15550.3	HOMO SAPIENS	RS17_HUMAN 40S ribosomal protein S17
+negative_strep	JKIP34-2	[65]		P14866	1	5.9	2.03	0.0021	64133.3	HOMO SAPIENS	HNRPL_HUMAN Heterogeneous nuclear ribonucleoprotein L
+negative_strep	JKIP34-2	[66]		P10809	1	1.6	1.99	0.0011	61055.2	HOMO SAPIENS	CH60_HUMAN 60 kDa heat shock protein, mitochondrial
+negative_strep	JKIP34-2	[67]		P62899	2	15.2	1.18	0.0022	14463	HOMO SAPIENS	RL31_HUMAN 60S ribosomal protein L31
+negative_strep	JKIP34-2	[68]		O00161	1	5.7	1.78	3.60E-04	23354.3	HOMO SAPIENS	SNP23_HUMAN Synaptosomal-associated protein 23
+negative_strep	JKIP34-2	[69]		P37108	2	16.9	1.36	1.20E-04	14570.1	HOMO SAPIENS	SRP14_HUMAN Signal recognition particle 14 kDa protein
+negative_strep	JKIP34-2	[70]		O75531	1	27	1.72	1.20E-04	10058.7	HOMO SAPIENS	BAF_HUMAN Barrier-to-autointegration factor
+negative_strep	JKIP34-2	[71]		Q14103	1	3.9	1.66	3.20E-04	38434.5	HOMO SAPIENS	HNRPD_HUMAN Heterogeneous nuclear ribonucleoprotein D0
+negative_strep	JKIP34-2	[72]		P11940	2	3.3	0.88	0.002	70671.5	HOMO SAPIENS	PABP1_HUMAN Polyadenylate-binding protein 1
+negative_strep	JKIP34-2	[73]		P84090	1	11.5	1.51	3.10E-05	12259.1	HOMO SAPIENS	ERH_HUMAN Enhancer of rudimentary homolog
+negative_strep	JKIP34-2	[74]		P43243	1	1.1	1.47	0.001	94624	HOMO SAPIENS	MATR3_HUMAN Matrin-3
+negative_strep	JKIP34-2	[75]		Q96CT7	1	4.5	1.35	5.10E-04	25835.4	HOMO SAPIENS	CC124_HUMAN Coiled-coil domain-containing protein 124
+negative_strep	JKIP34-2	[76]		P62316	1	8.5	1.29	3.40E-04	13527	HOMO SAPIENS	SMD2_HUMAN Small nuclear ribonucleoprotein Sm D2
+negative_strep	JKIP34-2	[77]		P62906	1	3.7	1.18	0.0038	24831.5	HOMO SAPIENS	RL10A_HUMAN 60S ribosomal protein L10a
+negative_strep	JKIP34-2	[78]		Q86Y46	1	1.7	1.14	0.0044	58923.8	HOMO SAPIENS	K2C73_HUMAN Keratin, type II cytoskeletal 73
+negative_strep	JKIP34-2	[79]		P61254	1	5.5	1.12	0.0051	17258.4	HOMO SAPIENS	RL26_HUMAN 60S ribosomal protein L26
+negative_strep	JKIP34-2	[80]		decoy	1	2.6	1.09	0.0069	104042.5	HOMO SAPIENS	M3K14_HUMAN Mitogen-activated protein kinase kinase kinase 14
+negative_strep	JKIP34-2	[81]		Q6IF42	1	11	1.09	0.0097	35820.4	HOMO SAPIENS	OR2A2_HUMAN Olfactory receptor 2A2
+negative_strep	JKIP34-2	[82]		P62841	1	13.1	1.08	7.70E-04	17040.3	HOMO SAPIENS	RS15_HUMAN 40S ribosomal protein S15
+negative_strep	JKIP34-2	[83]		O43933	2	0.7	0.66	0.0053	142868.2	HOMO SAPIENS	PEX1_HUMAN Peroxisome biogenesis factor 1
+negative_strep	JKIP34-2	[84]		P19623	1	4.6	1.05	0.0033	33825	HOMO SAPIENS	SPEE_HUMAN Spermidine synthase
+negative_strep	JKIP34-2	[85]		P39023	1	3	1.05	3.40E-04	46109.3	HOMO SAPIENS	RL3_HUMAN 60S ribosomal protein L3
+negative_strep	JKIP34-2	[86]		Q08211	1	0.7	1.01	0.0054	140959.7	HOMO SAPIENS	DHX9_HUMAN ATP-dependent RNA helicase A
+negative_strep	JKIP34-2	[87]		decoy	1	0.5	0.99	0.0019	163808.2	HOMO SAPIENS	CO4A6_HUMAN Collagen alpha-6(IV) chain
+negative_strep	JKIP34-2	[88]		O75607	1	9.6	0.79	0.001	19343.9	HOMO SAPIENS	NPM3_HUMAN Nucleoplasmin-3
+negative_strep	JKIP34-2	[89]		decoy	1	4.5	0.78	0.0076	20893.1	HOMO SAPIENS	DYDC1_HUMAN DPY30 domain-containing protein 1
+negative_strep	JKIP34-2	[90]		P62750	1	8.3	0.75	0.0011	17695.2	HOMO SAPIENS	RL23A_HUMAN 60S ribosomal protein L23a
+negative_strep	JKIP34-2	[91]		P17655	1	1.4	0.74	0.0038	79996	HOMO SAPIENS	CAN2_HUMAN Calpain-2 catalytic subunit
+negative_strep	JKIP34-2	[92]		Q9NVC3	1	2.6	0.73	0.002	49966.2	HOMO SAPIENS	S38A7_HUMAN Putative sodium-coupled neutral amino acid transporter 7
+negative_strep	JKIP34-2	[93]		P62829	1	7.1	0.71	0.0065	14865.6	HOMO SAPIENS	RL23_HUMAN 60S ribosomal protein L23
+negative_strep	JKIP34-2	[94]		P42677	1	9.5	0.7	0.0067	9461.2	HOMO SAPIENS	RS27_HUMAN 40S ribosomal protein S27
+negative_strep	JKIP34-2	[95]		P10412	1	5	0.67	0.003	21865.4	HOMO SAPIENS	H14_HUMAN Histone H1.4
+negative_strep	JKIP34-2	[96]		P27635	1	4.2	0.62	0.0086	24604.1	HOMO SAPIENS	RL10_HUMAN 60S ribosomal protein L10
+negative_strep	JKIP34-2	[97]		Q9NZI8	2	4.7	0.36	0.0093	63481.1	HOMO SAPIENS	IF2B1_HUMAN Insulin-like growth factor 2 mRNA-binding protein 1
+negative_strep	JKIP34-2	[98]		P23246	1	1.1	0.53	0.0019	76150	HOMO SAPIENS	SFPQ_HUMAN Splicing factor, proline- and glutamine-rich
+negative_strep	JKIP34-2	[99]		P62249	1	4.8	0.46	0.0018	16445.5	HOMO SAPIENS	RS16_HUMAN 40S ribosomal protein S16
+negative_strep	JKIP34-2	[100]		P0CG47	1	7	0.4	0.0039	25761.8	HOMO SAPIENS	UBB_HUMAN Polyubiquitin-B
+negative_strep	JKIP34-2	[101]		P62081	1	6.2	0.39	0.0045	22127	HOMO SAPIENS	RS7_HUMAN 40S ribosomal protein S7
+negative_strep	JKIP34-2	[102]		P62851	2	13.6	0.2	0.0052	13742.2	HOMO SAPIENS	RS25_HUMAN 40S ribosomal protein S25
+negative_strep	JKIP34-2	[103]		Q8NEJ0	1	6.9	0.07	0.0073	21066.7	HOMO SAPIENS	DUS18_HUMAN Dual specificity protein phosphatase 18
+negative_strep	JKIP34-2	[104]		Q8WXH0	1	0.2	0.06	0.0068	796449.3	HOMO SAPIENS	SYNE2_HUMAN Nesprin-2
+negative_strep	JKIP34-4	[1]		Q13085	84	39	6.09	1.20E-09	265556.2	HOMO SAPIENS	ACACA_HUMAN Acetyl-CoA carboxylase 1
+negative_strep	JKIP34-4	[1-1]	1	O00763	13	5.8	4.53	8.90E-08	276543.4	HOMO SAPIENS	ACACB_HUMAN Acetyl-CoA carboxylase 2
+negative_strep	JKIP34-4	[2]		Q9HCC0	35	64.7	7.66	6.40E-12	61333.7	HOMO SAPIENS	MCCB_HUMAN Methylcrotonoyl-CoA carboxylase beta chain, mitochondrial
+negative_strep	JKIP34-4	[3]		P11498	34	34.6	5.31	1.70E-08	129634.7	HOMO SAPIENS	PYC_HUMAN Pyruvate carboxylase, mitochondrial
+negative_strep	JKIP34-4	[4]		Q96RQ3	31	49.9	5.31	1.60E-09	80473.8	HOMO SAPIENS	MCCA_HUMAN Methylcrotonoyl-CoA carboxylase subunit alpha, mitochondrial
+negative_strep	JKIP34-4	[5]		Q8WWM7	19	23.7	4.42	9.50E-08	113374.5	HOMO SAPIENS	ATX2L_HUMAN Ataxin-2-like protein
+negative_strep	JKIP34-4	[6]		P05166	19	46.8	4.2	2.20E-07	58216.2	HOMO SAPIENS	PCCB_HUMAN Propionyl-CoA carboxylase beta chain, mitochondrial
+negative_strep	JKIP34-4	[7]		P52272	18	26.7	4.31	1.10E-07	77516.4	HOMO SAPIENS	HNRPM_HUMAN Heterogeneous nuclear ribonucleoprotein M
+negative_strep	JKIP34-4	[8]		P05165	16	28.6	4.49	1.80E-08	80059.7	HOMO SAPIENS	PCCA_HUMAN Propionyl-CoA carboxylase alpha chain, mitochondrial
+negative_strep	JKIP34-4	[9]		P38646	14	29.3	3.34	5.30E-07	73681.1	HOMO SAPIENS	GRP75_HUMAN Stress-70 protein, mitochondrial
+negative_strep	JKIP34-4	[10]		P08107	8	15.4	4.48	5.30E-08	70052.8	HOMO SAPIENS	HSP71_HUMAN Heat shock 70 kDa protein 1A/1B
+negative_strep	JKIP34-4	[10-1]	7	P11142	9	19.5	4.17	6.10E-08	70898.7	HOMO SAPIENS	HSP7C_HUMAN Heat shock cognate 71 kDa protein
+negative_strep	JKIP34-4	[10-2]	1	P54652	3	5.3	2.97	4.10E-05	70021.5	HOMO SAPIENS	HSP72_HUMAN Heat shock-related 70 kDa protein 2
+negative_strep	JKIP34-4	[11]		Q9HAV7	7	36.4	4.75	5.00E-08	24279.3	HOMO SAPIENS	GRPE1_HUMAN GrpE protein homolog 1, mitochondrial
+negative_strep	JKIP34-4	[12]		P04264	9	14.1	4.07	1.10E-07	66039.2	HOMO SAPIENS	K2C1_HUMAN Keratin, type II cytoskeletal 1
+negative_strep	JKIP34-4	[12-1]	1	P35908	2	3.8	2.68	1.50E-05	65433.4	HOMO SAPIENS	K22E_HUMAN Keratin, type II cytoskeletal 2 epidermal
+negative_strep	JKIP34-4	[13]		O60814	7	34.9	4.67	1.40E-08	13890.3	HOMO SAPIENS	H2B1K_HUMAN Histone H2B type 1-K
+negative_strep	JKIP34-4	[13-1]	-1	P57053	7	34.9	4.67	1.40E-08	13944.3	HOMO SAPIENS	H2BFS_HUMAN Histone H2B type F-S
+negative_strep	JKIP34-4	[13-2]	-1	P58876	7	34.9	4.67	1.40E-08	13936.3	HOMO SAPIENS	H2B1D_HUMAN Histone H2B type 1-D
+negative_strep	JKIP34-4	[13-3]	-1	P62807	7	34.9	4.67	1.40E-08	13906.3	HOMO SAPIENS	H2B1C_HUMAN Histone H2B type 1-C/E/F/G/I
+negative_strep	JKIP34-4	[13-4]	-1	Q5QNW6	7	34.9	4.67	1.40E-08	13920.3	HOMO SAPIENS	H2B2F_HUMAN Histone H2B type 2-F
+negative_strep	JKIP34-4	[13-5]	-1	Q93079	7	34.9	4.67	1.40E-08	13892.2	HOMO SAPIENS	H2B1H_HUMAN Histone H2B type 1-H
+negative_strep	JKIP34-4	[13-6]	-1	Q99877	7	34.9	4.67	1.40E-08	13922.3	HOMO SAPIENS	H2B1N_HUMAN Histone H2B type 1-N
+negative_strep	JKIP34-4	[13-7]	-1	Q99879	7	34.9	4.67	1.40E-08	13989.4	HOMO SAPIENS	H2B1M_HUMAN Histone H2B type 1-M
+negative_strep	JKIP34-4	[13-8]	-1	Q99880	7	34.9	4.67	1.40E-08	13952.3	HOMO SAPIENS	H2B1L_HUMAN Histone H2B type 1-L
+negative_strep	JKIP34-4	[13-9]	-1	P06899	6	27.8	4.67	1.40E-08	13904.3	HOMO SAPIENS	H2B1J_HUMAN Histone H2B type 1-J
+negative_strep	JKIP34-4	[13-10]	-1	P23527	6	27.8	4.67	1.40E-08	13906.3	HOMO SAPIENS	H2B1O_HUMAN Histone H2B type 1-O
+negative_strep	JKIP34-4	[13-11]	-1	P33778	6	27.8	4.67	1.40E-08	13950.3	HOMO SAPIENS	H2B1B_HUMAN Histone H2B type 1-B
+negative_strep	JKIP34-4	[13-12]	-1	Q16778	6	27.8	4.67	1.40E-08	13920.3	HOMO SAPIENS	H2B2E_HUMAN Histone H2B type 2-E
+negative_strep	JKIP34-4	[13-13]	-1	Q8N257	6	27.8	4.67	1.40E-08	13908.2	HOMO SAPIENS	H2B3B_HUMAN Histone H2B type 3-B
+negative_strep	JKIP34-4	[14]		P06748	6	18.4	5.48	1.30E-09	32575.3	HOMO SAPIENS	NPM_HUMAN Nucleophosmin
+negative_strep	JKIP34-4	[15]		P19338	9	15.4	2.77	2.10E-05	76615	HOMO SAPIENS	NUCL_HUMAN Nucleolin
+negative_strep	JKIP34-4	[16]		P05141	5	12.8	3.85	2.10E-07	32852.5	HOMO SAPIENS	ADT2_HUMAN ADP/ATP translocase 2
+negative_strep	JKIP34-4	[16-1]	1	P12236	4	8.4	1.45	6.70E-05	32866.6	HOMO SAPIENS	ADT3_HUMAN ADP/ATP translocase 3
+negative_strep	JKIP34-4	[17]		P0C0S8	4	35.4	4.94	3.50E-08	14091.6	HOMO SAPIENS	H2A1_HUMAN Histone H2A type 1
+negative_strep	JKIP34-4	[18]		P62805	5	50.5	2.64	8.40E-05	11367.4	HOMO SAPIENS	H4_HUMAN Histone H4
+negative_strep	JKIP34-4	[19]		Q3MHD2	3	23.1	4.56	2.30E-08	21700.9	HOMO SAPIENS	LSM12_HUMAN Protein LSM12 homolog
+negative_strep	JKIP34-4	[20]		P62269	4	27	2.79	8.60E-05	17718.8	HOMO SAPIENS	RS18_HUMAN 40S ribosomal protein S18
+negative_strep	JKIP34-4	[21]		P05388	5	23.3	2.84	1.80E-06	34273.8	HOMO SAPIENS	RLA0_HUMAN 60S acidic ribosomal protein P0
+negative_strep	JKIP34-4	[22]		P22061	4	30.4	2.65	1.30E-04	24636.6	HOMO SAPIENS	PIMT_HUMAN Protein-L-isoaspartate(D-aspartate) O-methyltransferase
+negative_strep	JKIP34-4	[23]		P35527	3	6.1	3.63	3.90E-07	62064.8	HOMO SAPIENS	K1C9_HUMAN Keratin, type I cytoskeletal 9
+negative_strep	JKIP34-4	[24]		P05387	2	27	4.41	1.50E-07	11665	HOMO SAPIENS	RLA2_HUMAN 60S acidic ribosomal protein P2
+negative_strep	JKIP34-4	[25]		P09651	2	9.1	4.85	7.40E-08	38746.9	HOMO SAPIENS	ROA1_HUMAN Heterogeneous nuclear ribonucleoprotein A1
+negative_strep	JKIP34-4	[26]		P25398	1	17.4	6.87	4.10E-11	14515.1	HOMO SAPIENS	RS12_HUMAN 40S ribosomal protein S12
+negative_strep	JKIP34-4	[27]		P68104	3	13.2	2.6	3.00E-05	50141.3	HOMO SAPIENS	EF1A1_HUMAN Elongation factor 1-alpha 1
+negative_strep	JKIP34-4	[28]		Q7Z417	3	7.5	2.66	8.80E-06	76121.7	HOMO SAPIENS	NUFP2_HUMAN Nuclear fragile X mental retardation-interacting protein 2
+negative_strep	JKIP34-4	[29]		P62913	2	15.2	3.52	1.20E-06	20252.6	HOMO SAPIENS	RL11_HUMAN 60S ribosomal protein L11
+negative_strep	JKIP34-4	[30]		P22626	4	11.6	1.87	1.40E-04	37430	HOMO SAPIENS	ROA2_HUMAN Heterogeneous nuclear ribonucleoproteins A2/B1
+negative_strep	JKIP34-4	[31]		P39019	3	20	2	3.60E-04	16060.6	HOMO SAPIENS	RS19_HUMAN 40S ribosomal protein S19
+negative_strep	JKIP34-4	[32]		P07437	4	10.1	1.98	2.60E-05	49671.3	HOMO SAPIENS	TBB5_HUMAN Tubulin beta chain
+negative_strep	JKIP34-4	[33]		Q15428	2	5.2	3.49	2.70E-07	49256	HOMO SAPIENS	SF3A2_HUMAN Splicing factor 3A subunit 2
+negative_strep	JKIP34-4	[34]		P26196	5	18	1.95	9.60E-06	54417.3	HOMO SAPIENS	DDX6_HUMAN Probable ATP-dependent RNA helicase DDX6
+negative_strep	JKIP34-4	[35]		P62841	1	13.1	5.14	2.70E-09	17040.3	HOMO SAPIENS	RS15_HUMAN 40S ribosomal protein S15
+negative_strep	JKIP34-4	[36]		P62701	2	6.5	3.11	4.40E-06	29598	HOMO SAPIENS	RS4X_HUMAN 40S ribosomal protein S4, X isoform
+negative_strep	JKIP34-4	[37]		P68363	3	11.5	1.87	1.10E-04	50152.1	HOMO SAPIENS	TBA1B_HUMAN Tubulin alpha-1B chain
+negative_strep	JKIP34-4	[38]		P10809	3	5.2	2.02	1.20E-04	61055.2	HOMO SAPIENS	CH60_HUMAN 60 kDa heat shock protein, mitochondrial
+negative_strep	JKIP34-4	[39]		P05386	2	51.8	2.28	1.50E-05	11514	HOMO SAPIENS	RLA1_HUMAN 60S acidic ribosomal protein P1
+negative_strep	JKIP34-4	[40]		Q86U42	1	5.6	3.25	1.20E-06	32749.3	HOMO SAPIENS	PABP2_HUMAN Polyadenylate-binding protein 2
+negative_strep	JKIP34-4	[41]		P07910	2	7.5	1.76	3.90E-04	33670.3	HOMO SAPIENS	HNRPC_HUMAN Heterogeneous nuclear ribonucleoproteins C1/C2
+negative_strep	JKIP34-4	[42]		P62888	4	39.1	0.92	0.0031	12784.2	HOMO SAPIENS	RL30_HUMAN 60S ribosomal protein L30
+negative_strep	JKIP34-4	[43]		P38159	3	6.4	1.52	1.00E-04	42332.2	HOMO SAPIENS	RBMX_HUMAN RNA-binding motif protein, X chromosome
+negative_strep	JKIP34-4	[44]		P62917	1	4.3	2.77	4.90E-06	28024.9	HOMO SAPIENS	RL8_HUMAN 60S ribosomal protein L8
+negative_strep	JKIP34-4	[45]		P62263	1	7.3	2.7	2.50E-05	16272.9	HOMO SAPIENS	RS14_HUMAN 40S ribosomal protein S14
+negative_strep	JKIP34-4	[46]		Q13011	2	5.8	1.36	0.0016	35816.5	HOMO SAPIENS	ECH1_HUMAN Delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, mitochondrial
+negative_strep	JKIP34-4	[47]		P84090	1	11.5	2.52	3.10E-06	12259.1	HOMO SAPIENS	ERH_HUMAN Enhancer of rudimentary homolog
+negative_strep	JKIP34-4	[48]		P61247	2	8	1.28	9.90E-04	29945.2	HOMO SAPIENS	RS3A_HUMAN 40S ribosomal protein S3a
+negative_strep	JKIP34-4	[49]		P35268	1	11.7	2.28	2.90E-05	14787.1	HOMO SAPIENS	RL22_HUMAN 60S ribosomal protein L22
+negative_strep	JKIP34-4	[50]		P62857	1	15.9	2.28	2.60E-04	7841.1	HOMO SAPIENS	RS28_HUMAN 40S ribosomal protein S28
+negative_strep	JKIP34-4	[51]		decoy	1	7.1	2.13	2.10E-05	32334.3	HOMO SAPIENS	RRP7A_HUMAN Ribosomal RNA-processing protein 7 homolog A
+negative_strep	JKIP34-4	[52]		P62899	2	15.2	1.23	0.0016	14463	HOMO SAPIENS	RL31_HUMAN 60S ribosomal protein L31
+negative_strep	JKIP34-4	[53]		A5A3E0	1	0.9	2.01	3.70E-04	121445.7	HOMO SAPIENS	POTEF_HUMAN POTE ankyrin domain family member F
+negative_strep	JKIP34-4	[54]		C9JLW8	1	11.3	1.98	5.90E-05	10920.3	HOMO SAPIENS	F195B_HUMAN Protein FAM195B
+negative_strep	JKIP34-4	[55]		P46782	1	8.8	1.69	8.70E-05	22876.6	HOMO SAPIENS	RS5_HUMAN 40S ribosomal protein S5
+negative_strep	JKIP34-4	[56]		P49756	1	1.7	1.56	1.70E-04	100186.3	HOMO SAPIENS	RBM25_HUMAN RNA-binding protein 25
+negative_strep	JKIP34-4	[57]		P81605	1	10	1.48	0.0012	11284	HOMO SAPIENS	DCD_HUMAN Dermcidin
+negative_strep	JKIP34-4	[58]		O75607	1	9.6	1.42	6.10E-05	19343.9	HOMO SAPIENS	NPM3_HUMAN Nucleoplasmin-3
+negative_strep	JKIP34-4	[59]		Q9UMS4	2	6.9	0.87	0.0024	55181.3	HOMO SAPIENS	PRP19_HUMAN Pre-mRNA-processing factor 19
+negative_strep	JKIP34-4	[60]		P52597	2	8.2	0.74	0.0047	45672.3	HOMO SAPIENS	HNRPF_HUMAN Heterogeneous nuclear ribonucleoprotein F
+negative_strep	JKIP34-4	[61]		O75400	1	1	1.28	2.10E-04	108805.9	HOMO SAPIENS	PR40A_HUMAN Pre-mRNA-processing factor 40 homolog A
+negative_strep	JKIP34-4	[62]		P62829	1	7.1	1.15	0.0054	14865.6	HOMO SAPIENS	RL23_HUMAN 60S ribosomal protein L23
+negative_strep	JKIP34-4	[63]		P37108	2	16.9	0.64	0.0043	14570.1	HOMO SAPIENS	SRP14_HUMAN Signal recognition particle 14 kDa protein
+negative_strep	JKIP34-4	[64]		Q00839	2	4.8	0.65	0.0065	90585.2	HOMO SAPIENS	HNRPU_HUMAN Heterogeneous nuclear ribonucleoprotein U
+negative_strep	JKIP34-4	[65]		P08708	1	16.3	0.85	0.0064	15550.3	HOMO SAPIENS	RS17_HUMAN 40S ribosomal protein S17
+negative_strep	JKIP34-4	[66]		Q02446	1	2.4	0.78	0.005	81985.6	HOMO SAPIENS	SP4_HUMAN Transcription factor Sp4
+negative_strep	JKIP34-4	[67]		P46779	1	8	0.75	0.0052	15747.6	HOMO SAPIENS	RL28_HUMAN 60S ribosomal protein L28
+negative_strep	JKIP34-4	[68]		decoy	1	4.1	0.58	0.0068	21053	HOMO SAPIENS	PSPC_HUMAN Pulmonary surfactant-associated protein C
+negative_strep	JKIP34-4	[69]		P02533	1	1.9	0.57	0.009	51561.9	HOMO SAPIENS	K1C14_HUMAN Keratin, type I cytoskeletal 14
+negative_strep	JKIP34-4	[70]		Q9NVC3	1	2.6	0.56	0.0031	49966.2	HOMO SAPIENS	S38A7_HUMAN Putative sodium-coupled neutral amino acid transporter 7
+negative_strep	JKIP34-4	[71]		P15880	1	2.7	0.53	0.0025	31324.7	HOMO SAPIENS	RS2_HUMAN 40S ribosomal protein S2
+negative_strep	JKIP34-4	[72]		P62851	1	5.6	0.49	0.0077	13742.2	HOMO SAPIENS	RS25_HUMAN 40S ribosomal protein S25
+negative_strep	JKIP34-4	[73]		P30050	1	5.5	0.49	0.0025	17818.7	HOMO SAPIENS	RL12_HUMAN 60S ribosomal protein L12
+negative_strep	JKIP34-4	[74]		P62249	2	11.6	0.27	0.0042	16445.5	HOMO SAPIENS	RS16_HUMAN 40S ribosomal protein S16
+negative_strep	JKIP34-4	[75]		P13647	2	3.9	0.17	0.0097	62378.9	HOMO SAPIENS	K2C5_HUMAN Keratin, type II cytoskeletal 5
+negative_strep	JKIP34-4	[76]		Q12905	1	3.6	0.24	0.0048	43062.5	HOMO SAPIENS	ILF2_HUMAN Interleukin enhancer-binding factor 2
+negative_strep	JKIP34-4	[77]		Q96F45	1	3.7	0.16	0.0081	62555.3	HOMO SAPIENS	ZN503_HUMAN Zinc finger protein 503
+negative_strep	JKIP36-01	[1]		Q13085	43	29.1	5.68	2.20E-09	265556.2	HOMO SAPIENS	ACACA_HUMAN Acetyl-CoA carboxylase 1
+negative_strep	JKIP36-01	[1-1]	1	O00763	6	3.6	4.28	5.30E-07	276543.4	HOMO SAPIENS	ACACB_HUMAN Acetyl-CoA carboxylase 2
+negative_strep	JKIP36-01	[2]		P05166	24	59.7	5.72	1.60E-09	58216.2	HOMO SAPIENS	PCCB_HUMAN Propionyl-CoA carboxylase beta chain, mitochondrial
+negative_strep	JKIP36-01	[3]		Q8WWM7	23	32	5.89	2.40E-10	113374.5	HOMO SAPIENS	ATX2L_HUMAN Ataxin-2-like protein
+negative_strep	JKIP36-01	[4]		P05165	24	41.1	4.81	1.20E-08	80059.7	HOMO SAPIENS	PCCA_HUMAN Propionyl-CoA carboxylase alpha chain, mitochondrial
+negative_strep	JKIP36-01	[5]		P19338	17	26.6	5.18	4.60E-09	76615	HOMO SAPIENS	NUCL_HUMAN Nucleolin
+negative_strep	JKIP36-01	[6]		P52272	14	32.9	5.3	1.10E-07	77516.4	HOMO SAPIENS	HNRPM_HUMAN Heterogeneous nuclear ribonucleoprotein M
+negative_strep	JKIP36-01	[7]		P11498	15	24.7	4.82	1.10E-07	129634.7	HOMO SAPIENS	PYC_HUMAN Pyruvate carboxylase, mitochondrial
+negative_strep	JKIP36-01	[8]		Q9HCC0	10	28.6	5.81	2.30E-09	61333.7	HOMO SAPIENS	MCCB_HUMAN Methylcrotonoyl-CoA carboxylase beta chain, mitochondrial
+negative_strep	JKIP36-01	[9]		P36578	9	24.6	4.37	7.10E-08	47697.7	HOMO SAPIENS	RL4_HUMAN 60S ribosomal protein L4
+negative_strep	JKIP36-01	[10]		Q96RQ3	9	27.6	3.43	3.20E-06	80473.8	HOMO SAPIENS	MCCA_HUMAN Methylcrotonoyl-CoA carboxylase subunit alpha, mitochondrial
+negative_strep	JKIP36-01	[11]		Q00839	5	12	5.42	5.80E-09	90585.2	HOMO SAPIENS	HNRPU_HUMAN Heterogeneous nuclear ribonucleoprotein U
+negative_strep	JKIP36-01	[12]		P62241	5	28.8	4.89	1.10E-07	24205.4	HOMO SAPIENS	RS8_HUMAN 40S ribosomal protein S8
+negative_strep	JKIP36-01	[13]		P08107	6	18.7	4.25	4.60E-07	70052.8	HOMO SAPIENS	HSP71_HUMAN Heat shock 70 kDa protein 1A/1B
+negative_strep	JKIP36-01	[13-1]	5	P11142	6	14.2	3.24	3.10E-06	70898.7	HOMO SAPIENS	HSP7C_HUMAN Heat shock cognate 71 kDa protein
+negative_strep	JKIP36-01	[13-2]	1	P54652	2	4.5	2.98	5.00E-06	70021.5	HOMO SAPIENS	HSP72_HUMAN Heat shock-related 70 kDa protein 2
+negative_strep	JKIP36-01	[14]		P62701	8	31.2	3.74	5.60E-07	29598	HOMO SAPIENS	RS4X_HUMAN 40S ribosomal protein S4, X isoform
+negative_strep	JKIP36-01	[15]		P26196	6	22.2	3.75	7.50E-06	54417.3	HOMO SAPIENS	DDX6_HUMAN Probable ATP-dependent RNA helicase DDX6
+negative_strep	JKIP36-01	[16]		P62424	6	32.3	4.3	1.00E-07	29995.9	HOMO SAPIENS	RL7A_HUMAN 60S ribosomal protein L7a
+negative_strep	JKIP36-01	[17]		P11940	5	10.8	4.55	1.70E-08	70671.5	HOMO SAPIENS	PABP1_HUMAN Polyadenylate-binding protein 1
+negative_strep	JKIP36-01	[18]		P05388	5	30.3	4.23	1.30E-07	34273.8	HOMO SAPIENS	RLA0_HUMAN 60S acidic ribosomal protein P0
+negative_strep	JKIP36-01	[19]		P09651	5	22.3	4.34	7.20E-08	38746.9	HOMO SAPIENS	ROA1_HUMAN Heterogeneous nuclear ribonucleoprotein A1
+negative_strep	JKIP36-01	[20]		P10412	5	23.3	3.88	4.10E-07	21865.4	HOMO SAPIENS	H14_HUMAN Histone H1.4
+negative_strep	JKIP36-01	[20-1]	1	P16403	5	23.9	3.87	1.10E-07	21364.9	HOMO SAPIENS	H12_HUMAN Histone H1.2
+negative_strep	JKIP36-01	[21]		P62753	4	19.7	4.23	6.70E-06	28680.9	HOMO SAPIENS	RS6_HUMAN 40S ribosomal protein S6
+negative_strep	JKIP36-01	[22]		P62917	5	30.7	3.34	1.00E-05	28024.9	HOMO SAPIENS	RL8_HUMAN 60S ribosomal protein L8
+negative_strep	JKIP36-01	[23]		P39023	5	18.9	3.5	4.40E-07	46109.3	HOMO SAPIENS	RL3_HUMAN 60S ribosomal protein L3
+negative_strep	JKIP36-01	[24]		Q07020	3	19.7	4.9	3.70E-07	21634.7	HOMO SAPIENS	RL18_HUMAN 60S ribosomal protein L18
+negative_strep	JKIP36-01	[25]		P06748	4	24.1	4.8	9.70E-09	32575.3	HOMO SAPIENS	NPM_HUMAN Nucleophosmin
+negative_strep	JKIP36-01	[26]		Q7Z417	4	11.7	4.09	5.40E-07	76121.7	HOMO SAPIENS	NUFP2_HUMAN Nuclear fragile X mental retardation-interacting protein 2
+negative_strep	JKIP36-01	[27]		P05387	3	55.7	4.98	7.80E-09	11665	HOMO SAPIENS	RLA2_HUMAN 60S acidic ribosomal protein P2
+negative_strep	JKIP36-01	[28]		Q02878	3	13.2	4.62	6.30E-07	32728.2	HOMO SAPIENS	RL6_HUMAN 60S ribosomal protein L6
+negative_strep	JKIP36-01	[29]		Q3MHD2	3	28.2	4.21	2.90E-08	21700.9	HOMO SAPIENS	LSM12_HUMAN Protein LSM12 homolog
+negative_strep	JKIP36-01	[30]		P83731	3	19.7	4.55	2.40E-07	17779.1	HOMO SAPIENS	RL24_HUMAN 60S ribosomal protein L24
+negative_strep	JKIP36-01	[31]		P62847	4	26.3	3.96	5.40E-08	15423.3	HOMO SAPIENS	RS24_HUMAN 40S ribosomal protein S24
+negative_strep	JKIP36-01	[32]		P15880	3	16	4.04	4.20E-07	31324.7	HOMO SAPIENS	RS2_HUMAN 40S ribosomal protein S2
+negative_strep	JKIP36-01	[33]		P62081	5	39.2	2.29	0.0015	22127	HOMO SAPIENS	RS7_HUMAN 40S ribosomal protein S7
+negative_strep	JKIP36-01	[34]		P62263	3	22.5	3.55	1.50E-06	16272.9	HOMO SAPIENS	RS14_HUMAN 40S ribosomal protein S14
+negative_strep	JKIP36-01	[35]		P68363	3	12.6	3.44	7.30E-06	50152.1	HOMO SAPIENS	TBA1B_HUMAN Tubulin alpha-1B chain
+negative_strep	JKIP36-01	[36]		P50914	3	15.8	4.11	1.80E-07	23432.1	HOMO SAPIENS	RL14_HUMAN 60S ribosomal protein L14
+negative_strep	JKIP36-01	[37]		P62888	4	51.3	2.73	3.90E-05	12784.2	HOMO SAPIENS	RL30_HUMAN 60S ribosomal protein L30
+negative_strep	JKIP36-01	[38]		P18124	3	16.1	3.66	3.00E-05	29226	HOMO SAPIENS	RL7_HUMAN 60S ribosomal protein L7
+negative_strep	JKIP36-01	[39]		P62266	3	27.3	3.29	7.40E-06	15807.7	HOMO SAPIENS	RS23_HUMAN 40S ribosomal protein S23
+negative_strep	JKIP36-01	[40]		P22626	3	17.6	3.69	2.20E-06	37430	HOMO SAPIENS	ROA2_HUMAN Heterogeneous nuclear ribonucleoproteins A2/B1
+negative_strep	JKIP36-01	[41]		P30050	3	26.7	3.43	5.90E-07	17818.7	HOMO SAPIENS	RL12_HUMAN 60S ribosomal protein L12
+negative_strep	JKIP36-01	[42]		P62913	2	12.9	4.67	8.30E-08	20252.6	HOMO SAPIENS	RL11_HUMAN 60S ribosomal protein L11
+negative_strep	JKIP36-01	[43]		P07910	2	15.4	4.42	8.10E-07	33670.3	HOMO SAPIENS	HNRPC_HUMAN Heterogeneous nuclear ribonucleoproteins C1/C2
+negative_strep	JKIP36-01	[44]		Q02543	2	15.3	3.9	1.70E-06	20762.6	HOMO SAPIENS	RL18A_HUMAN 60S ribosomal protein L18a
+negative_strep	JKIP36-01	[45]		P40429	3	15.8	3.07	3.10E-06	23577.4	HOMO SAPIENS	RL13A_HUMAN 60S ribosomal protein L13a
+negative_strep	JKIP36-01	[46]		P04908	2	21.5	4.82	5.20E-08	14135.6	HOMO SAPIENS	H2A1B_HUMAN Histone H2A type 1-B/E
+negative_strep	JKIP36-01	[47]		P62899	4	32	2.16	1.30E-04	14463	HOMO SAPIENS	RL31_HUMAN 60S ribosomal protein L31
+negative_strep	JKIP36-01	[48]		P27635	2	18.7	3.89	1.20E-06	24604.1	HOMO SAPIENS	RL10_HUMAN 60S ribosomal protein L10
+negative_strep	JKIP36-01	[49]		O60814	2	19	4.44	3.10E-08	13890.3	HOMO SAPIENS	H2B1K_HUMAN Histone H2B type 1-K
+negative_strep	JKIP36-01	[50]		P22061	2	15	3.79	5.90E-06	24636.6	HOMO SAPIENS	PIMT_HUMAN Protein-L-isoaspartate(D-aspartate) O-methyltransferase
+negative_strep	JKIP36-01	[51]		P26373	3	14.2	2.84	1.10E-05	24261.7	HOMO SAPIENS	RL13_HUMAN 60S ribosomal protein L13
+negative_strep	JKIP36-01	[52]		P47914	1	9.4	5.67	1.40E-09	17752.2	HOMO SAPIENS	RL29_HUMAN 60S ribosomal protein L29
+negative_strep	JKIP36-01	[53]		P61247	4	20.1	1.61	0.0012	29945.2	HOMO SAPIENS	RS3A_HUMAN 40S ribosomal protein S3a
+negative_strep	JKIP36-01	[54]		P51991	2	8.5	2.59	2.80E-05	39595.3	HOMO SAPIENS	ROA3_HUMAN Heterogeneous nuclear ribonucleoprotein A3
+negative_strep	JKIP36-01	[55]		C9JLW8	3	46.4	1.88	2.20E-04	10920.3	HOMO SAPIENS	F195B_HUMAN Protein FAM195B
+negative_strep	JKIP36-01	[56]		P32969	2	21.4	2.63	2.90E-04	21863.6	HOMO SAPIENS	RL9_HUMAN 60S ribosomal protein L9
+negative_strep	JKIP36-01	[57]		P46776	2	15.5	2.38	5.50E-05	16561.5	HOMO SAPIENS	RL27A_HUMAN 60S ribosomal protein L27a
+negative_strep	JKIP36-01	[58]		P49756	3	7	1.78	1.90E-04	100186.3	HOMO SAPIENS	RBM25_HUMAN RNA-binding protein 25
+negative_strep	JKIP36-01	[59]		P05386	1	37.7	4.32	8.30E-08	11514	HOMO SAPIENS	RLA1_HUMAN 60S acidic ribosomal protein P1
+negative_strep	JKIP36-01	[60]		P67809	2	18.8	2.27	3.70E-04	35924.5	HOMO SAPIENS	YBOX1_HUMAN Nuclease-sensitive element-binding protein 1
+negative_strep	JKIP36-01	[61]		P62829	2	25	1.97	3.10E-05	14865.6	HOMO SAPIENS	RL23_HUMAN 60S ribosomal protein L23
+negative_strep	JKIP36-01	[62]		P38646	1	2.1	3.23	3.30E-07	73681.1	HOMO SAPIENS	GRP75_HUMAN Stress-70 protein, mitochondrial
+negative_strep	JKIP36-01	[63]		Q9Y3U8	1	10.5	3.23	5.60E-07	12253.8	HOMO SAPIENS	RL36_HUMAN 60S ribosomal protein L36
+negative_strep	JKIP36-01	[64]		P62750	1	8.3	3.21	3.40E-05	17695.2	HOMO SAPIENS	RL23A_HUMAN 60S ribosomal protein L23a
+negative_strep	JKIP36-01	[65]		P46778	2	20.6	1.61	4.00E-04	18565	HOMO SAPIENS	RL21_HUMAN 60S ribosomal protein L21
+negative_strep	JKIP36-01	[66]		P23396	1	5.8	3.15	1.90E-07	26688.6	HOMO SAPIENS	RS3_HUMAN 40S ribosomal protein S3
+negative_strep	JKIP36-01	[67]		Q12906	1	3.6	3.08	7.20E-05	95339.2	HOMO SAPIENS	ILF3_HUMAN Interleukin enhancer-binding factor 3
+negative_strep	JKIP36-01	[68]		P62979	2	22.4	1.86	7.40E-05	17965.1	HOMO SAPIENS	RS27A_HUMAN Ubiquitin-40S ribosomal protein S27a
+negative_strep	JKIP36-01	[69]		Q9BQ39	1	2	2.77	6.80E-06	82565.7	HOMO SAPIENS	DDX50_HUMAN ATP-dependent RNA helicase DDX50
+negative_strep	JKIP36-01	[70]		P61313	2	10.3	1.39	0.0016	24146.3	HOMO SAPIENS	RL15_HUMAN 60S ribosomal protein L15
+negative_strep	JKIP36-01	[71]		P62906	2	13.4	1.41	0.0032	24831.5	HOMO SAPIENS	RL10A_HUMAN 60S ribosomal protein L10a
+negative_strep	JKIP36-01	[72]		P37108	1	11	2.15	2.40E-05	14570.1	HOMO SAPIENS	SRP14_HUMAN Signal recognition particle 14 kDa protein
+negative_strep	JKIP36-01	[73]		P42766	2	10.6	1.27	0.0017	14551.6	HOMO SAPIENS	RL35_HUMAN 60S ribosomal protein L35
+negative_strep	JKIP36-01	[74]		P62269	1	5.9	2.08	1.50E-04	17718.8	HOMO SAPIENS	RS18_HUMAN 40S ribosomal protein S18
+negative_strep	JKIP36-01	[75]		P61353	1	6.6	2.04	1.70E-05	15797.9	HOMO SAPIENS	RL27_HUMAN 60S ribosomal protein L27
+negative_strep	JKIP36-01	[76]		P68104	1	5.2	2.02	9.70E-05	50141.3	HOMO SAPIENS	EF1A1_HUMAN Elongation factor 1-alpha 1
+negative_strep	JKIP36-01	[77]		P25398	1	17.4	1.92	2.10E-05	14515.1	HOMO SAPIENS	RS12_HUMAN 40S ribosomal protein S12
+negative_strep	JKIP36-01	[78]		P14866	1	5.9	1.92	0.003	64133.3	HOMO SAPIENS	HNRPL_HUMAN Heterogeneous nuclear ribonucleoprotein L
+negative_strep	JKIP36-01	[79]		Q12905	1	5.9	1.88	5.90E-04	43062.5	HOMO SAPIENS	ILF2_HUMAN Interleukin enhancer-binding factor 2
+negative_strep	JKIP36-01	[80]		P84098	1	4.6	1.72	0.0029	23466.2	HOMO SAPIENS	RL19_HUMAN 60S ribosomal protein L19
+negative_strep	JKIP36-01	[81]		Q9UN86	1	3.3	1.6	4.40E-05	54121.6	HOMO SAPIENS	G3BP2_HUMAN Ras GTPase-activating protein-binding protein 2
+negative_strep	JKIP36-01	[82]		P08708	1	16.3	1.6	0.0011	15550.3	HOMO SAPIENS	RS17_HUMAN 40S ribosomal protein S17
+negative_strep	JKIP36-01	[83]		P09012	1	10.6	1.53	5.90E-04	31279.8	HOMO SAPIENS	SNRPA_HUMAN U1 small nuclear ribonucleoprotein A
+negative_strep	JKIP36-01	[84]		Q86V81	1	5.4	1.46	7.50E-04	26888.1	HOMO SAPIENS	THOC4_HUMAN THO complex subunit 4
+negative_strep	JKIP36-01	[85]		P84090	1	11.5	1.42	2.00E-04	12259.1	HOMO SAPIENS	ERH_HUMAN Enhancer of rudimentary homolog
+negative_strep	JKIP36-01	[86]		P46779	1	8	1.42	4.40E-04	15747.6	HOMO SAPIENS	RL28_HUMAN 60S ribosomal protein L28
+negative_strep	JKIP36-01	[87]		P62857	1	17.4	1.37	0.0011	7841.1	HOMO SAPIENS	RS28_HUMAN 40S ribosomal protein S28
+negative_strep	JKIP36-01	[88]		HIV1_NL43_Vif	1	14.6	1.33	0.0073	22699.3	UNREADABLE	HIV1_NL43_Vif
+negative_strep	JKIP36-01	[89]		O75182	1	2.2	1.22	0.0052	133067.6	HOMO SAPIENS	SIN3B_HUMAN Paired amphipathic helix protein Sin3b
+negative_strep	JKIP36-01	[90]		P49207	2	12.8	0.68	0.0089	13293.1	HOMO SAPIENS	RL34_HUMAN 60S ribosomal protein L34
+negative_strep	JKIP36-01	[91]		Q9UMS4	1	5.4	1.09	0.0036	55181.3	HOMO SAPIENS	PRP19_HUMAN Pre-mRNA-processing factor 19
+negative_strep	JKIP36-01	[92]		P46087	1	1.7	1.07	5.80E-04	89302.5	HOMO SAPIENS	NOP2_HUMAN Putative ribosomal RNA methyltransferase NOP2
+negative_strep	JKIP36-01	[93]		P62805	1	7.8	0.92	0.0073	11367.4	HOMO SAPIENS	H4_HUMAN Histone H4
+negative_strep	JKIP36-01	[94]		P61254	2	11	0.59	0.0031	17258.4	HOMO SAPIENS	RL26_HUMAN 60S ribosomal protein L26
+negative_strep	JKIP36-01	[95]		P23528	1	16.9	0.82	0.0049	18502.7	HOMO SAPIENS	COF1_HUMAN Cofilin-1
+negative_strep	JKIP36-01	[96]		Q9NVC3	1	2.6	0.81	0.0066	49966.2	HOMO SAPIENS	S38A7_HUMAN Putative sodium-coupled neutral amino acid transporter 7
+negative_strep	JKIP36-01	[97]		Q8NCA5	2	7.9	0.6	0.0026	55401.2	HOMO SAPIENS	FA98A_HUMAN Protein FAM98A
+negative_strep	JKIP36-01	[98]		P62937	1	16.4	0.77	0.0033	18012.7	HOMO SAPIENS	PPIA_HUMAN Peptidyl-prolyl cis-trans isomerase A
+negative_strep	JKIP36-01	[99]		P62244	1	15.4	0.63	0.0046	14839.6	HOMO SAPIENS	RS15A_HUMAN 40S ribosomal protein S15a
+negative_strep	JKIP36-01	[100]		O14979	1	8.3	0.58	0.0052	46437.9	HOMO SAPIENS	HNRDL_HUMAN Heterogeneous nuclear ribonucleoprotein D-like
+negative_strep	JKIP36-01	[101]		Q13151	1	5.6	0.56	0.0082	30840.9	HOMO SAPIENS	ROA0_HUMAN Heterogeneous nuclear ribonucleoprotein A0
+negative_strep	JKIP36-01	[102]		decoy	1	5.9	0.55	0.001	16286.4	HOMO SAPIENS	CS012_HUMAN Protein C19orf12
+negative_strep	JKIP36-01	[103]		P62249	1	5.5	0.55	0.001	16445.5	HOMO SAPIENS	RS16_HUMAN 40S ribosomal protein S16
+negative_strep	JKIP36-01	[104]		Q9BZE4	1	1.9	0.44	0.0031	73965.2	HOMO SAPIENS	NOG1_HUMAN Nucleolar GTP-binding protein 1
+negative_strep	JKIP36-01	[105]		decoy	1	9.2	0.36	0.0069	20123.5	HOMO SAPIENS	CL045_HUMAN Uncharacterized protein C12orf45
+negative_strep	JKIP36-01	[106]		Q08211	1	0.6	0.22	0.0017	140959.7	HOMO SAPIENS	DHX9_HUMAN ATP-dependent RNA helicase A
+negative_strep	JKIP36-02	[1]		Q13085	46	31	5.99	2.90E-09	265556.2	HOMO SAPIENS	ACACA_HUMAN Acetyl-CoA carboxylase 1
+negative_strep	JKIP36-02	[2]		P35527	37	86.7	6.62	1.60E-11	62064.8	HOMO SAPIENS	K1C9_HUMAN Keratin, type I cytoskeletal 9
+negative_strep	JKIP36-02	[2-1]	13	P13645	14	31.5	4.83	9.80E-09	58827.5	HOMO SAPIENS	K1C10_HUMAN Keratin, type I cytoskeletal 10
+negative_strep	JKIP36-02	[2-2]	6	P02533	7	16.1	3.91	7.80E-07	51561.9	HOMO SAPIENS	K1C14_HUMAN Keratin, type I cytoskeletal 14
+negative_strep	JKIP36-02	[2-3]	4	P08779	5	9.3	3.53	8.00E-06	51268.3	HOMO SAPIENS	K1C16_HUMAN Keratin, type I cytoskeletal 16
+negative_strep	JKIP36-02	[2-4]	3	P19012	4	7.7	3.53	8.00E-06	49212.1	HOMO SAPIENS	K1C15_HUMAN Keratin, type I cytoskeletal 15
+negative_strep	JKIP36-02	[2-5]	3	Q04695	4	8.3	3.51	7.80E-07	48106.1	HOMO SAPIENS	K1C17_HUMAN Keratin, type I cytoskeletal 17
+negative_strep	JKIP36-02	[2-6, 42-1]	2	P08727	3	5.8	2.05	0.0018	44106.3	HOMO SAPIENS	K1C19_HUMAN Keratin, type I cytoskeletal 19
+negative_strep	JKIP36-02	[3]		P04264	34	57.5	6.02	9.30E-11	66039.2	HOMO SAPIENS	K2C1_HUMAN Keratin, type II cytoskeletal 1
+negative_strep	JKIP36-02	[3-1]	17	P35908	19	51.3	4.78	1.50E-08	65433.4	HOMO SAPIENS	K22E_HUMAN Keratin, type II cytoskeletal 2 epidermal
+negative_strep	JKIP36-02	[3-2, 14-1]	2	P04259	3	5.5	3	1.20E-04	60067.4	HOMO SAPIENS	K2C6B_HUMAN Keratin, type II cytoskeletal 6B
+negative_strep	JKIP36-02	[3-3]	2	P19013	3	6	3.18	1.10E-05	57285.7	HOMO SAPIENS	K2C4_HUMAN Keratin, type II cytoskeletal 4
+negative_strep	JKIP36-02	[4]		Q8WWM7	31	44.1	5.82	1.10E-10	113374.5	HOMO SAPIENS	ATX2L_HUMAN Ataxin-2-like protein
+negative_strep	JKIP36-02	[5]		P05166	25	56	6.27	4.60E-10	58216.2	HOMO SAPIENS	PCCB_HUMAN Propionyl-CoA carboxylase beta chain, mitochondrial
+negative_strep	JKIP36-02	[6]		P05165	23	37.6	5.79	3.50E-09	80059.7	HOMO SAPIENS	PCCA_HUMAN Propionyl-CoA carboxylase alpha chain, mitochondrial
+negative_strep	JKIP36-02	[7]		P11498	18	24.2	4.91	7.40E-08	129634.7	HOMO SAPIENS	PYC_HUMAN Pyruvate carboxylase, mitochondrial
+negative_strep	JKIP36-02	[8]		P19338	14	22.7	3.78	2.00E-07	76615	HOMO SAPIENS	NUCL_HUMAN Nucleolin
+negative_strep	JKIP36-02	[9]		P26196	10	31.3	4.31	6.50E-07	54417.3	HOMO SAPIENS	DDX6_HUMAN Probable ATP-dependent RNA helicase DDX6
+negative_strep	JKIP36-02	[10]		Q9HCC0	7	21.3	5.27	7.90E-09	61333.7	HOMO SAPIENS	MCCB_HUMAN Methylcrotonoyl-CoA carboxylase beta chain, mitochondrial
+negative_strep	JKIP36-02	[11]		Q7Z417	8	25.9	3.83	2.00E-06	76121.7	HOMO SAPIENS	NUFP2_HUMAN Nuclear fragile X mental retardation-interacting protein 2
+negative_strep	JKIP36-02	[12]		P08107	8	21.4	4.1	1.70E-07	70052.8	HOMO SAPIENS	HSP71_HUMAN Heat shock 70 kDa protein 1A/1B
+negative_strep	JKIP36-02	[12-1]	5	P11142	7	15.6	3.78	1.70E-07	70898.7	HOMO SAPIENS	HSP7C_HUMAN Heat shock cognate 71 kDa protein
+negative_strep	JKIP36-02	[12-2]	1	P54652	3	6.3	3.73	1.70E-07	70021.5	HOMO SAPIENS	HSP72_HUMAN Heat shock-related 70 kDa protein 2
+negative_strep	JKIP36-02	[12-3]	2	P11021	3	6.3	2.81	4.20E-05	72333.5	HOMO SAPIENS	GRP78_HUMAN 78 kDa glucose-regulated protein
+negative_strep	JKIP36-02	[13]		P11940	8	22	3.99	8.30E-07	70671.5	HOMO SAPIENS	PABP1_HUMAN Polyadenylate-binding protein 1
+negative_strep	JKIP36-02	[13-1]	1	Q13310	5	13.5	3.99	8.30E-07	70783.5	HOMO SAPIENS	PABP4_HUMAN Polyadenylate-binding protein 4
+negative_strep	JKIP36-02	[14]		P13647	6	13.7	4.44	3.70E-08	62378.9	HOMO SAPIENS	K2C5_HUMAN Keratin, type II cytoskeletal 5
+negative_strep	JKIP36-02	[3-2, 14-1]	2	P04259	3	5.5	3	1.20E-04	60067.4	HOMO SAPIENS	K2C6B_HUMAN Keratin, type II cytoskeletal 6B
+negative_strep	JKIP36-02	[14-2]	1	P02538	2	3.7	2.9	2.10E-04	60045.4	HOMO SAPIENS	K2C6A_HUMAN Keratin, type II cytoskeletal 6A
+negative_strep	JKIP36-02	[14-3]	1	P48668	2	3.7	2.9	2.10E-04	60025.4	HOMO SAPIENS	K2C6C_HUMAN Keratin, type II cytoskeletal 6C
+negative_strep	JKIP36-02	[14-4]	1	Q5XKE5	2	6	2.9	2.10E-04	57836.1	HOMO SAPIENS	K2C79_HUMAN Keratin, type II cytoskeletal 79
+negative_strep	JKIP36-02	[15]		Q00839	5	12	4.96	1.20E-07	90585.2	HOMO SAPIENS	HNRPU_HUMAN Heterogeneous nuclear ribonucleoprotein U
+negative_strep	JKIP36-02	[16]		P62241	5	28.8	4.94	5.80E-08	24205.4	HOMO SAPIENS	RS8_HUMAN 40S ribosomal protein S8
+negative_strep	JKIP36-02	[17]		P36578	6	19.7	3.83	1.80E-06	47697.7	HOMO SAPIENS	RL4_HUMAN 60S ribosomal protein L4
+negative_strep	JKIP36-02	[18]		P38646	8	17.7	3.17	9.30E-07	73681.1	HOMO SAPIENS	GRP75_HUMAN Stress-70 protein, mitochondrial
+negative_strep	JKIP36-02	[19]		P62424	5	25.9	3.58	1.60E-06	29995.9	HOMO SAPIENS	RL7A_HUMAN 60S ribosomal protein L7a
+negative_strep	JKIP36-02	[20]		P39023	5	18.9	3.37	2.30E-06	46109.3	HOMO SAPIENS	RL3_HUMAN 60S ribosomal protein L3
+negative_strep	JKIP36-02	[21]		Q96RQ3	6	21.8	2.99	7.10E-06	80473.8	HOMO SAPIENS	MCCA_HUMAN Methylcrotonoyl-CoA carboxylase subunit alpha, mitochondrial
+negative_strep	JKIP36-02	[22]		P22061	4	28.2	3.94	3.10E-06	24636.6	HOMO SAPIENS	PIMT_HUMAN Protein-L-isoaspartate(D-aspartate) O-methyltransferase
+negative_strep	JKIP36-02	[23]		P10412	3	13.7	4.78	5.30E-09	21865.4	HOMO SAPIENS	H14_HUMAN Histone H1.4
+negative_strep	JKIP36-02	[23-1]	1	P16403	3	14.1	4.78	5.30E-09	21364.9	HOMO SAPIENS	H12_HUMAN Histone H1.2
+negative_strep	JKIP36-02	[24]		P22626	3	16.7	3.99	2.60E-06	37430	HOMO SAPIENS	ROA2_HUMAN Heterogeneous nuclear ribonucleoproteins A2/B1
+negative_strep	JKIP36-02	[25]		Q3MHD2	3	28.2	3.73	6.40E-07	21700.9	HOMO SAPIENS	LSM12_HUMAN Protein LSM12 homolog
+negative_strep	JKIP36-02	[26]		P05387	3	55.7	4.37	5.10E-08	11665	HOMO SAPIENS	RLA2_HUMAN 60S acidic ribosomal protein P2
+negative_strep	JKIP36-02	[27]		P49756	5	10.4	2.58	4.10E-05	100186.3	HOMO SAPIENS	RBM25_HUMAN RNA-binding protein 25
+negative_strep	JKIP36-02	[28]		Q07020	2	13.8	4.79	1.20E-07	21634.7	HOMO SAPIENS	RL18_HUMAN 60S ribosomal protein L18
+negative_strep	JKIP36-02	[29]		P62753	3	14.9	3.47	2.60E-05	28680.9	HOMO SAPIENS	RS6_HUMAN 40S ribosomal protein S6
+negative_strep	JKIP36-02	[30]		O60814	3	27.8	4.09	6.20E-08	13890.3	HOMO SAPIENS	H2B1K_HUMAN Histone H2B type 1-K
+negative_strep	JKIP36-02	[31]		P67809	3	30.6	3.01	5.40E-06	35924.5	HOMO SAPIENS	YBOX1_HUMAN Nuclease-sensitive element-binding protein 1
+negative_strep	JKIP36-02	[31-1]	1	P16989	2	18.5	3.53	5.70E-06	40090.2	HOMO SAPIENS	DBPA_HUMAN DNA-binding protein A
+negative_strep	JKIP36-02	[32]		P09651	3	13.2	2.92	2.90E-05	38746.9	HOMO SAPIENS	ROA1_HUMAN Heterogeneous nuclear ribonucleoprotein A1
+negative_strep	JKIP36-02	[33]		P04908	2	21.5	5.12	2.10E-08	14135.6	HOMO SAPIENS	H2A1B_HUMAN Histone H2A type 1-B/E
+negative_strep	JKIP36-02	[34]		Q02878	2	11.1	4.57	1.30E-06	32728.2	HOMO SAPIENS	RL6_HUMAN 60S ribosomal protein L6
+negative_strep	JKIP36-02	[35]		P62263	2	22.5	3.59	2.60E-06	16272.9	HOMO SAPIENS	RS14_HUMAN 40S ribosomal protein S14
+negative_strep	JKIP36-02	[36]		P62913	2	15.2	3.88	8.90E-07	20252.6	HOMO SAPIENS	RL11_HUMAN 60S ribosomal protein L11
+negative_strep	JKIP36-02	[37]		P06748	3	19.7	2.9	4.20E-06	32575.3	HOMO SAPIENS	NPM_HUMAN Nucleophosmin
+negative_strep	JKIP36-02	[38]		P26373	2	11.4	3.41	6.80E-06	24261.7	HOMO SAPIENS	RL13_HUMAN 60S ribosomal protein L13
+negative_strep	JKIP36-02	[39]		P68104	2	11.3	3.67	8.50E-07	50141.3	HOMO SAPIENS	EF1A1_HUMAN Elongation factor 1-alpha 1
+negative_strep	JKIP36-02	[40]		P62917	2	12.1	3.23	8.40E-06	28024.9	HOMO SAPIENS	RL8_HUMAN 60S ribosomal protein L8
+negative_strep	JKIP36-02	[41]		Q9UN86	3	7.9	2.41	2.20E-05	54121.6	HOMO SAPIENS	G3BP2_HUMAN Ras GTPase-activating protein-binding protein 2
+negative_strep	JKIP36-02	[42]		P13646	2	4.1	3.53	8.00E-06	49588.6	HOMO SAPIENS	K1C13_HUMAN Keratin, type I cytoskeletal 13
+negative_strep	JKIP36-02	[2-6, 42-1]	2	P08727	3	5.8	2.05	0.0018	44106.3	HOMO SAPIENS	K1C19_HUMAN Keratin, type I cytoskeletal 19
+negative_strep	JKIP36-02	[42-2]	1	Q7Z3Y7	2	3.4	2.15	2.90E-04	50567.8	HOMO SAPIENS	K1C28_HUMAN Keratin, type I cytoskeletal 28
+negative_strep	JKIP36-02	[43]		O00161	2	18.5	2.96	2.50E-05	23354.3	HOMO SAPIENS	SNP23_HUMAN Synaptosomal-associated protein 23
+negative_strep	JKIP36-02	[44]		P68363	4	17.3	1.84	2.00E-04	50152.1	HOMO SAPIENS	TBA1B_HUMAN Tubulin alpha-1B chain
+negative_strep	JKIP36-02	[45]		P27635	2	13.6	3.43	5.80E-06	24604.1	HOMO SAPIENS	RL10_HUMAN 60S ribosomal protein L10
+negative_strep	JKIP36-02	[46]		Q9Y3I0	3	14.1	2.56	7.20E-06	55210.8	HOMO SAPIENS	RTCB_HUMAN tRNA-splicing ligase RtcB homolog
+negative_strep	JKIP36-02	[47]		P47914	1	9.4	5.25	5.20E-09	17752.2	HOMO SAPIENS	RL29_HUMAN 60S ribosomal protein L29
+negative_strep	JKIP36-02	[48]		P61313	4	22.5	1.58	0.0013	24146.3	HOMO SAPIENS	RL15_HUMAN 60S ribosomal protein L15
+negative_strep	JKIP36-02	[49]		C9JLW8	3	46.4	1.84	2.50E-04	10920.3	HOMO SAPIENS	F195B_HUMAN Protein FAM195B
+negative_strep	JKIP36-02	[50]		P50914	1	5.6	4.4	1.80E-07	23432.1	HOMO SAPIENS	RL14_HUMAN 60S ribosomal protein L14
+negative_strep	JKIP36-02	[51]		O75400	3	4.1	1.76	5.00E-04	108805.9	HOMO SAPIENS	PR40A_HUMAN Pre-mRNA-processing factor 40 homolog A
+negative_strep	JKIP36-02	[52]		P52272	4	8.8	1.37	8.20E-04	77516.4	HOMO SAPIENS	HNRPM_HUMAN Heterogeneous nuclear ribonucleoprotein M
+negative_strep	JKIP36-02	[53]		P07437	4	13.5	1.32	0.0018	49671.3	HOMO SAPIENS	TBB5_HUMAN Tubulin beta chain
+negative_strep	JKIP36-02	[54]		P83731	1	8.3	4.34	5.40E-07	17779.1	HOMO SAPIENS	RL24_HUMAN 60S ribosomal protein L24
+negative_strep	JKIP36-02	[55]		Q86YZ3	4	1.8	1.37	8.90E-04	282391.8	HOMO SAPIENS	HORN_HUMAN Hornerin
+negative_strep	JKIP36-02	[56]		P81605	2	22.7	2.09	2.90E-04	11284	HOMO SAPIENS	DCD_HUMAN Dermcidin
+negative_strep	JKIP36-02	[57]		P62829	2	27.1	1.98	3.10E-04	14865.6	HOMO SAPIENS	RL23_HUMAN 60S ribosomal protein L23
+negative_strep	JKIP36-02	[58]		P14866	1	5.9	3.72	4.30E-05	64133.3	HOMO SAPIENS	HNRPL_HUMAN Heterogeneous nuclear ribonucleoprotein L
+negative_strep	JKIP36-02	[59]		P62847	1	11.3	3.55	9.80E-08	15423.3	HOMO SAPIENS	RS24_HUMAN 40S ribosomal protein S24
+negative_strep	JKIP36-02	[60]		P62266	2	19.6	2.15	1.60E-04	15807.7	HOMO SAPIENS	RS23_HUMAN 40S ribosomal protein S23
+negative_strep	JKIP36-02	[61]		P62750	1	8.3	3.45	1.30E-06	17695.2	HOMO SAPIENS	RL23A_HUMAN 60S ribosomal protein L23a
+negative_strep	JKIP36-02	[62]		P62701	3	14.8	1.22	0.0091	29598	HOMO SAPIENS	RS4X_HUMAN 40S ribosomal protein S4, X isoform
+negative_strep	JKIP36-02	[63]		P30050	2	17	1.71	3.40E-04	17818.7	HOMO SAPIENS	RL12_HUMAN 60S ribosomal protein L12
+negative_strep	JKIP36-02	[64]		P05388	2	10.1	2.16	2.70E-05	34273.8	HOMO SAPIENS	RLA0_HUMAN 60S acidic ribosomal protein P0
+negative_strep	JKIP36-02	[65]		P05386	1	37.7	3.04	5.80E-06	11514	HOMO SAPIENS	RLA1_HUMAN 60S acidic ribosomal protein P1
+negative_strep	JKIP36-02	[66]		O60506	2	6.3	1.54	0.0054	69603.2	HOMO SAPIENS	HNRPQ_HUMAN Heterogeneous nuclear ribonucleoprotein Q
+negative_strep	JKIP36-02	[67]		P18124	1	4.4	2.93	1.50E-04	29226	HOMO SAPIENS	RL7_HUMAN 60S ribosomal protein L7
+negative_strep	JKIP36-02	[68]		Q13435	1	3.2	2.88	1.50E-05	100228.4	HOMO SAPIENS	SF3B2_HUMAN Splicing factor 3B subunit 2
+negative_strep	JKIP36-02	[69]		P15924	2	1.8	1.75	2.50E-04	331776.7	HOMO SAPIENS	DESP_HUMAN Desmoplakin
+negative_strep	JKIP36-02	[70]		Q9NZT1	1	10.3	2.72	1.80E-05	15892.6	HOMO SAPIENS	CALL5_HUMAN Calmodulin-like protein 5
+negative_strep	JKIP36-02	[71]		P62805	2	19.4	1.6	6.00E-04	11367.4	HOMO SAPIENS	H4_HUMAN Histone H4
+negative_strep	JKIP36-02	[72]		P62899	2	25.6	1.31	0.0085	14463	HOMO SAPIENS	RL31_HUMAN 60S ribosomal protein L31
+negative_strep	JKIP36-02	[73]		Q02413	1	3.1	2.38	6.10E-04	113748.6	HOMO SAPIENS	DSG1_HUMAN Desmoglein-1
+negative_strep	JKIP36-02	[74]		P04637	1	4.8	2.22	3.50E-04	43653.6	HOMO SAPIENS	P53_HUMAN Cellular tumor antigen p53
+negative_strep	JKIP36-02	[75]		P46776	1	7.4	2.2	3.50E-05	16561.5	HOMO SAPIENS	RL27A_HUMAN 60S ribosomal protein L27a
+negative_strep	JKIP36-02	[76]		P61247	2	8.3	1.26	0.0018	29945.2	HOMO SAPIENS	RS3A_HUMAN 40S ribosomal protein S3a
+negative_strep	JKIP36-02	[77]		Q86Y46	2	3.9	1.21	0.0051	58923.8	HOMO SAPIENS	K2C73_HUMAN Keratin, type II cytoskeletal 73
+negative_strep	JKIP36-02	[78]		Q7Z3Y8	1	2	2.15	2.90E-04	49822.8	HOMO SAPIENS	K1C27_HUMAN Keratin, type I cytoskeletal 27
+negative_strep	JKIP36-02	[79]		P0CG47	1	7	2.11	8.60E-05	25761.8	HOMO SAPIENS	UBB_HUMAN Polyubiquitin-B
+negative_strep	JKIP36-02	[80]		P62269	1	5.9	1.97	3.70E-04	17718.8	HOMO SAPIENS	RS18_HUMAN 40S ribosomal protein S18
+negative_strep	JKIP36-02	[81]		Q01546	1	1.4	1.97	6.70E-04	65841.3	HOMO SAPIENS	K22O_HUMAN Keratin, type II cytoskeletal 2 oral
+negative_strep	JKIP36-02	[82]		P61353	1	6.6	1.8	6.20E-05	15797.9	HOMO SAPIENS	RL27_HUMAN 60S ribosomal protein L27
+negative_strep	JKIP36-02	[83]		P42766	1	10.6	1.8	7.60E-04	14551.6	HOMO SAPIENS	RL35_HUMAN 60S ribosomal protein L35
+negative_strep	JKIP36-02	[84]		P62854	1	13	1.7	0.006	13015.5	HOMO SAPIENS	RS26_HUMAN 40S ribosomal protein S26
+negative_strep	JKIP36-02	[85]		P62906	2	13.4	0.94	0.0062	24831.5	HOMO SAPIENS	RL10A_HUMAN 60S ribosomal protein L10a
+negative_strep	JKIP36-02	[86]		P61978	1	7.3	1.45	4.20E-04	50976.7	HOMO SAPIENS	HNRPK_HUMAN Heterogeneous nuclear ribonucleoprotein K
+negative_strep	JKIP36-02	[87]		P40429	2	9.4	0.86	0.0012	23577.4	HOMO SAPIENS	RL13A_HUMAN 60S ribosomal protein L13a
+negative_strep	JKIP36-02	[88]		P23396	1	5.8	1.37	6.20E-05	26688.6	HOMO SAPIENS	RS3_HUMAN 40S ribosomal protein S3
+negative_strep	JKIP36-02	[89]		Q8NCA5	1	9.1	1.18	0.0088	55401.2	HOMO SAPIENS	FA98A_HUMAN Protein FAM98A
+negative_strep	JKIP36-02	[90]		P62081	1	6.2	1.11	3.40E-04	22127	HOMO SAPIENS	RS7_HUMAN 40S ribosomal protein S7
+negative_strep	JKIP36-02	[91]		Q86V81	1	5.4	1.08	5.90E-04	26888.1	HOMO SAPIENS	THOC4_HUMAN THO complex subunit 4
+negative_strep	JKIP36-02	[92]		Q12905	1	5.9	1.06	0.0054	43062.5	HOMO SAPIENS	ILF2_HUMAN Interleukin enhancer-binding factor 2
+negative_strep	JKIP36-02	[93]		Q9NVC3	1	2.6	1	0.0012	49966.2	HOMO SAPIENS	S38A7_HUMAN Putative sodium-coupled neutral amino acid transporter 7
+negative_strep	JKIP36-02	[94]		P46778	1	9.4	0.87	0.0029	18565	HOMO SAPIENS	RL21_HUMAN 60S ribosomal protein L21
+negative_strep	JKIP36-02	[95]		P62841	1	13.1	0.81	0.0048	17040.3	HOMO SAPIENS	RS15_HUMAN 40S ribosomal protein S15
+negative_strep	JKIP36-02	[96]		P08708	1	16.3	0.8	0.0081	15550.3	HOMO SAPIENS	RS17_HUMAN 40S ribosomal protein S17
+negative_strep	JKIP36-02	[97]		Q12874	2	6.6	0.41	0.0067	58849.4	HOMO SAPIENS	SF3A3_HUMAN Splicing factor 3A subunit 3
+negative_strep	JKIP36-02	[98]		P35573	1	0.9	0.78	0.0069	174765.3	HOMO SAPIENS	GDE_HUMAN Glycogen debranching enzyme
+negative_strep	JKIP36-02	[99]		O75533	1	1.4	0.78	0.005	145831.6	HOMO SAPIENS	SF3B1_HUMAN Splicing factor 3B subunit 1
+negative_strep	JKIP36-02	[100]		P84090	1	11.5	0.69	9.30E-04	12259.1	HOMO SAPIENS	ERH_HUMAN Enhancer of rudimentary homolog
+negative_strep	JKIP36-02	[101]		Q9NSY1	1	3.1	0.69	0.0048	129172.6	HOMO SAPIENS	BMP2K_HUMAN BMP-2-inducible protein kinase
+negative_strep	JKIP36-02	[102]		Q5T4F4	1	7.5	0.66	0.0026	45843.9	HOMO SAPIENS	ZFY27_HUMAN Protrudin
+negative_strep	JKIP36-02	[103]		P40763	1	2.2	0.4	0.0045	88068.6	HOMO SAPIENS	STAT3_HUMAN Signal transducer and activator of transcription 3
+negative_strep	JKIP36-02	[104]		P25705	1	2.9	0.31	0.0032	59751.1	HOMO SAPIENS	ATPA_HUMAN ATP synthase subunit alpha, mitochondrial
+negative_strep	JKIP36-02	[105]		Q9Y6R7	1	0.3	0.16	0.0067	572022.7	HOMO SAPIENS	FCGBP_HUMAN IgGFc-binding protein
+negative_strep	JKIP36-02	[106]		Q8IWB6	1	1.7	0.13	0.0057	167902.1	HOMO SAPIENS	TEX14_HUMAN Testis-expressed protein 14
+negative_strep	JKIP36-02	[107]		P62318	1	7.9	0.11	0.0059	13916.4	HOMO SAPIENS	SMD3_HUMAN Small nuclear ribonucleoprotein Sm D3
+negative_strep	JKIP36-02	[108]		P08865	1	5.8	0.09	0.0094	32854.4	HOMO SAPIENS	RSSA_HUMAN 40S ribosomal protein SA
+negative_strep	JKIP36-02	[109]		decoy	1	1.3	0.02	0.0091	149291.4	HOMO SAPIENS	BCL9_HUMAN B-cell CLL/lymphoma 9 protein
+negative_flag	hIP13-23	[100]		P38646	1	1.6	1.71	0.00054	73681.1	HOMO SAPIENS	GRP75_HUMAN Stress-70 protein, mitochondrial precursor
+negative_flag	hIP13-23	[101]		Q16875	1	6.3	1.68	0.00048	59609.7	HOMO SAPIENS	F263_HUMAN 6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3
+negative_flag	hIP13-23	[102]		Q14574	1	1.7	1.61	0.0024	99969.9	HOMO SAPIENS	DSC3_HUMAN Desmocollin-3 precursor
+negative_flag	hIP13-23	[103]		P25398	1	6.8	1.51	0.0012	14526	HOMO SAPIENS	RS12_HUMAN 40S ribosomal protein S12
+negative_flag	hIP13-23	[104]		Q9UH99	1	2.4	1.43	0.0088	80311.6	HOMO SAPIENS	UN84B_HUMAN Protein unc-84 homolog B
+negative_flag	hIP13-23	[105]		P62316	1	8.5	1.4	0.00023	13527	HOMO SAPIENS	SMD2_HUMAN Small nuclear ribonucleoprotein Sm D2
+negative_flag	hIP13-23	[106]		Q92734	1	7.2	1.38	0.0012	43434.3	HOMO SAPIENS	TFG_HUMAN Protein TFG
+negative_flag	hIP13-23	[107]		Q9H3K6	1	18.6	1.36	0.0064	10116.6	HOMO SAPIENS	BOLA2_HUMAN BolA-like protein 2
+negative_flag	hIP13-23	[108]		P62314	1	10.9	1.36	0.0056	13281.7	HOMO SAPIENS	SMD1_HUMAN Small nuclear ribonucleoprotein Sm D1
+negative_flag	hIP13-23	[109]		P17987	1	2	1.32	0.0027	60344.1	HOMO SAPIENS	TCPA_HUMAN T-complex protein 1 subunit alpha
+negative_flag	hIP13-23	[10]		Q15393	15	17.3	4.42	9.20E-08	135578.5	HOMO SAPIENS	SF3B3_HUMAN Splicing factor 3B subunit 3
+negative_flag	hIP13-23	[110]		P62318	1	7.9	1.31	0.0069	13916.4	HOMO SAPIENS	SMD3_HUMAN Small nuclear ribonucleoprotein Sm D3
+negative_flag	hIP13-23	[111]		P35527	1	2.4	1.3	0.0047	62129.9	HOMO SAPIENS	K1C9_HUMAN Keratin, type I cytoskeletal 9
+negative_flag	hIP13-23	[112]		O00148	1	3.3	1.15	0.0011	49130	HOMO SAPIENS	DDX39_HUMAN ATP-dependent RNA helicase DDX39
+negative_flag	hIP13-23	[113]		P30050	1	5.5	1.11	0.00096	17818.7	HOMO SAPIENS	RL12_HUMAN 60S ribosomal protein L12
+negative_flag	hIP13-23	[114]		P60866	1	10.1	1.06	0.0053	13372.8	HOMO SAPIENS	RS20_HUMAN 40S ribosomal protein S20
+negative_flag	hIP13-23	[115]		Q12905	1	5.6	1.04	0.0047	43062.5	HOMO SAPIENS	ILF2_HUMAN Interleukin enhancer-binding factor 2
+negative_flag	hIP13-23	[116]		Q16531	1	2.6	1	0.0052	126969	HOMO SAPIENS	DDB1_HUMAN DNA damage-binding protein 1
+negative_flag	hIP13-23	[117]		P22626	1	4.2	0.99	0.0016	37430	HOMO SAPIENS	ROA2_HUMAN Heterogeneous nuclear ribonucleoproteins A2/B1
+negative_flag	hIP13-23	[118]		O43390	1	1.7	0.98	0.0013	70943.6	HOMO SAPIENS	HNRPR_HUMAN Heterogeneous nuclear ribonucleoprotein R
+negative_flag	hIP13-23	[119]		Q09161	1	2.7	0.86	0.0068	91840.3	HOMO SAPIENS	NCBP1_HUMAN Nuclear cap-binding protein subunit 1
+negative_flag	hIP13-23	[11]		Q01804	12	19.4	3.96	1.00E-05	124045.5	HOMO SAPIENS	OTUD4_HUMAN OTU domain-containing protein 4
+negative_flag	hIP13-23	[120]		Q13242	1	10	0.86	0.0067	25542.4	HOMO SAPIENS	SFRS9_HUMAN Splicing factor, arginine/serine-rich 9
+negative_flag	hIP13-23	[12-1]	3	P68371	9	32.4	4.21	2.10E-06	49831.5	HOMO SAPIENS	TBB2C_HUMAN Tubulin beta-2C chain
+negative_flag	hIP13-23	[121]		P62906	1	7.4	0.81	0.0093	24831.5	HOMO SAPIENS	RL10A_HUMAN 60S ribosomal protein L10a
+negative_flag	hIP13-23	[12-2]	2	P04350	7	27	4.21	2.10E-06	49586.2	HOMO SAPIENS	TBB4_HUMAN Tubulin beta-4 chain
+negative_flag	hIP13-23	[12-3]	1	Q99867	3	13.1	4.21	2.10E-06	48435	HOMO SAPIENS	TBB4Q_HUMAN Tubulin beta-4q chain
+negative_flag	hIP13-23	[12]		P07437	10	35.8	4.74	9.50E-08	49671.3	HOMO SAPIENS	TBB5_HUMAN Tubulin beta chain
+negative_flag	hIP13-23	[13]		O75533	10	12.3	4.62	2.10E-07	145816.7	HOMO SAPIENS	SF3B1_HUMAN Splicing factor 3B subunit 1
+negative_flag	hIP13-23	[14]		O43143	10	14.6	3.51	3.70E-05	90933.6	HOMO SAPIENS	DHX15_HUMAN Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15
+negative_flag	hIP13-23	[15-1]	5	P11142	6	12.4	4.1	1.10E-06	70898.7	HOMO SAPIENS	HSP7C_HUMAN Heat shock cognate 71 kDa protein
+negative_flag	hIP13-23	[15]		P08107	7	14	4.17	1.10E-06	70052.8	HOMO SAPIENS	HSP71_HUMAN Heat shock 70 kDa protein 1
+negative_flag	hIP13-23	[16]		P54105	6	51.1	4.35	5.50E-06	26215.5	HOMO SAPIENS	ICLN_HUMAN Methylosome subunit pICln
+negative_flag	hIP13-23	[17]		Q00839	6	10.7	5.17	5.80E-08	90514.1	HOMO SAPIENS	HNRPU_HUMAN Heterogeneous nuclear ribonucleoprotein U
+negative_flag	hIP13-23	[18]		Q9Y6Y0	8	20.2	2.9	0.00018	71730.1	HOMO SAPIENS	NS1BP_HUMAN Influenza virus NS1A-binding protein
+negative_flag	hIP13-23	[19]		Q9Y2W1	7	10.9	3.65	5.30E-06	108666.6	HOMO SAPIENS	TR150_HUMAN Thyroid hormone receptor-associated protein 3
+negative_flag	hIP13-23	[1]		P52732	53	47.6	5.39	2.30E-08	119160	HOMO SAPIENS	KIF11_HUMAN Kinesin-like protein KIF11
+negative_flag	hIP13-23	[20]		P52272	9	16.3	2.8	4.20E-05	77516.4	HOMO SAPIENS	HNRPM_HUMAN Heterogeneous nuclear ribonucleoprotein M
+negative_flag	hIP13-23	[21-1]	1	Q9Y2H1	2	4.7	2.65	0.00035	54003.3	HOMO SAPIENS	ST38L_HUMAN Serine/threonine-protein kinase 38-like
+negative_flag	hIP13-23	[2-1]	1	P02533	4	7.2	2.13	6.00E-04	51622	HOMO SAPIENS	K1C14_HUMAN Keratin, type I cytoskeletal 14
+negative_flag	hIP13-23	[21]		Q15208	8	23.9	2.79	2.00E-04	54190.7	HOMO SAPIENS	STK38_HUMAN Serine/threonine-protein kinase 38
+negative_flag	hIP13-23	[2-2]	1	P08779	4	7.2	2.13	6.00E-04	51268.3	HOMO SAPIENS	K1C16_HUMAN Keratin, type I cytoskeletal 16
+negative_flag	hIP13-23	[22]		Q9NYF8	7	11.8	3.64	1.80E-06	106122.9	HOMO SAPIENS	BCLF1_HUMAN Bcl-2-associated transcription factor 1
+negative_flag	hIP13-23	[2-3]	1	P08727	3	6.2	2.13	6.00E-04	44092.3	HOMO SAPIENS	K1C19_HUMAN Keratin, type I cytoskeletal 19
+negative_flag	hIP13-23	[23]		P60709	5	25.6	4.88	1.10E-07	41737.1	HOMO SAPIENS	ACTB_HUMAN Actin, cytoplasmic 1
+negative_flag	hIP13-23	[2-4]	1	P19012	3	5.5	2.13	6.00E-04	49168.1	HOMO SAPIENS	K1C15_HUMAN Keratin, type I cytoskeletal 15
+negative_flag	hIP13-23	[24]		Q9BRS2	5	13.4	3.9	8.50E-06	65583.5	HOMO SAPIENS	RIOK1_HUMAN Serine/threonine-protein kinase RIO1
+negative_flag	hIP13-23	[2-5]	1	Q04695	3	5.8	2.13	6.00E-04	48106.1	HOMO SAPIENS	K1C17_HUMAN Keratin, type I cytoskeletal 17
+negative_flag	hIP13-23	[25]		Q15750	6	16.3	3.56	3.20E-06	54644.6	HOMO SAPIENS	TAB1_HUMAN Mitogen-activated protein kinase kinase kinase 7-interacting protein 1
+negative_flag	hIP13-23	[26]		Q07021	4	28.7	4.38	2.80E-07	31362.5	HOMO SAPIENS	C1QBP_HUMAN Complement component 1 Q subcomponent-binding protein, mitochondrial precursor
+negative_flag	hIP13-23	[27]		P62241	4	25	3.88	1.40E-05	24205.4	HOMO SAPIENS	RS8_HUMAN 40S ribosomal protein S8
+negative_flag	hIP13-23	[28]		P19338	5	8.7	3.09	1.40E-05	76615	HOMO SAPIENS	NUCL_HUMAN Nucleolin
+negative_flag	hIP13-23	[29]		P61978	3	13.6	5.21	7.20E-07	50976.7	HOMO SAPIENS	HNRPK_HUMAN Heterogeneous nuclear ribonucleoprotein K
+negative_flag	hIP13-23	[2]		P13645	17	32.2	6.94	6.00E-11	59511.1	HOMO SAPIENS	K1C10_HUMAN Keratin, type I cytoskeletal 10
+negative_flag	hIP13-23	[30]		Q9NXV2	4	23.5	3.67	1.10E-05	26092.8	HOMO SAPIENS	KCTD5_HUMAN BTB/POZ domain-containing protein KCTD5
+negative_flag	hIP13-23	[31]		Q9Y657	5	31.3	2.7	9.30E-05	29600.8	HOMO SAPIENS	SPIN1_HUMAN Spindlin-1
+negative_flag	hIP13-23	[32]		Q8IWX8	4	8.2	3.23	4.80E-06	103573.9	HOMO SAPIENS	CHERP_HUMAN Calcium homeostasis endoplasmic reticulum protein
+negative_flag	hIP13-23	[33]		P14866	3	16.5	3.93	4.40E-05	60187.8	HOMO SAPIENS	HNRPL_HUMAN Heterogeneous nuclear ribonucleoprotein L
+negative_flag	hIP13-23	[34]		P23588	5	9	2.35	0.00017	69224.7	HOMO SAPIENS	IF4B_HUMAN Eukaryotic translation initiation factor 4B
+negative_flag	hIP13-23	[35]		P05388	3	14.8	3.38	3.40E-05	34273.8	HOMO SAPIENS	RLA0_HUMAN 60S acidic ribosomal protein P0
+negative_flag	hIP13-23	[36]		Q9UMS4	3	13.9	3.52	2.10E-06	55181.3	HOMO SAPIENS	PRP19_HUMAN Pre-mRNA-processing factor 19
+negative_flag	hIP13-23	[37]		P23396	4	25.1	2.5	0.00021	26688.6	HOMO SAPIENS	RS3_HUMAN 40S ribosomal protein S3
+negative_flag	hIP13-23	[38]		P62269	4	28.3	2.57	0.00011	17718.8	HOMO SAPIENS	RS18_HUMAN 40S ribosomal protein S18
+negative_flag	hIP13-23	[39]		P62829	2	27.9	5.17	2.90E-08	14865.6	HOMO SAPIENS	RL23_HUMAN 60S ribosomal protein L23
+negative_flag	hIP13-23	[3]		O14744	19	39.9	4.5	1.70E-07	72684.5	HOMO SAPIENS	ANM5_HUMAN Protein arginine N-methyltransferase 5
+negative_flag	hIP13-23	[40-1]	1	P60891	4	18.9	2.32	0.00014	34834.6	HOMO SAPIENS	PRPS1_HUMAN Ribose-phosphate pyrophosphokinase 1
+negative_flag	hIP13-23	[40]		P11908	4	21.4	2.32	0.00014	34769.4	HOMO SAPIENS	PRPS2_HUMAN Ribose-phosphate pyrophosphokinase 2
+negative_flag	hIP13-23	[41]		Q99873	4	14.7	2.55	0.00014	41515.9	HOMO SAPIENS	ANM1_HUMAN Protein arginine N-methyltransferase 1
+negative_flag	hIP13-23	[42]		P62913	2	12.9	4.33	3.70E-06	20252.6	HOMO SAPIENS	RL11_HUMAN 60S ribosomal protein L11
+negative_flag	hIP13-23	[43]		P62249	4	24	2.53	5.50E-05	16445.5	HOMO SAPIENS	RS16_HUMAN 40S ribosomal protein S16
+negative_flag	hIP13-23	[44-1]	1	P52597	2	7.5	1.71	0.00016	45672.3	HOMO SAPIENS	HNRPF_HUMAN Heterogeneous nuclear ribonucleoprotein F
+negative_flag	hIP13-23	[44]		P31943	4	13.4	2.21	0.00016	49229.9	HOMO SAPIENS	HNRH1_HUMAN Heterogeneous nuclear ribonucleoprotein H
+negative_flag	hIP13-23	[45]		P15880	3	11.6	2.96	3.00E-05	31324.7	HOMO SAPIENS	RS2_HUMAN 40S ribosomal protein S2
+negative_flag	hIP13-23	[46]		O15042	3	5.8	2.53	0.00051	118292.9	HOMO SAPIENS	SR140_HUMAN U2-associated protein SR140
+negative_flag	hIP13-23	[47]		P84090	3	30.8	2.96	5.50E-06	12259.1	HOMO SAPIENS	ERH_HUMAN Enhancer of rudimentary homolog
+negative_flag	hIP13-23	[48-1]	2	O60256	3	14.1	2.71	1.00E-04	40926.1	HOMO SAPIENS	KPRB_HUMAN Phosphoribosyl pyrophosphate synthetase-associated protein 2
+negative_flag	hIP13-23	[48]		Q14558	4	18	2.19	0.00011	39394.1	HOMO SAPIENS	KPRA_HUMAN Phosphoribosyl pyrophosphate synthetase-associated protein 1
+negative_flag	hIP13-23	[49-1]	2	P12035	4	3.3	1.68	0.0013	64504.6	HOMO SAPIENS	K2C3_HUMAN Keratin, type II cytoskeletal 3
+negative_flag	hIP13-23	[49-2]	2	Q01546	4	3.3	1.68	0.0013	65871.3	HOMO SAPIENS	K22O_HUMAN Keratin, type II cytoskeletal 2 oral
+negative_flag	hIP13-23	[49-3]	2	Q5XKE5	4	3.9	1.68	0.0013	57810	HOMO SAPIENS	K2C79_HUMAN Keratin, type II cytoskeletal 79
+negative_flag	hIP13-23	[49]		P13647	4	5.1	2.24	8.80E-05	62378.9	HOMO SAPIENS	K2C5_HUMAN Keratin, type II cytoskeletal 5
+negative_flag	hIP13-23	[4]		O75688	17	48.6	4.46	2.60E-07	52643.1	HOMO SAPIENS	PPM1B_HUMAN Protein phosphatase 1B
+negative_flag	hIP13-23	[50]		Q96I25	2	8.2	3.86	4.00E-06	44961.9	HOMO SAPIENS	SPF45_HUMAN Splicing factor 45
+negative_flag	hIP13-23	[5-1]	5	Q13310	10	18	5.39	3.50E-07	70783.5	HOMO SAPIENS	PABP4_HUMAN Polyadenylate-binding protein 4
+negative_flag	hIP13-23	[51]		Q99417	3	44.7	2.55	0.00011	11966.8	HOMO SAPIENS	MYCBP_HUMAN C-Myc-binding protein
+negative_flag	hIP13-23	[52]		Q9NZI8	2	4.7	3.45	1.40E-05	63457	HOMO SAPIENS	IF2B1_HUMAN Insulin-like growth factor 2 mRNA-binding protein 1
+negative_flag	hIP13-23	[53]		P68104	3	13.6	2.04	0.0014	50141.3	HOMO SAPIENS	EF1A1_HUMAN Elongation factor 1-alpha 1
+negative_flag	hIP13-23	[54]		Q06830	3	19.6	2.09	0.00041	22110.5	HOMO SAPIENS	PRDX1_HUMAN Peroxiredoxin-1
+negative_flag	hIP13-23	[55]		P83731	2	13.4	3.39	1.50E-05	17779.1	HOMO SAPIENS	RL24_HUMAN 60S ribosomal protein L24
+negative_flag	hIP13-23	[56]		P07910	2	8.2	3.32	7.30E-05	33670.3	HOMO SAPIENS	HNRPC_HUMAN Heterogeneous nuclear ribonucleoproteins C1/C2
+negative_flag	hIP13-23	[57]		Q16630	1	2.5	5.27	2.60E-08	59210.3	HOMO SAPIENS	CPSF6_HUMAN Cleavage and polyadenylation specificity factor subunit 6
+negative_flag	hIP13-23	[58]		P62888	2	24.3	2.64	0.00042	12784.2	HOMO SAPIENS	RL30_HUMAN 60S ribosomal protein L30
+negative_flag	hIP13-23	[59]		Q15427	1	3.3	4.98	2.50E-07	44386.1	HOMO SAPIENS	SF3B4_HUMAN Splicing factor 3B subunit 4
+negative_flag	hIP13-23	[5]		P11940	13	21.2	5.39	3.50E-07	70671.5	HOMO SAPIENS	PABP1_HUMAN Polyadenylate-binding protein 1
+negative_flag	hIP13-23	[60]		Q8N5C8	2	4.9	2.59	5.40E-05	78653.5	HOMO SAPIENS	TAB3_HUMAN Mitogen-activated protein kinase kinase kinase 7-interacting protein 3
+negative_flag	hIP13-23	[61]		P62995	2	9	2.97	7.00E-06	33665.9	HOMO SAPIENS	TRA2B_HUMAN Splicing factor, arginine/serine-rich 10
+negative_flag	hIP13-23	[62]		P14678	3	17.9	1.67	0.00087	24610.3	HOMO SAPIENS	RSMB_HUMAN Small nuclear ribonucleoprotein-associated proteins B and B'
+negative_flag	hIP13-23	[63]		Q9Y3B4	1	9.6	4.43	8.00E-07	14585	HOMO SAPIENS	PM14_HUMAN Pre-mRNA branch site protein p14
+negative_flag	hIP13-23	[64]		Q96HS1	2	7.6	2.27	0.0015	32004.7	HOMO SAPIENS	PGAM5_HUMAN Phosphoglycerate mutase family member 5 precursor
+negative_flag	hIP13-23	[65]		O43318	2	5.1	2.48	0.00023	67196.7	HOMO SAPIENS	M3K7_HUMAN Mitogen-activated protein kinase kinase kinase 7
+negative_flag	hIP13-23	[66]		P57721	1	5.9	4.11	1.90E-06	35938.6	HOMO SAPIENS	PCBP3_HUMAN Poly(rC)-binding protein 3
+negative_flag	hIP13-23	[67]		P01614	1	11.3	4.09	4.80E-07	12676.4	HOMO SAPIENS	KV201_HUMAN Ig kappa chain V-II region Cum
+negative_flag	hIP13-23	[68]		P67809	1	11.1	3.97	4.80E-07	35924.5	HOMO SAPIENS	YBOX1_HUMAN Nuclease sensitive element-binding protein 1
+negative_flag	hIP13-23	[69]		P61247	3	8.7	1.46	0.0024	29945.2	HOMO SAPIENS	RS3A_HUMAN 40S ribosomal protein S3a
+negative_flag	hIP13-23	[6]		Q9BQA1	11	48.5	6.17	7.30E-09	36724.7	HOMO SAPIENS	MEP50_HUMAN Methylosome protein 50
+negative_flag	hIP13-23	[70]		Q13435	3	5.5	1.45	0.0018	97657.5	HOMO SAPIENS	SF3B2_HUMAN Splicing factor 3B subunit 2
+negative_flag	hIP13-23	[71]		P05386	1	42.1	3.81	4.20E-05	11514	HOMO SAPIENS	RLA1_HUMAN 60S acidic ribosomal protein P1
+negative_flag	hIP13-23	[72]		Q8WYQ3	1	16.2	3.75	2.10E-06	14149.1	HOMO SAPIENS	CV016_HUMAN CHCH domain-containing protein C22orf16, mitochondrial precursor
+negative_flag	hIP13-23	[73]		P16989	1	9.7	3.72	1.20E-06	40090.2	HOMO SAPIENS	DBPA_HUMAN DNA-binding protein A
+negative_flag	hIP13-23	[74]		Q86V81	2	15.2	2.02	0.00046	26888.1	HOMO SAPIENS	THOC4_HUMAN THO complex subunit 4
+negative_flag	hIP13-23	[75]		Q13151	1	5.2	3.58	1.80E-06	30840.9	HOMO SAPIENS	ROA0_HUMAN Heterogeneous nuclear ribonucleoprotein A0
+negative_flag	hIP13-23	[76]		P62701	2	7.2	1.89	0.00065	29598	HOMO SAPIENS	RS4X_HUMAN 40S ribosomal protein S4, X isoform
+negative_flag	hIP13-23	[77]		Q13595	1	5	3.45	6.80E-06	32688.9	HOMO SAPIENS	TRA2A_HUMAN Transformer-2 protein homolog
+negative_flag	hIP13-23	[78]		P84103	2	18.3	2.16	3.50E-05	19329.8	HOMO SAPIENS	SFRS3_HUMAN Splicing factor, arginine/serine-rich 3
+negative_flag	hIP13-23	[79]		Q8WWY3	1	2.6	3.3	3.90E-05	55456.5	HOMO SAPIENS	PRP31_HUMAN U4/U6 small nuclear ribonucleoprotein Prp31
+negative_flag	hIP13-23	[7]		P98175	17	18.7	4.42	3.70E-07	103460.3	HOMO SAPIENS	RBM10_HUMAN RNA-binding protein 10
+negative_flag	hIP13-23	[80]		Q14681	1	4.6	3.25	1.10E-05	28586.4	HOMO SAPIENS	KCTD2_HUMAN BTB/POZ domain-containing protein KCTD2
+negative_flag	hIP13-23	[8-1]	13	P35908	15	27.1	3.86	5.20E-06	65865.8	HOMO SAPIENS	K22E_HUMAN Keratin, type II cytoskeletal 2 epidermal
+negative_flag	hIP13-23	[81]		P05387	1	10.4	3.09	0.00019	11665	HOMO SAPIENS	RLA2_HUMAN 60S acidic ribosomal protein P2
+negative_flag	hIP13-23	[82]		P62244	2	16.9	1.61	0.0026	14839.6	HOMO SAPIENS	RS15A_HUMAN 40S ribosomal protein S15a
+negative_flag	hIP13-23	[83]		O43809	2	11.9	1.82	0.0012	26227.5	HOMO SAPIENS	CPSF5_HUMAN Cleavage and polyadenylation specificity factor subunit 5
+negative_flag	hIP13-23	[84]		P35268	1	10.2	2.92	0.00017	14787.1	HOMO SAPIENS	RL22_HUMAN 60S ribosomal protein L22
+negative_flag	hIP13-23	[85]		Q14498	1	3.2	2.89	1.00E-05	59380.1	HOMO SAPIENS	RBM39_HUMAN RNA-binding protein 39
+negative_flag	hIP13-23	[86]		Q9Y6H1	1	15.2	2.86	5.10E-05	15512.7	HOMO SAPIENS	CHCH2_HUMAN Coiled-coil-helix-coiled-coil-helix domain-containing protein 2, mitochondrial precursor
+negative_flag	hIP13-23	[87]		P62750	1	8.3	2.82	0.00012	17695.2	HOMO SAPIENS	RL23A_HUMAN 60S ribosomal protein L23a
+negative_flag	hIP13-23	[88]		Q16629	2	12.6	1.52	0.00085	27366.8	HOMO SAPIENS	SFRS7_HUMAN Splicing factor, arginine/serine-rich 7
+negative_flag	hIP13-23	[89]		P46821	2	1.7	1.45	0.0015	270622.5	HOMO SAPIENS	MAP1B_HUMAN Microtubule-associated protein 1B
+negative_flag	hIP13-23	[8]		P04264	13	21	5.46	3.20E-08	66018.2	HOMO SAPIENS	K2C1_HUMAN Keratin, type II cytoskeletal 1
+negative_flag	hIP13-23	[90]		P42677	1	15.5	2.6	7.50E-05	9461.2	HOMO SAPIENS	RS27_HUMAN 40S ribosomal protein S27
+negative_flag	hIP13-23	[9-1]	1	Q9BQE3	10	32.3	5.58	2.00E-08	49895.8	HOMO SAPIENS	TBA1C_HUMAN Tubulin alpha-1C chain
+negative_flag	hIP13-23	[91]		P18124	1	4.4	2.59	0.00065	29226	HOMO SAPIENS	RL7_HUMAN 60S ribosomal protein L7
+negative_flag	hIP13-23	[92]		P46776	1	7.4	2.43	0.00014	16561.5	HOMO SAPIENS	RL27A_HUMAN 60S ribosomal protein L27a
+negative_flag	hIP13-23	[93]		Q86U42	1	3.6	2.39	8.60E-05	32749.3	HOMO SAPIENS	PABP2_HUMAN Polyadenylate-binding protein 2
+negative_flag	hIP13-23	[94]		P17844	1	2	2.36	2.80E-05	69148.7	HOMO SAPIENS	DDX5_HUMAN Probable ATP-dependent RNA helicase DDX5
+negative_flag	hIP13-23	[95]		Q9BWJ5	1	19.8	1.97	0.002	10135.5	HOMO SAPIENS	SF3B5_HUMAN Splicing factor 3B subunit 5
+negative_flag	hIP13-23	[96]		P61353	1	6.6	1.96	0.00021	15797.9	HOMO SAPIENS	RL27_HUMAN 60S ribosomal protein L27
+negative_flag	hIP13-23	[97]		P38159	1	3.3	1.95	0.003	42332.2	HOMO SAPIENS	HNRPG_HUMAN Heterogeneous nuclear ribonucleoprotein G
+negative_flag	hIP13-23	[98]		P06748	1	7.1	1.76	0.0075	32575.3	HOMO SAPIENS	NPM_HUMAN Nucleophosmin
+negative_flag	hIP13-23	[99]		P62280	1	6.3	1.73	0.00054	18430.9	HOMO SAPIENS	RS11_HUMAN 40S ribosomal protein S11
+negative_flag	hIP13-23	[9]		P68363	11	35	5.58	2.00E-08	50152.1	HOMO SAPIENS	TBA1B_HUMAN Tubulin alpha-1B chain
+negative_flag	CM13	[10]		P35527	6	15.1	3.77	4.80E-06	62129.9	HOMO SAPIENS	K1C9_HUMAN Keratin, type I cytoskeletal 9
+negative_flag	CM13	[11]		Q00839	5	13.3	4.68	8.70E-08	90514.1	HOMO SAPIENS	HNRPU_HUMAN Heterogeneous nuclear ribonucleoprotein U
+negative_flag	CM13	[12]		Q9UQ35	5	2.7	5.12	9.30E-10	299617.3	HOMO SAPIENS	SRRM2_HUMAN Serine/arginine repetitive matrix protein 2
+negative_flag	CM13	[13]		Q15393	5	6.2	4.94	1.40E-08	135578.5	HOMO SAPIENS	SF3B3_HUMAN Splicing factor 3B subunit 3
+negative_flag	CM13	[14-1]	1	P11142	2	3.9	3.54	2.80E-06	70898.7	HOMO SAPIENS	HSP7C_HUMAN Heat shock cognate 71 kDa protein
+negative_flag	CM13	[14]		P08107	6	12.9	3.8	2.80E-07	70052.8	HOMO SAPIENS	HSP71_HUMAN Heat shock 70 kDa protein 1
+negative_flag	CM13	[15]		P61978	4	12.3	4.84	2.90E-08	50976.7	HOMO SAPIENS	HNRPK_HUMAN Heterogeneous nuclear ribonucleoprotein K
+negative_flag	CM13	[16]		P19338	7	11.4	3.06	1.20E-06	76615	HOMO SAPIENS	NUCL_HUMAN Nucleolin
+negative_flag	CM13	[17]		Q15208	7	18.5	2.43	0.00022	54190.7	HOMO SAPIENS	STK38_HUMAN Serine/threonine-protein kinase 38
+negative_flag	CM13	[18]		Q9NXV2	4	27.8	3.66	1.20E-06	26092.8	HOMO SAPIENS	KCTD5_HUMAN BTB/POZ domain-containing protein KCTD5
+negative_flag	CM13	[19]		P07437	5	18.5	3.11	3.20E-05	49671.3	HOMO SAPIENS	TBB5_HUMAN Tubulin beta chain
+negative_flag	CM13	[1]		P52732	43	40.2	5.34	4.60E-09	119160	HOMO SAPIENS	KIF11_HUMAN Kinesin-like protein KIF11
+negative_flag	CM13	[20]		P05387	3	55.7	4.98	3.00E-08	11665	HOMO SAPIENS	RLA2_HUMAN 60S acidic ribosomal protein P2
+negative_flag	CM13	[21]		Q9Y657	5	34.7	3.17	1.60E-06	29600.8	HOMO SAPIENS	SPIN1_HUMAN Spindlin-1
+negative_flag	CM13	[22]		Q9BRS2	4	14.4	3.53	1.10E-05	65583.5	HOMO SAPIENS	RIOK1_HUMAN Serine/threonine-protein kinase RIO1
+negative_flag	CM13	[23]		P31943	2	6.7	4.68	1.50E-06	49229.9	HOMO SAPIENS	HNRH1_HUMAN Heterogeneous nuclear ribonucleoprotein H
+negative_flag	CM13	[24]		Q9UMS4	4	17.7	3.02	2.00E-05	55181.3	HOMO SAPIENS	PRP19_HUMAN Pre-mRNA-processing factor 19
+negative_flag	CM13	[25]		Q07020	2	13.8	4.63	1.30E-07	21634.7	HOMO SAPIENS	RL18_HUMAN 60S ribosomal protein L18
+negative_flag	CM13	[26]		P62753	2	8	4.94	1.30E-07	28680.9	HOMO SAPIENS	RS6_HUMAN 40S ribosomal protein S6
+negative_flag	CM13	[27]		Q9Y2W1	4	7.3	2.42	6.00E-05	108666.6	HOMO SAPIENS	TR150_HUMAN Thyroid hormone receptor-associated protein 3
+negative_flag	CM13	[28]		Q16576	2	12.9	3.75	2.20E-05	47820.5	HOMO SAPIENS	RBBP7_HUMAN Histone-binding protein RBBP7
+negative_flag	CM13	[29]		P83731	2	13.4	3.74	1.40E-06	17779.1	HOMO SAPIENS	RL24_HUMAN 60S ribosomal protein L24
+negative_flag	CM13	[2]		O14744	26	40.7	5.38	2.10E-09	72684.5	HOMO SAPIENS	ANM5_HUMAN Protein arginine N-methyltransferase 5
+negative_flag	CM13	[30]		P18124	2	10.1	3.09	5.40E-05	29226	HOMO SAPIENS	RL7_HUMAN 60S ribosomal protein L7
+negative_flag	CM13	[31]		P06748	3	29.3	2.11	0.0016	32575.3	HOMO SAPIENS	NPM_HUMAN Nucleophosmin
+negative_flag	CM13	[32]		O75533	6	7.6	1.28	0.0023	145816.7	HOMO SAPIENS	SF3B1_HUMAN Splicing factor 3B subunit 1
+negative_flag	CM13	[33]		P36578	3	9.4	2.47	2.10E-05	47697.7	HOMO SAPIENS	RL4_HUMAN 60S ribosomal protein L4
+negative_flag	CM13	[34]		Q16531	2	4.7	2.94	5.90E-05	126969	HOMO SAPIENS	DDB1_HUMAN DNA damage-binding protein 1
+negative_flag	CM13	[35]		Q9Y6Y0	2	3.6	3.46	1.70E-06	71730.1	HOMO SAPIENS	NS1BP_HUMAN Influenza virus NS1A-binding protein
+negative_flag	CM13	[36]		P62314	3	37.8	2.12	0.00026	13281.7	HOMO SAPIENS	SMD1_HUMAN Small nuclear ribonucleoprotein Sm D1
+negative_flag	CM13	[37]		P62244	3	33.1	2.08	0.00046	14839.6	HOMO SAPIENS	RS15A_HUMAN 40S ribosomal protein S15a
+negative_flag	CM13	[38]		P84090	2	16.3	3.1	2.30E-06	12259.1	HOMO SAPIENS	ERH_HUMAN Enhancer of rudimentary homolog
+negative_flag	CM13	[39]		Q99417	2	35.9	2.77	5.10E-05	11966.8	HOMO SAPIENS	MYCBP_HUMAN C-Myc-binding protein
+negative_flag	CM13	[3]		O75688	20	57	4.75	4.20E-08	52643.1	HOMO SAPIENS	PPM1B_HUMAN Protein phosphatase 1B
+negative_flag	CM13	[40]		Q8N5Z5	2	8.6	2.76	1.10E-05	34888.4	HOMO SAPIENS	KCD17_HUMAN BTB/POZ domain-containing protein KCTD17
+negative_flag	CM13	[4-1]	1	P68032	7	22.3	4.84	4.20E-08	42019.4	HOMO SAPIENS	ACTC_HUMAN Actin, alpha cardiac muscle 1
+negative_flag	CM13	[41]		P30050	2	14.5	2.35	0.0012	17818.7	HOMO SAPIENS	RL12_HUMAN 60S ribosomal protein L12
+negative_flag	CM13	[4-2]	1	P68133	7	22.3	4.84	4.20E-08	42051.4	HOMO SAPIENS	ACTS_HUMAN Actin, alpha skeletal muscle
+negative_flag	CM13	[42]		P62913	1	7.9	3.95	2.60E-07	20252.6	HOMO SAPIENS	RL11_HUMAN 60S ribosomal protein L11
+negative_flag	CM13	[4-3]	1	P62736	6	19.4	4.84	4.20E-08	42009.4	HOMO SAPIENS	ACTA_HUMAN Actin, aortic smooth muscle
+negative_flag	CM13	[43]		P26373	2	10.9	2.01	0.00018	24261.7	HOMO SAPIENS	RL13_HUMAN 60S ribosomal protein L13
+negative_flag	CM13	[4-4]	1	P63267	6	19.4	4.84	4.20E-08	41877.3	HOMO SAPIENS	ACTH_HUMAN Actin, gamma-enteric smooth muscle
+negative_flag	CM13	[44]		P84103	2	18.3	1.79	0.00013	19329.8	HOMO SAPIENS	SFRS3_HUMAN Splicing factor, arginine/serine-rich 3
+negative_flag	CM13	[45]		P62888	1	10.4	3.29	1.60E-06	12784.2	HOMO SAPIENS	RL30_HUMAN 60S ribosomal protein L30
+negative_flag	CM13	[46]		P07910	1	5.2	3.24	1.20E-05	33670.3	HOMO SAPIENS	HNRPC_HUMAN Heterogeneous nuclear ribonucleoproteins C1/C2
+negative_flag	CM13	[47]		O15042	2	1.9	1.82	6.60E-05	118292.9	HOMO SAPIENS	SR140_HUMAN U2-associated protein SR140
+negative_flag	CM13	[48]		O95232	1	3.2	2.78	5.00E-05	51466.6	HOMO SAPIENS	CROP_HUMAN Cisplatin resistance-associated overexpressed protein
+negative_flag	CM13	[49]		Q16629	2	12.6	1.47	0.00056	27366.8	HOMO SAPIENS	SFRS7_HUMAN Splicing factor, arginine/serine-rich 7
+negative_flag	CM13	[4]		P60709	13	47.5	4.92	4.20E-08	41737.1	HOMO SAPIENS	ACTB_HUMAN Actin, cytoplasmic 1
+negative_flag	CM13	[50]		Q13435	2	4	1.46	0.00044	97657.5	HOMO SAPIENS	SF3B2_HUMAN Splicing factor 3B subunit 2
+negative_flag	CM13	[51]		O00571	1	1.7	2.58	1.20E-05	73244	HOMO SAPIENS	DDX3X_HUMAN ATP-dependent RNA helicase DDX3X
+negative_flag	CM13	[52]		P62424	1	4.1	2.57	0.00011	29995.9	HOMO SAPIENS	RL7A_HUMAN 60S ribosomal protein L7a
+negative_flag	CM13	[53]		P68363	1	5.3	2.46	0.00011	50152.1	HOMO SAPIENS	TBA1B_HUMAN Tubulin alpha-1B chain
+negative_flag	CM13	[54]		P62318	1	7.9	2.46	9.40E-05	13916.4	HOMO SAPIENS	SMD3_HUMAN Small nuclear ribonucleoprotein Sm D3
+negative_flag	CM13	[55]		Q14681	1	6.1	2.3	6.90E-05	28586.4	HOMO SAPIENS	KCTD2_HUMAN BTB/POZ domain-containing protein KCTD2
+negative_flag	CM13	[56]		Q8IWX8	2	2.8	1.27	0.0012	103573.9	HOMO SAPIENS	CHERP_HUMAN Calcium homeostasis endoplasmic reticulum protein
+negative_flag	CM13	[57]		P68104	1	5.2	1.84	0.00028	50141.3	HOMO SAPIENS	EF1A1_HUMAN Elongation factor 1-alpha 1
+negative_flag	CM13	[58]		P62249	1	7.5	1.84	0.00017	16445.5	HOMO SAPIENS	RS16_HUMAN 40S ribosomal protein S16
+negative_flag	CM13	[59]		P09661	2	9.8	1.1	0.00064	28415.8	HOMO SAPIENS	RU2A_HUMAN U2 small nuclear ribonucleoprotein A'
+negative_flag	CM13	[5]		Q9BQA1	12	55.8	4.34	2.40E-07	36724.7	HOMO SAPIENS	MEP50_HUMAN Methylosome protein 50
+negative_flag	CM13	[60]		P14678	2	8.8	1.1	0.0021	24610.3	HOMO SAPIENS	RSMB_HUMAN Small nuclear ribonucleoprotein-associated proteins B and B'
+negative_flag	CM13	[61]		P46781	1	4.6	1.76	0.0027	22591.6	HOMO SAPIENS	RS9_HUMAN 40S ribosomal protein S9
+negative_flag	CM13	[62]		P62269	1	5.9	1.66	0.00029	17718.8	HOMO SAPIENS	RS18_HUMAN 40S ribosomal protein S18
+negative_flag	CM13	[63]		Q15427	1	3.3	1.58	5.90E-05	44386.1	HOMO SAPIENS	SF3B4_HUMAN Splicing factor 3B subunit 4
+negative_flag	CM13	[64]		P23588	1	2.6	1.5	0.0013	69224.7	HOMO SAPIENS	IF4B_HUMAN Eukaryotic translation initiation factor 4B
+negative_flag	CM13	[65]		P42766	1	10.6	1.5	0.0032	14551.6	HOMO SAPIENS	RL35_HUMAN 60S ribosomal protein L35
+negative_flag	CM13	[66]		Q01081	1	7.5	1.37	0.0013	27872.3	HOMO SAPIENS	U2AF1_HUMAN Splicing factor U2AF 35 kDa subunit
+negative_flag	CM13	[67]		P62277	1	8.6	1.25	0.0081	17222.4	HOMO SAPIENS	RS13_HUMAN 40S ribosomal protein S13
+negative_flag	CM13	[68]		P62701	1	3.4	1.24	0.0041	29598	HOMO SAPIENS	RS4X_HUMAN 40S ribosomal protein S4, X isoform
+negative_flag	CM13	[69]		P14866	1	4.7	1.22	0.0016	60187.8	HOMO SAPIENS	HNRPL_HUMAN Heterogeneous nuclear ribonucleoprotein L
+negative_flag	CM13	[6]		P98175	13	17.5	4.25	1.40E-07	103460.3	HOMO SAPIENS	RBM10_HUMAN RNA-binding protein 10
+negative_flag	CM13	[70]		P62280	2	18.4	0.7	0.0088	18430.9	HOMO SAPIENS	RS11_HUMAN 40S ribosomal protein S11
+negative_flag	CM13	[7-1]	1	Q13310	3	6.5	5.53	1.10E-08	70783.5	HOMO SAPIENS	PABP4_HUMAN Polyadenylate-binding protein 4
+negative_flag	CM13	[71]		Q9NYF8	1	2	1.15	0.0017	106122.9	HOMO SAPIENS	BCLF1_HUMAN Bcl-2-associated transcription factor 1
+negative_flag	CM13	[72]		P62906	1	7.4	1.01	0.0056	24831.5	HOMO SAPIENS	RL10A_HUMAN 60S ribosomal protein L10a
+negative_flag	CM13	[73]		P39023	1	2.2	0.99	0.00075	46109.3	HOMO SAPIENS	RL3_HUMAN 60S ribosomal protein L3
+negative_flag	CM13	[74]		Q9Y3U8	1	9.5	0.97	0.00033	12253.8	HOMO SAPIENS	RL36_HUMAN 60S ribosomal protein L36
+negative_flag	CM13	[75]		P61254	1	6.2	0.92	0.0025	17258.4	HOMO SAPIENS	RL26_HUMAN 60S ribosomal protein L26
+negative_flag	CM13	[76]		P10412	1	5.5	0.8	6.00E-04	21865.4	HOMO SAPIENS	H14_HUMAN Histone H1.4
+negative_flag	CM13	[77]		Q9NYJ8	1	2.5	0.72	0.007	76494.8	HOMO SAPIENS	TAB2_HUMAN Mitogen-activated protein kinase kinase kinase 7-interacting protein 2
+negative_flag	CM13	[78]		P61247	1	5.3	0.69	0.0089	29945.2	HOMO SAPIENS	RS3A_HUMAN 40S ribosomal protein S3a
+negative_flag	CM13	[79]		P63173	1	18.6	0.68	0.0086	8218	HOMO SAPIENS	RL38_HUMAN 60S ribosomal protein L38
+negative_flag	CM13	[7]		P11940	8	15.9	5.53	1.10E-08	70671.5	HOMO SAPIENS	PABP1_HUMAN Polyadenylate-binding protein 1
+negative_flag	CM13	[80]		P11908	1	6.6	0.66	0.0052	34769.4	HOMO SAPIENS	PRPS2_HUMAN Ribose-phosphate pyrophosphokinase 2
+negative_flag	CM13	[81]		Q13247	1	2.6	0.62	0.0067	39587.1	HOMO SAPIENS	SFRS6_HUMAN Splicing factor, arginine/serine-rich 6
+negative_flag	CM13	[82]		Q96F45	1	3.7	0.59	0.0065	62555.3	HOMO SAPIENS	ZN503_HUMAN Zinc finger protein 503
+negative_flag	CM13	[83]		Q92667	1	1.6	0.4	0.0041	97342.4	HOMO SAPIENS	AKAP1_HUMAN A kinase anchor protein 1, mitochondrial precursor
+negative_flag	CM13	[8]		P04264	6	10.1	4	4.70E-07	66018.2	HOMO SAPIENS	K2C1_HUMAN Keratin, type II cytoskeletal 1
+negative_flag	CM13	[9]		P54105	5	45.6	4.83	4.60E-08	26215.5	HOMO SAPIENS	ICLN_HUMAN Methylosome subunit pICln
+negative_flag	CM60	[10]		Q15393	6	5.9	5.22	8.70E-08	135578.5	HOMO SAPIENS	SF3B3_HUMAN Splicing factor 3B subunit 3
+negative_flag	CM60	[11-1]	2	Q14681	3	18.6	3.75	8.80E-07	28586.4	HOMO SAPIENS	KCTD2_HUMAN BTB/POZ domain-containing protein KCTD2
+negative_flag	CM60	[11]		Q9NXV2	9	74.8	3.94	3.20E-07	26092.8	HOMO SAPIENS	KCTD5_HUMAN BTB/POZ domain-containing protein KCTD5
+negative_flag	CM60	[12]		P54105	5	33.8	4.67	1.20E-06	26215.5	HOMO SAPIENS	ICLN_HUMAN Methylosome subunit pICln
+negative_flag	CM60	[13-1]	1	Q13310	3	6.2	3.99	2.00E-06	70783.5	HOMO SAPIENS	PABP4_HUMAN Polyadenylate-binding protein 4
+negative_flag	CM60	[13]		P11940	6	11.8	3.99	2.00E-06	70671.5	HOMO SAPIENS	PABP1_HUMAN Polyadenylate-binding protein 1
+negative_flag	CM60	[14]		Q00839	4	8.3	4.71	1.20E-07	90514.1	HOMO SAPIENS	HNRPU_HUMAN Heterogeneous nuclear ribonucleoprotein U
+negative_flag	CM60	[15-1]	1	P55795	2	8.5	5.25	2.30E-07	49264	HOMO SAPIENS	HNRH2_HUMAN Heterogeneous nuclear ribonucleoprotein H2
+negative_flag	CM60	[15]		P31943	3	12.7	5.25	2.30E-07	49229.9	HOMO SAPIENS	HNRH1_HUMAN Heterogeneous nuclear ribonucleoprotein H
+negative_flag	CM60	[16]		Q9Y2W1	6	9.4	2.45	0.00011	108666.6	HOMO SAPIENS	TR150_HUMAN Thyroid hormone receptor-associated protein 3
+negative_flag	CM60	[17]		Q15208	5	14.6	2.73	0.00015	54190.7	HOMO SAPIENS	STK38_HUMAN Serine/threonine-protein kinase 38
+negative_flag	CM60	[18]		P14866	3	11.5	4.15	5.40E-06	60187.8	HOMO SAPIENS	HNRPL_HUMAN Heterogeneous nuclear ribonucleoprotein L
+negative_flag	CM60	[19]		P07437	4	13.3	2.94	2.00E-04	49671.3	HOMO SAPIENS	TBB5_HUMAN Tubulin beta chain
+negative_flag	CM60	[1]		P52732	45	46.1	6.06	1.70E-09	119160	HOMO SAPIENS	KIF11_HUMAN Kinesin-like protein KIF11
+negative_flag	CM60	[20]		P08107	5	9	2.91	3.80E-06	70052.8	HOMO SAPIENS	HSP71_HUMAN Heat shock 70 kDa protein 1
+negative_flag	CM60	[21]		P67809	2	14.5	4.74	3.10E-06	35924.5	HOMO SAPIENS	YBOX1_HUMAN Nuclease sensitive element-binding protein 1
+negative_flag	CM60	[22]		P19338	4	6.6	2.78	5.10E-05	76615	HOMO SAPIENS	NUCL_HUMAN Nucleolin
+negative_flag	CM60	[23]		P62424	3	15	3.55	3.60E-06	29995.9	HOMO SAPIENS	RL7A_HUMAN 60S ribosomal protein L7a
+negative_flag	CM60	[24]		P36578	4	11.9	2.8	4.10E-05	47697.7	HOMO SAPIENS	RL4_HUMAN 60S ribosomal protein L4
+negative_flag	CM60	[25]		Q9Y657	4	27.9	2.17	0.00052	29600.8	HOMO SAPIENS	SPIN1_HUMAN Spindlin-1
+negative_flag	CM60	[26]		P62753	2	10.8	4.3	6.70E-06	28680.9	HOMO SAPIENS	RS6_HUMAN 40S ribosomal protein S6
+negative_flag	CM60	[27]		P62241	3	17.8	3.36	4.60E-05	24205.4	HOMO SAPIENS	RS8_HUMAN 40S ribosomal protein S8
+negative_flag	CM60	[28]		P62829	2	25	4.38	2.40E-08	14865.6	HOMO SAPIENS	RL23_HUMAN 60S ribosomal protein L23
+negative_flag	CM60	[29]		P06748	2	16.7	4.96	8.70E-09	32575.3	HOMO SAPIENS	NPM_HUMAN Nucleophosmin
+negative_flag	CM60	[2]		O14744	29	60.9	5.11	4.80E-08	72684.5	HOMO SAPIENS	ANM5_HUMAN Protein arginine N-methyltransferase 5
+negative_flag	CM60	[30]		Q99417	2	35.9	3.22	9.00E-06	11966.8	HOMO SAPIENS	MYCBP_HUMAN C-Myc-binding protein
+negative_flag	CM60	[31]		P05387	2	30.4	3.37	3.70E-06	11665	HOMO SAPIENS	RLA2_HUMAN 60S acidic ribosomal protein P2
+negative_flag	CM60	[32]		P62314	2	28.6	2.85	2.30E-05	13281.7	HOMO SAPIENS	SMD1_HUMAN Small nuclear ribonucleoprotein Sm D1
+negative_flag	CM60	[33]		Q07020	1	6.9	4.59	1.50E-06	21634.7	HOMO SAPIENS	RL18_HUMAN 60S ribosomal protein L18
+negative_flag	CM60	[34]		O43143	3	5	1.83	0.0014	90933.6	HOMO SAPIENS	DHX15_HUMAN Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15
+negative_flag	CM60	[35]		P39023	2	9.4	2.51	2.70E-05	46109.3	HOMO SAPIENS	RL3_HUMAN 60S ribosomal protein L3
+negative_flag	CM60	[36]		P46781	3	11.9	1.48	0.007	22591.6	HOMO SAPIENS	RS9_HUMAN 40S ribosomal protein S9
+negative_flag	CM60	[37]		P83731	1	8.3	3.77	1.90E-06	17779.1	HOMO SAPIENS	RL24_HUMAN 60S ribosomal protein L24
+negative_flag	CM60	[38]		P01614	1	11.3	3.72	5.20E-07	12676.4	HOMO SAPIENS	KV201_HUMAN Ig kappa chain V-II region Cum
+negative_flag	CM60	[39]		P17844	2	3.7	1.92	0.00038	69148.7	HOMO SAPIENS	DDX5_HUMAN Probable ATP-dependent RNA helicase DDX5
+negative_flag	CM60	[3]		O75688	16	59.1	4.64	3.80E-07	52643.1	HOMO SAPIENS	PPM1B_HUMAN Protein phosphatase 1B
+negative_flag	CM60	[40]		P46776	2	14.9	1.91	0.00036	16561.5	HOMO SAPIENS	RL27A_HUMAN 60S ribosomal protein L27a
+negative_flag	CM60	[4-1]	5	P35527	6	15.2	3.92	1.30E-06	62129.9	HOMO SAPIENS	K1C9_HUMAN Keratin, type I cytoskeletal 9
+negative_flag	CM60	[41]		P61978	2	5.6	2.21	3.30E-05	50976.7	HOMO SAPIENS	HNRPK_HUMAN Heterogeneous nuclear ribonucleoprotein K
+negative_flag	CM60	[42]		P26373	2	10.4	2.24	4.00E-05	24261.7	HOMO SAPIENS	RL13_HUMAN 60S ribosomal protein L13
+negative_flag	CM60	[43]		Q8N5Z5	1	3.8	3.18	7.60E-06	34888.4	HOMO SAPIENS	KCD17_HUMAN BTB/POZ domain-containing protein KCTD17
+negative_flag	CM60	[44]		P84090	1	11.5	3.17	1.10E-06	12259.1	HOMO SAPIENS	ERH_HUMAN Enhancer of rudimentary homolog
+negative_flag	CM60	[45]		Q9UQ35	3	1.4	1.2	0.0014	299617.3	HOMO SAPIENS	SRRM2_HUMAN Serine/arginine repetitive matrix protein 2
+negative_flag	CM60	[46]		P62851	2	15.2	1.81	7.10E-05	13742.2	HOMO SAPIENS	RS25_HUMAN 40S ribosomal protein S25
+negative_flag	CM60	[47]		P18124	1	4.4	2.97	6.20E-05	29226	HOMO SAPIENS	RL7_HUMAN 60S ribosomal protein L7
+negative_flag	CM60	[48]		Q9UMS4	1	5.4	2.53	7.00E-05	55181.3	HOMO SAPIENS	PRP19_HUMAN Pre-mRNA-processing factor 19
+negative_flag	CM60	[49]		P62249	1	7.5	2.42	8.20E-05	16445.5	HOMO SAPIENS	RS16_HUMAN 40S ribosomal protein S16
+negative_flag	CM60	[4]		P13645	14	27.3	5.5	6.10E-09	59511.1	HOMO SAPIENS	K1C10_HUMAN Keratin, type I cytoskeletal 10
+negative_flag	CM60	[50]		P09651	1	2.7	2.32	0.00046	38846.1	HOMO SAPIENS	ROA1_HUMAN Heterogeneous nuclear ribonucleoprotein A1
+negative_flag	CM60	[5-1]	1	P68032	6	19.4	5.31	8.60E-08	42019.4	HOMO SAPIENS	ACTC_HUMAN Actin, alpha cardiac muscle 1
+negative_flag	CM60	[51]		P30050	2	20.6	1.36	0.0018	17818.7	HOMO SAPIENS	RL12_HUMAN 60S ribosomal protein L12
+negative_flag	CM60	[5-2]	1	P68133	6	19.4	5.31	8.60E-08	42051.4	HOMO SAPIENS	ACTS_HUMAN Actin, alpha skeletal muscle
+negative_flag	CM60	[52]		P62318	1	7.9	2.18	0.00018	13916.4	HOMO SAPIENS	SMD3_HUMAN Small nuclear ribonucleoprotein Sm D3
+negative_flag	CM60	[5-3]	1	P62736	5	16.4	5.31	8.60E-08	42009.4	HOMO SAPIENS	ACTA_HUMAN Actin, aortic smooth muscle
+negative_flag	CM60	[53]		P35268	1	10.2	2.15	2.20E-05	14787.1	HOMO SAPIENS	RL22_HUMAN 60S ribosomal protein L22
+negative_flag	CM60	[5-4]	1	P63267	5	16.5	5.31	8.60E-08	41877.3	HOMO SAPIENS	ACTH_HUMAN Actin, gamma-enteric smooth muscle
+negative_flag	CM60	[54]		O75533	1	0.9	2.12	8.20E-05	145816.7	HOMO SAPIENS	SF3B1_HUMAN Splicing factor 3B subunit 1
+negative_flag	CM60	[55]		P42766	2	18.7	1.31	0.0017	14551.6	HOMO SAPIENS	RL35_HUMAN 60S ribosomal protein L35
+negative_flag	CM60	[56]		P62244	1	10.8	1.98	0.0015	14839.6	HOMO SAPIENS	RS15A_HUMAN 40S ribosomal protein S15a
+negative_flag	CM60	[57]		P62750	1	8.3	1.91	0.00018	17695.2	HOMO SAPIENS	RL23A_HUMAN 60S ribosomal protein L23a
+negative_flag	CM60	[58]		P62269	2	12.5	1.01	0.0094	17718.8	HOMO SAPIENS	RS18_HUMAN 40S ribosomal protein S18
+negative_flag	CM60	[59]		Q8IWX8	1	2	1.54	0.00084	103573.9	HOMO SAPIENS	CHERP_HUMAN Calcium homeostasis endoplasmic reticulum protein
+negative_flag	CM60	[5]		P60709	12	52	5.41	5.00E-08	41737.1	HOMO SAPIENS	ACTB_HUMAN Actin, cytoplasmic 1
+negative_flag	CM60	[60]		P61353	1	6.6	1.54	0.00036	15797.9	HOMO SAPIENS	RL27_HUMAN 60S ribosomal protein L27
+negative_flag	CM60	[61]		P62913	1	5.1	1.4	0.00081	20252.6	HOMO SAPIENS	RL11_HUMAN 60S ribosomal protein L11
+negative_flag	CM60	[62]		P62304	1	12	1.3	0.00071	10803.7	HOMO SAPIENS	RUXE_HUMAN Small nuclear ribonucleoprotein E
+negative_flag	CM60	[63]		P17987	1	2	1.2	0.00094	60344.1	HOMO SAPIENS	TCPA_HUMAN T-complex protein 1 subunit alpha
+negative_flag	CM60	[64]		Q13247	1	2.6	1.19	0.0016	39587.1	HOMO SAPIENS	SFRS6_HUMAN Splicing factor, arginine/serine-rich 6
+negative_flag	CM60	[65]		P62280	2	13.3	0.61	0.0094	18430.9	HOMO SAPIENS	RS11_HUMAN 40S ribosomal protein S11
+negative_flag	CM60	[66]		Q13435	2	2.8	0.6	0.0048	97657.5	HOMO SAPIENS	SF3B2_HUMAN Splicing factor 3B subunit 2
+negative_flag	CM60	[67]		P61254	1	6.2	1.04	0.0026	17258.4	HOMO SAPIENS	RL26_HUMAN 60S ribosomal protein L26
+negative_flag	CM60	[68]		P81605	1	10	1.02	0.0014	11284	HOMO SAPIENS	DCD_HUMAN Dermcidin precursor
+negative_flag	CM60	[69]		P62861	1	16.9	1	0.001	6647.9	HOMO SAPIENS	RS30_HUMAN 40S ribosomal protein S30
+negative_flag	CM60	[6]		P98175	16	21.3	4.46	1.40E-07	103460.3	HOMO SAPIENS	RBM10_HUMAN RNA-binding protein 10
+negative_flag	CM60	[70]		O43390	1	1.6	0.97	3.00E-04	70943.6	HOMO SAPIENS	HNRPR_HUMAN Heterogeneous nuclear ribonucleoprotein R
+negative_flag	CM60	[71]		P62701	1	3.4	0.96	0.0026	29598	HOMO SAPIENS	RS4X_HUMAN 40S ribosomal protein S4, X isoform
+negative_flag	CM60	[72]		Q9NYF8	1	1.5	0.87	0.0044	106122.9	HOMO SAPIENS	BCLF1_HUMAN Bcl-2-associated transcription factor 1
+negative_flag	CM60	[73]		O15042	1	1.9	0.85	0.0054	118292.9	HOMO SAPIENS	SR140_HUMAN U2-associated protein SR140
+negative_flag	CM60	[74]		P84103	1	5.5	0.84	0.0016	19329.8	HOMO SAPIENS	SFRS3_HUMAN Splicing factor, arginine/serine-rich 3
+negative_flag	CM60	[75]		Q9Y3U8	1	8.6	0.83	0.0037	12253.8	HOMO SAPIENS	RL36_HUMAN 60S ribosomal protein L36
+negative_flag	CM60	[76]		Q8IYB3	1	1.8	0.83	0.0096	102335.9	HOMO SAPIENS	SRRM1_HUMAN Serine/arginine repetitive matrix protein 1
+negative_flag	CM60	[77]		Q16630	1	2.5	0.73	0.0017	59210.3	HOMO SAPIENS	CPSF6_HUMAN Cleavage and polyadenylation specificity factor subunit 6
+negative_flag	CM60	[78]		P62906	1	7.4	0.7	0.0077	24831.5	HOMO SAPIENS	RL10A_HUMAN 60S ribosomal protein L10a
+negative_flag	CM60	[79]		P05386	1	28.9	0.6	0.0063	11514	HOMO SAPIENS	RLA1_HUMAN 60S acidic ribosomal protein P1
+negative_flag	CM60	[7]		Q9BQA1	10	46.8	6.92	1.50E-10	36724.7	HOMO SAPIENS	MEP50_HUMAN Methylosome protein 50
+negative_flag	CM60	[80]		O95678	1	1.3	0.58	0.0058	59504.8	HOMO SAPIENS	K2C75_HUMAN Keratin, type II cytoskeletal 75
+negative_flag	CM60	[8-1]	4	P35908	6	11.6	3.42	6.00E-05	65865.8	HOMO SAPIENS	K22E_HUMAN Keratin, type II cytoskeletal 2 epidermal
+negative_flag	CM60	[81]		Q5VT97	1	1.8	0.51	0.006	124949.1	HOMO SAPIENS	SYDE2_HUMAN Rho GTPase-activating protein SYDE2
+negative_flag	CM60	[8-2]	1	P05787	2	3.7	3.78	2.00E-06	53704.7	HOMO SAPIENS	K2C8_HUMAN Keratin, type II cytoskeletal 8
+negative_flag	CM60	[82]		P62266	1	7.7	0.5	0.0081	15807.7	HOMO SAPIENS	RS23_HUMAN 40S ribosomal protein S23
+negative_flag	CM60	[8-3]	1	P08729	2	3.8	3.78	2.00E-06	51418.2	HOMO SAPIENS	K2C7_HUMAN Keratin, type II cytoskeletal 7
+negative_flag	CM60	[8-4]	1	P19013	2	3.4	3.78	2.00E-06	57285.7	HOMO SAPIENS	K2C4_HUMAN Keratin, type II cytoskeletal 4
+negative_flag	CM60	[8]		P04264	14	23.3	4.55	2.40E-07	66018.2	HOMO SAPIENS	K2C1_HUMAN Keratin, type II cytoskeletal 1
+negative_flag	CM60	[9]		Q9BRS2	10	21.8	3.94	8.80E-07	65583.5	HOMO SAPIENS	RIOK1_HUMAN Serine/threonine-protein kinase RIO1
