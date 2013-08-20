@@ -194,7 +194,11 @@ def pipeline(config):
 	if config.getboolean('comppass','enabled'):
 		print(">> SCORING COMPPASS\t\t" + tmp_in_file)
 		tmp_out_file = comppass_dir+bname+'_COMPPASS'+".txt"
-		subprocess.call([src_dir+'Comppass/Comppass.R', '-d', tmp_in_file, '-o', tmp_out_file])
+		if config.getboolean('comppass','resampling'):
+			resampling='TRUE'
+		else:
+			resampling='FALSE'
+		subprocess.call([src_dir+'Comppass/Comppass.R', '-d', tmp_in_file, '-o', tmp_out_file, '-r', resampling])
 
 	comppass_score_file = comppass_dir+bname+'_COMPPASS'+".txt"
 		

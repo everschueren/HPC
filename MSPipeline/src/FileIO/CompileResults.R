@@ -9,7 +9,7 @@ INSTALL_DIR = Sys.getenv("MS_PIPELINE_PATH")
 source(paste(INSTALL_DIR,"src/Conversion/AnnotateWithUniprot_lib.R",sep=""))
 
 mergeWithNegative = function(data, score){
-  negative = sqldf(str_join("select 'negative' as 'BAIT', PREY, max(",score,") as ",score," from data where BAIT='negative' or BAIT='negative_strep' or BAIT='negative_flag' or BAIT='control' or BAIT='vector' group by PREY"))
+  negative = sqldf(str_join("select 'negative' as 'BAIT', PREY, max(",score,") as ",score," from data where BAIT='negative' or BAIT='Negative' or BAIT='NEGATIVE' or BAIT='negative_strep' or BAIT='negative_flag' or BAIT='control' or BAIT='vector' group by PREY"))
   
   tmp = merge(data, negative[,c("PREY",score)], by=c("PREY"), all.x=T)
   tmp
@@ -65,7 +65,12 @@ CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_sel
 			print(paste("ADDING COMPPASS_SCORES:", nrow(with_negative), "ENTRIES"))
 			tmp = merge(tmp, with_negative, by=c("BAIT","PREY"))	
 		}
-		header = c(header, c("TSC_AVG","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD","COMPPASS_pZ","COMPPASS_pS","COMPPASS_pD","COMPPASS_pWD", "COMPPASS_WD_NEGATIVE"))
+		if(ncol(comppass_results) == 15){ ## format with p-values & negative
+			header = c(header, c("TSC_AVG","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD","COMPPASS_pZ","COMPPASS_pS","COMPPASS_pD","COMPPASS_pWD", "COMPPASS_WD_NEGATIVE"))
+		}else{ ## format without p-values & with negative
+			header = c(header, c("TSC_AVG","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD", "COMPPASS_WD_NEGATIVE"))
+		}
+		
 	}
 
 	if(saint_score_file!=""){

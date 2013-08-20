@@ -242,7 +242,7 @@ Comppass.ResampledPvalues = function(data_tmp, cnames, summary){
   P
 }
 
-Comppass.main = function(data_file, output_file){
+Comppass.main = function(data_file, output_file, resampling=F){
   print("READING")
   data = read.delim(data_file,  stringsAsFactors=F, header=T,skip=1, check.names=FALSE)
   print("CONVERTING")
@@ -272,12 +272,13 @@ Comppass.main = function(data_file, output_file){
   ## compile all scores
   summary = Comppass.Summary(stats_tab, Z, S, D, WD)
   
-  print("RESAMPLING SCREEN")
-  ## resample the screen
-  P = Comppass.ResampledPvalues(data_tmp, cnames, summary)
-  
-  summary = cbind(summary, P)
-  
+  if(resampling){
+    print("RESAMPLING SCREEN")
+    ## resample the screen
+    P = Comppass.ResampledPvalues(data_tmp, cnames, summary)
+    
+    summary = cbind(summary, P)
+  }
   print("WRITING")
   ## write out
   write.table(summary, file=output_file, row.names=F, col.names=T, eol="\n", sep="\t", quote=F) 
@@ -295,12 +296,14 @@ option_list <- list(
   make_option(c("-d", "--data_file"),
               help="data file containing maxquant output"),
   make_option(c("-o", "--output_file"),
-              help="output file for converted matrix")
+              help="output file for converted matrix"),
+  make_option(c("-r", "--resampling"), default=TRUE,
+              help="Flag to enable resampling of COMPPASS scores for additional p-value output")
 )
 
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 
-Comppass.main(parsedArgs$data_file,parsedArgs$output_file)  
+Comppass.main(parsedArgs$data_file,parsedArgs$output_file, parsedArgs$resampling)  
 
 
 
