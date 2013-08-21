@@ -10,12 +10,15 @@ options(warn=-1)
 clusterIPs.main = function(data_file, output_file){
   
   results_MAT = read.delim(data_file, stringsAsFactors=F)
+  ## strip out unnamed Ips 
+  results_MAT = results_MAT[,results_MAT[2,]!="" & is.na(results_MAT[2,])==F]
   results_baits = results_MAT[1,5:ncol(results_MAT)]
   
   results_MAT_clean = results_MAT[3:nrow(results_MAT),5:ncol(results_MAT)]
   colnames(results_MAT_clean) = paste(results_baits, colnames(results_baits))
   
   rownames(results_MAT_clean) = results_MAT[3:nrow(results_MAT),1]
+
   results_MAT_clean = data.matrix(results_MAT_clean)
   results_MAT_cor = cor(results_MAT_clean, use="pairwise.complete.obs", method="pearson")
   
