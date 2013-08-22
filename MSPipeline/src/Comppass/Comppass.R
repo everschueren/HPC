@@ -8,14 +8,16 @@ suppressMessages(library(compiler))
 options(warn=-1)
 
 Comppass.cleanMatrix = function(data){
+  ## get rid of unassigned columns
+  data_tmp = data[,colnames(data) != ""]
   ## get rid of specificity exclusion row and meta-columns
-  data_tmp = data[-1,c(-2:-4)]
+  data_tmp = data_tmp[-1,c(-2:-4)]
   colnames(data_tmp)[1] = "Preys"
   data_tmp
 }
 
 Comppass.cnames = function(data){
-  cnames = colnames(data)
+  cnames = colnames(data)[colnames(data)!=""]
   cnames = cnames[c(-1:-4)]
   cnames
 }

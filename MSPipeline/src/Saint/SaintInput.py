@@ -36,6 +36,7 @@ def removeFileTodict(remove_file):
 	d = {}
 	with open(remove_file,"r") as rf:
 		rf_reader = csv.reader(skip_comments(rf), delimiter="\t")
+		## add empty entry to remove dict
 		for line in rf_reader:
 			key = line[0]
 			d[key] = True
@@ -81,6 +82,8 @@ def prospectorToSaintFormat(prospector_file, dir, collapse_file, remove_file, fo
 						## check if the IP is in the 'remove'  list
 						if ip not in remove_dict.keys():
 							bait = line[bait_idx]
+							if bait == "": ## removing unnamed IPs
+								continue
 							if bait in collapse_dict.keys():
 								bait = collapse_dict[bait] ## give the bait the name from the collapse list
 							prey = line[prey_idx]
