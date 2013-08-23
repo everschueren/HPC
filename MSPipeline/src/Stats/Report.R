@@ -8,8 +8,9 @@ options(warn=-1)
 
 Report.cleanMatrix = function(data){
   ## get rid of unassigned columns
-  bait_row = data[1,]
-  data_tmp = data[,bait_row != ""]
+  bait_row = as.character(data[1,])
+  #print(bait_row)
+  data_tmp = data[,bait_row != "" | is.na(bait_row) == F]
   ## get rid of specificity exclusion row and meta-columns
   data_tmp = data_tmp[c(-1:-2),c(-2:-4)]
   colnames(data_tmp)[1] = "Preys"
@@ -55,4 +56,4 @@ option_list <- list(
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 Report.main(parsedArgs$data_file, parsedArgs$output_file)
 
-# Report.main(data_file="~/Projects/HPCKrogan/Data/HCV/Data/processed_293_andy/HCV-293T-Andy-results_wKEYS_NoC_MAT.txt", output_file="~/Projects/HPCKrogan/Scripts/MSPipeline/tests/report/HCV-293T-Andy-results_wMT_Report.txt")
+# Report.main(data_file="/Users/everschueren/Projects/HPCKrogan/Data/Histoplasma/data/processed_293T/Histoplasma_data_assigned_wKEYS_wMT_NoC_MAT.txt", output_file="/Users/everschueren/Projects/HPCKrogan/Data/Histoplasma/data/processed_293T/Histoplasma_data_assigned_wKEYS_wMT_NoC_IPs.txt")
