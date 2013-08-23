@@ -16,7 +16,7 @@ mergeWithNegative = function(data, score){
 }
 
 
-CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_self_score_file="", mist_hiv_score_file="", comppass_score_file="", saint_score_file="", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN"){
+CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_self_score_file="", mist_hiv_score_file="", comppass_score_file="", saint_score_file="", ip_file="", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN"){
 
   tmp = NULL	
 	header = c("BAIT", "PREY")
@@ -92,11 +92,24 @@ CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_sel
 		print(paste("FILTERED:", nrow(tmp), "NON-ZERO ENTRIES"))
 	}
   
-  ## filter crap
+  	## filter crap
   
-  good_preys = grep("\\[|decoy", tmp$PREY, invert=T)
-  tmp = tmp[good_preys,]
-  print(paste("FILTERED:", nrow(tmp), "NON-DECOY ENTRIES"))
+  	good_preys = grep("\\[|decoy", tmp$PREY, invert=T)
+  	tmp = tmp[good_preys,]
+ 	print(paste("FILTERED:", nrow(tmp), "NON-DECOY ENTRIES"))
+
+	
+	if(ip_file!=""){
+		
+		ip_results = read.delim(paste(dir, ip_file, sep=""), stringsAsFactors=F)
+		if(is.null(tmp)){
+			tmp = ip_results
+		}else{
+			print(paste("ADDING IP FILE"))	  
+			tmp = merge(tmp, ip_results, by=c("PREY"))	
+		}
+		header = c(header, c("IPs"))
+	}
 
 	if(annotate){
 		print("ANNOTATING WITH UNIPROT")
@@ -130,6 +143,8 @@ option_list <- list(
               help="file containing COMPPASS scores"),
   make_option(c("-s", "--saint_score_file"),
               help="file containing SAINT scores"),
+  make_option(c("-p", "--ip_file"),
+              help="file containing prey-ip combinations"),
   make_option(c("-z", "--filter_zeros"), default=TRUE,
               help="filter unobserved bait-prey pairs from the scores"),
   make_option(c("-a", "--annotate"), default=TRUE,
@@ -145,7 +160,7 @@ option_list <- list(
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 
 
-CompileResults(parsedArgs$dir, parsedArgs$output_file, mist_metrics_file=parsedArgs$mist_metrics_file, mist_self_score_file=parsedArgs$mist_self_score_file, mist_hiv_score_file=parsedArgs$mist_hiv_score_file, comppass_score_file=parsedArgs$comppass_score_file, saint_score_file=parsedArgs$saint_score_file, filter_zeros=parsedArgs$filter_zeros, annotate=parsedArgs$annotate, uniprot_dir=parsedArgs$uniprot_dir, species=parsedArgs$uniprot_species)  
+CompileResults(parsedArgs$dir, parsedArgs$output_file, mist_metrics_file=parsedArgs$mist_metrics_file, mist_self_score_file=parsedArgs$mist_self_score_file, mist_hiv_score_file=parsedArgs$mist_hiv_score_file, comppass_score_file=parsedArgs$comppass_score_file, saint_score_file=parsedArgs$saint_score_file, ip_file=parsedArgs$ip_file, filter_zeros=parsedArgs$filter_zeros, annotate=parsedArgs$annotate, uniprot_dir=parsedArgs$uniprot_dir, species=parsedArgs$uniprot_species)  
 
  
 # CompileResults(dir="", output_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2/HCV-HuH-results_wKEYS_NoC_MAT_ALLSCORES_.txt", mist_metrics_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_SELF_metrics.txt", mist_self_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_SELF_scores.txt", mist_hiv_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//MIST/HCV-HuH-results_wKEYS_NoC_MAT_MIST_HIV_scores.txt", comppass_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2//COMPPASS/HCV-HuH-results_wKEYS_NoC_MAT_COMPPASS.txt", saint_score_file="/Users/everschueren/Projects/HPCKrogan/Data/HCV/Data/processed_v2/SAINT//RESULT/unique_interactions", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN-HCV")

@@ -62,6 +62,7 @@ def pipeline(config):
 	mist_hiv_score_file=""
 	comppass_score_file=""
 	saint_score_file=""
+	ip_out_file=""
 
 
 	## ################## 
@@ -135,25 +136,30 @@ def pipeline(config):
 	tmp_in_file = tmp_out_file
 
 	print(">> CONVERTING TO MATRIX\t\t" + tmp_in_file)
+	tmp_name = bname
 	bname = bname + "_MAT"
 	tmp_out_file = output_dir+bname+".txt"
 	f = open(tmp_out_file,'w')
 	subprocess.call([src_dir+'FileIO/convert_to_matrix_format_comprehensive.pl', tmp_in_file, config.get("general","data_format"), remove_file, collapse_file, exclusions_file], stdout=f)
 	f.close()
 	tmp_in_file = tmp_out_file
+	
 	print(">> CHECKING MATRIX INTEGRITY\t\t" + tmp_in_file)
 	subprocess.call([src_dir+'FileIO/FileCheck.py', tmp_in_file])
+	
+	print(">> COLLECTING PREY-IP INFORMATION\t\t" + tmp_in_file)
+	tmp_out_file = output_dir + tmp_name + "_IPs" + ".txt"
+	subprocess.call([src_dir+'Stats/Report.R', '-d', tmp_in_file, '-o', tmp_out_file])
+	ip_out_file = tmp_out_file
 
 	####################
 	## CLUSTERING IPS
-
-	tmp_in_file = tmp_out_file
 
 	if(config.getboolean("cluster","enabled")):
 		print(">> CLUSTER IP MATRIX\t\t" + tmp_in_file)
 		tmp_out_file = output_dir+bname+'_CLUSTERED.pdf'
 		subprocess.call([src_dir+'Stats/Cluster.R', '-d', tmp_in_file, '-o', tmp_out_file])
-		
+
 
 	###################################
 	## MiST scoring with HIV/SELF params
@@ -243,7 +249,7 @@ def pipeline(config):
 		annotate =  config.get("collect", "annotate")
 
 		# print(src_dir+'FileIO/CompileResults.R'+  ' -o '+ tmp_out_file+ ' -f '+ mist_hiv_score_file+ ' -t '+ mist_self_score_file+ ' -m '+ mist_metrics_file+ ' -c '+ comppass_score_file+ ' -s '+ saint_score_file+ ' -u '+ uniprot_dir+ ' -n '+ species+ ' -i '+ src_dir + '-a ' + annotate)
-		subprocess.call([src_dir+'FileIO/CompileResults.R', '-d', "", '-o', tmp_out_file, '-f', mist_hiv_score_file, '-t', mist_self_score_file, '-m', mist_metrics_file, '-c', comppass_score_file, '-s', saint_score_file, '-u', uniprot_dir, '-n', species, '-i', src_dir, '-a', annotate ])
+		subprocess.call([src_dir+'FileIO/CompileResults.R', '-d', "", '-o', tmp_out_file, '-f', mist_hiv_score_file, '-t', mist_self_score_file, '-m', mist_metrics_file, '-c', comppass_score_file, '-s', saint_score_file, '-p', ip_out_file,'-u',uniprot_dir, '-n', species, '-i', src_dir, '-a', annotate ])
 
 
 class Usage(Exception):
