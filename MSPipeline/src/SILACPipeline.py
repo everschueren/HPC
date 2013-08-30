@@ -46,7 +46,7 @@ def pipeline(config):
 	#################################
 	## PREPARE CONTAINERS FOR RESULTS
 
-	output_dir = dir + config.get("files","output_dir") + '/'
+	output_dir = dir + config.get("files","output") + '/'
 	if not os.path.exists(output_dir):
 		os.mkdir(output_dir)
 
@@ -128,7 +128,7 @@ def pipeline(config):
 
 	bname = bname+"_RES"
 	# tmp_out_file = output_dir+bname+".txt"
-	tmp_out_file = dir+ config.get("files", "output_dir") + "/" + config.get("files", "output_file")
+	tmp_out_file = output_dir+bname+".txt"
 
 	if config.getboolean("annotate","enabled"):
 		print(">> ANNOTATING WITH UNIPROT")

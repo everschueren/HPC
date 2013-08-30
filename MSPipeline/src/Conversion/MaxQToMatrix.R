@@ -49,7 +49,6 @@ maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_pr
   print("SAMPLECODES IN DATAFILE:")
   print(unique(data$Raw.file))
   
-
   ## Extract all required columns and replace 'File' name by 'Code' 
   keys = read.delim(index_file, stringsAsFactors=F)
   #tmp = sqldf(str_join("select  Proteins as 'uniprot_id', Modified_Sequence as 'Sequence', Code, ",maxq_value," from data D join keys K on K.File = D.Raw_File where ",maxq_value," != 'NA'"))
@@ -78,8 +77,8 @@ maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_pr
   }
   
   ## NORMALIZE
+  data_matrix_flat[is.infinite(data_matrix_flat) | is.nan(data_matrix_flat)] = NA
   if(normalization != "none"){
-    data_matrix_flat[is.infinite(data_matrix_flat)] = NA
     data_matrix_flat = normalizeBetweenArrays(data_matrix_flat, method=normalization)
   }
   ## CONVERT TO LOGS
@@ -114,5 +113,5 @@ parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandA
 maxQ_to_matrix <- cmpfun(maxQ_to_matrix)
 maxQ_to_matrix(parsedArgs$data_file, parsedArgs$index_file, parsedArgs$output_file, parsedArgs$replicate_processing, parsedArgs$maxq_value, parsedArgs$normalization)  
 
-# maxQ_to_matrix(index_file='/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/input/vpr_timecourse_keys.txt', data_file='/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/processed/vpr_timecourse_FLT.txt',  output_file='/Users/everschueren/Projects/HPCKrogan/Scripts/MSPipeline/tests/apms_maxq/processed/vpr_timecourse_FLT_MAT.txt', replicate_processing='max', maxq_value='Intensity', normalization='NONE')
+# maxQ_to_matrix(index_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/input/Mock_v_WT_keys.txt', data_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/input/Mock_v_WT_evidence.txt',  output_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/processed_repeats/Mock_v_WT_evidence_FLT_MAT.txt', replicate_processing='mean', maxq_value='Ratio_H_L', normalization='scale')
 

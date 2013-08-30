@@ -7,7 +7,7 @@ suppressMessages(library(compiler))
 
 options(warn=-1)
 
-clusterIPs.main = function(data_file, output_file){
+clusterIPs.main = function(data_file, output_file, font_scale){
   
   results_MAT = read.delim(data_file, stringsAsFactors=F)
   ## strip out unnamed Ips 
@@ -22,7 +22,7 @@ clusterIPs.main = function(data_file, output_file){
   results_MAT_clean = data.matrix(results_MAT_clean)
   results_MAT_cor = cor(results_MAT_clean, use="pairwise.complete.obs", method="pearson")
   
-  rowScale = 100 / (nrow(results_MAT_cor) * 2.5)
+  rowScale = font_scale / (nrow(results_MAT_cor))
   pdf(output_file, width=7, height=7)
     heatmap.EV(results_MAT_cor, cexRow=rowScale)
   dev.off()
@@ -36,8 +36,10 @@ option_list <- list(
   make_option(c("-d", "--data_file"),
               help="data file containing matrix"),
   make_option(c("-o", "--output_file"),
-              help="output file for cluster plot")
+              help="output file for cluster plot"),
+  make_option(c("-s", "--font_scale"), default=40,
+              help="scaling factor for fonts on the rows and columns")
 )
 
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
-clusterIPs.main(parsedArgs$data_file, parsedArgs$output_file)
+clusterIPs.main(parsedArgs$data_file, parsedArgs$output_file, parsedArgs$font_scale)
