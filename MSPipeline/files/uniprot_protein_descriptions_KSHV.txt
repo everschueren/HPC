@@ -2123,3 +2123,90 @@ P88923	P88923_HHV8	unreviewed	ORF 35		Human herpesvirus 8 type M	150
 P88904	P88904_HHV8	unreviewed	ORF 6		Human herpesvirus 8 type M	1133
 P90475	P90475_HHV8	unreviewed	ORF 65		Human herpesvirus 8 type M	170
 P88953	P88953_HHV8	unreviewed	ORF 62		Human herpesvirus 8 type M	331
+Q2HR95	AN_HHV8P	reviewed	Shutoff alkaline exonuclease (SOX) (EC 3.1.-.-)	ORF37	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	486
+Q2HR64	DEN_HHV8P	reviewed	Deneddylase (EC 3.4.19.12) (EC 3.4.22.-) (Tegument protein VP1-2) (Tegument protein VP1/2)	ORF64	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	2635
+Q2HR75	ICP27_HHV8P	reviewed	mRNA export factor ICP27 homolog (EB2 protein homolog)	ORF57	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	455
+P90495	MIR1_HHV8P	reviewed	E3 ubiquitin-protein ligase MIR1 (EC 6.3.2.-) (IE1B protein) (Modulator of immune recognition 1) (ORF K3)	K3	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	333
+P90489	MIR2_HHV8P	reviewed	E3 ubiquitin-protein ligase MIR2 (EC 6.3.2.-) (IE1A protein) (Modulator of immune recognition 2) (ORF K5)	K5	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	256
+P0C788	OX2V_HHV8P	reviewed	OX-2 membrane glycoprotein homolog (Viral OX2) (vOX2)	K14	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	271
+P90463	TYSY_HHV8P	reviewed	Thymidylate synthase (TS) (TSase) (EC 2.1.1.45)	70	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	337
+Q98146	VG74_HHV8P	reviewed	G-protein coupled receptor homolog 74	74	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	342
+Q98157	VMI2_HHV8P	reviewed	Viral macrophage inflammatory protein 2 (Viral macrophage inflammatory protein II) (vMIP-II) (vMIP-1B)	ORF K4	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	94
+F5HGN8	F5HGN8_HHV8P	unreviewed	ORF26	ORF26	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	305
+F5HEZ4	F5HEZ4_HHV8P	unreviewed	ORF71	ORF71	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	188
+F5H9W4	F5H9W4_HHV8P	unreviewed	ORF67A	ORF67A	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	80
+F5HB62	F5HB62_HHV8P	unreviewed	ORF21	ORF21	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	580
+F5HDB7	F5HDB7_HHV8P	unreviewed	ORF47	ORF47	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	167
+F5HDE4	F5HDE4_HHV8P	unreviewed	ORF45	ORF45	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	407
+F5HEF2	F5HEF2_HHV8P	unreviewed	ORF33	ORF33	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	334
+F5HES7	F5HES7_HHV8P	unreviewed	ORF30	ORF30	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	77
+F5HF36	F5HF36_HHV8P	unreviewed	K4.2	K4.2	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	182
+F5HFQ0	F5HFQ0_HHV8P	unreviewed	ORF53	ORF53	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	110
+F5HG20	F5HG20_HHV8P	unreviewed	ORF66	ORF66	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	429
+F5HGJ3	F5HGJ3_HHV8P	unreviewed	ORF16	ORF16	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	175
+F5HGK9	F5HGK9_HHV8P	unreviewed	ORF43	ORF43	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	605
+F5HI25	F5HI25_HHV8P	unreviewed	ORF28	ORF28	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	102
+F5HIC6	F5HIC6_HHV8P	unreviewed	VIRF-3	vIRF-3	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	566
+F5HIN0	F5HIN0_HHV8P	unreviewed	ORF56	ORF56	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	843
+Q2HR71	Q2HR71_HHV8P	unreviewed	VIRF-2	vIRF-2	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	680
+Q2HR73	Q2HR73_HHV8P	unreviewed	VIRF-4	vIRF-4	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	911
+Q2HR78	Q2HR78_HHV8P	unreviewed	ORF54	ORF54	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	295
+Q2HRA7	Q2HRA7_HHV8P	unreviewed	ORF25	ORF25	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	1376
+Q2HRB2	Q2HRB2_HHV8P	unreviewed	ORF20	ORF20	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	257
+Q2HRD5	Q2HRD5_HHV8P	unreviewed	K1	K1	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	279
+F5HAW0	F5HAW0_HHV8P	unreviewed	ORF60	ORF60	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	305
+Q2HR80	Q2HR80_HHV8P	unreviewed	ORF52	ORF52	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	131
+F5HCD4	F5HCD4_HHV8P	unreviewed	ORF35	ORF35	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	150
+F5HDD0	F5HDD0_HHV8P	unreviewed	ORF39	ORF39	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	400
+Q9QR71	Q9QR71_HHV8P	unreviewed	ORF73	ORF73	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	1129
+Q2HR83	Q2HR83_HHV8P	unreviewed	ORF49	ORF49	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	302
+Q2HRA1	Q2HRA1_HHV8P	unreviewed	ORF31	ORF31	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	194
+F5HHY1	F5HHY1_HHV8P	unreviewed	ORF38	ORF38	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	61
+Q2HR92	Q2HR92_HHV8P	unreviewed	ORF40	ORF40	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	669
+F5HA27	F5HA27_HHV8P	unreviewed	ORF67	ORF67	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	271
+Q77Q38	Q77Q38_HHV8P	unreviewed	K12	K12	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	60
+F5HIM6	F5HIM6_HHV8P	unreviewed	ORF23	ORF23	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	404
+F5H982	F5H982_HHV8P	unreviewed	ORF69	ORF69	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	302
+Q2HR67	Q2HR67_HHV8P	unreviewed	Ribonucleoside-diphosphate reductase (EC 1.17.4.1)	ORF61	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	792
+F5HB39	F5HB39_HHV8P	unreviewed	ORF32	ORF32	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	454
+Q2HR85	Q2HR85_HHV8P	unreviewed	ORF48	ORF48	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	402
+Q2HR63	Q2HR63_HHV8P	unreviewed	ORF65	ORF65	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	170
+F5HET8	F5HET8_HHV8P	unreviewed	K6	K6	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	95
+Q2HRB4	Q2HRB4_HHV8P	unreviewed	ORF18	ORF18	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	257
+Q2HRB5	Q2HRB5_HHV8P	unreviewed	ORF17.5	ORF17.5	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	288
+F5HGB6	F5HGB6_HHV8P	unreviewed	ORF29	ORF29	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	687
+Q2HR89	Q2HR89_HHV8P	unreviewed	ORF44	ORF44	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	788
+F5HAI6	F5HAI6_HHV8P	unreviewed	ORF42	ORF42	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	278
+Q2HR98	Q2HR98_HHV8P	unreviewed	ORF34	ORF34	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	327
+Q2HRC6	Q2HRC6_HHV8P	unreviewed	ORF2	ORF2	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	210
+F5HAD1	F5HAD1_HHV8P	unreviewed	ORF58	ORF58	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	357
+F5H9W9	F5H9W9_HHV8P	unreviewed	ORF55	ORF55	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	227
+F5HB98	F5HB98_HHV8P	unreviewed	K8.1	K8.1	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	228
+F5HID2	F5HID2_HHV8P	unreviewed	ORF59	ORF59	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	396
+F5HCV3	F5HCV3_HHV8P	unreviewed	ORF50	ORF50	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	691
+F5HAK9	F5HAK9_HHV8P	unreviewed	ORF22	ORF22	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	730
+F5HEU7	F5HEU7_HHV8P	unreviewed	ORF63	ORF63	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	928
+F5HFA1	F5HFA1_HHV8P	unreviewed	ORF46	ORF46	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	255
+F5H8Y5	F5H8Y5_HHV8P	unreviewed	ORF62	ORF62	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	331
+Q9QR70	Q9QR70_HHV8P	unreviewed	ORF75	ORF75	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	1296
+Q2HRC8	Q2HRC8_HHV8P	unreviewed	ORF11	ORF11	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	407
+F5HDA4	F5HDA4_HHV8P	unreviewed	K7	K7	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	126
+Q2HRC7	Q2HRC7_HHV8P	unreviewed	K2	K2	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	204
+F5HFD2	F5HFD2_HHV8P	unreviewed	ORF24	ORF24	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	752
+F5HF47	F5HF47_HHV8P	unreviewed	ORF68	ORF68	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	467
+F5HDY6	F5HDY6_HHV8P	unreviewed	ORF27	ORF27	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	290
+F5HGH5	F5HGH5_HHV8P	unreviewed	ORF36	ORF36	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	444
+Q2HRD3	Q2HRD3_HHV8P	unreviewed	ORF6	ORF6	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	1132
+Q2HRD4	Q2HRD4_HHV8P	unreviewed	ORF4	ORF4	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	550
+Q2HRC9	Q2HRC9_HHV8P	unreviewed	ORF10	ORF10	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	418
+Q2HRD2	Q2HRD2_HHV8P	unreviewed	ORF7	ORF7	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	695
+Q2HRB3	Q2HRB3_HHV8P	unreviewed	ORF19	ORF19	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	549
+Q2HRD0	Q2HRD0_HHV8P	unreviewed	DNA polymerase (EC 2.7.7.7)	ORF9	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	1012
+Q77Q36	Q77Q36_HHV8P	unreviewed	ORF72	ORF72	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	257
+Q2HRB6	Q2HRB6_HHV8P	unreviewed	ORF17	ORF17	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	534
+Q9QR69	Q9QR69_HHV8P	unreviewed	K15	K15	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	489
+F5HB81	F5HB81_HHV8P	unreviewed	ORF8	ORF8	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	845
+F5HF68	F5HF68_HHV8P	unreviewed	VIRF-1	vIRF-1	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	449
+Q2HR82	Q2HR82_HHV8P	unreviewed	K8	K8	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	286
+F5HCJ2	F5HCJ2_HHV8P	unreviewed	K4.1	K4.1	Human herpesvirus 8 type P (isolate GK18) (HHV-8) (Kaposi's sarcoma-associated herpesvirus)	114
+
