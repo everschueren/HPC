@@ -158,7 +158,8 @@ def pipeline(config):
 	if(config.getboolean("cluster","enabled")):
 		print(">> CLUSTER IP MATRIX\t\t" + tmp_in_file)
 		tmp_out_file = output_dir+bname+'_CLUSTERED.pdf'
-		subprocess.call([src_dir+'Stats/Cluster.R', '-d', tmp_in_file, '-o', tmp_out_file])
+		font_scale = config.get("cluster", "font_scale")
+		subprocess.call([src_dir+'Stats/Cluster.R', '-d', tmp_in_file, '-o', tmp_out_file, '-s', font_scale])
 
 
 	###################################
