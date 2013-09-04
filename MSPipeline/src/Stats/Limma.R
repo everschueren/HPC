@@ -70,8 +70,8 @@ do_limma = function(data_matrix, design_matrix, contrasts=NULL){
     tmp = topTable(eb, adjust.method="BH",number=Inf)
     tmp = cbind(rownames(tmp), tmp[,c(1,4)])
     exp_name = colnames(design_matrix)[1]
-    colnames(tmp) =  c("ID","FC","Padj")
     results = tmp
+    colnames(results) =  c("ID","FC","Padj")
   }else{
     contrasts.fit = eBayes(contrasts.fit(lin_fit, contrasts))
     #   test_results = decideTests(contrasts.fit, method="global")
@@ -89,9 +89,9 @@ do_limma = function(data_matrix, design_matrix, contrasts=NULL){
       }
       contrast_name = colnames(contrasts)[i]
       cnames = c(cnames, str_join(contrast_name,"_LFC"), str_join(contrast_name,"_Padj"))
+      colnames(results) = cnames
     }
   }
-  colnames(results) = cnames
   results
 }
 
