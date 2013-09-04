@@ -147,10 +147,11 @@ def pipeline(config):
 	print(">> CHECKING MATRIX INTEGRITY\t\t" + tmp_in_file)
 	subprocess.call([src_dir+'FileIO/FileCheck.py', tmp_in_file])
 	
-	print(">> COLLECTING PREY-IP INFORMATION\t\t" + tmp_in_file)
-	tmp_out_file = output_dir + tmp_name + "_IPs" + ".txt"
-	subprocess.call([src_dir+'Stats/Report.R', '-d', tmp_in_file, '-o', tmp_out_file])
-	ip_out_file = tmp_out_file
+	if(config.getboolean("general","ip_info")):
+		print(">> COLLECTING PREY-IP INFORMATION\t\t" + tmp_in_file)
+		tmp_out_file = output_dir + tmp_name + "_IPs" + ".txt"
+		subprocess.call([src_dir+'Stats/Report.R', '-d', tmp_in_file, '-o', tmp_out_file])
+		ip_out_file = tmp_out_file
 
 	####################
 	## CLUSTERING IPS
