@@ -95,11 +95,16 @@ do_limma = function(data_matrix, design_matrix, contrasts=NULL){
   results
 }
 
-Limma.main = function(data_file, design_file, output_file, contrast_file="none"){
+Limma.main = function(data_file, design_file, output_file, contrast_file="none", na_as_zeros=T){
   data = read.delim(data_file, stringsAsFactors=F)
   design_matrix = read.delim(design_file)
   sample_names = colnames(design_matrix)
   data_matrix = data[,3:ncol(data)] 
+  
+  if(na_as_zeros){
+    print("CONVERTING NA TO ZERO")
+    data_matrix[is.na(data_matrix)]=0
+  }
   
   if(contrast_file=="none"){
     differential_results = do_limma(data_matrix, design_matrix) 
@@ -138,12 +143,14 @@ option_list <- list(
   make_option(c("-m", "--design_file"),
               help="File containing design matrix for the experiment"),
   make_option(c("-c", "--contrast_file"), default="none",
-              help="File containing the contrasts to be made from the design matrix")
+              help="File containing the contrasts to be made from the design matrix"),
+  make_option(c("-z", "--na_as_zeros"), default=TRUE,
+              help="convert all NA entries to zeros before linear modeling")
 )
 
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
 Limma.main <- cmpfun(Limma.main)
-Limma.main(data_file=parsedArgs$data_file, design_file=parsedArgs$design_file, output_file=parsedArgs$output_file, contrast_file=parsedArgs$contrast_file)  
+Limma.main(data_file=parsedArgs$data_file, design_file=parsedArgs$design_file, output_file=parsedArgs$output_file, contrast_file=parsedArgs$contrast_file, na_as_zeros=as.logical(parsedArgs$na_as_zeros))  
 
 # Limma.main(data_file="~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-all-Ub/processed_repeats/Mock_v_WT_all_evidence_FLT_MAT.txt", design_file="~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-all-Ub/input/Mock_v_WT_all_design.txt", output_file="~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-all-Ub/processed_repeats/Mock_v_WT_all_evidence_LIM.txt", contrast_file="~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-all-Ub/input/Mock_v_WT_all_contrasts.txt")  
 

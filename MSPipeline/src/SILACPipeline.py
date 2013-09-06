@@ -32,7 +32,7 @@ def readConfig(filename):
 	return config
 
 def pipeline(config):
-	print(">> KROGAN PTM PIPELINE")
+	print(">> KROGAN SILAC PIPELINE")
 
 	## read files
 	dir = config.get("files","dir")	
@@ -113,11 +113,18 @@ def pipeline(config):
 	if config.getboolean("limma","enabled"):
 		print(">> LIMMA DIFFRENTIAL CHANGES")
 		design_file = dir+config.get("limma","design")
+		try:
+			if config.getboolean("limma", "na_as_zeros"):
+				na_as_zeros = "TRUE"
+			else:
+				na_as_zeros = "FALSE"
+		except:
+			na_as_zeros = "FALSE" 
 		if config.getboolean("limma","enable_contrasts"):
 			contrast_file = dir+config.get("limma","contrast")
 		else:
 			contrast_file = "none"
-		subprocess.call([src_dir+'Stats/Limma.R', '-d', tmp_in_file, '-o', tmp_out_file, '-m', design_file, '-c', contrast_file])
+		subprocess.call([src_dir+'Stats/Limma.R', '-d', tmp_in_file, '-o', tmp_out_file, '-m', design_file, '-c', contrast_file, '-z', na_as_zeros])
 	tmp_in_file = tmp_out_file		
 
 	## ######################
