@@ -29,7 +29,8 @@ Flatten.main = function(data_file, output_file, method="Fisher"){
   data_flat = sqldf("select uniprot_ac, count(*) as 'pep_count' from data group by uniprot_ac order by uniprot_ac asc")
   
   i = 4
-  data_colnames = gsub("-","_",colnames(data))
+  data_colnames = gsub("-|\\+","_",colnames(data))
+  # print(data_colnames)
   colnames(data) = data_colnames
   
   while(i < ncol(data)){

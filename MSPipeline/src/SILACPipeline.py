@@ -95,6 +95,15 @@ def pipeline(config):
 		subprocess.call([src_dir+'Conversion/MaxQToMatrix.R', '-i', keys_file, '-d', tmp_in_file, '-o', tmp_out_file, '-r', rep_treatment, '-m', 'Intensity', '-n', normalization])
 	tmp_in_file = tmp_out_file
 
+	try:
+		if config.getboolean("plots","pairs"):
+			print(">> PLOTTING CORRELATION PAIRPLOT:\t"+tmp_in_file)
+			print_file = output_dir+bname+"_PAIRS.pdf"
+			subprocess.call([src_dir+'Plotting/PairPlots.R', '-d', tmp_in_file, '-o', print_file])
+	except:
+		print("CONFIG PARSER ERROR: no 'pairs' entry in [plots] section")
+
+
 	## #############################
 	## 3. perform limma differential 
 
