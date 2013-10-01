@@ -10,7 +10,8 @@ heatmap.EV = function(data, cexRow=1.0, palette.breaks=NULL, color.panel=NULL){
     palette.breaks = seq(from=0,to=1,by=.1)  
   }
   
-  margins = c(3,3)
+  #margins = c(3,3)
+  margins = c(7,7)
   # lmat = rbind(c(0,3,0),c(2,1,0),c(0,0,4))
   # lwid = c(0.5,5,1.5)
   # lhei = c(0.5,5,1.5)

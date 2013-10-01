@@ -32,9 +32,9 @@ PairPlot.main = function(matrix_file, output_file, data_idx=3){
   dlim = max(abs(dmin), abs(dmax))
   pdf(file=output_file, width=7, height=7)
   ## for variable axis 
-  #pairs(data, upper.panel=PairPlot.panel.cor, lower.panel=PairPlot.panel.points, xlim=c(-dlim,dlim), ylim=c(-dlim,dlim), las=1, cex.axis=.6, cex.labels=1)
+  pairs(data, upper.panel=PairPlot.panel.cor, lower.panel=PairPlot.panel.points, xlim=c(-dlim,dlim), ylim=c(-dlim,dlim), las=1, cex.axis=.6, cex.labels=1)
   ## fixed axis
-  pairs(data, upper.panel=PairPlot.panel.cor, lower.panel=PairPlot.panel.points, xlim=c(-5,5), ylim=c(-5,5), las=1, cex.axis=.7, cex.labels=1)
+  #pairs(data, upper.panel=PairPlot.panel.cor, lower.panel=PairPlot.panel.points, xlim=c(-5,5), ylim=c(-5,5), las=1, cex.axis=.7, cex.labels=1)
   dev.off()
 }
 
