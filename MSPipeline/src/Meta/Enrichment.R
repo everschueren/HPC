@@ -257,7 +257,7 @@ Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped
   
   for(l in names(res)){
     e = res[[l]] 
-    write.table(e, file=sprintf("%s/%s%s.txt",ouput_dir,l,suffix), eol="\n", sep="\t", quote=F, row.names=F, col.names=T)
+    write.table(e, file=sprintf("%s/%s%s.txt",output_dir,l,suffix), eol="\n", sep="\t", quote=F, row.names=F, col.names=T)
   }
 }
 
