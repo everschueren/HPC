@@ -1,0 +1,896 @@
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+O84066	6PGD_CHLTR	reviewed	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)	gnd CT_063	Chlamydia trachomatis (strain D/UW-3/Cx)	480
+O84189	6PGL_CHLTR	reviewed	6-phosphogluconolactonase (6PGL) (EC 3.1.1.31)	pgl devB CT_186	Chlamydia trachomatis (strain D/UW-3/Cx)	256
+O84377	AAXA_CHLTR	reviewed	Porin AaxA (Outer membrane protein AaxA)	aaxA CT_372	Chlamydia trachomatis (strain D/UW-3/Cx)	461
+O84378	AAXB_CHLTR	reviewed	Pyruvoyl-dependent arginine decarboxylase AaxB (PvlArgDC) (EC 4.1.1.19) (Biodegradative arginine decarboxylase) [Cleaved into: Pyruvoyl-dependent arginine decarboxylase subunit beta; Pyruvoyl-dependent arginine decarboxylase subunit alpha]	aaxB CT_373	Chlamydia trachomatis (strain D/UW-3/Cx)	195
+O84379	AAXC_CHLTR	reviewed	Arginine/agmatine antiporter	aaxC arcD CT_374	Chlamydia trachomatis (strain D/UW-3/Cx)	483
+O84267	ACCA_CHLTR	reviewed	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (ACCase subunit alpha) (Acetyl-CoA carboxylase carboxyltransferase subunit alpha) (EC 6.4.1.2)	accA CT_265	Chlamydia trachomatis (strain D/UW-3/Cx)	324
+O84102	ACPS_CHLTR	reviewed	Holo-[acyl-carrier-protein] synthase (Holo-ACP synthase) (EC 2.7.8.7) (4'-phosphopantetheinyl transferase AcpS)	acpS CT_100	Chlamydia trachomatis (strain D/UW-3/Cx)	119
+O84239	ACP_CHLTR	reviewed	Acyl carrier protein (ACP)	acpP CT_236	Chlamydia trachomatis (strain D/UW-3/Cx)	77
+O84367	AK_CHLTR	reviewed	Aspartokinase (EC 2.7.2.4) (Aspartate kinase)	lysC CT_362	Chlamydia trachomatis (strain D/UW-3/Cx)	431
+O84217	ALF1_CHLTR	reviewed	Probable fructose-bisphosphate aldolase class 1 (EC 4.1.2.13) (Probable fructose-bisphosphate aldolase class I) (FBP aldolase)	fbaB CT_215	Chlamydia trachomatis (strain D/UW-3/Cx)	348
+O84049	AMPA_CHLTR	reviewed	Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)	pepA CT_045	Chlamydia trachomatis (strain D/UW-3/Cx)	499
+O84080	APBE_CHLTR	reviewed	Thiamine biosynthesis lipoprotein ApbE	apbE CT_077	Chlamydia trachomatis (strain D/UW-3/Cx)	316
+O84371	AROA_CHLTR	reviewed	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)	aroA CT_366	Chlamydia trachomatis (strain D/UW-3/Cx)	440
+O84374	AROB_CHLTR	reviewed	3-dehydroquinate synthase (EC 4.2.3.4)	aroB CT_369	Chlamydia trachomatis (strain D/UW-3/Cx)	373
+O84373	AROC_CHLTR	reviewed	Chorismate synthase (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	aroC CT_368	Chlamydia trachomatis (strain D/UW-3/Cx)	357
+O84375	ARODE_CHLTR	reviewed	Shikimate biosynthesis protein AroDE [Includes: 3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type I DHQase); Shikimate dehydrogenase (EC 1.1.1.25)]	aroE aroD/E CT_370	Chlamydia trachomatis (strain D/UW-3/Cx)	478
+O84372	AROK_CHLTR	reviewed	Shikimate kinase (SK) (EC 2.7.1.71)	aroK CT_367	Chlamydia trachomatis (strain D/UW-3/Cx)	184
+O84385	ARTJ_CHLTR	reviewed	Probable ABC transporter arginine-binding protein ArtJ	artJ CT_381	Chlamydia trachomatis (strain D/UW-3/Cx)	257
+O84125	BCCP_CHLTR	reviewed	Biotin carboxyl carrier protein of acetyl-CoA carboxylase (BCCP)	accB CT_123	Chlamydia trachomatis (strain D/UW-3/Cx)	164
+O84179	BDBC_CHLTR	reviewed	Probable disulfide formation protein (Disulfide oxidoreductase) (Thiol-disulfide oxidoreductase)	CT_176	Chlamydia trachomatis (strain D/UW-3/Cx)	135
+O84457	CDSA_CHLTR	reviewed	Phosphatidate cytidylyltransferase (EC 2.7.7.41) (CDP-DAG synthase) (CDP-DG synthase) (CDP-diacylglycerol synthase) (CDS) (CDP-diglyceride pyrophosphorylase) (CDP-diglyceride synthase) (CTP:phosphatidate cytidylyltransferase)	cdsA CT_451	Chlamydia trachomatis (strain D/UW-3/Cx)	305
+O84876	CDUB1_CHLTR	reviewed	Deubiquitinase and deneddylase Dub1 (ChlaDub1) (EC 3.4.22.-)	cdu1 CT_868	Chlamydia trachomatis (strain D/UW-3/Cx)	418
+O84875	CDUB2_CHLTR	reviewed	Deubiquitinase and deneddylase Dub2 (ChlaDub2) (EC 3.4.22.-)	cdu2 CT_867	Chlamydia trachomatis (strain D/UW-3/Cx)	339
+P0C0Z8	CH10_CHLTR	reviewed	10 kDa chaperonin (11.2 kDa stress response protein) (GroES protein) (Heat shock protein 10) (HSP10) (Protein Cpn10)	groS groES hypA mopB CT_111	Chlamydia trachomatis (strain D/UW-3/Cx)	102
+P0C0Z7	CH60_CHLTR	reviewed	60 kDa chaperonin (57 kDa chlamydial hypersensitivity antigen) (GroEL protein) (Heat shock protein 60) (HSP60) (Protein Cpn60)	groL groEL hypB mopA CT_110	Chlamydia trachomatis (strain D/UW-3/Cx)	544
+O84115	CLPB_CHLTR	reviewed	Chaperone protein ClpB	clpB CT_113	Chlamydia trachomatis (strain D/UW-3/Cx)	867
+O84288	CLPC_CHLTR	reviewed	Probable ATP-dependent Clp protease ATP-binding subunit	clpC CT_286	Chlamydia trachomatis (strain D/UW-3/Cx)	854
+P38002	CLPP1_CHLTR	reviewed	ATP-dependent Clp protease proteolytic subunit 1 (EC 3.4.21.92) (Endopeptidase Clp 1)	clpP1 CT_431	Chlamydia trachomatis (strain D/UW-3/Cx)	192
+O84712	CLPP2_CHLTR	reviewed	ATP-dependent Clp protease proteolytic subunit 2 (EC 3.4.21.92) (Endopeptidase Clp 2)	clpP2 CT_706	Chlamydia trachomatis (strain D/UW-3/Cx)	203
+O84711	CLPX_CHLTR	reviewed	ATP-dependent Clp protease ATP-binding subunit ClpX	clpX CT_705	Chlamydia trachomatis (strain D/UW-3/Cx)	419
+O84499	COAE_CHLTR	reviewed	Dephospho-CoA kinase (EC 2.7.1.24) (Dephosphocoenzyme A kinase)	coaE CT_492	Chlamydia trachomatis (strain D/UW-3/Cx)	202
+O84693	CSD_CHLTR	reviewed	Probable cysteine desulfurase (EC 2.8.1.7)	csd CT_687	Chlamydia trachomatis (strain D/UW-3/Cx)	401
+O84395	DAPAT_CHLTR	reviewed	LL-diaminopimelate aminotransferase (DAP-AT) (DAP-aminotransferase) (LL-DAP-aminotransferase) (EC 2.6.1.83)	dapL aspC CT_390	Chlamydia trachomatis (strain D/UW-3/Cx)	394
+O84366	DAPA_CHLTR	reviewed	4-hydroxy-tetrahydrodipicolinate synthase (HTPA synthase) (EC 4.3.3.7)	dapA CT_361	Chlamydia trachomatis (strain D/UW-3/Cx)	286
+O84369	DAPB_CHLTR	reviewed	4-hydroxy-tetrahydrodipicolinate reductase (HTPA reductase) (EC 1.17.1.8)	dapB CT_364	Chlamydia trachomatis (strain D/UW-3/Cx)	246
+O84437	DAPF_CHLTR	reviewed	Diaminopimelate epimerase (DAP epimerase) (EC 5.1.1.7)	dapF CT_430	Chlamydia trachomatis (strain D/UW-3/Cx)	275
+P64386	DBH_CHLTR	reviewed	Probable DNA-binding protein HU	hup CT_267	Chlamydia trachomatis (strain D/UW-3/Cx)	100
+O84042	DCD_CHLTR	reviewed	Deoxycytidine triphosphate deaminase (dCTP deaminase) (EC 3.5.4.13)	dcd CT_039	Chlamydia trachomatis (strain D/UW-3/Cx)	190
+O84752	DCUP_CHLTR	reviewed	Uroporphyrinogen decarboxylase (UPD) (URO-D) (EC 4.1.1.37)	hemE CT_747	Chlamydia trachomatis (strain D/UW-3/Cx)	336
+O84357	DEF_CHLTR	reviewed	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	def CT_353	Chlamydia trachomatis (strain D/UW-3/Cx)	181
+P18584	DEGPL_CHLTR	reviewed	Probable periplasmic serine endoprotease DegP-like (EC 3.4.21.107) (59 kDa immunogenic protein) (Protease Do) (SK59)	htrA CT_823	Chlamydia trachomatis (strain D/UW-3/Cx)	497
+O84709	DER_CHLTR	reviewed	GTPase Der (GTP-binding protein EngA)	der engA CT_703	Chlamydia trachomatis (strain D/UW-3/Cx)	490
+O84561	DLDH_CHLTR	reviewed	Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (Dihydrolipoamide dehydrogenase) (E3 component of 2-oxoglutarate dehydrogenase complex)	lpdA CT_557	Chlamydia trachomatis (strain D/UW-3/Cx)	465
+O84252	DNAA1_CHLTR	reviewed	Chromosomal replication initiator protein DnaA 1	dnaA1 CT_250	Chlamydia trachomatis (strain D/UW-3/Cx)	456
+O84277	DNAA2_CHLTR	reviewed	Chromosomal replication initiator protein DnaA 2	dnaA2 CT_275	Chlamydia trachomatis (strain D/UW-3/Cx)	455
+O84345	DNAJ_CHLTR	reviewed	Chaperone protein DnaJ	dnaJ CT_341	Chlamydia trachomatis (strain D/UW-3/Cx)	392
+P17821	DNAK_CHLTR	reviewed	Chaperone protein DnaK (75 kDa membrane protein) (HSP70) (Heat shock 70 kDa protein) (Heat shock protein 70)	dnaK CT_396	Chlamydia trachomatis (strain D/UW-3/Cx)	660
+O84148	DNLJ_CHLTR	reviewed	DNA ligase (EC 6.5.1.2) (Polydeoxyribonucleotide synthase [NAD(+)])	ligA CT_146	Chlamydia trachomatis (strain D/UW-3/Cx)	663
+O84549	DPO3A_CHLTR	reviewed	DNA polymerase III subunit alpha (EC 2.7.7.7)	dnaE CT_545	Chlamydia trachomatis (strain D/UW-3/Cx)	1237
+O84078	DPO3B_CHLTR	reviewed	DNA polymerase III subunit beta (EC 2.7.7.7)	dnaN CT_075	Chlamydia trachomatis (strain D/UW-3/Cx)	416
+O84294	DUT_CHLTR	reviewed	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dUTPase) (EC 3.6.1.23) (dUTP pyrophosphatase)	dut CT_292	Chlamydia trachomatis (strain D/UW-3/Cx)	145
+O84074	DXR_CHLTR	reviewed	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	dxr CT_071	Chlamydia trachomatis (strain D/UW-3/Cx)	379
+O84335	DXS_CHLTR	reviewed	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	dxs CT_331	Chlamydia trachomatis (strain D/UW-3/Cx)	640
+O84444	EFG_CHLTR	reviewed	Elongation factor G (EF-G)	fusA CT_437	Chlamydia trachomatis (strain D/UW-3/Cx)	694
+O84124	EFP1_CHLTR	reviewed	Elongation factor P 1 (EF-P 1)	efp1 CT_122	Chlamydia trachomatis (strain D/UW-3/Cx)	185
+O84757	EFP2_CHLTR	reviewed	Elongation factor P 2 (EF-P 2)	efp2 CT_752	Chlamydia trachomatis (strain D/UW-3/Cx)	190
+O84686	EFTS_CHLTR	reviewed	Elongation factor Ts (EF-Ts)	tsf CT_679	Chlamydia trachomatis (strain D/UW-3/Cx)	282
+P0CD71	EFTU_CHLTR	reviewed	Elongation factor Tu (EF-Tu)	tuf tufA tufB CT_322	Chlamydia trachomatis (strain D/UW-3/Cx)	394
+O84630	END4_CHLTR	reviewed	Probable endonuclease 4 (EC 3.1.21.2) (Endodeoxyribonuclease IV) (Endonuclease IV)	nfo CT_625	Chlamydia trachomatis (strain D/UW-3/Cx)	288
+O84591	ENO_CHLTR	reviewed	Enolase (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lyase) (2-phosphoglycerate dehydratase)	eno CT_587	Chlamydia trachomatis (strain D/UW-3/Cx)	424
+O84645	EX5B_CHLTR	reviewed	Exodeoxyribonuclease V beta chain (EC 3.1.11.5)	recB CT_639	Chlamydia trachomatis (strain D/UW-3/Cx)	1026
+O84333	EX7L_CHLTR	reviewed	Exodeoxyribonuclease 7 large subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII large subunit) (Exonuclease VII large subunit)	xseA CT_329	Chlamydia trachomatis (strain D/UW-3/Cx)	516
+P58001	EX7S_CHLTR	reviewed	Exodeoxyribonuclease 7 small subunit (EC 3.1.11.6) (Exodeoxyribonuclease VII small subunit) (Exonuclease VII small subunit)	xseB CT_329.1	Chlamydia trachomatis (strain D/UW-3/Cx)	72
+P38004	FABG_CHLTR	reviewed	3-oxoacyl-[acyl-carrier-protein] reductase FabG (EC 1.1.1.100) (3-ketoacyl-acyl carrier protein reductase) (Beta-Ketoacyl-acyl carrier protein reductase) (Beta-ketoacyl-ACP reductase)	fabG CT_237	Chlamydia trachomatis (strain D/UW-3/Cx)	248
+O84242	FABH_CHLTR	reviewed	3-oxoacyl-[acyl-carrier-protein] synthase 3 (EC 2.3.1.180) (3-oxoacyl-[acyl-carrier-protein] synthase III) (Beta-ketoacyl-ACP synthase III) (KAS III)	fabH CT_239	Chlamydia trachomatis (strain D/UW-3/Cx)	327
+O84537	FABZ_CHLTR	reviewed	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (EC 4.2.1.59) ((3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase) ((3R)-hydroxymyristoyl-ACP dehydrase) (Beta-hydroxyacyl-ACP dehydratase)	fabZ CT_532	Chlamydia trachomatis (strain D/UW-3/Cx)	153
+O84535	FMT_CHLTR	reviewed	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	fmt CT_530	Chlamydia trachomatis (strain D/UW-3/Cx)	316
+O84620	FOLB_CHLTR	reviewed	Probable dihydroneopterin aldolase (DHNA) (EC 4.1.2.25)	folB CT_614	Chlamydia trachomatis (strain D/UW-3/Cx)	124
+O84081	FOLD_CHLTR	reviewed	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	folD CT_078	Chlamydia trachomatis (strain D/UW-3/Cx)	287
+O84619	FOLKP_CHLTR	reviewed	Folate synthesis bifunctional protein [Includes: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3) (6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase) (PPPK) (7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase) (HPPK); Dihydropteroate synthase (DHPS) (EC 2.5.1.15) (Dihydropteroate pyrophosphorylase)]	folKP CT_613	Chlamydia trachomatis (strain D/UW-3/Cx)	450
+O84744	FTSK_CHLTR	reviewed	DNA translocase FtsK	ftsK CT_739	Chlamydia trachomatis (strain D/UW-3/Cx)	799
+O84863	FUMC_CHLTR	reviewed	Fumarate hydratase class II (Fumarase C) (EC 4.2.1.2)	fumC CT_855	Chlamydia trachomatis (strain D/UW-3/Cx)	463
+P0CE13	G3P_CHLTR	reviewed	Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) (EC 1.2.1.12)	gap gapA CT_505	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+O84188	G6PD_CHLTR	reviewed	Glucose-6-phosphate 1-dehydrogenase (G6PD) (EC 1.1.1.49)	zwf CT_185	Chlamydia trachomatis (strain D/UW-3/Cx)	439
+P0CD72	G6PI_CHLTR	reviewed	Glucose-6-phosphate isomerase (GPI) (EC 5.3.1.9) (Phosphoglucose isomerase) (PGI) (Phosphohexose isomerase) (PHI)	pgi CT_378	Chlamydia trachomatis (strain D/UW-3/Cx)	525
+O84006	GATA_CHLTR	reviewed	Glutamyl-tRNA(Gln) amidotransferase subunit A (Glu-ADT subunit A) (EC 6.3.5.-)	gatA CT_003	Chlamydia trachomatis (strain D/UW-3/Cx)	491
+O84007	GATB_CHLTR	reviewed	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (Asp/Glu-ADT subunit B) (EC 6.3.5.-)	gatB CT_004	Chlamydia trachomatis (strain D/UW-3/Cx)	488
+O84005	GATC_CHLTR	reviewed	Glutamyl-tRNA(Gln) amidotransferase subunit C (Glu-ADT subunit C) (EC 6.3.5.-)	gatC CT_002	Chlamydia trachomatis (strain D/UW-3/Cx)	100
+O84200	GCP_CHLTR	reviewed	Probable tRNA threonylcarbamoyladenosine biosynthesis protein Gcp (t(6)A37 threonylcarbamoyladenosine biosynthesis protein)	gcp CT_197	Chlamydia trachomatis (strain D/UW-3/Cx)	338
+O84284	GCSH_CHLTR	reviewed	Glycine cleavage system H protein	gcvH gcsH CT_282	Chlamydia trachomatis (strain D/UW-3/Cx)	117
+O84804	GLGA_CHLTR	reviewed	Glycogen synthase (EC 2.4.1.21) (Starch [bacterial glycogen] synthase)	glgA CT_798	Chlamydia trachomatis (strain D/UW-3/Cx)	474
+O84874	GLGB_CHLTR	reviewed	1,4-alpha-glucan branching enzyme GlgB (EC 2.4.1.18) (1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase) (Alpha-(1->4)-glucan branching enzyme) (Glycogen branching enzyme) (BE)	glgB CT_866	Chlamydia trachomatis (strain D/UW-3/Cx)	738
+O84822	GLMM_CHLTR	reviewed	Phosphoglucosamine mutase (EC 5.4.2.10)	glmM CT_815	Chlamydia trachomatis (strain D/UW-3/Cx)	458
+O84823	GLMS_CHLTR	reviewed	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16) (D-fructose-6-phosphate amidotransferase) (GFAT) (Glucosamine-6-phosphate synthase) (Hexosephosphate aminotransferase) (L-glutamine--D-fructose-6-phosphate amidotransferase)	glmS CT_816	Chlamydia trachomatis (strain D/UW-3/Cx)	606
+O84439	GLYA_CHLTR	reviewed	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	glyA CT_432	Chlamydia trachomatis (strain D/UW-3/Cx)	497
+O84587	GP6R_CHLTR	reviewed	Virulence plasmid protein pGP6-D-related protein	CT_583	Chlamydia trachomatis (strain D/UW-3/Cx)	263
+O84719	GPDA_CHLTR	reviewed	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94) (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase)	gpsA CT_714	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+O84727	GPMA_CHLTR	reviewed	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (BPG-dependent PGAM) (PGAM) (Phosphoglyceromutase) (dPGM) (EC 5.4.2.1)	gpmA pgm CT_722	Chlamydia trachomatis (strain D/UW-3/Cx)	226
+O84641	GREA_CHLTR	reviewed	Transcription elongation factor GreA (Transcript cleavage factor GreA)	greA CT_636	Chlamydia trachomatis (strain D/UW-3/Cx)	715
+P36424	GRPE_CHLTR	reviewed	Protein GrpE (HSP-70 cofactor)	grpE CT_395	Chlamydia trachomatis (strain D/UW-3/Cx)	190
+O84212	GSA_CHLTR	reviewed	Glutamate-1-semialdehyde 2,1-aminomutase (GSA) (EC 5.4.3.8) (Glutamate-1-semialdehyde aminotransferase) (GSA-AT)	hemL CT_210	Chlamydia trachomatis (strain D/UW-3/Cx)	422
+O84192	GYRA_CHLTR	reviewed	DNA gyrase subunit A (EC 5.99.1.3)	gyrA CT_189	Chlamydia trachomatis (strain D/UW-3/Cx)	836
+O84193	GYRB_CHLTR	reviewed	DNA gyrase subunit B (EC 5.99.1.3)	gyrB CT_190	Chlamydia trachomatis (strain D/UW-3/Cx)	804
+Q06280	HC2D_CHLTR	reviewed	Histone-like protein HC2	hctB CT_046	Chlamydia trachomatis (strain D/UW-3/Cx)	201
+P0CE15	HCT1_CHLTR	reviewed	Histone H1-like protein Hc1 (18 kDa histone analog)	hctA CT_743	Chlamydia trachomatis (strain D/UW-3/Cx)	125
+O84669	HEM1_CHLTR	reviewed	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	hemA CT_662	Chlamydia trachomatis (strain D/UW-3/Cx)	335
+O84638	HEM2_CHLTR	reviewed	Delta-aminolevulinic acid dehydratase (ALAD) (ALADH) (EC 4.2.1.24) (Porphobilinogen synthase)	hemB CT_633	Chlamydia trachomatis (strain D/UW-3/Cx)	338
+O84301	HEM3_CHLTR	reviewed	Probable porphobilinogen deaminase (PBG) (EC 2.5.1.61) (Hydroxymethylbilane synthase) (HMBS) (Pre-uroporphyrinogen synthase)	hemC CT_299	Chlamydia trachomatis (strain D/UW-3/Cx)	241
+O84492	HEMH_CHLTR	reviewed	Ferrochelatase (EC 4.99.1.1) (Heme synthase) (Protoheme ferro-lyase)	hemH CT_485	Chlamydia trachomatis (strain D/UW-3/Cx)	314
+P36426	HRCA_CHLTR	reviewed	Heat-inducible transcription repressor HrcA	hrcA CT_394	Chlamydia trachomatis (strain D/UW-3/Cx)	392
+P65106	IF1_CHLTR	reviewed	Translation initiation factor IF-1	infA CT_323	Chlamydia trachomatis (strain D/UW-3/Cx)	73
+O84098	IF2_CHLTR	reviewed	Translation initiation factor IF-2	infB CT_096	Chlamydia trachomatis (strain D/UW-3/Cx)	892
+O84840	IF3_CHLTR	reviewed	Translation initiation factor IF-3	infC CT_833	Chlamydia trachomatis (strain D/UW-3/Cx)	175
+P0CI27	INCA1_CHLTR	reviewed	Inclusion membrane protein A	incA CT_119	Chlamydia trachomatis (strain D/UW-3/Cx)	273
+P0DJI3	INCD_CHLTR	reviewed	Inclusion membrane protein D	incD CT_115	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+P0DJI4	INCE_CHLTR	reviewed	Inclusion membrane protein E	incE CT_116	Chlamydia trachomatis (strain D/UW-3/Cx)	132
+P0DJI5	INCF_CHLTR	reviewed	Inclusion membrane protein F	incF CT_117	Chlamydia trachomatis (strain D/UW-3/Cx)	104
+O84120	INCG_CHLTR	reviewed	Inclusion membrane protein G	incG CT_118	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+O84777	IPYR_CHLTR	reviewed	Inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)	ppa CT_772	Chlamydia trachomatis (strain D/UW-3/Cx)	209
+O84468	ISPD_CHLTR	reviewed	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	ispD CT_462	Chlamydia trachomatis (strain D/UW-3/Cx)	219
+O84810	ISPE_CHLTR	reviewed	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	ispE CT_804	Chlamydia trachomatis (strain D/UW-3/Cx)	288
+O84441	ISPF_CHLTR	reviewed	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	ispF CT_434	Chlamydia trachomatis (strain D/UW-3/Cx)	178
+O84060	ISPG_CHLTR	reviewed	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (EC 1.17.7.1) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)	ispG gcpE CT_057	Chlamydia trachomatis (strain D/UW-3/Cx)	602
+O84867	ISPH_CHLTR	reviewed	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	ispH lytB CT_859	Chlamydia trachomatis (strain D/UW-3/Cx)	307
+O84456	ISPT_CHLTR	reviewed	Isoprenyl transferase (EC 2.5.1.-)	uppS CT_450	Chlamydia trachomatis (strain D/UW-3/Cx)	253
+O84130	KAD_CHLTR	reviewed	Adenylate kinase (AK) (EC 2.7.4.3) (ATP-AMP transphosphorylase) (ATP:AMP phosphotransferase) (Adenylate monophosphate kinase)	adk CT_128	Chlamydia trachomatis (strain D/UW-3/Cx)	245
+O84458	KCY_CHLTR	reviewed	Cytidylate kinase (CK) (EC 2.7.4.25) (Cytidine monophosphate kinase) (CMP kinase)	cmk CT_452	Chlamydia trachomatis (strain D/UW-3/Cx)	216
+P0CD74	KDSA_CHLTR	reviewed	2-dehydro-3-deoxyphosphooctonate aldolase (EC 2.5.1.55) (3-deoxy-D-manno-octulosonic acid 8-phosphate synthase) (KDO-8-phosphate synthase) (KDO 8-P synthase) (KDOPS) (Phospho-2-dehydro-3-deoxyoctonate aldolase)	kdsA CT_655	Chlamydia trachomatis (strain D/UW-3/Cx)	269
+P0CD75	KDSB_CHLTR	reviewed	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38) (CMP-2-keto-3-deoxyoctulosonic acid synthase) (CKS) (CMP-KDO synthase)	kdsB CT_182	Chlamydia trachomatis (strain D/UW-3/Cx)	254
+P0CE14	KDTA_CHLTR	reviewed	3-deoxy-D-manno-octulosonic acid transferase (Kdo transferase) (EC 2.4.99.12) (EC 2.4.99.13) (EC 2.4.99.14) (Kdo(2)-lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Kdo-lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase) (Trifunctional Kdo transferase)	waaA gseA kdtA CT_208	Chlamydia trachomatis (strain D/UW-3/Cx)	431
+O84033	KGUA_CHLTR	reviewed	Guanylate kinase (EC 2.7.4.8) (GMP kinase)	gmk CT_030	Chlamydia trachomatis (strain D/UW-3/Cx)	205
+P0CE21	KPYK_CHLTR	reviewed	Pyruvate kinase (PK) (EC 2.7.1.40)	pyk pykF CT_332	Chlamydia trachomatis (strain D/UW-3/Cx)	485
+O84191	KTHY_CHLTR	reviewed	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	tmk CT_188	Chlamydia trachomatis (strain D/UW-3/Cx)	203
+O84067	LEPA_CHLTR	reviewed	Elongation factor 4 (EF-4) (EC 3.6.5.n1) (Ribosomal back-translocase LepA)	lepA CT_064	Chlamydia trachomatis (strain D/UW-3/Cx)	602
+O84254	LGT_CHLTR	reviewed	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)	lgt CT_252	Chlamydia trachomatis (strain D/UW-3/Cx)	272
+O84562	LIPA_CHLTR	reviewed	Lipoyl synthase (EC 2.8.1.8) (Lip-syn) (LS) (Lipoate synthase) (Lipoic acid synthase) (Sulfur insertion protein LipA)	lipA CT_558	Chlamydia trachomatis (strain D/UW-3/Cx)	311
+O84539	LNT_CHLTR	reviewed	Apolipoprotein N-acyltransferase (ALP N-acyltransferase) (EC 2.3.1.-)	lnt CT_534	Chlamydia trachomatis (strain D/UW-3/Cx)	542
+O84348	LON_CHLTR	reviewed	Lon protease (EC 3.4.21.53) (ATP-dependent protease La)	lon CT_344	Chlamydia trachomatis (strain D/UW-3/Cx)	819
+O84536	LPXA_CHLTR	reviewed	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (UDP-N-acetylglucosamine acyltransferase) (EC 2.3.1.129)	lpxA CT_531	Chlamydia trachomatis (strain D/UW-3/Cx)	280
+O84416	LPXB_CHLTR	reviewed	Lipid-A-disaccharide synthase (EC 2.4.1.182)	lpxB CT_411	Chlamydia trachomatis (strain D/UW-3/Cx)	607
+O84538	LPXC_CHLTR	reviewed	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.-) (UDP-3-O-acyl-GlcNAc deacetylase)	lpxC CT_533	Chlamydia trachomatis (strain D/UW-3/Cx)	286
+P0CD76	LPXD_CHLTR	reviewed	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.-)	lpxD CT_243	Chlamydia trachomatis (strain D/UW-3/Cx)	354
+O84407	LPXK_CHLTR	reviewed	Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130) (Lipid A 4'-kinase)	lpxK CT_402	Chlamydia trachomatis (strain D/UW-3/Cx)	369
+O84413	LSPA_CHLTR	reviewed	Lipoprotein signal peptidase (EC 3.4.23.36) (Prolipoprotein signal peptidase) (Signal peptidase II) (SPase II)	lspA CT_408	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+Q46403	LTUA_CHLTR	reviewed	Late transcription unit A protein	ltuA CT_377	Chlamydia trachomatis (strain D/UW-3/Cx)	46
+Q46404	LTUB_CHLTR	reviewed	Late transcription unit B protein	ltuB CT_080	Chlamydia trachomatis (strain D/UW-3/Cx)	97
+O84089	MALQ_CHLTR	reviewed	4-alpha-glucanotransferase (EC 2.4.1.25) (Amylomaltase) (Disproportionating enzyme) (D-enzyme)	malQ CT_087	Chlamydia trachomatis (strain D/UW-3/Cx)	527
+O84859	MAP1_CHLTR	reviewed	Methionine aminopeptidase (MAP) (MetAP) (EC 3.4.11.18) (Peptidase M)	map CT_851	Chlamydia trachomatis (strain D/UW-3/Cx)	291
+O84381	MDH_CHLTR	reviewed	Malate dehydrogenase (EC 1.1.1.37)	mdh mdhC CT_376	Chlamydia trachomatis (strain D/UW-3/Cx)	326
+O84771	MIAA_CHLTR	reviewed	tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)	miaA CT_766	Chlamydia trachomatis (strain D/UW-3/Cx)	314
+P26623	MIP_CHLTR	reviewed	Peptidyl-prolyl cis-trans isomerase Mip (PPIase) (EC 5.2.1.8) (27 kDa membrane protein) (Chl-Mip) (Rotamase)	mip CT_541	Chlamydia trachomatis (strain D/UW-3/Cx)	243
+O84289	MNMA_CHLTR	reviewed	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.-)	mnmA trmU CT_287	Chlamydia trachomatis (strain D/UW-3/Cx)	358
+O84704	MNME_CHLTR	reviewed	tRNA modification GTPase MnmE (EC 3.6.-.-)	mnmE thdF trmE CT_698	Chlamydia trachomatis (strain D/UW-3/Cx)	444
+P0CD73	MNMG_CHLTR	reviewed	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (Glucose-inhibited division protein A)	mnmG gidA CT_498	Chlamydia trachomatis (strain D/UW-3/Cx)	610
+Q46409	MOMPD_CHLTR	reviewed	Major outer membrane porin, serovar D (MOMP)	ompA omp1 CT_681	Chlamydia trachomatis (strain D/UW-3/Cx)	393
+O84762	MRAY_CHLTR	reviewed	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13) (UDP-MurNAc-pentapeptide phosphotransferase)	mraY CT_757	Chlamydia trachomatis (strain D/UW-3/Cx)	336
+O84767	MUDD_CHLTR	reviewed	Bifunctional enzyme MurC/Ddl [Includes: UDP-N-acetylmuramate--L-alanine ligase (EC 6.3.2.8) (UDP-N-acetylmuramoyl-L-alanine synthetase); D-alanine--D-alanine ligase (EC 6.3.2.4) (D-Ala-D-Ala ligase) (D-alanylalanine synthetase)]	murC/ddl CT_762	Chlamydia trachomatis (strain D/UW-3/Cx)	803
+O84461	MURA_CHLTR	reviewed	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7) (Enoylpyruvate transferase) (UDP-N-acetylglucosamine enolpyruvyl transferase) (EPT)	murA CT_455	Chlamydia trachomatis (strain D/UW-3/Cx)	444
+P0CD77	MURB_CHLTR	reviewed	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98) (UDP-N-acetylmuramate dehydrogenase)	murB CT_831	Chlamydia trachomatis (strain D/UW-3/Cx)	291
+O84763	MURD_CHLTR	reviewed	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9) (D-glutamic acid-adding enzyme) (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase)	murD CT_758	Chlamydia trachomatis (strain D/UW-3/Cx)	416
+O84271	MURE_CHLTR	reviewed	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase (EC 6.3.2.13) (Meso-A2pm-adding enzyme) (Meso-diaminopimelate-adding enzyme) (UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase) (UDP-MurNAc-tripeptide synthetase) (UDP-N-acetylmuramyl-tripeptide synthetase)	murE CT_269	Chlamydia trachomatis (strain D/UW-3/Cx)	483
+O84766	MURG_CHLTR	reviewed	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227) (Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase)	murG CT_761	Chlamydia trachomatis (strain D/UW-3/Cx)	352
+Q46378	MURJ_CHLTR	reviewed	Protein MurJ homolog	murJ mviN CT_624	Chlamydia trachomatis (strain D/UW-3/Cx)	536
+O84579	MUTL_CHLTR	reviewed	DNA mismatch repair protein MutL	mutL CT_575	Chlamydia trachomatis (strain D/UW-3/Cx)	576
+O84797	MUTS_CHLTR	reviewed	DNA mismatch repair protein MutS	mutS CT_792	Chlamydia trachomatis (strain D/UW-3/Cx)	820
+O84508	NDK_CHLTR	reviewed	Nucleoside diphosphate kinase (NDK) (NDP kinase) (EC 2.7.4.6) (Nucleoside-2-P kinase)	ndk CT_500	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+O84639	NQRA_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit A (Na(+)-NQR subunit A) (Na(+)-translocating NQR subunit A) (EC 1.6.5.-) (NQR complex subunit A) (NQR-1 subunit A)	nqrA nqr1 CT_634	Chlamydia trachomatis (strain D/UW-3/Cx)	465
+O84280	NQRB_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit B (Na(+)-NQR subunit B) (Na(+)-translocating NQR subunit B) (EC 1.6.5.-) (NQR complex subunit B) (NQR-1 subunit B)	nqrB nqr2 CT_278	Chlamydia trachomatis (strain D/UW-3/Cx)	503
+O84281	NQRC_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit C (Na(+)-NQR subunit C) (Na(+)-translocating NQR subunit C) (EC 1.6.5.-) (NQR complex subunit C) (NQR-1 subunit C)	nqrC nqr3 CT_279	Chlamydia trachomatis (strain D/UW-3/Cx)	316
+O84282	NQRD_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit D (Na(+)-NQR subunit D) (Na(+)-translocating NQR subunit D) (EC 1.6.5.-) (NQR complex subunit D) (NQR-1 subunit D)	nqrD nqr4 CT_280	Chlamydia trachomatis (strain D/UW-3/Cx)	213
+O84283	NQRE_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit E (Na(+)-NQR subunit E) (Na(+)-translocating NQR subunit E) (EC 1.6.5.-) (NQR complex subunit E) (NQR-1 subunit E)	nqrE nqr5 CT_281	Chlamydia trachomatis (strain D/UW-3/Cx)	244
+O84745	NQRF_CHLTR	reviewed	Probable Na(+)-translocating NADH-quinone reductase subunit F (Na(+)-NQR subunit F) (Na(+)-translocating NQR subunit F) (EC 1.6.5.-) (NQR complex subunit F) (NQR-1 subunit F)	nqrF nqr6 CT_740	Chlamydia trachomatis (strain D/UW-3/Cx)	431
+O84411	NRDR_CHLTR	reviewed	Transcriptional repressor NrdR	nrdR CT_406	Chlamydia trachomatis (strain D/UW-3/Cx)	154
+O84611	NTPA_CHLTR	reviewed	Non-canonical purine NTP pyrophosphatase (EC 3.6.1.19) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)	CT_606	Chlamydia trachomatis (strain D/UW-3/Cx)	209
+O84839	NUSB_CHLTR	reviewed	N utilization substance protein B homolog (Protein NusB)	nusB CT_832	Chlamydia trachomatis (strain D/UW-3/Cx)	168
+O84322	NUSG_CHLTR	reviewed	Transcription termination/antitermination protein NusG	nusG CT_320	Chlamydia trachomatis (strain D/UW-3/Cx)	182
+O84423	OBG_CHLTR	reviewed	GTPase obg (GTP-binding protein obg)	obg CT_418	Chlamydia trachomatis (strain D/UW-3/Cx)	335
+P0CC05	OMCA_CHLTR	reviewed	Small cysteine-rich outer membrane protein OmcA (Small-CRP) (9 kDa cysteine-rich lipoprotein) (9kDa-CRP)	omcA omp2A omp3 CT_444	Chlamydia trachomatis (strain D/UW-3/Cx)	88
+P0CC04	OMCBD_CHLTR	reviewed	Large cysteine-rich periplasmic protein OmcB (Large-CRP) (60 kDa cysteine-rich OMP) (60 kDa outer membrane protein) (Cysteine-rich outer membrane protein) (CRP)	omcB omp2 omp2B CT_443	Chlamydia trachomatis (strain D/UW-3/Cx)	547
+P38006	OMP2_CHLTR	reviewed	Outer membrane protein B	ompB porB CT_713	Chlamydia trachomatis (strain D/UW-3/Cx)	340
+O84573	OMPX_CHLTR	reviewed	Putative outer membrane protein CT_569	CT_569	Chlamydia trachomatis (strain D/UW-3/Cx)	124
+O84376	OMPY_CHLTR	reviewed	Putative outer membrane protein CT_371	CT_371	Chlamydia trachomatis (strain D/UW-3/Cx)	261
+O84222	PAAD_CHLTR	reviewed	Probable aromatic acid decarboxylase (EC 4.1.1.-)	CT_220	Chlamydia trachomatis (strain D/UW-3/Cx)	192
+O84586	PARA_CHLTR	reviewed	ParA family protein CT_582	CT_582	Chlamydia trachomatis (strain D/UW-3/Cx)	255
+O84694	PARB_CHLTR	reviewed	Probable chromosome-partitioning protein ParB	parB CT_688	Chlamydia trachomatis (strain D/UW-3/Cx)	281
+O84716	PCKG_CHLTR	reviewed	Phosphoenolpyruvate carboxykinase [GTP] (PEP carboxykinase) (PEPCK) (EC 4.1.1.32) (Phosphoenolpyruvate carboxylase)	pckG CT_710	Chlamydia trachomatis (strain D/UW-3/Cx)	599
+P0CD78	PGK_CHLTR	reviewed	Phosphoglycerate kinase (EC 2.7.2.3)	pgk CT_693	Chlamydia trachomatis (strain D/UW-3/Cx)	403
+O84250	PHSG_CHLTR	reviewed	Glycogen phosphorylase (EC 2.4.1.1)	glgP CT_248	Chlamydia trachomatis (strain D/UW-3/Cx)	814
+O84147	PKN1_CHLTR	reviewed	Serine/threonine-protein kinase pkn1 (EC 2.7.11.1)	pkn1 CT_145	Chlamydia trachomatis (strain D/UW-3/Cx)	614
+O84303	PKND_CHLTR	reviewed	Serine/threonine-protein kinase PknD (EC 2.7.11.1)	pknD CT_301	Chlamydia trachomatis (strain D/UW-3/Cx)	934
+O84817	PLSX_CHLTR	reviewed	Phosphate acyltransferase (EC 2.3.1.n2) (Acyl-ACP phosphotransacylase) (Acyl-[acyl-carrier-protein]--phosphate acyltransferase) (Phosphate-acyl-ACP acyltransferase)	plsX CT_811	Chlamydia trachomatis (strain D/UW-3/Cx)	321
+O84417	PMPA_CHLTR	reviewed	Probable outer membrane protein PmpA (Polymorphic membrane protein A)	pmpA CT_412	Chlamydia trachomatis (strain D/UW-3/Cx)	975
+O84418	PMPB_CHLTR	reviewed	Probable outer membrane protein PmpB (Polymorphic membrane protein B)	pmpB CT_413	Chlamydia trachomatis (strain D/UW-3/Cx)	1754
+O84419	PMPC_CHLTR	reviewed	Probable outer membrane protein PmpC (Polymorphic membrane protein C)	pmpC CT_414	Chlamydia trachomatis (strain D/UW-3/Cx)	1770
+O84818	PMPD_CHLTR	reviewed	Probable outer membrane protein PmpD (Polymorphic membrane protein D)	pmpD CT_812	Chlamydia trachomatis (strain D/UW-3/Cx)	1531
+O84877	PMPE_CHLTR	reviewed	Probable outer membrane protein PmpE (Polymorphic membrane protein E)	pmpE CT_869	Chlamydia trachomatis (strain D/UW-3/Cx)	964
+P38008	PMPF_CHLTR	reviewed	Probable outer membrane protein PmpF (Polymorphic membrane protein F)	pmpF CT_870	Chlamydia trachomatis (strain D/UW-3/Cx)	1034
+O84879	PMPG_CHLTR	reviewed	Probable outer membrane protein PmpG (Polymorphic membrane protein G)	pmpG CT_871	Chlamydia trachomatis (strain D/UW-3/Cx)	1013
+O84880	PMPH_CHLTR	reviewed	Probable outer membrane protein PmpH (Polymorphic membrane protein H)	pmpH CT_872	Chlamydia trachomatis (strain D/UW-3/Cx)	1016
+O84882	PMPI_CHLTR	reviewed	Probable outer membrane protein PmpI (Polymorphic membrane protein I)	pmpI CT_874	Chlamydia trachomatis (strain D/UW-3/Cx)	878
+O84849	PNP_CHLTR	reviewed	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8) (Polynucleotide phosphorylase) (PNPase)	pnp CT_842	Chlamydia trachomatis (strain D/UW-3/Cx)	695
+O84616	PQQCL_CHLTR	reviewed	PqqC-like protein (Chlamydia protein associating with death domains) (CADD)	CT_610	Chlamydia trachomatis (strain D/UW-3/Cx)	231
+O84783	PRIA_CHLTR	reviewed	Primosomal protein N' (EC 3.6.4.-) (ATP-dependent helicase PriA) (Replication factor Y)	priA CT_778	Chlamydia trachomatis (strain D/UW-3/Cx)	753
+O84799	PRIM_CHLTR	reviewed	DNA primase (EC 2.7.7.-)	dnaG CT_794	Chlamydia trachomatis (strain D/UW-3/Cx)	595
+O84027	PRMC_CHLTR	reviewed	Release factor glutamine methyltransferase (RF MTase) (EC 2.1.1.n16) (N5-glutamine methyltransferase PrmC) (Protein-(glutamine-N5) MTase PrmC) (Protein-glutamine N-methyltransferase PrmC)	prmC CT_024	Chlamydia trachomatis (strain D/UW-3/Cx)	290
+P0CD79	PSD_CHLTR	reviewed	Phosphatidylserine decarboxylase proenzyme (EC 4.1.1.65) [Cleaved into: Phosphatidylserine decarboxylase alpha chain; Phosphatidylserine decarboxylase beta chain]	psd psdD CT_699	Chlamydia trachomatis (strain D/UW-3/Cx)	301
+O84340	PT1_CHLTR	reviewed	Phosphoenolpyruvate-protein phosphotransferase (EC 2.7.3.9) (Phosphotransferase system, enzyme I)	ptsI CT_336	Chlamydia trachomatis (strain D/UW-3/Cx)	571
+O84341	PTHP_CHLTR	reviewed	Phosphocarrier protein HPr (EC 2.7.11.-) (Histidine-containing protein)	ptsH CT_337	Chlamydia trachomatis (strain D/UW-3/Cx)	109
+O84806	PTH_CHLTR	reviewed	Peptidyl-tRNA hydrolase (PTH) (EC 3.1.1.29)	pth CT_800	Chlamydia trachomatis (strain D/UW-3/Cx)	179
+Q59321	PYRG_CHLTR	reviewed	CTP synthase (EC 6.3.4.2) (CTP synthetase) (UTP--ammonia ligase)	pyrG CT_183	Chlamydia trachomatis (strain D/UW-3/Cx)	539
+O84685	PYRH_CHLTR	reviewed	Uridylate kinase (UK) (EC 2.7.4.22) (Uridine monophosphate kinase) (UMP kinase) (UMPK)	pyrH CT_678	Chlamydia trachomatis (strain D/UW-3/Cx)	245
+O84300	RADA_CHLTR	reviewed	DNA repair protein RadA homolog (DNA repair protein Sms homolog)	radA CT_298	Chlamydia trachomatis (strain D/UW-3/Cx)	454
+O84097	RBFA_CHLTR	reviewed	Ribosome-binding factor A	rbfA CT_095	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+P0CD80	RECA_CHLTR	reviewed	Protein RecA (Recombinase A)	recA CT_650	Chlamydia trachomatis (strain D/UW-3/Cx)	352
+O84077	RECF_CHLTR	reviewed	DNA replication and repair protein RecF	recF CT_074	Chlamydia trachomatis (strain D/UW-3/Cx)	365
+O84476	RECO_CHLTR	reviewed	DNA repair protein RecO (Recombination protein O)	recO CT_470	Chlamydia trachomatis (strain D/UW-3/Cx)	243
+O84243	RECR_CHLTR	reviewed	Recombination protein RecR	recR CT_240	Chlamydia trachomatis (strain D/UW-3/Cx)	200
+O84026	RF1_CHLTR	reviewed	Peptide chain release factor 1 (RF-1)	prfA CT_023	Chlamydia trachomatis (strain D/UW-3/Cx)	359
+O84465	RF2_CHLTR	reviewed	Peptide chain release factor 2 (RF-2)	prfB CT_459	Chlamydia trachomatis (strain D/UW-3/Cx)	369
+O84736	RIBBA_CHLTR	reviewed	Riboflavin biosynthesis protein RibBA [Includes: 3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12); GTP cyclohydrolase-2 (EC 3.5.4.25) (GTP cyclohydrolase II)]	ribBA ribA/ribB CT_731	Chlamydia trachomatis (strain D/UW-3/Cx)	424
+O84735	RIBD_CHLTR	reviewed	Riboflavin biosynthesis protein RibD [Includes: Diaminohydroxyphosphoribosylaminopyrimidine deaminase (DRAP deaminase) (EC 3.5.4.26) (Riboflavin-specific deaminase); 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193) (HTP reductase)]	ribD CT_730	Chlamydia trachomatis (strain D/UW-3/Cx)	375
+O84834	RIR1_CHLTR	reviewed	Ribonucleoside-diphosphate reductase subunit alpha (EC 1.17.4.1) (Ribonucleotide reductase)	nrdA CT_827	Chlamydia trachomatis (strain D/UW-3/Cx)	1047
+O84835	RIR2_CHLTR	reviewed	Ribonucleoside-diphosphate reductase subunit beta (EC 1.17.4.1) (Ribonucleotide reductase small subunit)	nrdB CT_828	Chlamydia trachomatis (strain D/UW-3/Cx)	346
+O84410	RISA_CHLTR	reviewed	Riboflavin synthase (RS) (EC 2.5.1.9)	ribE ribC CT_405	Chlamydia trachomatis (strain D/UW-3/Cx)	199
+O84737	RISB_CHLTR	reviewed	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	ribH ribE CT_732	Chlamydia trachomatis (strain D/UW-3/Cx)	157
+O84319	RL10_CHLTR	reviewed	50S ribosomal protein L10	rplJ rl10 CT_317	Chlamydia trachomatis (strain D/UW-3/Cx)	172
+O84321	RL11_CHLTR	reviewed	50S ribosomal protein L11	rplK rl11 CT_319	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+O84127	RL13_CHLTR	reviewed	50S ribosomal protein L13	rplM rl13 CT_125	Chlamydia trachomatis (strain D/UW-3/Cx)	150
+P0CD81	RL14_CHLTR	reviewed	50S ribosomal protein L14	rplN rl14 CT_518	Chlamydia trachomatis (strain D/UW-3/Cx)	122
+P0CD82	RL15_CHLTR	reviewed	50S ribosomal protein L15	rplO rl15 CT_511	Chlamydia trachomatis (strain D/UW-3/Cx)	144
+P0CD83	RL16_CHLTR	reviewed	50S ribosomal protein L16	rplP rl16 CT_521	Chlamydia trachomatis (strain D/UW-3/Cx)	138
+P0CD84	RL17_CHLTR	reviewed	50S ribosomal protein L17	rplQ rl17 CT_506	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+P0CD85	RL18_CHLTR	reviewed	50S ribosomal protein L18	rplR rl18 CT_513	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+O84031	RL19_CHLTR	reviewed	50S ribosomal protein L19	rplS rl19 CT_028	Chlamydia trachomatis (strain D/UW-3/Cx)	121
+O84320	RL1_CHLTR	reviewed	50S ribosomal protein L1	rplA rl1 CT_318	Chlamydia trachomatis (strain D/UW-3/Cx)	232
+O84842	RL20_CHLTR	reviewed	50S ribosomal protein L20	rplT rl20 CT_835	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+O84425	RL21_CHLTR	reviewed	50S ribosomal protein L21	rplU rl21 CT_420	Chlamydia trachomatis (strain D/UW-3/Cx)	107
+O84528	RL22_CHLTR	reviewed	50S ribosomal protein L22	rplV rl22 CT_523	Chlamydia trachomatis (strain D/UW-3/Cx)	111
+O84531	RL23_CHLTR	reviewed	50S ribosomal protein L23	rplW rl23 CT_526	Chlamydia trachomatis (strain D/UW-3/Cx)	111
+P0CD86	RL24_CHLTR	reviewed	50S ribosomal protein L24	rplX rl24 CT_517	Chlamydia trachomatis (strain D/UW-3/Cx)	111
+O84805	RL25_CHLTR	reviewed	50S ribosomal protein L25 (General stress protein CTC)	rplY ctc CT_799	Chlamydia trachomatis (strain D/UW-3/Cx)	185
+P66123	RL27_CHLTR	reviewed	50S ribosomal protein L27	rpmA rl27 CT_419	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+O84088	RL28_CHLTR	reviewed	50S ribosomal protein L28	rpmB rl28 CT_086	Chlamydia trachomatis (strain D/UW-3/Cx)	89
+P0CD87	RL29_CHLTR	reviewed	50S ribosomal protein L29	rpmC rl29 CT_520	Chlamydia trachomatis (strain D/UW-3/Cx)	72
+O84530	RL2_CHLTR	reviewed	50S ribosomal protein L2	rplB rl2 CT_525	Chlamydia trachomatis (strain D/UW-3/Cx)	284
+O84025	RL31B_CHLTR	reviewed	50S ribosomal protein L31 type B	rpmE2 rl31 CT_022	Chlamydia trachomatis (strain D/UW-3/Cx)	108
+O84816	RL32_CHLTR	reviewed	50S ribosomal protein L32	rpmF rl32 CT_810	Chlamydia trachomatis (strain D/UW-3/Cx)	59
+O84152	RL33_CHLTR	reviewed	50S ribosomal protein L33	rpmG rl33 CT_150	Chlamydia trachomatis (strain D/UW-3/Cx)	52
+O84790	RL34_CHLTR	reviewed	50S ribosomal protein L34	rpmH rl34 CT_785	Chlamydia trachomatis (strain D/UW-3/Cx)	45
+P66267	RL35_CHLTR	reviewed	50S ribosomal protein L35	rpmI rl35 CT_834	Chlamydia trachomatis (strain D/UW-3/Cx)	64
+P66288	RL36_CHLTR	reviewed	50S ribosomal protein L36	rpmJ rl36 CT_786	Chlamydia trachomatis (strain D/UW-3/Cx)	45
+O84533	RL3_CHLTR	reviewed	50S ribosomal protein L3	rplC rl3 CT_528	Chlamydia trachomatis (strain D/UW-3/Cx)	221
+O84532	RL4_CHLTR	reviewed	50S ribosomal protein L4	rplD rl4 CT_527	Chlamydia trachomatis (strain D/UW-3/Cx)	222
+P0CD88	RL5_CHLTR	reviewed	50S ribosomal protein L5	rplE rl5 CT_516	Chlamydia trachomatis (strain D/UW-3/Cx)	180
+P0CE01	RL6_CHLTR	reviewed	50S ribosomal protein L6	rplF rl6 CT_514	Chlamydia trachomatis (strain D/UW-3/Cx)	183
+O84318	RL7_CHLTR	reviewed	50S ribosomal protein L7/L12	rplL rl7 CT_316	Chlamydia trachomatis (strain D/UW-3/Cx)	130
+O84809	RL9_CHLTR	reviewed	50S ribosomal protein L9	rplI rl9 CT_803	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+O84832	RMUC_CHLTR	reviewed	DNA recombination protein RmuC homolog	rmuC CT_825	Chlamydia trachomatis (strain D/UW-3/Cx)	427
+O84299	RNC_CHLTR	reviewed	Ribonuclease 3 (EC 3.1.26.3) (Ribonuclease III) (RNase III)	rnc CT_297	Chlamydia trachomatis (strain D/UW-3/Cx)	231
+O84032	RNH2_CHLTR	reviewed	Ribonuclease HII (RNase HII) (EC 3.1.26.4)	rnhB CT_029	Chlamydia trachomatis (strain D/UW-3/Cx)	217
+O84011	RNH3_CHLTR	reviewed	Ribonuclease HIII (RNase HIII) (EC 3.1.26.4)	rnhC CT_008	Chlamydia trachomatis (strain D/UW-3/Cx)	300
+O84789	RNPA_CHLTR	reviewed	Ribonuclease P protein component (RNase P protein) (RNaseP protein) (EC 3.1.26.5) (Protein C5)	rnpA CT_784	Chlamydia trachomatis (strain D/UW-3/Cx)	120
+O84402	RNR_CHLTR	reviewed	Ribonuclease R (RNase R) (EC 3.1.13.1) (VacB protein homolog)	rnr vacB CT_397	Chlamydia trachomatis (strain D/UW-3/Cx)	694
+O84350	RNZ_CHLTR	reviewed	Ribonuclease Z (RNase Z) (EC 3.1.26.11) (tRNA 3 endonuclease) (tRNase Z)	rnz CT_346	Chlamydia trachomatis (strain D/UW-3/Cx)	304
+O84123	RPE_CHLTR	reviewed	Ribulose-phosphate 3-epimerase (EC 5.1.3.1) (Pentose-5-phosphate 3-epimerase) (PPE) (R5P3E)	rpe CT_121	Chlamydia trachomatis (strain D/UW-3/Cx)	233
+O84215	RPIA_CHLTR	reviewed	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	rpiA CT_213	Chlamydia trachomatis (strain D/UW-3/Cx)	242
+P0CE08	RPOA_CHLTR	reviewed	DNA-directed RNA polymerase subunit alpha (RNAP subunit alpha) (EC 2.7.7.6) (RNA polymerase subunit alpha) (Transcriptase subunit alpha)	rpoA CT_507	Chlamydia trachomatis (strain D/UW-3/Cx)	377
+P0CE09	RPOB_CHLTR	reviewed	DNA-directed RNA polymerase subunit beta (RNAP subunit beta) (EC 2.7.7.6) (RNA polymerase subunit beta) (Transcriptase subunit beta)	rpoB CT_315	Chlamydia trachomatis (strain D/UW-3/Cx)	1252
+O84316	RPOC_CHLTR	reviewed	DNA-directed RNA polymerase subunit beta' (RNAP subunit beta') (EC 2.7.7.6) (RNA polymerase subunit beta') (Transcriptase subunit beta')	rpoC CT_314	Chlamydia trachomatis (strain D/UW-3/Cx)	1396
+O84684	RRF_CHLTR	reviewed	Ribosome-recycling factor (RRF) (Ribosome-releasing factor)	frr rrf CT_677	Chlamydia trachomatis (strain D/UW-3/Cx)	179
+P0CE02	RS10_CHLTR	reviewed	30S ribosomal protein S10	rpsJ rs10 CT_436	Chlamydia trachomatis (strain D/UW-3/Cx)	105
+P0CE03	RS11_CHLTR	reviewed	30S ribosomal protein S11	rpsK rs11 CT_508	Chlamydia trachomatis (strain D/UW-3/Cx)	132
+P66370	RS12_CHLTR	reviewed	30S ribosomal protein S12	rpsL rs12 CT_439	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+P0CE04	RS13_CHLTR	reviewed	30S ribosomal protein S13	rpsM rs13 CT_509	Chlamydia trachomatis (strain D/UW-3/Cx)	122
+O84792	RS14_CHLTR	reviewed	30S ribosomal protein S14	rpsN rs14 CT_787	Chlamydia trachomatis (strain D/UW-3/Cx)	101
+P66427	RS15_CHLTR	reviewed	30S ribosomal protein S15	rpsO rs15 CT_843	Chlamydia trachomatis (strain D/UW-3/Cx)	89
+O84029	RS16_CHLTR	reviewed	30S ribosomal protein S16	rpsP rs16 CT_026	Chlamydia trachomatis (strain D/UW-3/Cx)	116
+P0CE05	RS17_CHLTR	reviewed	30S ribosomal protein S17	rpsQ rs17 CT_519	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+O84808	RS18_CHLTR	reviewed	30S ribosomal protein S18	rpsR rs18 CT_802	Chlamydia trachomatis (strain D/UW-3/Cx)	81
+P66480	RS19_CHLTR	reviewed	30S ribosomal protein S19	rpsS rs19 CT_524	Chlamydia trachomatis (strain D/UW-3/Cx)	88
+O84100	RS1_CHLTR	reviewed	30S ribosomal protein S1	rpsA rs1 CT_098	Chlamydia trachomatis (strain D/UW-3/Cx)	569
+O84622	RS20_CHLTR	reviewed	30S ribosomal protein S20	rpsT rs20 CT_617	Chlamydia trachomatis (strain D/UW-3/Cx)	98
+P66516	RS21_CHLTR	reviewed	30S ribosomal protein S21	rpsU rs21 CT_342	Chlamydia trachomatis (strain D/UW-3/Cx)	58
+O84687	RS2_CHLTR	reviewed	30S ribosomal protein S2	rpsB rs2 CT_680	Chlamydia trachomatis (strain D/UW-3/Cx)	282
+O84527	RS3_CHLTR	reviewed	30S ribosomal protein S3	rpsC rs3 CT_522	Chlamydia trachomatis (strain D/UW-3/Cx)	224
+O84631	RS4_CHLTR	reviewed	30S ribosomal protein S4	rpsD rs4 CT_626	Chlamydia trachomatis (strain D/UW-3/Cx)	209
+P0A4C8	RS5_CHLTR	reviewed	30S ribosomal protein S5	rpsE rs5 CT_512	Chlamydia trachomatis (strain D/UW-3/Cx)	165
+O84807	RS6_CHLTR	reviewed	30S ribosomal protein S6	rpsF rs6 CT_801	Chlamydia trachomatis (strain D/UW-3/Cx)	112
+P0CE06	RS7_CHLTR	reviewed	30S ribosomal protein S7	rpsG rs7 CT_438	Chlamydia trachomatis (strain D/UW-3/Cx)	157
+P0CE07	RS8_CHLTR	reviewed	30S ribosomal protein S8	rpsH rs8 CT_515	Chlamydia trachomatis (strain D/UW-3/Cx)	133
+O84128	RS9_CHLTR	reviewed	30S ribosomal protein S9	rpsI rs9 CT_126	Chlamydia trachomatis (strain D/UW-3/Cx)	129
+O84358	RSMA_CHLTR	reviewed	Ribosomal RNA small subunit methyltransferase A (EC 2.1.1.182) (16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase) (16S rRNA dimethyladenosine transferase) (16S rRNA dimethylase) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase)	rsmA kgsA ksgA CT_354	Chlamydia trachomatis (strain D/UW-3/Cx)	277
+O84274	RSMH_CHLTR	reviewed	Ribosomal RNA small subunit methyltransferase H (EC 2.1.1.199) (16S rRNA m(4)C1402 methyltransferase) (rRNA (cytosine-N(4)-)-methyltransferase RsmH)	rsmH mraW CT_272	Chlamydia trachomatis (strain D/UW-3/Cx)	300
+O84509	RUVA_CHLTR	reviewed	Holliday junction ATP-dependent DNA helicase RuvA (EC 3.6.4.12)	ruvA CT_501	Chlamydia trachomatis (strain D/UW-3/Cx)	200
+O84044	RUVB_CHLTR	reviewed	Holliday junction ATP-dependent DNA helicase RuvB (EC 3.6.4.12)	ruvB CT_040	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+O84510	RUVC_CHLTR	reviewed	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4) (Holliday junction nuclease RuvC) (Holliday junction resolvase RuvC)	ruvC CT_502	Chlamydia trachomatis (strain D/UW-3/Cx)	170
+Q46370	RUVX_CHLTR	reviewed	Putative Holliday junction resolvase (EC 3.1.-.-)	CT_184	Chlamydia trachomatis (strain D/UW-3/Cx)	148
+O84584	SAMHT_CHLTR	reviewed	S-adenosylmethionine/S-adenosylhomocysteine transporter (SAM/SAH transporter) (SAMHT)	CT_580	Chlamydia trachomatis (strain D/UW-3/Cx)	327
+O84707	SECA_CHLTR	reviewed	Protein translocase subunit SecA	secA CT_701	Chlamydia trachomatis (strain D/UW-3/Cx)	969
+P28539	SECY_CHLTR	reviewed	Protein translocase subunit SecY	secY CT_510	Chlamydia trachomatis (strain D/UW-3/Cx)	457
+P18333	SIGA_CHLTR	reviewed	RNA polymerase sigma factor SigA (Sigma-66) (Sigma-70) (Sigma-A)	sigA rpoD CT_615	Chlamydia trachomatis (strain D/UW-3/Cx)	571
+Q9ZN58	SKPL_CHLTR	reviewed	Skp-like protein	CT_242	Chlamydia trachomatis (strain D/UW-3/Cx)	173
+O84296	SODM_CHLTR	reviewed	Superoxide dismutase [Mn] (EC 1.15.1.1)	sodA sodM CT_294	Chlamydia trachomatis (strain D/UW-3/Cx)	206
+O84449	SRPD_CHLTR	reviewed	Sulfur-rich protein, serovar D (15 kDa cysteine-rich outer membrane protein) (Cysteine-rich protein A)	srp crpA CT_442	Chlamydia trachomatis (strain D/UW-3/Cx)	150
+O84048	SSB_CHLTR	reviewed	Single-stranded DNA-binding protein (SSB) (Helix-destabilizing protein)	ssb CT_044	Chlamydia trachomatis (strain D/UW-3/Cx)	157
+O84079	SSRP_CHLTR	reviewed	SsrA-binding protein	smpB CT_076	Chlamydia trachomatis (strain D/UW-3/Cx)	151
+O84828	SUCC_CHLTR	reviewed	Succinyl-CoA ligase [ADP-forming] subunit beta (EC 6.2.1.5) (Succinyl-CoA synthetase subunit beta) (SCS-beta)	sucC CT_821	Chlamydia trachomatis (strain D/UW-3/Cx)	386
+O84220	SURE_CHLTR	reviewed	5'-nucleotidase SurE (EC 3.1.3.5) (Nucleoside 5'-monophosphate phosphohydrolase)	surE CT_218	Chlamydia trachomatis (strain D/UW-3/Cx)	283
+O84754	SYA_CHLTR	reviewed	Alanine--tRNA ligase (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)	alaS CT_749	Chlamydia trachomatis (strain D/UW-3/Cx)	875
+O84787	SYC_CHLTR	reviewed	Cysteine--tRNA ligase (EC 6.1.1.16) (Cysteinyl-tRNA synthetase) (CysRS)	cysS CT_782	Chlamydia trachomatis (strain D/UW-3/Cx)	477
+O84546	SYD_CHLTR	reviewed	Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)	aspS CT_542	Chlamydia trachomatis (strain D/UW-3/Cx)	582
+O84451	SYE_CHLTR	reviewed	Glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS)	gltX CT_445	Chlamydia trachomatis (strain D/UW-3/Cx)	506
+O84843	SYFA_CHLTR	reviewed	Phenylalanine--tRNA ligase alpha subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase alpha subunit) (PheRS)	pheS CT_836	Chlamydia trachomatis (strain D/UW-3/Cx)	342
+O84481	SYFB_CHLTR	reviewed	Phenylalanine--tRNA ligase beta subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase beta subunit) (PheRS)	pheT CT_475	Chlamydia trachomatis (strain D/UW-3/Cx)	790
+P0CE22	SYG_CHLTR	reviewed	Glycine--tRNA ligase (Glycyl-tRNA synthetase) (GlyRS) (EC 6.1.1.14) [Includes: Glycine--tRNA ligase alpha subunit (Glycyl-tRNA synthetase alpha subunit); Glycine--tRNA ligase beta subunit (Glycyl-tRNA synthetase beta subunit)]	glyQS glyQ glyS CT_796	Chlamydia trachomatis (strain D/UW-3/Cx)	1003
+O84547	SYH_CHLTR	reviewed	Histidine--tRNA ligase (EC 6.1.1.21) (Histidyl-tRNA synthetase) (HisRS)	hisS CT_543	Chlamydia trachomatis (strain D/UW-3/Cx)	428
+O84022	SYI_CHLTR	reviewed	Isoleucine--tRNA ligase (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IleRS)	ileS CT_019	Chlamydia trachomatis (strain D/UW-3/Cx)	1036
+O84786	SYK_CHLTR	reviewed	Lysine--tRNA ligase (EC 6.1.1.6) (Lysyl-tRNA synthetase) (LysRS)	lysS CT_781	Chlamydia trachomatis (strain D/UW-3/Cx)	526
+O84211	SYL_CHLTR	reviewed	Leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)	leuS CT_209	Chlamydia trachomatis (strain D/UW-3/Cx)	819
+O84035	SYM_CHLTR	reviewed	Methionine--tRNA ligase (EC 6.1.1.10) (Methionyl-tRNA synthetase) (MetRS)	metG CT_032	Chlamydia trachomatis (strain D/UW-3/Cx)	550
+P36431	SYP_CHLTR	reviewed	Proline--tRNA ligase (EC 6.1.1.15) (Prolyl-tRNA synthetase) (ProRS)	proS CT_393	Chlamydia trachomatis (strain D/UW-3/Cx)	581
+O84460	SYR_CHLTR	reviewed	Arginine--tRNA ligase (EC 6.1.1.19) (Arginyl-tRNA synthetase) (ArgRS)	argS CT_454	Chlamydia trachomatis (strain D/UW-3/Cx)	563
+O84734	SYS_CHLTR	reviewed	Serine--tRNA ligase (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)	serS CT_729	Chlamydia trachomatis (strain D/UW-3/Cx)	428
+O84585	SYT_CHLTR	reviewed	Threonine--tRNA ligase (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS)	thrS CT_581	Chlamydia trachomatis (strain D/UW-3/Cx)	635
+O84304	SYV_CHLTR	reviewed	Valine--tRNA ligase (EC 6.1.1.9) (Valyl-tRNA synthetase) (ValRS)	valS CT_302	Chlamydia trachomatis (strain D/UW-3/Cx)	939
+O84589	SYW_CHLTR	reviewed	Tryptophan--tRNA ligase (EC 6.1.1.2) (Tryptophanyl-tRNA synthetase) (TrpRS)	trpS CT_585	Chlamydia trachomatis (strain D/UW-3/Cx)	346
+O84065	SYY_CHLTR	reviewed	Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)	tyrS CT_062	Chlamydia trachomatis (strain D/UW-3/Cx)	412
+O84315	TAL_CHLTR	reviewed	Transaldolase (EC 2.2.1.2)	tal CT_313	Chlamydia trachomatis (strain D/UW-3/Cx)	327
+O84462	TARP_CHLTR	reviewed	Translocated actin-recruiting phosphoprotein (Tarp protein)	tarP CT_456	Chlamydia trachomatis (strain D/UW-3/Cx)	1005
+O84196	TGT_CHLTR	reviewed	Queuine tRNA-ribosyltransferase (EC 2.4.2.29) (Guanine insertion enzyme) (tRNA-guanine transglycosylase)	tgt CT_193	Chlamydia trachomatis (strain D/UW-3/Cx)	372
+O84544	THIO_CHLTR	reviewed	Thioredoxin (Trx)	trxA CT_539	Chlamydia trachomatis (strain D/UW-3/Cx)	102
+O84713	TIG_CHLTR	reviewed	Trigger factor (TF) (EC 5.2.1.8) (PPIase)	tig CT_707	Chlamydia trachomatis (strain D/UW-3/Cx)	442
+O84847	TILS_CHLTR	reviewed	tRNA(Ile)-lysidine synthase (EC 6.3.4.19) (tRNA(Ile)-2-lysyl-cytidine synthase) (tRNA(Ile)-lysidine synthetase)	tilS CT_840	Chlamydia trachomatis (strain D/UW-3/Cx)	321
+O84068	TLC1_CHLTR	reviewed	ADP,ATP carrier protein 1 (ADP/ATP translocase 1)	tlcA CT_065	Chlamydia trachomatis (strain D/UW-3/Cx)	528
+O84502	TLC2_CHLTR	reviewed	ADP,ATP carrier protein 2 (ADP/ATP translocase 2)	tlcB CT_495	Chlamydia trachomatis (strain D/UW-3/Cx)	540
+O84604	TOLB_CHLTR	reviewed	Protein TolB	tolB CT_599	Chlamydia trachomatis (strain D/UW-3/Cx)	431
+O84332	TPIS_CHLTR	reviewed	Triosephosphate isomerase (TIM) (EC 5.3.1.1) (Triose-phosphate isomerase)	tpiA tpi CT_328	Chlamydia trachomatis (strain D/UW-3/Cx)	274
+O84836	TRMB_CHLTR	reviewed	tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33) (tRNA (guanine(46)-N(7))-methyltransferase) (tRNA(m7G46)-methyltransferase)	trmB CT_829	Chlamydia trachomatis (strain D/UW-3/Cx)	224
+O84030	TRMD_CHLTR	reviewed	tRNA (guanine-N(1)-)-methyltransferase (EC 2.1.1.228) (M1G-methyltransferase) (tRNA [GM37] methyltransferase)	trmD CT_027	Chlamydia trachomatis (strain D/UW-3/Cx)	352
+O84173	TRPA_CHLTR	reviewed	Tryptophan synthase alpha chain (EC 4.2.1.20)	trpA CT_171	Chlamydia trachomatis (strain D/UW-3/Cx)	253
+O84172	TRPB_CHLTR	reviewed	Tryptophan synthase beta chain (EC 4.2.1.20)	trpB CT_170	Chlamydia trachomatis (strain D/UW-3/Cx)	392
+O84331	TRPF_CHLTR	reviewed	N-(5'-phosphoribosyl)anthranilate isomerase (PRAI) (EC 5.3.1.24)	trpF CT_327	Chlamydia trachomatis (strain D/UW-3/Cx)	208
+O84171	TRPR_CHLTR	reviewed	Trp operon repressor homolog	trpR CT_169	Chlamydia trachomatis (strain D/UW-3/Cx)	94
+O84469	TRUA_CHLTR	reviewed	tRNA pseudouridine synthase A (EC 5.4.99.12) (tRNA pseudouridine(38-40) synthase) (tRNA pseudouridylate synthase I) (tRNA-uridine isomerase I)	truA CT_463	Chlamydia trachomatis (strain D/UW-3/Cx)	267
+O84096	TRUB_CHLTR	reviewed	tRNA pseudouridine synthase B (EC 5.4.99.25) (tRNA pseudouridine(55) synthase) (Psi55 synthase) (tRNA pseudouridylate synthase) (tRNA-uridine isomerase)	truB CT_094	Chlamydia trachomatis (strain D/UW-3/Cx)	241
+O84101	TRXB_CHLTR	reviewed	Thioredoxin reductase (TRXR) (EC 1.8.1.9)	trxB CT_099	Chlamydia trachomatis (strain D/UW-3/Cx)	312
+O84435	UBIE_CHLTR	reviewed	Demethylmenaquinone methyltransferase (EC 2.1.1.163) (Menaquinone biosynthesis methyltransferase ubiE)	ubiE CT_428	Chlamydia trachomatis (strain D/UW-3/Cx)	229
+O84548	UHPT_CHLTR	reviewed	Probable hexose phosphate transport protein	CT_544	Chlamydia trachomatis (strain D/UW-3/Cx)	456
+O84613	UNG_CHLTR	reviewed	Uracil-DNA glycosylase (UDG) (EC 3.2.2.27)	ung CT_607	Chlamydia trachomatis (strain D/UW-3/Cx)	229
+O84337	UVRA_CHLTR	reviewed	UvrABC system protein A (UvrA protein) (Excinuclease ABC subunit A)	uvrA CT_333	Chlamydia trachomatis (strain D/UW-3/Cx)	1786
+O84590	UVRB_CHLTR	reviewed	UvrABC system protein B (Protein UvrB) (Excinuclease ABC subunit B)	uvrB CT_586	Chlamydia trachomatis (strain D/UW-3/Cx)	668
+O84796	UVRC_CHLTR	reviewed	UvrABC system protein C (Protein UvrC) (Excinuclease ABC subunit C)	uvrC CT_791	Chlamydia trachomatis (strain D/UW-3/Cx)	598
+O84310	VATA_CHLTR	reviewed	V-type ATP synthase alpha chain (EC 3.6.3.14) (V-ATPase subunit A)	atpA CT_308	Chlamydia trachomatis (strain D/UW-3/Cx)	591
+O84309	VATB_CHLTR	reviewed	V-type ATP synthase beta chain (V-ATPase subunit B)	atpB CT_307	Chlamydia trachomatis (strain D/UW-3/Cx)	438
+O84308	VATD_CHLTR	reviewed	V-type ATP synthase subunit D (V-ATPase subunit D)	atpD CT_306	Chlamydia trachomatis (strain D/UW-3/Cx)	203
+O84312	VATE_CHLTR	reviewed	V-type ATP synthase subunit E (V-ATPase subunit E)	atpE CT_310	Chlamydia trachomatis (strain D/UW-3/Cx)	208
+O84307	VATI_CHLTR	reviewed	V-type ATP synthase subunit I (V-ATPase subunit I)	atpI CT_305	Chlamydia trachomatis (strain D/UW-3/Cx)	649
+O84351	XERC_CHLTR	reviewed	Tyrosine recombinase XerC	xerC CT_347	Chlamydia trachomatis (strain D/UW-3/Cx)	315
+O84872	XERD_CHLTR	reviewed	Tyrosine recombinase XerD	xerD CT_864	Chlamydia trachomatis (strain D/UW-3/Cx)	300
+O84008	Y005_CHLTR	reviewed	Uncharacterized protein CT_005	CT_005	Chlamydia trachomatis (strain D/UW-3/Cx)	363
+O84009	Y006_CHLTR	reviewed	Uncharacterized protein CT_006	CT_006	Chlamydia trachomatis (strain D/UW-3/Cx)	189
+O84010	Y007_CHLTR	reviewed	Uncharacterized protein CT_007	CT_007	Chlamydia trachomatis (strain D/UW-3/Cx)	316
+O84034	Y031_CHLTR	reviewed	Uncharacterized protein CT_031	CT_031	Chlamydia trachomatis (strain D/UW-3/Cx)	100
+O84038	Y035_CHLTR	reviewed	Uncharacterized protein CT_035	CT_035	Chlamydia trachomatis (strain D/UW-3/Cx)	257
+O84039	Y036_CHLTR	reviewed	Uncharacterized protein CT_036	CT_036	Chlamydia trachomatis (strain D/UW-3/Cx)	403
+O84045	Y041_CHLTR	reviewed	Uncharacterized protein CT_041	CT_041	Chlamydia trachomatis (strain D/UW-3/Cx)	270
+Q9S529	Y067_CHLTR	reviewed	Uncharacterized metal-binding lipoprotein CT_067	CT_067	Chlamydia trachomatis (strain D/UW-3/Cx)	326
+O84071	Y068_CHLTR	reviewed	Probable metal transport system ATP-binding protein CT_068	CT_068	Chlamydia trachomatis (strain D/UW-3/Cx)	259
+O84072	Y069_CHLTR	reviewed	Probable metal transport system membrane protein CT_069	CT_069	Chlamydia trachomatis (strain D/UW-3/Cx)	451
+O84073	Y070_CHLTR	reviewed	Probable metal transport system membrane protein CT_070	CT_070	Chlamydia trachomatis (strain D/UW-3/Cx)	318
+O84075	Y072_CHLTR	reviewed	Putative zinc metalloprotease CT_072 (EC 3.4.24.-)	CT_072	Chlamydia trachomatis (strain D/UW-3/Cx)	619
+O84087	Y085_CHLTR	reviewed	Uncharacterized protein CT_085	CT_085	Chlamydia trachomatis (strain D/UW-3/Cx)	579
+O84110	Y108_CHLTR	reviewed	UPF0135 protein CT_108	CT_108	Chlamydia trachomatis (strain D/UW-3/Cx)	251
+O84206	Y203_CHLTR	reviewed	Uncharacterized protein CT_203	CT_203	Chlamydia trachomatis (strain D/UW-3/Cx)	251
+O84213	Y211_CHLTR	reviewed	UPF0301 protein CT_211	CT_211	Chlamydia trachomatis (strain D/UW-3/Cx)	189
+O84275	Y273_CHLTR	reviewed	Uncharacterized protein CT_273	CT_273	Chlamydia trachomatis (strain D/UW-3/Cx)	188
+O84290	Y288_CHLTR	reviewed	Uncharacterized protein CT_288	CT_288	Chlamydia trachomatis (strain D/UW-3/Cx)	563
+O84311	Y309_CHLTR	reviewed	Uncharacterized protein CT_309	CT_309	Chlamydia trachomatis (strain D/UW-3/Cx)	266
+O84339	Y335_CHLTR	reviewed	Nucleoid-associated protein CT_335	CT_335	Chlamydia trachomatis (strain D/UW-3/Cx)	96
+O84353	Y349_CHLTR	reviewed	Maf-like protein CT_349	CT_349	Chlamydia trachomatis (strain D/UW-3/Cx)	196
+O84359	Y355_CHLTR	reviewed	Uncharacterized protein CT_355	CT_355	Chlamydia trachomatis (strain D/UW-3/Cx)	353
+O84391	Y386_CHLTR	reviewed	UPF0160 protein CT_386	CT_386	Chlamydia trachomatis (strain D/UW-3/Cx)	289
+O84393	Y388_CHLTR	reviewed	UPF0235 protein CT_388	CT_388	Chlamydia trachomatis (strain D/UW-3/Cx)	115
+P36427	Y392_CHLTR	reviewed	Uncharacterized protein CT_392 (ORFB)	CT_392	Chlamydia trachomatis (strain D/UW-3/Cx)	377
+O84404	Y399_CHLTR	reviewed	Uncharacterized protein CT_399	CT_399	Chlamydia trachomatis (strain D/UW-3/Cx)	328
+O84420	Y415_CHLTR	reviewed	Uncharacterized periplasmic metal-binding protein CT_415	CT_415	Chlamydia trachomatis (strain D/UW-3/Cx)	276
+O84421	Y416_CHLTR	reviewed	Probable metal transport system ATP-binding protein CT_416	CT_416	Chlamydia trachomatis (strain D/UW-3/Cx)	236
+O84422	Y417_CHLTR	reviewed	Probable metal transport system membrane protein CT_417	CT_417	Chlamydia trachomatis (strain D/UW-3/Cx)	293
+O84432	Y425_CHLTR	reviewed	Uncharacterized protein CT_425	CT_425	Chlamydia trachomatis (strain D/UW-3/Cx)	621
+O84436	Y429_CHLTR	reviewed	UPF0158 protein CT_429	CT_429	Chlamydia trachomatis (strain D/UW-3/Cx)	329
+O84452	Y446_CHLTR	reviewed	Uncharacterized protein CT_446 (EUO)	CT_446	Chlamydia trachomatis (strain D/UW-3/Cx)	183
+O84463	Y457_CHLTR	reviewed	Probable transcriptional regulatory protein CT_457	CT_457	Chlamydia trachomatis (strain D/UW-3/Cx)	238
+O84467	Y461_CHLTR	reviewed	Uncharacterized metallophosphoesterase CT_461 (EC 3.1.-.-)	CT_461	Chlamydia trachomatis (strain D/UW-3/Cx)	329
+O84480	Y474_CHLTR	reviewed	Uncharacterized protein CT_474	CT_474	Chlamydia trachomatis (strain D/UW-3/Cx)	309
+O84512	Y504_CHLTR	reviewed	Uncharacterized protein CT_504	CT_504	Chlamydia trachomatis (strain D/UW-3/Cx)	288
+O84540	Y535_CHLTR	reviewed	Uncharacterized acyl-CoA thioester hydrolase CT_535 (EC 3.1.2.-)	CT_535	Chlamydia trachomatis (strain D/UW-3/Cx)	160
+O84543	Y538_CHLTR	reviewed	Uncharacterized protein CT_538	CT_538	Chlamydia trachomatis (strain D/UW-3/Cx)	238
+O84583	Y579_CHLTR	reviewed	Protein CT_579	CT_579	Chlamydia trachomatis (strain D/UW-3/Cx)	439
+O84588	Y584_CHLTR	reviewed	Protein CT_584	CT_584	Chlamydia trachomatis (strain D/UW-3/Cx)	183
+O84621	Y616_CHLTR	reviewed	UPF0242 protein CT_616	CT_616	Chlamydia trachomatis (strain D/UW-3/Cx)	429
+O84632	Y627_CHLTR	reviewed	UPF0176 protein CT_627	CT_627	Chlamydia trachomatis (strain D/UW-3/Cx)	327
+O84637	Y632_CHLTR	reviewed	UPF0159 protein CT_632	CT_632	Chlamydia trachomatis (strain D/UW-3/Cx)	529
+O84640	Y635_CHLTR	reviewed	Protein CT_635	CT_635	Chlamydia trachomatis (strain D/UW-3/Cx)	144
+O84666	Y659_CHLTR	reviewed	UPF0109 protein CT_659	CT_659	Chlamydia trachomatis (strain D/UW-3/Cx)	78
+O84670	Y663_CHLTR	reviewed	Uncharacterized protein CT_663	CT_663	Chlamydia trachomatis (strain D/UW-3/Cx)	133
+O84672	Y665_CHLTR	reviewed	Uncharacterized protein CT_665	CT_665	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+O84673	Y666_CHLTR	reviewed	Uncharacterized protein CT_666	CT_666	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+O84678	Y671_CHLTR	reviewed	Uncharacterized protein CT_671	CT_671	Chlamydia trachomatis (strain D/UW-3/Cx)	283
+O84682	Y675_CHLTR	reviewed	Putative ATP:guanido phosphotransferase CT_675 (EC 2.7.3.-)	CT_675	Chlamydia trachomatis (strain D/UW-3/Cx)	356
+O84697	Y691_CHLTR	reviewed	UPF0111 protein CT_691	CT_691	Chlamydia trachomatis (strain D/UW-3/Cx)	224
+O84702	Y696_CHLTR	reviewed	Uncharacterized protein CT_696	CT_696	Chlamydia trachomatis (strain D/UW-3/Cx)	392
+O84739	Y734_CHLTR	reviewed	Probable lipoprotein CT_734	CT_734	Chlamydia trachomatis (strain D/UW-3/Cx)	221
+O84741	Y736_CHLTR	reviewed	UPF0098 protein CT_736	CT_736	Chlamydia trachomatis (strain D/UW-3/Cx)	150
+O84746	Y741_CHLTR	reviewed	UPF0092 membrane protein CT_741	CT_741	Chlamydia trachomatis (strain D/UW-3/Cx)	114
+P55137	Y742_CHLTR	reviewed	Uncharacterized RNA methyltransferase CT_742 (EC 2.1.1.-) (Protein HOM1)	CT_742	Chlamydia trachomatis (strain D/UW-3/Cx)	396
+O84826	Y819_CHLTR	reviewed	Uncharacterized protein CT_819	CT_819	Chlamydia trachomatis (strain D/UW-3/Cx)	238
+O84860	Y852_CHLTR	reviewed	UPF0056 membrane protein CT_852	CT_852	Chlamydia trachomatis (strain D/UW-3/Cx)	204
+O84866	Y858_CHLTR	reviewed	Protein CT_858	CT_858	Chlamydia trachomatis (strain D/UW-3/Cx)	601
+O84883	Y875_CHLTR	reviewed	Uncharacterized protein CT_875	CT_875	Chlamydia trachomatis (strain D/UW-3/Cx)	591
+O84698	Y962_CHLTR	reviewed	Putative phosphate permease CT_962	CT_692	Chlamydia trachomatis (strain D/UW-3/Cx)	426
+O84429	YBEY_CHLTR	reviewed	Endoribonuclease YbeY (EC 3.1.-.-)	ybeY CT_422	Chlamydia trachomatis (strain D/UW-3/Cx)	161
+O84390	YHIT_CHLTR	reviewed	Uncharacterized HIT-like protein CT_385	CT_385	Chlamydia trachomatis (strain D/UW-3/Cx)	111
+O84253	YIDC_CHLTR	reviewed	Membrane protein insertase YidC (Foldase YidC) (Membrane integrase YidC) (Membrane protein YidC)	yidC CT_251	Chlamydia trachomatis (strain D/UW-3/Cx)	787
+O84479	YIDD_CHLTR	reviewed	Putative membrane protein insertion efficiency factor	CT_473	Chlamydia trachomatis (strain D/UW-3/Cx)	104
+O84833	O84833_CHLTR	unreviewed	CDP-diacylglycerol-serine-O-phosphatidyltransferase	pssA CT_826	Chlamydia trachomatis (strain D/UW-3/Cx)	263
+O84671	O84671_CHLTR	unreviewed	Adenylate cyclase-like protein	CT_664	Chlamydia trachomatis (strain D/UW-3/Cx)	829
+O84013	O84013_CHLTR	unreviewed	Acyltransferase	htrB CT_010	Chlamydia trachomatis (strain D/UW-3/Cx)	455
+O84688	O84688_CHLTR	unreviewed	PBP2-transglycolase/transpeptidase	pbpB CT_682	Chlamydia trachomatis (strain D/UW-3/Cx)	1080
+O84016	O84016_CHLTR	unreviewed	Cytochrome Oxidase Subunit I	cydA CT_013	Chlamydia trachomatis (strain D/UW-3/Cx)	446
+O84090	O84090_CHLTR	unreviewed	Secretion Chaperone	sycE CT_088	Chlamydia trachomatis (strain D/UW-3/Cx)	146
+O84116	O84116_CHLTR	unreviewed	Putative uncharacterized protein	CT_114	Chlamydia trachomatis (strain D/UW-3/Cx)	486
+O84138	O84138_CHLTR	unreviewed	Predicted Lysophospholipase esterase	CT_136	Chlamydia trachomatis (strain D/UW-3/Cx)	239
+O84176	O84176_CHLTR	unreviewed	Putative uncharacterized protein	CT_173	Chlamydia trachomatis (strain D/UW-3/Cx)	90
+O84226	O84226_CHLTR	unreviewed	Putative uncharacterized protein	CT_223	Chlamydia trachomatis (strain D/UW-3/Cx)	270
+O84234	O84234_CHLTR	unreviewed	Transporter	CT_231	Chlamydia trachomatis (strain D/UW-3/Cx)	490
+O84568	O84568_CHLTR	unreviewed	Yop proteins translocation protein T	yscT CT_564	Chlamydia trachomatis (strain D/UW-3/Cx)	289
+O84706	O84706_CHLTR	unreviewed	Putative uncharacterized protein	CT_700	Chlamydia trachomatis (strain D/UW-3/Cx)	441
+O84149	O84149_CHLTR	unreviewed	Putative uncharacterized protein	CT_147	Chlamydia trachomatis (strain D/UW-3/Cx)	1449
+O84197	O84197_CHLTR	unreviewed	Mg++ Transporter (CBS Domain)	mgtE CT_194	Chlamydia trachomatis (strain D/UW-3/Cx)	470
+O84661	O84661_CHLTR	unreviewed	Putative uncharacterized protein	CT_654	Chlamydia trachomatis (strain D/UW-3/Cx)	162
+O84759	O84759_CHLTR	unreviewed	Phosphohydrolase	icc CT_754	Chlamydia trachomatis (strain D/UW-3/Cx)	290
+O84855	O84855_CHLTR	unreviewed	Putative uncharacterized protein	CT_848	Chlamydia trachomatis (strain D/UW-3/Cx)	168
+O84054	O84054_CHLTR	unreviewed	Putative uncharacterized protein	CT_051	Chlamydia trachomatis (strain D/UW-3/Cx)	520
+O84059	O84059_CHLTR	unreviewed	Putative uncharacterized protein	CT_056	Chlamydia trachomatis (strain D/UW-3/Cx)	243
+O84104	O84104_CHLTR	unreviewed	Putative uncharacterized protein	CT_102	Chlamydia trachomatis (strain D/UW-3/Cx)	153
+O84144	O84144_CHLTR	unreviewed	Putative uncharacterized protein	CT_142	Chlamydia trachomatis (strain D/UW-3/Cx)	285
+O84161	O84161_CHLTR	unreviewed	Putative uncharacterized protein	CT_159	Chlamydia trachomatis (strain D/UW-3/Cx)	310
+O84164	O84164_CHLTR	unreviewed	Putative uncharacterized protein	CT_162	Chlamydia trachomatis (strain D/UW-3/Cx)	79
+O84199	O84199_CHLTR	unreviewed	Putative uncharacterized protein	CT_196	Chlamydia trachomatis (strain D/UW-3/Cx)	106
+O84246	O84246_CHLTR	unreviewed	Putative uncharacterized protein	CT_244	Chlamydia trachomatis (strain D/UW-3/Cx)	398
+O84259	O84259_CHLTR	unreviewed	Putative uncharacterized protein	CT_257	Chlamydia trachomatis (strain D/UW-3/Cx)	404
+O84262	O84262_CHLTR	unreviewed	Putative uncharacterized protein	CT_260	Chlamydia trachomatis (strain D/UW-3/Cx)	163
+O84273	O84273_CHLTR	unreviewed	Putative uncharacterized protein	CT_271	Chlamydia trachomatis (strain D/UW-3/Cx)	95
+O84329	O84329_CHLTR	unreviewed	Putative uncharacterized protein	CT_326.1	Chlamydia trachomatis (strain D/UW-3/Cx)	62
+O84495	O84495_CHLTR	unreviewed	Putative uncharacterized protein	CT_488	Chlamydia trachomatis (strain D/UW-3/Cx)	244
+O84534	O84534_CHLTR	unreviewed	Putative uncharacterized protein	CT_529	Chlamydia trachomatis (strain D/UW-3/Cx)	298
+O84581	O84581_CHLTR	unreviewed	Putative uncharacterized protein	CT_577	Chlamydia trachomatis (strain D/UW-3/Cx)	119
+O84624	O84624_CHLTR	unreviewed	Putative uncharacterized protein	CT_619	Chlamydia trachomatis (strain D/UW-3/Cx)	877
+O84625	O84625_CHLTR	unreviewed	Putative uncharacterized protein	CT_620	Chlamydia trachomatis (strain D/UW-3/Cx)	838
+O84700	O84700_CHLTR	unreviewed	Putative uncharacterized protein	CT_694	Chlamydia trachomatis (strain D/UW-3/Cx)	323
+O84701	O84701_CHLTR	unreviewed	Putative uncharacterized protein	CT_695	Chlamydia trachomatis (strain D/UW-3/Cx)	398
+O84717	O84717_CHLTR	unreviewed	Putative uncharacterized protein	CT_711	Chlamydia trachomatis (strain D/UW-3/Cx)	767
+O84729	O84729_CHLTR	unreviewed	Putative uncharacterized protein	CT_724	Chlamydia trachomatis (strain D/UW-3/Cx)	174
+O84773	O84773_CHLTR	unreviewed	Putative uncharacterized protein	CT_768	Chlamydia trachomatis (strain D/UW-3/Cx)	562
+O84815	O84815_CHLTR	unreviewed	Putative uncharacterized protein	CT_809	Chlamydia trachomatis (strain D/UW-3/Cx)	103
+O84873	O84873_CHLTR	unreviewed	Putative uncharacterized protein	CT_865	Chlamydia trachomatis (strain D/UW-3/Cx)	329
+O84017	O84017_CHLTR	unreviewed	Cytochrome Oxidase Subunit II	cydB CT_014	Chlamydia trachomatis (strain D/UW-3/Cx)	353
+O84018	O84018_CHLTR	unreviewed	ATPase	phoH CT_015	Chlamydia trachomatis (strain D/UW-3/Cx)	434
+O84028	O84028_CHLTR	unreviewed	Signal Recognition Particle GTPase	ffh CT_025	Chlamydia trachomatis (strain D/UW-3/Cx)	448
+O84139	O84139_CHLTR	unreviewed	SuA5 Superfamily-related Protein	ywlC CT_137	Chlamydia trachomatis (strain D/UW-3/Cx)	281
+O84154	O84154_CHLTR	unreviewed	ABC Transporter ATPase	ycfV CT_152	Chlamydia trachomatis (strain D/UW-3/Cx)	225
+O84160	O84160_CHLTR	unreviewed	Phospholipase D endonuclease superfamily	CT_158	Chlamydia trachomatis (strain D/UW-3/Cx)	238
+O84202	O84202_CHLTR	unreviewed	Oligopeptide Permease	oppB_1 CT_199	Chlamydia trachomatis (strain D/UW-3/Cx)	313
+O84207	O84207_CHLTR	unreviewed	Dicarboxylate Translocator	ybhI CT_204	Chlamydia trachomatis (strain D/UW-3/Cx)	471
+O84219	O84219_CHLTR	unreviewed	PP-Loop Superfamily ATPase	ydaO CT_217	Chlamydia trachomatis (strain D/UW-3/Cx)	234
+O84225	O84225_CHLTR	unreviewed	Putative uncharacterized protein	CT_222	Chlamydia trachomatis (strain D/UW-3/Cx)	129
+O84247	O84247_CHLTR	unreviewed	Pyruvate Dehydrogenase Alpha	pdhA CT_245	Chlamydia trachomatis (strain D/UW-3/Cx)	340
+O84295	O84295_CHLTR	unreviewed	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta (ACCase subunit beta) (Acetyl-CoA carboxylase carboxyltransferase subunit beta) (EC 6.4.1.2)	accD CT_293	Chlamydia trachomatis (strain D/UW-3/Cx)	308
+O84380	O84380_CHLTR	unreviewed	Predicted D-Amino Acid Dehydrogenase	CT_375	Chlamydia trachomatis (strain D/UW-3/Cx)	352
+O84386	O84386_CHLTR	unreviewed	Phospho-2-dehydro-3-deoxyheptonate aldolase	aroG CT_382	Chlamydia trachomatis (strain D/UW-3/Cx)	278
+O84442	O84442_CHLTR	unreviewed	Sulfite Reductase	cysJ CT_435	Chlamydia trachomatis (strain D/UW-3/Cx)	350
+O84466	O84466_CHLTR	unreviewed	SWIB (YM74) complex protein	CT_460	Chlamydia trachomatis (strain D/UW-3/Cx)	86
+O84474	O84474_CHLTR	unreviewed	2-component regulatory system-ATPase	atoC CT_468	Chlamydia trachomatis (strain D/UW-3/Cx)	386
+O84486	O84486_CHLTR	unreviewed	Oligopeptide Binding Lipoprotein	oppA_4 CT_480	Chlamydia trachomatis (strain D/UW-3/Cx)	696
+O84493	O84493_CHLTR	unreviewed	Glutamine Binding Protein	fliY CT_486	Chlamydia trachomatis (strain D/UW-3/Cx)	261
+O84507	O84507_CHLTR	unreviewed	Lipoate Protein Ligase	lplA_2 CT_499	Chlamydia trachomatis (strain D/UW-3/Cx)	233
+O84555	O84555_CHLTR	unreviewed	D-Ala-D-Ala Carboxypeptidase	dacC CT_551	Chlamydia trachomatis (strain D/UW-3/Cx)	343
+O84567	O84567_CHLTR	unreviewed	Yop proteins translocation protein S	yscS CT_563	Chlamydia trachomatis (strain D/UW-3/Cx)	94
+O84599	O84599_CHLTR	unreviewed	PHP superfamily hydrolase	ycfH CT_594	Chlamydia trachomatis (strain D/UW-3/Cx)	263
+O84627	O84627_CHLTR	unreviewed	CHLPN 76kDa Homolog	CT_622	Chlamydia trachomatis (strain D/UW-3/Cx)	647
+O84655	O84655_CHLTR	unreviewed	Formyltetrahydrofolate synthetase	ygfA CT_649	Chlamydia trachomatis (strain D/UW-3/Cx)	178
+O84710	O84710_CHLTR	unreviewed	Poly A Polymerase	pcnB_2 CT_704	Chlamydia trachomatis (strain D/UW-3/Cx)	410
+O84720	O84720_CHLTR	unreviewed	AgX-1 Homolog-UDP-Glucose Pyrophosphorylase	CT_715	Chlamydia trachomatis (strain D/UW-3/Cx)	455
+O84725	O84725_CHLTR	unreviewed	NifU-related protein	CT_720	Chlamydia trachomatis (strain D/UW-3/Cx)	260
+O84726	O84726_CHLTR	unreviewed	NifS-related protein	yfhO_2 CT_721	Chlamydia trachomatis (strain D/UW-3/Cx)	384
+O84730	O84730_CHLTR	unreviewed	Biotin Synthetase	birA CT_725	Chlamydia trachomatis (strain D/UW-3/Cx)	184
+O84755	O84755_CHLTR	unreviewed	Transketolase	tktB CT_750	Chlamydia trachomatis (strain D/UW-3/Cx)	666
+O84760	O84760_CHLTR	unreviewed	HSP60	CT_755	Chlamydia trachomatis (strain D/UW-3/Cx)	512
+O84837	O84837_CHLTR	unreviewed	Putative rRNA methylase	ytgB_2 CT_830	Chlamydia trachomatis (strain D/UW-3/Cx)	194
+O84848	O84848_CHLTR	unreviewed	ATP-dependent zinc metalloprotease FtsH (EC 3.4.24.-)	ftsH CT_841	Chlamydia trachomatis (strain D/UW-3/Cx)	913
+O84012	O84012_CHLTR	unreviewed	HTH Transcriptional Regulator	yfgA CT_009	Chlamydia trachomatis (strain D/UW-3/Cx)	143
+O84208	O84208_CHLTR	unreviewed	Fructose-6-P Phosphotransferase	pfkA_1 CT_205	Chlamydia trachomatis (strain D/UW-3/Cx)	553
+O84326	O84326_CHLTR	unreviewed	Putative uncharacterized protein	CT_324	Chlamydia trachomatis (strain D/UW-3/Cx)	303
+O84484	O84484_CHLTR	unreviewed	Oligopeptide Permease	oppC_2 CT_478	Chlamydia trachomatis (strain D/UW-3/Cx)	578
+O84577	O84577_CHLTR	unreviewed	Putative uncharacterized protein	CT_573	Chlamydia trachomatis (strain D/UW-3/Cx)	409
+O84820	O84820_CHLTR	unreviewed	Putative uncharacterized protein	CT_814	Chlamydia trachomatis (strain D/UW-3/Cx)	133
+O84825	O84825_CHLTR	unreviewed	Tyrosine Transport	tyrP_2 CT_818	Chlamydia trachomatis (strain D/UW-3/Cx)	397
+O84014	O84014_CHLTR	unreviewed	Putative uncharacterized protein	CT_011	Chlamydia trachomatis (strain D/UW-3/Cx)	418
+O84091	O84091_CHLTR	unreviewed	Low Calcium Response E	lcrE CT_089	Chlamydia trachomatis (strain D/UW-3/Cx)	421
+O84103	O84103_CHLTR	unreviewed	Putative uncharacterized protein	CT_101	Chlamydia trachomatis (strain D/UW-3/Cx)	153
+O84175	O84175_CHLTR	unreviewed	Putative uncharacterized protein	CT_172.1	Chlamydia trachomatis (strain D/UW-3/Cx)	56
+O84232	O84232_CHLTR	unreviewed	Putative uncharacterized protein	CT_229	Chlamydia trachomatis (strain D/UW-3/Cx)	215
+O84285	O84285_CHLTR	unreviewed	Putative uncharacterized protein	CT_283	Chlamydia trachomatis (strain D/UW-3/Cx)	698
+O84612	O84612_CHLTR	unreviewed	Putative uncharacterized protein	CT_606.1	Chlamydia trachomatis (strain D/UW-3/Cx)	79
+O84743	O84743_CHLTR	unreviewed	Metal dependent hydrolase	yycJ CT_738	Chlamydia trachomatis (strain D/UW-3/Cx)	262
+O84155	O84155_CHLTR	unreviewed	Putative uncharacterized protein	CT_153	Chlamydia trachomatis (strain D/UW-3/Cx)	810
+O84610	O84610_CHLTR	unreviewed	Putative uncharacterized protein ybbC	ybbC CT_605	Chlamydia trachomatis (strain D/UW-3/Cx)	409
+O84811	O84811_CHLTR	unreviewed	Putative uncharacterized protein	CT_805	Chlamydia trachomatis (strain D/UW-3/Cx)	450
+O84061	O84061_CHLTR	unreviewed	Putative uncharacterized protein	CT_058	Chlamydia trachomatis (strain D/UW-3/Cx)	367
+O84063	O84063_CHLTR	unreviewed	Flagellar Secretion Protein	flhA CT_060	Chlamydia trachomatis (strain D/UW-3/Cx)	605
+O84094	O84094_CHLTR	unreviewed	GTP Binding Protein	ychF CT_092	Chlamydia trachomatis (strain D/UW-3/Cx)	366
+O84209	O84209_CHLTR	unreviewed	Predicted acyltransferase family protein	CT_206	Chlamydia trachomatis (strain D/UW-3/Cx)	282
+O84256	O84256_CHLTR	unreviewed	Putative uncharacterized protein	CT_254	Chlamydia trachomatis (strain D/UW-3/Cx)	256
+O84265	O84265_CHLTR	unreviewed	Putative uncharacterized protein	CT_263	Chlamydia trachomatis (strain D/UW-3/Cx)	196
+O84314	O84314_CHLTR	unreviewed	Predicted ferredoxin	CT_312	Chlamydia trachomatis (strain D/UW-3/Cx)	123
+O84356	O84356_CHLTR	unreviewed	Putative uncharacterized protein	CT_352	Chlamydia trachomatis (strain D/UW-3/Cx)	101
+O84724	O84724_CHLTR	unreviewed	Flagellar M-Ring Protein	fliF CT_719	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+O84846	O84846_CHLTR	unreviewed	Putative uncharacterized protein	CT_839	Chlamydia trachomatis (strain D/UW-3/Cx)	354
+O84865	O84865_CHLTR	unreviewed	IM protein	CT_857	Chlamydia trachomatis (strain D/UW-3/Cx)	421
+O84279	O84279_CHLTR	unreviewed	Putative uncharacterized protein	CT_277	Chlamydia trachomatis (strain D/UW-3/Cx)	219
+O84313	O84313_CHLTR	unreviewed	Putative uncharacterized protein	CT_311	Chlamydia trachomatis (strain D/UW-3/Cx)	236
+O84415	O84415_CHLTR	unreviewed	PolyA Polymerase	pcnB_1 CT_410	Chlamydia trachomatis (strain D/UW-3/Cx)	425
+O84491	O84491_CHLTR	unreviewed	Putative uncharacterized protein	CT_484	Chlamydia trachomatis (strain D/UW-3/Cx)	332
+O84606	O84606_CHLTR	unreviewed	Invasin repeat family phosphatase	papQ CT_601	Chlamydia trachomatis (strain D/UW-3/Cx)	200
+O84861	O84861_CHLTR	unreviewed	Putative uncharacterized protein	CT_853	Chlamydia trachomatis (strain D/UW-3/Cx)	199
+O84135	O84135_CHLTR	unreviewed	Predicted rRNA methylase	CT_133	Chlamydia trachomatis (strain D/UW-3/Cx)	267
+O84448	O84448_CHLTR	unreviewed	Tail-Specific Protease	tsp CT_441	Chlamydia trachomatis (strain D/UW-3/Cx)	644
+O84728	O84728_CHLTR	unreviewed	Pseudouridine synthase (EC 5.4.99.-)	yjbC CT_723	Chlamydia trachomatis (strain D/UW-3/Cx)	241
+O84779	O84779_CHLTR	unreviewed	Sulfite Synthesis/biphosphate phosphatase	cysQ CT_774	Chlamydia trachomatis (strain D/UW-3/Cx)	342
+O84813	O84813_CHLTR	unreviewed	Glycerol-3-P Acyltransferase	plsB CT_807	Chlamydia trachomatis (strain D/UW-3/Cx)	331
+O84355	O84355_CHLTR	unreviewed	Putative uncharacterized protein	CT_351	Chlamydia trachomatis (strain D/UW-3/Cx)	697
+O84660	O84660_CHLTR	unreviewed	ABC Transporter ATPase	yhbG CT_653	Chlamydia trachomatis (strain D/UW-3/Cx)	239
+O84330	O84330_CHLTR	unreviewed	Putative uncharacterized protein	CT_326.2	Chlamydia trachomatis (strain D/UW-3/Cx)	60
+O84690	O84690_CHLTR	unreviewed	ABC Transporter	CT_684	Chlamydia trachomatis (strain D/UW-3/Cx)	483
+O84050	O84050_CHLTR	unreviewed	Putative uncharacterized protein	CT_047	Chlamydia trachomatis (strain D/UW-3/Cx)	314
+O84781	O84781_CHLTR	unreviewed	Acylglycerophosphoethanolamine Acyltransferase	aas CT_776	Chlamydia trachomatis (strain D/UW-3/Cx)	537
+O84136	O84136_CHLTR	unreviewed	Putative uncharacterized protein	CT_134	Chlamydia trachomatis (strain D/UW-3/Cx)	137
+O84162	O84162_CHLTR	unreviewed	Putative uncharacterized protein	CT_160	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+O84297	O84297_CHLTR	unreviewed	Phosphomannomutase	mrsA_1 CT_295	Chlamydia trachomatis (strain D/UW-3/Cx)	593
+O84406	O84406_CHLTR	unreviewed	Glutamate Symport	gltT CT_401	Chlamydia trachomatis (strain D/UW-3/Cx)	412
+O84552	O84552_CHLTR	unreviewed	Putative uncharacterized protein	CT_548	Chlamydia trachomatis (strain D/UW-3/Cx)	194
+O84605	O84605_CHLTR	unreviewed	Peptidoglycan-Associated Lipoprotein	pal CT_600	Chlamydia trachomatis (strain D/UW-3/Cx)	188
+O84827	O84827_CHLTR	unreviewed	Signal recognition particle receptor FtsY (SRP receptor)	ftsY CT_820	Chlamydia trachomatis (strain D/UW-3/Cx)	284
+O84857	O84857_CHLTR	unreviewed	Putative uncharacterized protein	CT_849.1	Chlamydia trachomatis (strain D/UW-3/Cx)	62
+O84145	O84145_CHLTR	unreviewed	Putative uncharacterized protein	CT_143	Chlamydia trachomatis (strain D/UW-3/Cx)	280
+O84679	O84679_CHLTR	unreviewed	Flagellar Motor Switch Domain/YscQ family	fliN CT_672	Chlamydia trachomatis (strain D/UW-3/Cx)	373
+O84703	O84703_CHLTR	unreviewed	Endonuclease III	nth CT_697	Chlamydia trachomatis (strain D/UW-3/Cx)	211
+O84731	O84731_CHLTR	unreviewed	Rod Shape Protein	rodA CT_726	Chlamydia trachomatis (strain D/UW-3/Cx)	379
+O84776	O84776_CHLTR	unreviewed	Hydrolase/phosphatase homolog	CT_771	Chlamydia trachomatis (strain D/UW-3/Cx)	150
+O84475	O84475_CHLTR	unreviewed	Putative uncharacterized protein	CT_469	Chlamydia trachomatis (strain D/UW-3/Cx)	178
+O84107	O84107_CHLTR	unreviewed	Putative uncharacterized protein	CT_105	Chlamydia trachomatis (strain D/UW-3/Cx)	656
+O84305	O84305_CHLTR	unreviewed	Putative uncharacterized protein	CT_303	Chlamydia trachomatis (strain D/UW-3/Cx)	171
+O84501	O84501_CHLTR	unreviewed	Protease	sohB CT_494	Chlamydia trachomatis (strain D/UW-3/Cx)	331
+O84105	O84105_CHLTR	unreviewed	HAD superfamily hydrolase/phosphatase	CT_103	Chlamydia trachomatis (strain D/UW-3/Cx)	298
+O84134	O84134_CHLTR	unreviewed	Putative uncharacterized protein	CT_132	Chlamydia trachomatis (strain D/UW-3/Cx)	425
+O84635	O84635_CHLTR	unreviewed	HTH Transcriptional Regulatory Protein and Receiver Domain	cpxR CT_630	Chlamydia trachomatis (strain D/UW-3/Cx)	227
+O84681	O84681_CHLTR	unreviewed	Probable Yop proteins translocation protein C/general secretion pathway protein	yscC CT_674	Chlamydia trachomatis (strain D/UW-3/Cx)	921
+O84111	O84111_CHLTR	unreviewed	Putative uncharacterized protein	CT_109	Chlamydia trachomatis (strain D/UW-3/Cx)	262
+O84133	O84133_CHLTR	unreviewed	Possible Transmembrane Protein	CT_131	Chlamydia trachomatis (strain D/UW-3/Cx)	1138
+O84298	O84298_CHLTR	unreviewed	Putative uncharacterized protein	CT_296	Chlamydia trachomatis (strain D/UW-3/Cx)	155
+O84553	O84553_CHLTR	unreviewed	Sigma regulatory factor-histidine kinase	rsbW CT_549	Chlamydia trachomatis (strain D/UW-3/Cx)	146
+O84572	O84572_CHLTR	unreviewed	Putative uncharacterized protein	CT_568	Chlamydia trachomatis (strain D/UW-3/Cx)	151
+O84064	O84064_CHLTR	unreviewed	Sigma-28/WhiG Family	fliA CT_061	Chlamydia trachomatis (strain D/UW-3/Cx)	253
+O84227	O84227_CHLTR	unreviewed	Putative uncharacterized protein	CT_224	Chlamydia trachomatis (strain D/UW-3/Cx)	147
+O84597	O84597_CHLTR	unreviewed	Succinate Dehydrogenase	sdhC CT_593	Chlamydia trachomatis (strain D/UW-3/Cx)	189
+O84772	O84772_CHLTR	unreviewed	Fe-S cluster oxidoreduase	CT_767	Chlamydia trachomatis (strain D/UW-3/Cx)	350
+O84165	O84165_CHLTR	unreviewed	Putative uncharacterized protein	CT_163	Chlamydia trachomatis (strain D/UW-3/Cx)	548
+O84268	O84268_CHLTR	unreviewed	Putative uncharacterized protein	CT_266	Chlamydia trachomatis (strain D/UW-3/Cx)	393
+O84276	O84276_CHLTR	unreviewed	Putative uncharacterized protein	CT_274	Chlamydia trachomatis (strain D/UW-3/Cx)	139
+O84648	O84648_CHLTR	unreviewed	Putative uncharacterized protein	CT_642	Chlamydia trachomatis (strain D/UW-3/Cx)	271
+O84680	O84680_CHLTR	unreviewed	S/T Protein Kinase	pkn5 CT_673	Chlamydia trachomatis (strain D/UW-3/Cx)	490
+O84394	O84394_CHLTR	unreviewed	Putative uncharacterized protein	CT_389	Chlamydia trachomatis (strain D/UW-3/Cx)	408
+O84558	O84558_CHLTR	unreviewed	Amino Acid (Branched) Transport	brnQ CT_554	Chlamydia trachomatis (strain D/UW-3/Cx)	411
+O84650	O84650_CHLTR	unreviewed	Predicted oxidoreductase	yohI CT_644	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+O84270	O84270_CHLTR	unreviewed	N-Acetylmuramoyl Alanine Amidase	amiA CT_268	Chlamydia trachomatis (strain D/UW-3/Cx)	259
+O84774	O84774_CHLTR	unreviewed	Ribosomal silencing factor RsfS	ybeB rsfS CT_769	Chlamydia trachomatis (strain D/UW-3/Cx)	119
+O84794	O84794_CHLTR	unreviewed	Putative uncharacterized protein	CT_789	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+O84428	O84428_CHLTR	unreviewed	Putative uncharacterized protein	CT_421.2	Chlamydia trachomatis (strain D/UW-3/Cx)	53
+O84614	O84614_CHLTR	unreviewed	DNA Helicase	uvrD CT_608	Chlamydia trachomatis (strain D/UW-3/Cx)	634
+O84722	O84722_CHLTR	unreviewed	Flagellum-specific ATP Synthase	fliI CT_717	Chlamydia trachomatis (strain D/UW-3/Cx)	434
+O84749	O84749_CHLTR	unreviewed	CHLTR possible phosphoprotein	CT_744	Chlamydia trachomatis (strain D/UW-3/Cx)	821
+O84132	O84132_CHLTR	unreviewed	ABC Amino Acid Transporter ATPase	glnQ CT_130	Chlamydia trachomatis (strain D/UW-3/Cx)	233
+O84201	O84201_CHLTR	unreviewed	Oligopeptide Binding Protein	oppA_3 CT_198	Chlamydia trachomatis (strain D/UW-3/Cx)	518
+O84228	O84228_CHLTR	unreviewed	Putative uncharacterized protein	CT_225	Chlamydia trachomatis (strain D/UW-3/Cx)	122
+O84403	O84403_CHLTR	unreviewed	Putative uncharacterized protein	CT_398	Chlamydia trachomatis (strain D/UW-3/Cx)	254
+O84409	O84409_CHLTR	unreviewed	SAM dependent methyltransferase	CT_404	Chlamydia trachomatis (strain D/UW-3/Cx)	275
+O84738	O84738_CHLTR	unreviewed	Putative uncharacterized protein	CT_733	Chlamydia trachomatis (strain D/UW-3/Cx)	448
+O84354	O84354_CHLTR	unreviewed	Putative uncharacterized protein	CT_350	Chlamydia trachomatis (strain D/UW-3/Cx)	566
+O84636	O84636_CHLTR	unreviewed	Putative uncharacterized protein	CT_631	Chlamydia trachomatis (strain D/UW-3/Cx)	84
+O84758	O84758_CHLTR	unreviewed	Putative uncharacterized protein	CT_753	Chlamydia trachomatis (strain D/UW-3/Cx)	74
+O84229	O84229_CHLTR	unreviewed	Putative uncharacterized protein	CT_226	Chlamydia trachomatis (strain D/UW-3/Cx)	176
+O84235	O84235_CHLTR	unreviewed	Inclusion Membrane Protein B	incB CT_232	Chlamydia trachomatis (strain D/UW-3/Cx)	115
+O84360	O84360_CHLTR	unreviewed	Multidomain protein family	yyaL CT_356	Chlamydia trachomatis (strain D/UW-3/Cx)	704
+O84649	O84649_CHLTR	unreviewed	DNA Topoisomerase I-Fused to SWI Domain	topA CT_643	Chlamydia trachomatis (strain D/UW-3/Cx)	857
+O84675	O84675_CHLTR	unreviewed	Putative uncharacterized protein	CT_668	Chlamydia trachomatis (strain D/UW-3/Cx)	223
+O84055	O84055_CHLTR	unreviewed	Coproporphyrinogen III Oxidase	hemN_1 CT_052	Chlamydia trachomatis (strain D/UW-3/Cx)	378
+O84159	O84159_CHLTR	unreviewed	Phospholipase D Endonuclease Superfamily	CT_157	Chlamydia trachomatis (strain D/UW-3/Cx)	404
+O84718	O84718_CHLTR	unreviewed	Putative uncharacterized protein	CT_712	Chlamydia trachomatis (strain D/UW-3/Cx)	390
+O84024	O84024_CHLTR	unreviewed	Putative uncharacterized protein	CT_021	Chlamydia trachomatis (strain D/UW-3/Cx)	247
+O84497	O84497_CHLTR	unreviewed	Putative uncharacterized protein	CT_490	Chlamydia trachomatis (strain D/UW-3/Cx)	83
+O84574	O84574_CHLTR	unreviewed	Gen. Secretion Protein F	gspF CT_570	Chlamydia trachomatis (strain D/UW-3/Cx)	391
+O84576	O84576_CHLTR	unreviewed	Gen. Secretion Protein D	gspD CT_572	Chlamydia trachomatis (strain D/UW-3/Cx)	760
+O84617	O84617_CHLTR	unreviewed	Putative uncharacterized protein	CT_611	Chlamydia trachomatis (strain D/UW-3/Cx)	243
+O84765	O84765_CHLTR	unreviewed	Cell Division Protein FtsW	ftsW CT_760	Chlamydia trachomatis (strain D/UW-3/Cx)	385
+O84803	O84803_CHLTR	unreviewed	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	pgsA_2 CT_797	Chlamydia trachomatis (strain D/UW-3/Cx)	202
+O84062	O84062_CHLTR	unreviewed	Ferredoxin	fer CT_059	Chlamydia trachomatis (strain D/UW-3/Cx)	91
+O84488	O84488_CHLTR	unreviewed	Putative uncharacterized protein	CT_481	Chlamydia trachomatis (strain D/UW-3/Cx)	243
+O84174	O84174_CHLTR	unreviewed	Putative uncharacterized protein	CT_172	Chlamydia trachomatis (strain D/UW-3/Cx)	163
+O84608	O84608_CHLTR	unreviewed	Thio-specific Antioxidant (TSA) Peroxidase	ahpC CT_603	Chlamydia trachomatis (strain D/UW-3/Cx)	195
+O84689	O84689_CHLTR	unreviewed	TPR-motif protein	CT_683	Chlamydia trachomatis (strain D/UW-3/Cx)	335
+O84137	O84137_CHLTR	unreviewed	Putative uncharacterized protein	CT_135	Chlamydia trachomatis (strain D/UW-3/Cx)	360
+O84368	O84368_CHLTR	unreviewed	Aspartate semialdehyde dehydrogenase	asd CT_363	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+O84677	O84677_CHLTR	unreviewed	Putative uncharacterized protein	CT_670	Chlamydia trachomatis (strain D/UW-3/Cx)	168
+O84184	O84184_CHLTR	unreviewed	Putative uncharacterized protein	CT_181	Chlamydia trachomatis (strain D/UW-3/Cx)	236
+O84761	O84761_CHLTR	unreviewed	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase (EC 6.3.2.10)	murF CT_756	Chlamydia trachomatis (strain D/UW-3/Cx)	450
+O84126	O84126_CHLTR	unreviewed	Biotin Carboxylase	accC CT_124	Chlamydia trachomatis (strain D/UW-3/Cx)	457
+O84384	O84384_CHLTR	unreviewed	Predicted metal dependent hydrolase (Histidinic triad)	phnP CT_380	Chlamydia trachomatis (strain D/UW-3/Cx)	266
+O84715	O84715_CHLTR	unreviewed	Rod Shape Protein-Sugar Kinase	mreB CT_709	Chlamydia trachomatis (strain D/UW-3/Cx)	366
+O84195	O84195_CHLTR	unreviewed	Putative uncharacterized protein	CT_192	Chlamydia trachomatis (strain D/UW-3/Cx)	257
+O84498	O84498_CHLTR	unreviewed	Transcription Termination Factor	rho CT_491	Chlamydia trachomatis (strain D/UW-3/Cx)	464
+O84564	O84564_CHLTR	unreviewed	Putative uncharacterized protein	CT_560	Chlamydia trachomatis (strain D/UW-3/Cx)	278
+O84471	O84471_CHLTR	unreviewed	Putative uncharacterized protein	CT_465	Chlamydia trachomatis (strain D/UW-3/Cx)	213
+O84302	O84302_CHLTR	unreviewed	Putative uncharacterized protein	CT_300	Chlamydia trachomatis (strain D/UW-3/Cx)	115
+O84095	O84095_CHLTR	unreviewed	Riboflavin kinase/FAD Synthase	ribF CT_093	Chlamydia trachomatis (strain D/UW-3/Cx)	301
+O84511	O84511_CHLTR	unreviewed	Putative uncharacterized protein	CT_503	Chlamydia trachomatis (strain D/UW-3/Cx)	184
+O84651	O84651_CHLTR	unreviewed	Putative uncharacterized protein	CT_645	Chlamydia trachomatis (strain D/UW-3/Cx)	98
+O84663	O84663_CHLTR	unreviewed	Putative uncharacterized protein	CT_656	Chlamydia trachomatis (strain D/UW-3/Cx)	97
+O84674	O84674_CHLTR	unreviewed	Putative uncharacterized protein	CT_667	Chlamydia trachomatis (strain D/UW-3/Cx)	149
+O84696	O84696_CHLTR	unreviewed	ABC Transport ATPase	dppD CT_690	Chlamydia trachomatis (strain D/UW-3/Cx)	321
+O84623	O84623_CHLTR	unreviewed	Putative uncharacterized protein	CT_618	Chlamydia trachomatis (strain D/UW-3/Cx)	266
+O84768	O84768_CHLTR	unreviewed	Putative uncharacterized protein	CT_763	Chlamydia trachomatis (strain D/UW-3/Cx)	139
+O84557	O84557_CHLTR	unreviewed	RNA Methyltransferase	fmu CT_553	Chlamydia trachomatis (strain D/UW-3/Cx)	325
+O84542	O84542_CHLTR	unreviewed	ATPase or Kinase	yjeE CT_537	Chlamydia trachomatis (strain D/UW-3/Cx)	157
+O84556	O84556_CHLTR	unreviewed	Putative uncharacterized protein	CT_552	Chlamydia trachomatis (strain D/UW-3/Cx)	135
+O84153	O84153_CHLTR	unreviewed	Putative uncharacterized protein	CT_151	Chlamydia trachomatis (strain D/UW-3/Cx)	503
+O84092	O84092_CHLTR	unreviewed	Low Calcium Response D	lcrD CT_090	Chlamydia trachomatis (strain D/UW-3/Cx)	708
+O84327	O84327_CHLTR	unreviewed	Putative uncharacterized protein	CT_325	Chlamydia trachomatis (strain D/UW-3/Cx)	148
+O84482	O84482_CHLTR	unreviewed	Putative uncharacterized protein	CT_476	Chlamydia trachomatis (strain D/UW-3/Cx)	321
+O84082	O84082_CHLTR	unreviewed	Putative uncharacterized protein	CT_079	Chlamydia trachomatis (strain D/UW-3/Cx)	147
+O84131	O84131_CHLTR	unreviewed	ABC Amino Acid Transporter Permease	glnP CT_129	Chlamydia trachomatis (strain D/UW-3/Cx)	214
+O84233	O84233_CHLTR	unreviewed	Neutral Amino Acid (Glutamate) Transporter	CT_230	Chlamydia trachomatis (strain D/UW-3/Cx)	415
+O84363	O84363_CHLTR	unreviewed	Putative uncharacterized protein	CT_358	Chlamydia trachomatis (strain D/UW-3/Cx)	178
+O84691	O84691_CHLTR	unreviewed	ABC Transporter ATPase	CT_685	Chlamydia trachomatis (strain D/UW-3/Cx)	255
+O84751	O84751_CHLTR	unreviewed	Coproporphyrinogen III Oxidase	hemN_2 CT_746	Chlamydia trachomatis (strain D/UW-3/Cx)	457
+O84405	O84405_CHLTR	unreviewed	Dihydrolipoamide Succinyltransferase	sucB_2 CT_400	Chlamydia trachomatis (strain D/UW-3/Cx)	388
+O84051	O84051_CHLTR	unreviewed	SAM-dependent methyltransferase	yraL CT_048	Chlamydia trachomatis (strain D/UW-3/Cx)	237
+O84086	O84086_CHLTR	unreviewed	Phopholipase D Superfamily	CT_084	Chlamydia trachomatis (strain D/UW-3/Cx)	361
+O84550	O84550_CHLTR	unreviewed	Predicted OMP	CT_546	Chlamydia trachomatis (strain D/UW-3/Cx)	289
+O84177	O84177_CHLTR	unreviewed	Putative uncharacterized protein	CT_174	Chlamydia trachomatis (strain D/UW-3/Cx)	151
+O84396	O84396_CHLTR	unreviewed	Putative uncharacterized protein	CT_391	Chlamydia trachomatis (strain D/UW-3/Cx)	335
+O84487	O84487_CHLTR	unreviewed	Putative uncharacterized protein	CT_480.1	Chlamydia trachomatis (strain D/UW-3/Cx)	54
+O84084	O84084_CHLTR	unreviewed	Putative uncharacterized protein	CT_082	Chlamydia trachomatis (strain D/UW-3/Cx)	560
+O84800	O84800_CHLTR	unreviewed	Putative uncharacterized protein	CT_794.1	Chlamydia trachomatis (strain D/UW-3/Cx)	95
+O84036	O84036_CHLTR	unreviewed	Exodeoxyribonuclease V, Alpha	recD_1 CT_033	Chlamydia trachomatis (strain D/UW-3/Cx)	746
+O84150	O84150_CHLTR	unreviewed	Monooxygenase	mhpA CT_148	Chlamydia trachomatis (strain D/UW-3/Cx)	507
+O84057	O84057_CHLTR	unreviewed	Oxoglutarate Dehydrogenase	sucA CT_054	Chlamydia trachomatis (strain D/UW-3/Cx)	905
+O84230	O84230_CHLTR	unreviewed	Putative uncharacterized protein	CT_227	Chlamydia trachomatis (strain D/UW-3/Cx)	133
+O84454	O84454_CHLTR	unreviewed	SecD/SecF fusion protein	secD/secF CT_448	Chlamydia trachomatis (strain D/UW-3/Cx)	1400
+O84151	O84151_CHLTR	unreviewed	Possible hydrolase	CT_149	Chlamydia trachomatis (strain D/UW-3/Cx)	315
+O84412	O84412_CHLTR	unreviewed	DnaK Suppressor	dksA CT_407	Chlamydia trachomatis (strain D/UW-3/Cx)	124
+O84756	O84756_CHLTR	unreviewed	AMP Nucleosidase	amn CT_751	Chlamydia trachomatis (strain D/UW-3/Cx)	289
+O84043	O84043_CHLTR	unreviewed	Putative uncharacterized protein	CT_039.1	Chlamydia trachomatis (strain D/UW-3/Cx)	50
+O84236	O84236_CHLTR	unreviewed	Inclusion Membrane Protein C	incC CT_233	Chlamydia trachomatis (strain D/UW-3/Cx)	178
+O84503	O84503_CHLTR	unreviewed	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	pgsA_1 CT_496	Chlamydia trachomatis (strain D/UW-3/Cx)	168
+O84470	O84470_CHLTR	unreviewed	Phosphoglycolate Phosphatase	CT_464	Chlamydia trachomatis (strain D/UW-3/Cx)	224
+O84504	O84504_CHLTR	unreviewed	Putative uncharacterized protein	CT_496.1	Chlamydia trachomatis (strain D/UW-3/Cx)	49
+O84158	O84158_CHLTR	unreviewed	Putative uncharacterized protein	CT_156	Chlamydia trachomatis (strain D/UW-3/Cx)	113
+O84352	O84352_CHLTR	unreviewed	ABC Transporter Protein ATPase	yjjK CT_348	Chlamydia trachomatis (strain D/UW-3/Cx)	528
+O84559	O84559_CHLTR	unreviewed	SWI/SNF family helicase	CT_555	Chlamydia trachomatis (strain D/UW-3/Cx)	1199
+O84563	O84563_CHLTR	unreviewed	Yop proteins translocation lipoprotein J	yscJ CT_559	Chlamydia trachomatis (strain D/UW-3/Cx)	326
+O84602	O84602_CHLTR	unreviewed	Biopolymer Transport Protein	exbD CT_597	Chlamydia trachomatis (strain D/UW-3/Cx)	135
+O84626	O84626_CHLTR	unreviewed	Putative uncharacterized protein	CT_621	Chlamydia trachomatis (strain D/UW-3/Cx)	832
+O84695	O84695_CHLTR	unreviewed	ABC Transport ATPase	dppF CT_689	Chlamydia trachomatis (strain D/UW-3/Cx)	276
+O84819	O84819_CHLTR	unreviewed	Putative uncharacterized protein	CT_813	Chlamydia trachomatis (strain D/UW-3/Cx)	264
+O84181	O84181_CHLTR	unreviewed	Putative uncharacterized protein	CT_178	Chlamydia trachomatis (strain D/UW-3/Cx)	404
+O84334	O84334_CHLTR	unreviewed	Putative uncharacterized protein	CT_330	Chlamydia trachomatis (strain D/UW-3/Cx)	90
+O84108	O84108_CHLTR	unreviewed	Pseudouridine synthase (EC 5.4.99.-)	yceC CT_106	Chlamydia trachomatis (strain D/UW-3/Cx)	303
+O84750	O84750_CHLTR	unreviewed	Protoporphyrinogen Oxidase	hemG CT_745	Chlamydia trachomatis (strain D/UW-3/Cx)	424
+O84041	O84041_CHLTR	unreviewed	Putative uncharacterized protein	CT_038	Chlamydia trachomatis (strain D/UW-3/Cx)	116
+O84167	O84167_CHLTR	unreviewed	Putative uncharacterized protein	CT_165	Chlamydia trachomatis (strain D/UW-3/Cx)	148
+O84194	O84194_CHLTR	unreviewed	Putative uncharacterized protein	CT_191	Chlamydia trachomatis (strain D/UW-3/Cx)	116
+O84494	O84494_CHLTR	unreviewed	Methylase	yhhF CT_487	Chlamydia trachomatis (strain D/UW-3/Cx)	190
+O84601	O84601_CHLTR	unreviewed	Polysaccharide transporter	exbB CT_596	Chlamydia trachomatis (strain D/UW-3/Cx)	232
+O84607	O84607_CHLTR	unreviewed	Putative uncharacterized protein	CT_602	Chlamydia trachomatis (strain D/UW-3/Cx)	130
+O84618	O84618_CHLTR	unreviewed	Dihydrofolate Reductase	folA CT_612	Chlamydia trachomatis (strain D/UW-3/Cx)	159
+O84788	O84788_CHLTR	unreviewed	Predicted disulfide bond isomerase	CT_783	Chlamydia trachomatis (strain D/UW-3/Cx)	349
+O84793	O84793_CHLTR	unreviewed	Leader (60) peptide-periplasmic	CT_788	Chlamydia trachomatis (strain D/UW-3/Cx)	166
+O84203	O84203_CHLTR	unreviewed	Oligopeptide Permease	oppC_1 CT_200	Chlamydia trachomatis (strain D/UW-3/Cx)	281
+O84223	O84223_CHLTR	unreviewed	Putative uncharacterized protein yqfU	yqfU CT_221	Chlamydia trachomatis (strain D/UW-3/Cx)	298
+O84496	O84496_CHLTR	unreviewed	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)	glgC CT_489	Chlamydia trachomatis (strain D/UW-3/Cx)	441
+O84570	O84570_CHLTR	unreviewed	Putative uncharacterized protein	CT_566	Chlamydia trachomatis (strain D/UW-3/Cx)	330
+O84575	O84575_CHLTR	unreviewed	Gen. Secretion Protein E	gspE CT_571	Chlamydia trachomatis (strain D/UW-3/Cx)	501
+O84676	O84676_CHLTR	unreviewed	Yops secretion ATPase	yscN CT_669	Chlamydia trachomatis (strain D/UW-3/Cx)	442
+O84812	O84812_CHLTR	unreviewed	Insulinase family/Protease III	ptr CT_806	Chlamydia trachomatis (strain D/UW-3/Cx)	956
+O84541	O84541_CHLTR	unreviewed	DNA Pol III Epsilon Chain	dnaQ_2 CT_536	Chlamydia trachomatis (strain D/UW-3/Cx)	250
+O84732	O84732_CHLTR	unreviewed	Metal Transport P-type ATPase	zntA CT_727	Chlamydia trachomatis (strain D/UW-3/Cx)	659
+O84109	O84109_CHLTR	unreviewed	A/G-specific Adenine Glycosylase	mutY CT_107	Chlamydia trachomatis (strain D/UW-3/Cx)	369
+O84306	O84306_CHLTR	unreviewed	ATP Synthase Subunit K	atpK CT_304	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+O84047	O84047_CHLTR	unreviewed	Putative uncharacterized protein	CT_043	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+O84430	O84430_CHLTR	unreviewed	CBS Domain protein	CT_423	Chlamydia trachomatis (strain D/UW-3/Cx)	369
+O84652	O84652_CHLTR	unreviewed	Putative uncharacterized protein	CT_646	Chlamydia trachomatis (strain D/UW-3/Cx)	459
+O84770	O84770_CHLTR	unreviewed	Sigma Regulatory Factor	rsbV_2 CT_765	Chlamydia trachomatis (strain D/UW-3/Cx)	110
+O84821	O84821_CHLTR	unreviewed	Putative uncharacterized protein	CT_814.1	Chlamydia trachomatis (strain D/UW-3/Cx)	120
+O84851	O84851_CHLTR	unreviewed	Cytosine deaminase	yfhC CT_844	Chlamydia trachomatis (strain D/UW-3/Cx)	163
+O84046	O84046_CHLTR	unreviewed	Glycogen Hydrolase (Debranching)	glgX CT_042	Chlamydia trachomatis (strain D/UW-3/Cx)	666
+O84021	O84021_CHLTR	unreviewed	Putative uncharacterized protein	CT_018	Chlamydia trachomatis (strain D/UW-3/Cx)	157
+O84157	O84157_CHLTR	unreviewed	Phospholipase D Endonuclease Superfamily	CT_155	Chlamydia trachomatis (strain D/UW-3/Cx)	313
+O84231	O84231_CHLTR	unreviewed	Putative uncharacterized protein	CT_228	Chlamydia trachomatis (strain D/UW-3/Cx)	196
+O84260	O84260_CHLTR	unreviewed	NifS family of pyridoxal phosphate-dependent enzymes	yhfO CT_258	Chlamydia trachomatis (strain D/UW-3/Cx)	374
+O84264	O84264_CHLTR	unreviewed	Putative uncharacterized protein	CT_262	Chlamydia trachomatis (strain D/UW-3/Cx)	256
+O84450	O84450_CHLTR	unreviewed	Putative uncharacterized protein	CT_444.1	Chlamydia trachomatis (strain D/UW-3/Cx)	74
+O84609	O84609_CHLTR	unreviewed	60 kDa chaperonin	groEL_2 CT_604	Chlamydia trachomatis (strain D/UW-3/Cx)	533
+O84272	O84272_CHLTR	unreviewed	Transglycolase/transpeptidase	pbp3 CT_270	Chlamydia trachomatis (strain D/UW-3/Cx)	647
+O84389	O84389_CHLTR	unreviewed	Putative uncharacterized protein	CT_384	Chlamydia trachomatis (strain D/UW-3/Cx)	539
+O84141	O84141_CHLTR	unreviewed	Oligopeptide Binding Protein	oppA_1 CT_139	Chlamydia trachomatis (strain D/UW-3/Cx)	426
+O84142	O84142_CHLTR	unreviewed	Putative uncharacterized protein ypdP	ypdP CT_140	Chlamydia trachomatis (strain D/UW-3/Cx)	228
+O84163	O84163_CHLTR	unreviewed	Putative uncharacterized protein	CT_161	Chlamydia trachomatis (strain D/UW-3/Cx)	246
+O84069	O84069_CHLTR	unreviewed	Putative uncharacterized protein	CT_066	Chlamydia trachomatis (strain D/UW-3/Cx)	158
+O84214	O84214_CHLTR	unreviewed	Putative uncharacterized protein	CT_212	Chlamydia trachomatis (strain D/UW-3/Cx)	148
+O84361	O84361_CHLTR	unreviewed	Putative uncharacterized protein	CT357 CT_357R	Chlamydia trachomatis (strain D/UW-3/Cx)	95
+O84216	O84216_CHLTR	unreviewed	Putative uncharacterized protein	CT_214	Chlamydia trachomatis (strain D/UW-3/Cx)	547
+O84383	O84383_CHLTR	unreviewed	GTPase HflX (GTP-binding protein HflX)	hflX CT_379	Chlamydia trachomatis (strain D/UW-3/Cx)	447
+O84554	O84554_CHLTR	unreviewed	Putative uncharacterized protein	CT_550	Chlamydia trachomatis (strain D/UW-3/Cx)	141
+O84594	O84594_CHLTR	unreviewed	Putative uncharacterized protein	CT_590	Chlamydia trachomatis (strain D/UW-3/Cx)	954
+O84785	O84785_CHLTR	unreviewed	Thioredoxin Disulfide Isomerase	CT_780	Chlamydia trachomatis (strain D/UW-3/Cx)	164
+O84844	O84844_CHLTR	unreviewed	Putative uncharacterized protein	CT_837	Chlamydia trachomatis (strain D/UW-3/Cx)	658
+O84459	O84459_CHLTR	unreviewed	Glycerol-3-P Acyltransferase	plsC CT_453	Chlamydia trachomatis (strain D/UW-3/Cx)	216
+O84845	O84845_CHLTR	unreviewed	Putative uncharacterized protein	CT_838	Chlamydia trachomatis (strain D/UW-3/Cx)	366
+O84858	O84858_CHLTR	unreviewed	Putative uncharacterized protein	CT_850	Chlamydia trachomatis (strain D/UW-3/Cx)	405
+O84263	O84263_CHLTR	unreviewed	DNA Pol III Epsilon Chain	dnaQ_1 CT_261	Chlamydia trachomatis (strain D/UW-3/Cx)	232
+O84427	O84427_CHLTR	unreviewed	Putative uncharacterized protein	CT_421.1	Chlamydia trachomatis (strain D/UW-3/Cx)	53
+O84592	O84592_CHLTR	unreviewed	Sigma regulatory family protein-PP2C phosphatase (RsbW antagonist)	rbsU CT_588	Chlamydia trachomatis (strain D/UW-3/Cx)	650
+O84721	O84721_CHLTR	unreviewed	Putative uncharacterized protein	CT_716	Chlamydia trachomatis (strain D/UW-3/Cx)	121
+O84056	O84056_CHLTR	unreviewed	Putative uncharacterized protein	CT_053	Chlamydia trachomatis (strain D/UW-3/Cx)	148
+O84058	O84058_CHLTR	unreviewed	Dihydrolipoamide Succinyltransferase	sucB_1 CT_055	Chlamydia trachomatis (strain D/UW-3/Cx)	365
+O84099	O84099_CHLTR	unreviewed	Transcription antitermination factor	nusA CT_097	Chlamydia trachomatis (strain D/UW-3/Cx)	434
+O84182	O84182_CHLTR	unreviewed	Putative uncharacterized protein	CT_179	Chlamydia trachomatis (strain D/UW-3/Cx)	170
+O84447	O84447_CHLTR	unreviewed	Putative uncharacterized protein	CT_440	Chlamydia trachomatis (strain D/UW-3/Cx)	112
+O84658	O84658_CHLTR	unreviewed	Exodeoxyribonuclease V, Alpha	recD_2 CT_652	Chlamydia trachomatis (strain D/UW-3/Cx)	496
+O84129	O84129_CHLTR	unreviewed	Predicted polysaccharide hydrolase-invasin repeat family	ydhO CT_127	Chlamydia trachomatis (strain D/UW-3/Cx)	283
+O84053	O84053_CHLTR	unreviewed	Putative uncharacterized protein	CT_050	Chlamydia trachomatis (strain D/UW-3/Cx)	536
+O84769	O84769_CHLTR	unreviewed	Putative uncharacterized protein	CT_764	Chlamydia trachomatis (strain D/UW-3/Cx)	268
+O84714	O84714_CHLTR	unreviewed	SWF/SNF family helicase	CT_708	Chlamydia trachomatis (strain D/UW-3/Cx)	1163
+O84287	O84287_CHLTR	unreviewed	Lipoate Protein Ligase	lplA_1 CT_285	Chlamydia trachomatis (strain D/UW-3/Cx)	239
+O84723	O84723_CHLTR	unreviewed	Putative uncharacterized protein	CT_718	Chlamydia trachomatis (strain D/UW-3/Cx)	174
+O84869	O84869_CHLTR	unreviewed	Putative uncharacterized protein	CT_861	Chlamydia trachomatis (strain D/UW-3/Cx)	506
+O84342	O84342_CHLTR	unreviewed	Putative uncharacterized protein	CT_338	Chlamydia trachomatis (strain D/UW-3/Cx)	153
+O84831	O84831_CHLTR	unreviewed	Zinc Metalloprotease (Insulinase family)	CT_824	Chlamydia trachomatis (strain D/UW-3/Cx)	974
+O84210	O84210_CHLTR	unreviewed	Fructose-6-P Phosphotransferase	pfkA_2 CT_207	Chlamydia trachomatis (strain D/UW-3/Cx)	548
+O84431	O84431_CHLTR	unreviewed	Sigma Regulatory Factor	rsbV_1 CT_424	Chlamydia trachomatis (strain D/UW-3/Cx)	116
+O84595	O84595_CHLTR	unreviewed	Succinate Dehydrogenase	sdhB CT_591	Chlamydia trachomatis (strain D/UW-3/Cx)	232
+O84500	O84500_CHLTR	unreviewed	DNA Polymerase I	polA CT_493	Chlamydia trachomatis (strain D/UW-3/Cx)	866
+O84615	O84615_CHLTR	unreviewed	RNA Polymerase Sigma-54	rpoN CT_609	Chlamydia trachomatis (strain D/UW-3/Cx)	436
+O84801	O84801_CHLTR	unreviewed	Putative uncharacterized protein	CT_795	Chlamydia trachomatis (strain D/UW-3/Cx)	163
+O84829	O84829_CHLTR	unreviewed	Succinyl-CoA ligase [ADP-forming] subunit alpha (EC 6.2.1.5)	sucD CT_822	Chlamydia trachomatis (strain D/UW-3/Cx)	291
+O84881	O84881_CHLTR	unreviewed	Putative uncharacterized protein	CT_873	Chlamydia trachomatis (strain D/UW-3/Cx)	105
+O84580	O84580_CHLTR	unreviewed	Low Calcium Response Protein H	lcrH_1 CT_576	Chlamydia trachomatis (strain D/UW-3/Cx)	232
+O84598	O84598_CHLTR	unreviewed	Putative uncharacterized protein	CT_593.1	Chlamydia trachomatis (strain D/UW-3/Cx)	63
+O84856	O84856_CHLTR	unreviewed	Putative uncharacterized protein	CT_849	Chlamydia trachomatis (strain D/UW-3/Cx)	159
+O84037	O84037_CHLTR	unreviewed	Cationic Amino Acid Transporter	ytfF CT_034	Chlamydia trachomatis (strain D/UW-3/Cx)	341
+O84166	O84166_CHLTR	unreviewed	Putative uncharacterized protein	CT_164	Chlamydia trachomatis (strain D/UW-3/Cx)	86
+O84170	O84170_CHLTR	unreviewed	Putative uncharacterized protein	CT_168	Chlamydia trachomatis (strain D/UW-3/Cx)	100
+O84464	O84464_CHLTR	unreviewed	Amino Group Acetyl Transferase	YhhY CT_458	Chlamydia trachomatis (strain D/UW-3/Cx)	167
+O84489	O84489_CHLTR	unreviewed	Putative uncharacterized protein	CT_482	Chlamydia trachomatis (strain D/UW-3/Cx)	217
+O84596	O84596_CHLTR	unreviewed	Succinate Dehydrogenase	sdhA CT_592	Chlamydia trachomatis (strain D/UW-3/Cx)	573
+O84740	O84740_CHLTR	unreviewed	D-Ala/Gly Permease	dagA_2 CT_735	Chlamydia trachomatis (strain D/UW-3/Cx)	455
+O84023	O84023_CHLTR	unreviewed	Signal Peptidase I	lepB CT_020	Chlamydia trachomatis (strain D/UW-3/Cx)	628
+O84870	O84870_CHLTR	unreviewed	Low Calcium Response Protein H	lcrH_2 CT_862	Chlamydia trachomatis (strain D/UW-3/Cx)	198
+O84388	O84388_CHLTR	unreviewed	Putative uncharacterized protein	CT_383	Chlamydia trachomatis (strain D/UW-3/Cx)	243
+O84440	O84440_CHLTR	unreviewed	Putative uncharacterized protein	CT_433	Chlamydia trachomatis (strain D/UW-3/Cx)	223
+O84603	O84603_CHLTR	unreviewed	Putative uncharacterized protein	CT_598	Chlamydia trachomatis (strain D/UW-3/Cx)	235
+O84255	O84255_CHLTR	unreviewed	Putative uncharacterized protein	CT_253	Chlamydia trachomatis (strain D/UW-3/Cx)	215
+O84248	O84248_CHLTR	unreviewed	Pyruvate Dehydrogenase Beta	pdhB CT_246	Chlamydia trachomatis (strain D/UW-3/Cx)	328
+O84644	O84644_CHLTR	unreviewed	Putative uncharacterized protein	CT_638.1	Chlamydia trachomatis (strain D/UW-3/Cx)	69
+O84140	O84140_CHLTR	unreviewed	Dipeptidase	CT_138	Chlamydia trachomatis (strain D/UW-3/Cx)	315
+O84168	O84168_CHLTR	unreviewed	Putative uncharacterized protein	CT_166	Chlamydia trachomatis (strain D/UW-3/Cx)	639
+O84258	O84258_CHLTR	unreviewed	Putative uncharacterized protein	CT_256	Chlamydia trachomatis (strain D/UW-3/Cx)	414
+O84600	O84600_CHLTR	unreviewed	Thio:disulfide Interchange Protein	dsbD CT_595	Chlamydia trachomatis (strain D/UW-3/Cx)	692
+O84753	O84753_CHLTR	unreviewed	Transcription-Repair Coupling	mfd CT_748	Chlamydia trachomatis (strain D/UW-3/Cx)	1079
+O84364	O84364_CHLTR	unreviewed	Putative uncharacterized protein	CT_359	Chlamydia trachomatis (strain D/UW-3/Cx)	196
+O84643	O84643_CHLTR	unreviewed	Putative uncharacterized protein	CT_638	Chlamydia trachomatis (strain D/UW-3/Cx)	255
+O84020	O84020_CHLTR	unreviewed	Putative uncharacterized protein	CT_017	Chlamydia trachomatis (strain D/UW-3/Cx)	433
+O84664	O84664_CHLTR	unreviewed	Putative uncharacterized protein	CT_657	Chlamydia trachomatis (strain D/UW-3/Cx)	105
+O84692	O84692_CHLTR	unreviewed	ABC Transporter Membrane Protein	CT_686	Chlamydia trachomatis (strain D/UW-3/Cx)	395
+O84854	O84854_CHLTR	unreviewed	Putative uncharacterized protein	CT_847	Chlamydia trachomatis (strain D/UW-3/Cx)	172
+O84862	O84862_CHLTR	unreviewed	ABC transporter permease fused to pyrimidine biosynthesis enzyme	CT_854	Chlamydia trachomatis (strain D/UW-3/Cx)	589
+O84122	O84122_CHLTR	unreviewed	Putative uncharacterized protein	CT_120	Chlamydia trachomatis (strain D/UW-3/Cx)	80
+O84156	O84156_CHLTR	unreviewed	Phospholipase D Endonuclease Superfamily	CT_154	Chlamydia trachomatis (strain D/UW-3/Cx)	383
+O84293	O84293_CHLTR	unreviewed	PTS IIA Protein	ptsN_2 CT_291	Chlamydia trachomatis (strain D/UW-3/Cx)	158
+O84551	O84551_CHLTR	unreviewed	Putative uncharacterized protein	CT_547	Chlamydia trachomatis (strain D/UW-3/Cx)	318
+O84646	O84646_CHLTR	unreviewed	Exodeoxyribonuclease V, Gamma	recC CT_640	Chlamydia trachomatis (strain D/UW-3/Cx)	1004
+O84653	O84653_CHLTR	unreviewed	Putative uncharacterized protein	CT_647	Chlamydia trachomatis (strain D/UW-3/Cx)	192
+O84076	O84076_CHLTR	unreviewed	Predicted OMP l	CT_073	Chlamydia trachomatis (strain D/UW-3/Cx)	325
+O84733	O84733_CHLTR	unreviewed	Putative uncharacterized protein	CT_728	Chlamydia trachomatis (strain D/UW-3/Cx)	248
+O84795	O84795_CHLTR	unreviewed	Putative uncharacterized protein	CT_790	Chlamydia trachomatis (strain D/UW-3/Cx)	164
+O84426	O84426_CHLTR	unreviewed	Putative uncharacterized protein	CT_421	Chlamydia trachomatis (strain D/UW-3/Cx)	233
+O84472	O84472_CHLTR	unreviewed	Putative uncharacterized protein	CT_466	Chlamydia trachomatis (strain D/UW-3/Cx)	109
+O84647	O84647_CHLTR	unreviewed	Predicted Efflux Protein	ygeD CT_641	Chlamydia trachomatis (strain D/UW-3/Cx)	559
+O84257	O84257_CHLTR	unreviewed	Putative uncharacterized protein	CT_255	Chlamydia trachomatis (strain D/UW-3/Cx)	127
+O84505	O84505_CHLTR	unreviewed	Replicative DNA Helicase	dnaB CT_497	Chlamydia trachomatis (strain D/UW-3/Cx)	472
+O84778	O84778_CHLTR	unreviewed	Leucine Dehydrogenase	ldh CT_773	Chlamydia trachomatis (strain D/UW-3/Cx)	346
+O84853	O84853_CHLTR	unreviewed	Putative uncharacterized protein	CT_846	Chlamydia trachomatis (strain D/UW-3/Cx)	234
+O84040	O84040_CHLTR	unreviewed	Putative uncharacterized protein	CT_037	Chlamydia trachomatis (strain D/UW-3/Cx)	118
+O84370	O84370_CHLTR	unreviewed	Putative uncharacterized protein	CT_365	Chlamydia trachomatis (strain D/UW-3/Cx)	575
+O84582	O84582_CHLTR	unreviewed	Putative uncharacterized protein	CT_578	Chlamydia trachomatis (strain D/UW-3/Cx)	487
+O84642	O84642_CHLTR	unreviewed	Aromatic AA Aminotransferase	tyrB CT_637	Chlamydia trachomatis (strain D/UW-3/Cx)	400
+O84852	O84852_CHLTR	unreviewed	Putative uncharacterized protein	CT_845	Chlamydia trachomatis (strain D/UW-3/Cx)	92
+O84238	O84238_CHLTR	unreviewed	cAMP-Dependent Protein Kinase Regulatory Subunit	CT_235	Chlamydia trachomatis (strain D/UW-3/Cx)	137
+O84483	O84483_CHLTR	unreviewed	Methylated-DNA protein-cysteine methyltransferase	ada CT_477	Chlamydia trachomatis (strain D/UW-3/Cx)	170
+O84490	O84490_CHLTR	unreviewed	Putative uncharacterized protein	CT_483	Chlamydia trachomatis (strain D/UW-3/Cx)	121
+O84665	O84665_CHLTR	unreviewed	Pseudouridine Synthase	sfhB CT_658	Chlamydia trachomatis (strain D/UW-3/Cx)	334
+O84004	O84004_CHLTR	unreviewed	Putative uncharacterized protein	CT_001	Chlamydia trachomatis (strain D/UW-3/Cx)	90
+O84291	O84291_CHLTR	unreviewed	Putative uncharacterized protein	CT_289	Chlamydia trachomatis (strain D/UW-3/Cx)	379
+O84455	O84455_CHLTR	unreviewed	Putative uncharacterized protein	CT_449	Chlamydia trachomatis (strain D/UW-3/Cx)	110
+O84565	O84565_CHLTR	unreviewed	Yop proteins translocation protein L	yscL CT_561	Chlamydia trachomatis (strain D/UW-3/Cx)	223
+O84569	O84569_CHLTR	unreviewed	Putative uncharacterized protein	CT_565	Chlamydia trachomatis (strain D/UW-3/Cx)	147
+O84871	O84871_CHLTR	unreviewed	Putative uncharacterized protein	CT_863	Chlamydia trachomatis (strain D/UW-3/Cx)	482
+O84347	O84347_CHLTR	unreviewed	O-Sialoglycoprotein Endopeptidase family	CT_343	Chlamydia trachomatis (strain D/UW-3/Cx)	210
+O84169	O84169_CHLTR	unreviewed	Putative uncharacterized protein	CT_167	Chlamydia trachomatis (strain D/UW-3/Cx)	443
+O84408	O84408_CHLTR	unreviewed	rRNA Methylase (SpoU family)	yjfH CT_403	Chlamydia trachomatis (strain D/UW-3/Cx)	269
+O84052	O84052_CHLTR	unreviewed	Putative uncharacterized protein	CT_049	Chlamydia trachomatis (strain D/UW-3/Cx)	490
+O84659	O84659_CHLTR	unreviewed	Putative uncharacterized protein	CT_652.1	Chlamydia trachomatis (strain D/UW-3/Cx)	59
+O84780	O84780_CHLTR	unreviewed	SnGlycerol 3-P Acyltransferase	CT_775	Chlamydia trachomatis (strain D/UW-3/Cx)	253
+O84083	O84083_CHLTR	unreviewed	CHLTR T2 Protein	CT_081	Chlamydia trachomatis (strain D/UW-3/Cx)	98
+O84143	O84143_CHLTR	unreviewed	Protein Translocase	secA_1 CT_141	Chlamydia trachomatis (strain D/UW-3/Cx)	148
+O84241	O84241_CHLTR	unreviewed	Malonyl CoA-Acyl Carrier Transacylase	fabD CT_238	Chlamydia trachomatis (strain D/UW-3/Cx)	308
+O84365	O84365_CHLTR	unreviewed	Putative uncharacterized protein	CT_360	Chlamydia trachomatis (strain D/UW-3/Cx)	208
+O84478	O84478_CHLTR	unreviewed	Putative uncharacterized protein	CT_472	Chlamydia trachomatis (strain D/UW-3/Cx)	264
+O84633	O84633_CHLTR	unreviewed	Geranylgeranyl pyrophosphate synthase	ispA CT_628	Chlamydia trachomatis (strain D/UW-3/Cx)	291
+O84708	O84708_CHLTR	unreviewed	Putative uncharacterized protein	CT_702	Chlamydia trachomatis (strain D/UW-3/Cx)	175
+O84349	O84349_CHLTR	unreviewed	Putative uncharacterized protein	CT_345	Chlamydia trachomatis (strain D/UW-3/Cx)	121
+O84019	O84019_CHLTR	unreviewed	Putative uncharacterized protein	CT_016	Chlamydia trachomatis (strain D/UW-3/Cx)	242
+O84183	O84183_CHLTR	unreviewed	ABC Transport ATPase (Nitrate/Fe)	tauB CT_180	Chlamydia trachomatis (strain D/UW-3/Cx)	230
+O84286	O84286_CHLTR	unreviewed	Phospholipase D superfamily	CT_284	Chlamydia trachomatis (strain D/UW-3/Cx)	474
+O84292	O84292_CHLTR	unreviewed	PTS IIA Protein + HTH DNA-Binding Domain	ptsN_1 CT_290	Chlamydia trachomatis (strain D/UW-3/Cx)	225
+O84578	O84578_CHLTR	unreviewed	Aminopeptidase P	pepP CT_574	Chlamydia trachomatis (strain D/UW-3/Cx)	356
+O84683	O84683_CHLTR	unreviewed	Putative uncharacterized protein	CT_676	Chlamydia trachomatis (strain D/UW-3/Cx)	173
+O84764	O84764_CHLTR	unreviewed	Muramidase (Invasin repeat family)	nlpD CT_759	Chlamydia trachomatis (strain D/UW-3/Cx)	245
+O84093	O84093_CHLTR	unreviewed	Yop proteins translocation protein U	yscU CT_091	Chlamydia trachomatis (strain D/UW-3/Cx)	360
+O84198	O84198_CHLTR	unreviewed	Putative uncharacterized protein	CT_195	Chlamydia trachomatis (strain D/UW-3/Cx)	363
+O84278	O84278_CHLTR	unreviewed	Putative uncharacterized protein	CT_276	Chlamydia trachomatis (strain D/UW-3/Cx)	194
+O84667	O84667_CHLTR	unreviewed	DNA Gyrase Subunit A	gyrA_2 CT_660	Chlamydia trachomatis (strain D/UW-3/Cx)	490
+O84775	O84775_CHLTR	unreviewed	3-oxoacyl-[acyl-carrier-protein] synthase 2 (EC 2.3.1.179)	fabF CT_770	Chlamydia trachomatis (strain D/UW-3/Cx)	418
+O84798	O84798_CHLTR	unreviewed	Putative uncharacterized protein	CT_793	Chlamydia trachomatis (strain D/UW-3/Cx)	89
+O84571	O84571_CHLTR	unreviewed	Putative uncharacterized protein	CT_567	Chlamydia trachomatis (strain D/UW-3/Cx)	174
+O84868	O84868_CHLTR	unreviewed	Putative uncharacterized protein	CT_860	Chlamydia trachomatis (strain D/UW-3/Cx)	493
+O84864	O84864_CHLTR	unreviewed	Sulfate Transporter	ychM CT_856	Chlamydia trachomatis (strain D/UW-3/Cx)	567
+O84249	O84249_CHLTR	unreviewed	Dihydrolipoamide Acetyltransferase	pdhC CT_247	Chlamydia trachomatis (strain D/UW-3/Cx)	429
+O84343	O84343_CHLTR	unreviewed	Putative uncharacterized protein	CT_339	Chlamydia trachomatis (strain D/UW-3/Cx)	509
+O84473	O84473_CHLTR	unreviewed	2-component regulatory system-sensor histidine kinase	atoS CT_467	Chlamydia trachomatis (strain D/UW-3/Cx)	352
+O84657	O84657_CHLTR	unreviewed	Putative uncharacterized protein	CT_651	Chlamydia trachomatis (strain D/UW-3/Cx)	608
+O84824	O84824_CHLTR	unreviewed	Tyrosine Transport	tyrP_1 CT_817	Chlamydia trachomatis (strain D/UW-3/Cx)	398
+O84237	O84237_CHLTR	unreviewed	Putative uncharacterized protein	CT_234	Chlamydia trachomatis (strain D/UW-3/Cx)	928
+O84628	O84628_CHLTR	unreviewed	CHLPN 76kDa Homolog	CT_623	Chlamydia trachomatis (strain D/UW-3/Cx)	432
+O84114	O84114_CHLTR	unreviewed	Oligoendopeptidase	pepF CT_112	Chlamydia trachomatis (strain D/UW-3/Cx)	608
+O84323	O84323_CHLTR	unreviewed	Preprotein translocase subunit	secE CT_321	Chlamydia trachomatis (strain D/UW-3/Cx)	82
+O84634	O84634_CHLTR	unreviewed	UDP-GlcNAc Pyrophosphorylase	glmU CT_629	Chlamydia trachomatis (strain D/UW-3/Cx)	205
+O84146	O84146_CHLTR	unreviewed	Putative uncharacterized protein	CT_144	Chlamydia trachomatis (strain D/UW-3/Cx)	285
+O84593	O84593_CHLTR	unreviewed	Putative uncharacterized protein	CT_589	Chlamydia trachomatis (strain D/UW-3/Cx)	602
+O84205	O84205_CHLTR	unreviewed	Oligopeptide Transport ATPase	oppF CT_202	Chlamydia trachomatis (strain D/UW-3/Cx)	247
+O84814	O84814_CHLTR	unreviewed	Axial Filament Protein	cafE CT_808	Chlamydia trachomatis (strain D/UW-3/Cx)	512
+O84362	O84362_CHLTR	unreviewed	Putative uncharacterized protein	CT_357	Chlamydia trachomatis (strain D/UW-3/Cx)	110
+O84392	O84392_CHLTR	unreviewed	Putative uncharacterized protein	CT_387	Chlamydia trachomatis (strain D/UW-3/Cx)	691
+O84477	O84477_CHLTR	unreviewed	Putative uncharacterized protein	CT_471	Chlamydia trachomatis (strain D/UW-3/Cx)	200
+O84742	O84742_CHLTR	unreviewed	SET Domain protein	CT_737	Chlamydia trachomatis (strain D/UW-3/Cx)	219
+O84434	O84434_CHLTR	unreviewed	Putative uncharacterized protein	CT_427	Chlamydia trachomatis (strain D/UW-3/Cx)	273
+O84015	O84015_CHLTR	unreviewed	Putative uncharacterized protein ybbP	ybbP CT_012	Chlamydia trachomatis (strain D/UW-3/Cx)	264
+O84106	O84106_CHLTR	unreviewed	Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)	fabI CT_104	Chlamydia trachomatis (strain D/UW-3/Cx)	298
+O84221	O84221_CHLTR	unreviewed	4-hydroxybenzoate octaphenyltransferase	ubiA CT_219	Chlamydia trachomatis (strain D/UW-3/Cx)	302
+O84338	O84338_CHLTR	unreviewed	DNA Pol III Gamma and Tau	dnaX_2 CT_334	Chlamydia trachomatis (strain D/UW-3/Cx)	466
+O84560	O84560_CHLTR	unreviewed	Putative uncharacterized protein	CT_556	Chlamydia trachomatis (strain D/UW-3/Cx)	159
+O84085	O84085_CHLTR	unreviewed	Putative uncharacterized protein	CT_083	Chlamydia trachomatis (strain D/UW-3/Cx)	160
+O84251	O84251_CHLTR	unreviewed	Putative uncharacterized protein	CT_249	Chlamydia trachomatis (strain D/UW-3/Cx)	116
+O84344	O84344_CHLTR	unreviewed	(Pyruvate) Oxoisovalerate Dehydrogenase Alpha/Beta Fusion	pdhA/B CT_340	Chlamydia trachomatis (strain D/UW-3/Cx)	678
+O84261	O84261_CHLTR	unreviewed	PP2C phosphatase family	CT_259	Chlamydia trachomatis (strain D/UW-3/Cx)	248
+O84414	O84414_CHLTR	unreviewed	Amino acid permease	CT_409	Chlamydia trachomatis (strain D/UW-3/Cx)	453
+O84545	O84545_CHLTR	unreviewed	rRNA Methylase (SpoU family)	yibK CT_540	Chlamydia trachomatis (strain D/UW-3/Cx)	151
+O84668	O84668_CHLTR	unreviewed	DNA Gyrase Subunit B	gyrB_2 CT_661	Chlamydia trachomatis (strain D/UW-3/Cx)	605
+O84244	O84244_CHLTR	unreviewed	Omp85 Analog	yaeT CT_241	Chlamydia trachomatis (strain D/UW-3/Cx)	792
+O84328	O84328_CHLTR	unreviewed	Putative uncharacterized protein	CT_326	Chlamydia trachomatis (strain D/UW-3/Cx)	563
+O84387	O84387_CHLTR	unreviewed	Putative uncharacterized protein	CT_382.1	Chlamydia trachomatis (strain D/UW-3/Cx)	63
+O84433	O84433_CHLTR	unreviewed	Fe-S oxidoreductase	CT_426	Chlamydia trachomatis (strain D/UW-3/Cx)	369
+O84784	O84784_CHLTR	unreviewed	Putative uncharacterized protein	CT_779	Chlamydia trachomatis (strain D/UW-3/Cx)	229
+O84178	O84178_CHLTR	unreviewed	Oligopeptide binding protein permease	oppA_2 CT_175	Chlamydia trachomatis (strain D/UW-3/Cx)	529
+O84218	O84218_CHLTR	unreviewed	Amino Acid Transporter	xasA CT_216	Chlamydia trachomatis (strain D/UW-3/Cx)	466
+O84224	O84224_CHLTR	unreviewed	Putative uncharacterized protein	CT_221.1	Chlamydia trachomatis (strain D/UW-3/Cx)	46
+O84566	O84566_CHLTR	unreviewed	Yop proteins translocation protein R	yscR CT_562	Chlamydia trachomatis (strain D/UW-3/Cx)	306
+O84180	O84180_CHLTR	unreviewed	Possible Disulfide Bond Chaperone	dsbG CT_177	Chlamydia trachomatis (strain D/UW-3/Cx)	238
+O84266	O84266_CHLTR	unreviewed	Transport ATP Binding Protein	msbA CT_264	Chlamydia trachomatis (strain D/UW-3/Cx)	646
+O84453	O84453_CHLTR	unreviewed	SsDNA Exonuclease	recJ CT_447	Chlamydia trachomatis (strain D/UW-3/Cx)	584
+O84782	O84782_CHLTR	unreviewed	8-amino-7-oxononanoate synthase	bioF CT_777	Chlamydia trachomatis (strain D/UW-3/Cx)	377
+O84190	O84190_CHLTR	unreviewed	DNA Pol III Gamma and Tau	dnaX_1 CT_187	Chlamydia trachomatis (strain D/UW-3/Cx)	290
+O84204	O84204_CHLTR	unreviewed	Oligopeptide Transport ATPase	oppD CT_201	Chlamydia trachomatis (strain D/UW-3/Cx)	277
+O84485	O84485_CHLTR	unreviewed	Oligopeptide Permease	oppB_2 CT_479	Chlamydia trachomatis (strain D/UW-3/Cx)	492
+O84654	O84654_CHLTR	unreviewed	Putative uncharacterized protein	CT_648	Chlamydia trachomatis (strain D/UW-3/Cx)	424

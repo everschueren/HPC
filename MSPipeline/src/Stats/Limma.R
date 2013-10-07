@@ -77,7 +77,7 @@ do_limma = function(data_matrix, design_matrix, contrasts=NULL){
     #   test_results = decideTests(contrasts.fit, method="global")
     #   test_results_summary = summary(test_results)
     for(i in 1:ncol(contrasts)){
-      test_differentials = topTable(contrasts.fit, coef=i, adjust.method="BH",number=Inf)
+      test_differentials = topTable(contrasts.fit, coef=i, adjust.method="none",number=Inf)
       tmp1 = cbind(rownames(test_differentials), test_differentials[,c(1,4)])
       ctr = colnames(contrasts)[i]
       colnames(tmp1)[1] = c("ID")

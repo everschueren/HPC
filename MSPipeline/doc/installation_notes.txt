@@ -1,0 +1,51 @@
+## NOTES FROM INSTALLATION BY STEFAN
+
+cd /usr/local/tpp/bin
+
+./indexmzXML /home/bohn/QE20130703-02.mzXML
+./MzXML2Search -mgf -T10000 /home/bohn/QE20130703-02_new.mzXML
+./readmzxml /home/bohn/QE20130703-02_new.mzXML
+
+----Git----------------------------------------------------------
+git config --global user.name "sbohn"
+git config --global user.email "stefan.bohn.acc@gmail.com"
+git config --global credential.helper 'cache --timeout=3600'
+
+----MS-Pipeline by Erik------------------------------------------
+
+downlaod and unzip MS-Pipeline to target dir from https://github.com/everschueren/HPC
+	unzip Downloads/HPC-master.zip -d \#ms-analysis/
+
+install libraries etc.
+	sudo apt-get install python-setuptools
+	sudo apt-get install python-numpy python-scipy python-matplotlib
+	sudo apt-get install python-mdp
+
+install R
+	sudo -s
+		gedit /etc/apt/sources.list
+			add "deb http://cran.cnr.berkeley.edu/bin/linux/ubuntu precise/"
+		save and close
+	exit
+	sudo apt-get update
+	sudo apt-get install r-base
+
+install R packages, start R with "R"
+	install.packages('reshape2')
+	install.packages('optparse')
+	install.packages('sqldf')
+
+configure keys-file:
+	spacer must be a tab (no "space")
+	top row must contain a "#" above the custom names
+
+configure APMSPipeline.py
+	set path correctly to install-dir of MS-Pipeline: MS_PIPELINE_PATH = "????"
+
+ensure that the MS-Pipeline path is set correctly
+	export MS_PIPELINE_PATH=/home/bohn/#ms-analysis/HPC-master/MSPipeline/
+
+concatenate and clear the prospects.txt input file
+	sudo perl Excelcist.pl data/csn10_4ms-pipeline.txt
+
+
