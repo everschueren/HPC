@@ -3,7 +3,7 @@
 suppressMessages(library(reshape2))
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))
-
+suppressMessages(library(library(stats))
 
 options(warn=-1)
 
@@ -303,7 +303,7 @@ option_list <- list(
               help="Flag to enable resampling of COMPPASS scores for additional p-value output")
 )
 
-parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
+parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=TRUE))
 
 Comppass.main(parsedArgs$data_file,parsedArgs$output_file, parsedArgs$resampling)  
 
