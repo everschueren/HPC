@@ -4,6 +4,7 @@ suppressMessages(library(optparse))
 suppressMessages(library(compiler))
 suppressMessages(library(sqldf))
 suppressMessages(library(stringr))
+suppressMessages(library(stats))
 
 INSTALL_DIR = Sys.getenv("MS_PIPELINE_PATH") 
 source(paste(INSTALL_DIR,"src/Conversion/AnnotateWithUniprot_lib.R",sep=""))
