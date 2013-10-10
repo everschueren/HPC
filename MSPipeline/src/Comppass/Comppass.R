@@ -3,9 +3,7 @@
 suppressMessages(library(reshape2))
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))
-suppressMessages(library(library(stats))
-
-options(warn=-1)
+suppressMessages(library(stats))
 
 Comppass.cleanMatrix = function(data){
   ## get rid of unassigned columns
