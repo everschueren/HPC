@@ -95,8 +95,8 @@ Enrichment.uniprotToEntrez = function(ids){
 
 ## END DEPRECATED? ###############################################################################################
 
-Enrichment.annotate = function(ids, db=org.Hs.eg.db,type="UNIPROT", cols=c("UNIPROT","GO","PFAM","PROSITE","PATH")){
-  keys_ann = select(db, keys=ids, cols=cols, keytype=type)
+Enrichment.annotate = function(ids, db=org.Hs.eg.db,type="UNIPROT", columns=c("UNIPROT","GO","PFAM","PROSITE","PATH")){
+  keys_ann = select(db, keys=ids, columns=columns, keytype=type)
   keys_ann
 }
 
@@ -214,7 +214,7 @@ Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped
     
     ## GET ALL THE STUFF
     d = df[df[,set_idx]==set,]
-    da = Enrichment.annotate(ids=unique(d[,prey_idx]), cols=c("UNIPROT","SYMBOL","ENTREZID"))
+    da = Enrichment.annotate(ids=unique(d[,prey_idx]), columns=c("UNIPROT","SYMBOL","ENTREZID"))
     da_entrez_ids = unique(da$ENTREZID)
     
     ###################
