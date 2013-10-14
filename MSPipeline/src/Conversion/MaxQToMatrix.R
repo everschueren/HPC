@@ -7,8 +7,45 @@ suppressMessages(library(stringr))
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))
 suppressMessages(library(limma))
+suppressMessages(library(stats))
 
 options(warn=-1)
+
+MaxQToWide = function(data=tmp, id_idx=c(1,2), sample_idx=3, value_idx=4, fun=mean){
+  print(">> BUILDING MATRIX")
+  ## get unique id combinations and create a unique key
+  id_col_names = colnames(data)[id_idx]
+  sample_col_name = colnames(data)[sample_idx]
+  unique_id_combinations = unique(data[,id_idx])
+  unique_id_combinations = cbind(1:nrow(unique_id_combinations),unique_id_combinations)
+  colnames(unique_id_combinations)[1] = "unique_id"
+  
+  ## merge keys with the data
+  data_long = merge(unique_id_combinations, data, by=id_col_names, all.x=T)[,(length(id_idx)+1):(length(id_idx)+3)]
+  sample_names = unique(data_long[,sample_col_name])
+  
+  wide = NULL
+  
+  for(i in 1:length(sample_names)){
+    sample_name = sample_names[i]
+    print(sprintf("adding sample %s",sample_name))
+    sub_set = data_long[data_long[,sample_col_name]==sample_name,]
+    tmp = unique_id_combinations[,"unique_id", drop=F]
+    data_long_sample = merge(tmp,sub_set, by="unique_id", all.x=T)
+    data_long_sample = aggregate(data_long_sample$Ratio_H_L, by=list(unique_id=data_long_sample$unique_id), FUN=fun)
+    
+    if(is.null(wide)){
+      wide = data_long_sample
+    }else{
+      wide = cbind(wide, data_long_sample$x)
+    }
+    colnames(wide)[ncol(wide)] = sample_name
+  }
+  wide = merge(unique_id_combinations, wide, by=c("unique_id"))
+  wide = wide[,2:ncol(wide)]
+  wide
+}
+MaxQToWide = cmpfun(MaxQToWide)
 
 max_ratios = function(vec){
   min_val = min(vec, na.rm=T)
@@ -59,7 +96,11 @@ maxQ_to_matrix = function(data_file, index_file="", output_file="", replicate_pr
   ## CONVERT FROM LONG TO WIDE FORMAT
   fun = get_replicate_processing_fun(replicate_processing)
   # tmp2 = dcast(tmp, uniprot_id+Sequence ~ Code,value.var=maxq_value,  fun.aggregate=fun, fill=1)
-  tmp2 = dcast(tmp, uniprot_ac+Sequence ~ Code,value.var=maxq_value,  fun.aggregate=fun)
+  
+  ## dcast crashes on big tables, therefore we use our won function
+  #tmp2 = dcast(tmp, uniprot_ac+Sequence ~ Code,value.var=maxq_value,  fun.aggregate=fun)
+  tmp2 = MaxQToWide(tmp, id_idx=c(1,2), sample_idx=3, value_idx=4, fun=fun)
+  
   data_keys = tmp2[,1:2]
   data_matrix = tmp2[,c(3:ncol(tmp2))]
   #data_matrix[data_matrix==1]=1 
@@ -113,5 +154,4 @@ parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandA
 maxQ_to_matrix <- cmpfun(maxQ_to_matrix)
 maxQ_to_matrix(parsedArgs$data_file, parsedArgs$index_file, parsedArgs$output_file, parsedArgs$replicate_processing, parsedArgs$maxq_value, parsedArgs$normalization)  
 
-# maxQ_to_matrix(index_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/input/Mock_v_WT_keys.txt', data_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/input/Mock_v_WT_evidence.txt',  output_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/processed_repeats/Mock_v_WT_evidence_FLT_MAT.txt', replicate_processing='mean', maxq_value='Ratio_H_L', normalization='scale')
-
+# maxQ_to_matrix(index_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/input/Mock_v_WT_keys.txt', data_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/input/Mock_v_WT_evidence.txt', output_file='~/Projects/HPCKrogan/Data/HIV-proteomics/Jurkat-Infection-PTM/Mock-v-WT-Ub/processed_repeats/Mock_v_WT_evidence_FLT_MAT.txt', replicate_processing='mean', maxq_value='Ratio_H_L', normalization='scale')

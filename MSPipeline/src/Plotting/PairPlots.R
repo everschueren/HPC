@@ -2,6 +2,9 @@
 
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))
+suppressMessages(library(stats))
+suppressMessages(library(grDevices))
+suppressMessages(library(graphics))
 
 PairPlot.panel.cor = function(x, y, digits = 2, prefix = "", cex.cor, ...){
   usr <- par("usr"); on.exit(par(usr))

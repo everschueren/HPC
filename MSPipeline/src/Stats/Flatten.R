@@ -4,7 +4,7 @@ suppressMessages(library(stringr))
 suppressMessages(library(sqldf))
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))
-
+suppressMessages(library(stats))
 
 Flatten.Fisher = function(x) {
   pchisq(-2 * sum(log(x)),df=2*length(x),lower=FALSE)  
