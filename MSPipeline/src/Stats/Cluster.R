@@ -22,7 +22,9 @@ clusterIPs.main = function(data_file, output_file, font_scale){
   results_MAT_clean = data.matrix(results_MAT_clean)
   results_MAT_cor = cor(results_MAT_clean, use="pairwise.complete.obs", method="pearson")
   
-  rowScale = font_scale / (nrow(results_MAT_cor))
+  #rowScale = font_scale / (nrow(results_MAT_cor))
+  rowScale = (.9406 -.00508*nrow(results_MAT_cor))	#basic linear modelsolution from other sizes
+  
   pdf(output_file, width=7, height=7)
     heatmap.EV(results_MAT_cor, cexRow=rowScale)
   dev.off()

@@ -254,6 +254,24 @@ def pipeline(config):
 		subprocess.call([src_dir+'FileIO/CompileResults.R', '-d', "", '-o', tmp_out_file, '-f', mist_hiv_score_file, '-t', mist_self_score_file, '-m', mist_metrics_file, '-c', comppass_score_file, '-s', saint_score_file, '-p', ip_out_file,'-u',uniprot_dir, '-n', species, '-i', src_dir, '-a', annotate ])
 
 
+	####################
+	## ENRICHMENT ANALYSIS
+
+	if config.getboolean('enrich','enabled'):
+		print(">> PERFORMING ENRICHMENT ANALYSIS\t\t")
+		
+		enriched_dir = output_dir+"enriched/"
+		print enriched_dir
+		if not os.path.exists(enriched_dir):
+		    os.makedirs(enriched_dir)
+
+		all_scores = output_dir+bname+'_ALLSCORES'+".txt"
+		bait_col = config.get("enrich", "bait_col")
+		prey_col = config.get("enrich", "prey_col")
+		
+		subprocess.call([src_dir+'Meta/Enrichment.R', '-d', all_scores, '-o', enriched_dir, '-s', bait_col, '-p', prey_col])
+
+
 class Usage(Exception):
 	def __init__(self, msg):
 		self.msg = msg		
