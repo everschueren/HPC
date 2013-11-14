@@ -10,6 +10,7 @@ suppressMessages(library(GO.db))
 suppressMessages(library(KEGG.db))
 suppressMessages(library(PFAM.db))
 suppressMessages(library(GSEABase))
+suppressMessages(library(qvalue))
 
 ## for hyperG tests
 suppressMessages(library(annotate))
@@ -189,14 +190,15 @@ Enrichment.group = function(enrichment_out, term_id_idx=2){
   for(e in names(enrichment_out)){
     enrichment = enrichment_out[[e]]
     enrichment_id_name = colnames(enrichment)[term_id_idx]
-    enrichment_grouped = sqldf(sprintf("select setid, %s, Pvalue, OddsRatio, ExpCount, Count, Size, Term, group_concat(entrez_id) as 'entrez_id', group_concat(uniprot_ac) as 'uniprot_ac', group_concat(symbol) as 'symbol' from enrichment E group by %s order by Pvalue asc", enrichment_id_name, enrichment_id_name))
+    enrichment_grouped = sqldf(sprintf("select setid, %s, Pvalue, OddsRatio, ExpCount, Count, Size, Term, group_concat(entrez_id) as 'entrez_id', group_concat(uniprot_ac) as 'uniprot_ac', group_concat(symbol) as 'symbol' from enrichment E group by setid, %s order by Pvalue asc", enrichment_id_name, enrichment_id_name))
     out[[e]] = enrichment_grouped
   }
   out
 }
 
-Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped=T, enrichment_p_cutoff=enrichment_p_cutoff){
+Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped=T, enrichment_p_cutoff=enrichment_p_cutoff, id_type="UNIPROT"){
   
+  base_name = sub("(.+)[.][^.]+$", "\\1", basename(data_file))
   df = read.delim(data_file, stringsAsFactors=F)
 
   GO_CC_groups = c()
@@ -214,21 +216,32 @@ Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped
     
     ## GET ALL THE STUFF
     d = df[df[,set_idx]==set,]
-    da = Enrichment.annotate(ids=unique(d[,prey_idx]), columns=c("UNIPROT","SYMBOL","ENTREZID"))
-    da_entrez_ids = unique(da$ENTREZID)
+    if(id_type == "ENTREZID"){
+      da = Enrichment.annotate(ids=unique(d[,prey_idx]), type="ENTREZID",columns=c("UNIPROT","SYMBOL","ENTREZID"))
+      da = da[!is.na(da$ENTREZID),]
+      da_entrez_ids = unique(da$ENTREZID)
+    }else if(id_type == "UNIPROT"){
+      da = Enrichment.annotate(ids=unique(d[,prey_idx]), columns=c("UNIPROT","SYMBOL","ENTREZID"))
+      da = da[!is.na(da$ENTREZID),]
+      da_entrez_ids = unique(da$ENTREZID)
+    }
     
     ###################
     ## ENRICHMENT WITH GO
+    enrichment_p_cutoff = 1 ## set to 1 here to not get empty set error in getXXXEnrichment methods and filter later before writing out tables
     
     da_GO_CC_enriched = Enrichment.getGOEnrichment(da_entrez_ids, ontology="CC", p_cutoff=enrichment_p_cutoff)
+    da_GO_CC_enriched$Pvalue = p.adjust(da_GO_CC_enriched$Pvalue, method="fdr")
     da_GO_CC_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_CC_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
     GO_CC_groups = rbind(GO_CC_groups, da_GO_CC_groups)
     
     da_GO_MF_enriched = Enrichment.getGOEnrichment(da_entrez_ids, ontology="MF", p_cutoff=enrichment_p_cutoff)
+    da_GO_MF_enriched$Pvalue = p.adjust(da_GO_MF_enriched$Pvalue, method="fdr")
     da_GO_MF_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_MF_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
     GO_MF_groups = rbind(GO_MF_groups, da_GO_MF_groups)
     
     da_GO_BP_enriched = Enrichment.getGOEnrichment(da_entrez_ids, ontology="BP", p_cutoff=enrichment_p_cutoff)
+    da_GO_BP_enriched$Pvalue = p.adjust(da_GO_BP_enriched$Pvalue, method="fdr")
     da_GO_BP_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_BP_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
     GO_BP_groups = rbind(GO_BP_groups, da_GO_BP_groups)
     
@@ -236,12 +249,14 @@ Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped
     ## GET THE PFAM STUFF
     
     da_PFAM_enriched = Enrichment.getPFAMEnrichment(da_entrez_ids, p_cutoff=enrichment_p_cutoff)
+    da_PFAM_enriched$Pvalue = p.adjust(da_PFAM_enriched$Pvalue, method="fdr")
     da_PFAM_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_PFAM_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
     PFAM_groups = rbind(PFAM_groups, da_PFAM_groups)
     
     #####################
     ## GET THE KEGG STUFF
     da_KEGG_enriched = Enrichment.getKEGGEnrichment(da_entrez_ids, p_cutoff=enrichment_p_cutoff)
+    da_KEGG_enriched$Pvalue = p.adjust(da_KEGG_enriched$Pvalue, method="fdr")
     da_KEGG_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_KEGG_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
     KEGG_groups = rbind(KEGG_groups, da_KEGG_groups)
   }
@@ -256,8 +271,9 @@ Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped
   }
   
   for(l in names(res)){
-    e = res[[l]] 
-    write.table(e, file=sprintf("%s/%s%s.txt",output_dir,l,suffix), eol="\n", sep="\t", quote=F, row.names=F, col.names=T)
+    e = res[[l]]
+    e = e[e$Pvalue <= Enrichment.CUTOFF,]
+    write.table(e, file=sprintf("%s/%s%s%s.txt",output_dir,base_name,l,suffix), eol="\n", sep="\t", quote=F, row.names=F, col.names=T)
   }
 }
 
@@ -280,8 +296,12 @@ option_list <- list(
   make_option(c("-p", "--prey_idx"), default=2,
               help="column with genes/proteins as uniprot ID"),
   make_option(c("-e", "--enrichment_p_cutoff"), default=Enrichment.CUTOFF,
-              help="p-value cutoff for enrichment")
+              help="p-value cutoff for enrichment"),
+  make_option(c("-i", "--id_type"), default="UNIPROT",
+              help="ID type for Term retrieval: UNIPROT/ENTREZID")
 )
 
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
-Enrichment.main(data_file=parsedArgs$data_file, output_dir=parsedArgs$output_dir, set_idx=parsedArgs$set_idx, prey_idx=parsedArgs$prey_idx, grouped=parsedArgs$grouped, enrichment_p_cutoff=parsedArgs$enrichment_p_cutoff)  
+Enrichment.main(data_file=parsedArgs$data_file, output_dir=parsedArgs$output_dir, set_idx=parsedArgs$set_idx, prey_idx=parsedArgs$prey_idx, grouped=parsedArgs$grouped, enrichment_p_cutoff=parsedArgs$enrichment_p_cutoff, parsedArgs$id_type)
+
+# Enrichment.main(data_file="~/Projects/HPCKrogan/Data/HCV/Summary/20131021/20131028_hcv_network_perbait.txt", output_dir="~/Projects/HPCKrogan/Data/HCV/Summary/20131021/")  

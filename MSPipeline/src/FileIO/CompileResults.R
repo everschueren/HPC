@@ -16,7 +16,6 @@ mergeWithNegative = function(data, score){
   tmp
 }
 
-
 CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_self_score_file="", mist_hiv_score_file="", comppass_score_file="", saint_score_file="", ip_file="", filter_zeros=T, annotate=T, uniprot_dir="~/Projects/HPCKrogan/Scripts/MSPipeline/files/", species="HUMAN"){
 
   tmp = NULL	
