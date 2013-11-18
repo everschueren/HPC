@@ -117,7 +117,7 @@ def pipeline(config):
 
 	tmp_in_file = tmp_out_file
 
-	if config.get("general","remove_carryover"):
+	if config.getboolean("general","remove_carryover"):
 		
 		print(">> REMOVING CARRYOVER FROM\t\t" + tmp_in_file)
 		bname = bname+'_NoC'
