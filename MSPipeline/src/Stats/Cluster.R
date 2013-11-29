@@ -1,9 +1,13 @@
 #! /usr/bin/Rscript --vanilla --default-packages=utils
+
 INSTALL_DIR = Sys.getenv("MS_PIPELINE_PATH") 
 source(paste(INSTALL_DIR,"src/Plotting/Heatmaps.R",sep=""))
 
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))
+suppressMessages(library(stats))
+suppressMessages(library(grDevices))
+suppressMessages(library(graphics))
 
 options(warn=-1)
 
