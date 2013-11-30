@@ -8,6 +8,7 @@ suppressMessages(library(compiler))
 suppressMessages(library(stats))
 suppressMessages(library(grDevices))
 suppressMessages(library(graphics))
+suppressMessages(library(pheatmap))
 
 options(warn=-1)
 
@@ -27,11 +28,10 @@ clusterIPs.main = function(data_file, output_file, font_scale){
   results_MAT_cor = cor(results_MAT_clean, use="pairwise.complete.obs", method="pearson")
   
   #rowScale = font_scale / (nrow(results_MAT_cor))
-  rowScale = (.9406 -.00508*nrow(results_MAT_cor))	#basic linear modelsolution from other sizes
+  #rowScale = (.9406 -.00508*nrow(results_MAT_cor))	#basic linear modelsolution from other sizes
   
-  pdf(output_file, width=7, height=7)
-    heatmap.EV(results_MAT_cor, cexRow=rowScale)
-  dev.off()
+  pheatmap(results_MAT_cor, cluster_rows=T, cluster_cols=T, scale="none",fontsize_row=font_scale,fontsize_col=font_scale, cellwidth=font_scale, cellheight=font_scale, border_color=NA, filename=output_file)
+
 }
 
 option_list <- list(
@@ -48,4 +48,14 @@ option_list <- list(
 )
 
 parsedArgs = parse_args(OptionParser(option_list = option_list), args = commandArgs(trailingOnly=T))
+
+TEST=F
+if(TEST){
+  parsedArgs$data_file = "~/Projects/HPCKrogan/Data/HHV8/data/iSLK/data/processed/iSLK_data_wKEYS_NoC_MAT.txt"
+  data_file=parsedArgs$data_file
+  parsedArgs$output_file = "~/Projects/HPCKrogan/Data/HHV8/data/iSLK/data/processed/iSLK_data_wKEYS_NoC_MAT_CLUSTERED.pdf"
+  output_file = parsedArgs$output_file
+}
+
 clusterIPs.main(parsedArgs$data_file, parsedArgs$output_file, parsedArgs$font_scale)
+
