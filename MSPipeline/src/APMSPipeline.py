@@ -290,7 +290,7 @@ def main(argv=None):
 		argv = sys.argv
 	try:
 		try:
-			opts, args = getopt.getopt(argv[1:], "ho:crfa", ["help", "output=", "config=", "remove-carryover=", "format=", "alone="])
+			opts, args = getopt.getopt(argv[1:], "hoc:rfa", ["help", "output=", "config=", "remove-carryover=", "format=", "alone="])
 		except getopt.error, msg:
 			raise Usage(msg)
 	
