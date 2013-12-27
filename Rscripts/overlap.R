@@ -1,9 +1,9 @@
 # This calculates the significance of overlap between two groups of proteins.
-#	Using the classic urn approach, it assumes the whole human gene list as the population,
+#	Using the classic urn approach, it assumes the whole human gene list as the population (20k+),
 #	the first set A as the "white" set (Pass), the whole gene poulation minus this white set 
 #	is our "black" set (Fail), and the second set B as the sampled set from
-#	the whole gene list.
-
+#	the whole gene list. 
+# Specifically, these p-values are calculated on the overlap of each bait of groups A and B.
 
 
 ####################
@@ -19,17 +19,17 @@ overlapPerBait <- function(dat1, dat2, num_genes){
 		scores_o <- length(which(duplicated(c(scores1[idx1,]$PREY, scores2[idx2,]$PREY))))
 		pval <- phyper(scores_o, length(idx1), num_genes-length(idx1), length(idx2), lower.tail=FALSE)
 		
-		tmp <- c(set=paste(unique(dat1$dataset), unique(dat2$dataset), sep="-"), num_preys1=length(idx1), num_preys2=length(idx2), num_overlap=scores_o, p_val=pval )
+		tmp <- c(set=paste(unique(dat1$dataset), unique(dat2$dataset), sep="-"), bait=bait, num_preys1=length(idx1), num_preys2=length(idx2), num_overlap=scores_o, p_val=pval )
 		temp <- rbind(temp, t(tmp))
 		
 	}
 	
 	# make the numbers numeric
 	temp <- as.data.frame(temp, stringsAsFactors=FALSE)
-	temp[,2] <- as.numeric(temp[,2])
 	temp[,3] <- as.numeric(temp[,3])
 	temp[,4] <- as.numeric(temp[,4])
 	temp[,5] <- as.numeric(temp[,5])
+	temp[,6] <- as.numeric(temp[,6])
 	
 	return(temp)
 }
