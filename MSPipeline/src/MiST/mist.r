@@ -58,10 +58,21 @@ getMetrics <- function(x, baits){
 		abundance <- cbind(abundance, rowSums(x[,bidx])/length(bidx))
 		colnames(abundance)[dim(abundance)[2]] <- i
 	}
-
+	
+	# Specificity
+	# ----------------------
+	specificity <- t(apply(abundance,1,function(z) z/sum(z)))
+	
+	return(list(reproducibility, abundance, specificity))
 }
 
 
+doPCA <- function(R,A,S){
+	#sdfsdf
+	m <- cbind(R=c(t(R)), A=c(t(A)), S=c(t(S)) )
+	x <- princomp(m)
+	
+}
 
 
 
@@ -81,15 +92,12 @@ dat <- read.csv("~/HPC/MSPipeline/tests/3A_IP/processed/3A_IP-results_wKEYS_NoC_
 dat <- processMatrix(dat)
 m3d_norm <- getM3D_normalized(dat[[1]])
 
-#################
-x <- m3d_norm
-baits <- unlist(dat[[2]])
+dat <- getMetrics(m3d_norm, unlist(dat[[2]]))
+R <- dat[[1]]
+A <- dat[[2]]
+S <- dat[[3]]
 
-x <- getMetrics(m3d_norm, unlist(dat[[2]]))
-
-
-
-
+x <- doPCA(R,A,S)
 
 
 
