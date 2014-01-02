@@ -255,6 +255,19 @@ def pipeline(config):
 
 
 	####################
+	## QUALITY CONTROL PLOTS
+
+	if config.getboolean('qc','enabled'):
+		print(">> PLOTTING FOR QUALITY CONTROL\t\t")
+		
+		tmp_out_file = dir+"../summary"
+		tmp_data_file = output_dir + os.path.splitext(os.path.basename(data_file))[0] + "_wKEYS_NoC.txt"
+
+		# print(src_dir+'FileIO/CompileResults.R'+  ' -o '+ tmp_out_file+ ' -f '+ mist_hiv_score_file+ ' -t '+ mist_self_score_file+ ' -m '+ mist_metrics_file+ ' -c '+ comppass_score_file+ ' -s '+ saint_score_file+ ' -u '+ uniprot_dir+ ' -n '+ species+ ' -i '+ src_dir + '-a ' + annotate)
+		subprocess.call([src_dir+'Stats/qualityCheck.R', '-d', tmp_data_file, '-o', tmp_out_file])
+
+
+	####################
 	## ENRICHMENT ANALYSIS
 
 	if config.getboolean('enrich','enabled'):
