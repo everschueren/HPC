@@ -1,13 +1,11 @@
 
 
-
-
-
 # simplify/convert data into workable form
 processMatrix <- function(x){
 	baits <- x[1,5:dim(x)[2]]
 	x <- x[-c(1:2),]
 	names(x)[1:3] <- c("Preys", "PepAtlas", "Length")
+	row.names(x) <- x$Preys
 	idx <- c(2,3,5:dim(x)[2])
 	#convert columns from characters to numbers
 	for(i in idx){
@@ -16,8 +14,7 @@ processMatrix <- function(x){
 	return(list(x, baits))
 }
 
-
-
+# "normalize" the M3D variable
 getM3D_normalized <- function(x){
 	x1 <- x[,5:dim(x)[2]]/x[,3]
 	# normalize by column (of x)	-	M3D
@@ -66,38 +63,53 @@ getMetrics <- function(x, baits){
 	return(list(reproducibility, abundance, specificity))
 }
 
-
-doPCA <- function(R,A,S){
-	#sdfsdf
-	m <- cbind(R=c(t(R)), A=c(t(A)), S=c(t(S)) )
-	x <- princomp(m)
-	
+# vectorize the metrics while keeping the names straight
+vectorize <- function(x){
+	temp <- c()
+	for(i in 1:dim(x)[2] ){
+		tmp <- as.data.frame(cbind(x[,i], colnames(x)[i], names(x[,i])), stringsAsFactors=FALSE)
+		temp <- rbind(temp,tmp)
+	}
+	names(temp) <- c("Xscore", "Bait", "Prey")
+	temp$Xscore <- as.numeric(temp$Xscore)
+	return(temp[,c(3,2,1)])
 }
 
 
-
-
-
-
-
-
+# Perform PCA analysis AS DONE IN MIST
+doPCA <- function(R,A,S){
+	# vectorize the variables -- may need to make changes to carry over names
+	m <- cbind(R=R$Xscore, A=A$Xscore, S=S$Xscore )
+	x <- princomp(m)
+	
+	#now do some other stuff??
+	scores <- -x$scores[,1]
+	scores <- 1 - (scores - min(scores))/(max(scores)-min(scores))
+	scores <- cbind(R=R, A=A$Xscore, S=S$Xscore, MiST=scores)
+	names(scores) = c("Prey", "Bait", "Reproducibility", "Abundance", "Specificity", "MiST_score")
+	return(scores)
+}
 
 
 ##############################################################################################################
 #dat <- read.csv("~/HPC/MSPipeline/tests/3A/input/3A-results.txt", sep="\t", header=TRUE, stringsAsFactors=FALSE)
 #keys <- read.csv("~/HPC/MSPipeline/tests/3A/input/3A_keys.txt", sep="\t", header=TRUE, stringsAsFactors=FALSE)
 
-dat <- read.csv("~/HPC/MSPipeline/tests/3A_IP/processed/3A_IP-results_wKEYS_NoC_MAT.txt", sep="\t", header=TRUE, stringsAsFactors=FALSE)
+#dat <- read.csv("~/HPC/MSPipeline/tests/3A_IP/processed/3A_IP-results_wKEYS_NoC_MAT.txt", sep="\t", header=TRUE, stringsAsFactors=FALSE)
+dat <- read.csv("~/HPC/MSPipeline/tests/HHV8_glaunsinger/BJAB/data/processed/BJAB_data_wKEYS_NoC_MAT.txt", sep="\t", header=TRUE, stringsAsFactors=FALSE)
+
 
 dat <- processMatrix(dat)
 m3d_norm <- getM3D_normalized(dat[[1]])
 
 dat <- getMetrics(m3d_norm, unlist(dat[[2]]))
-R <- dat[[1]]
-A <- dat[[2]]
-S <- dat[[3]]
+R <- vectorize(dat[[1]])
+A <- vectorize(dat[[2]])
+S <- vectorize(dat[[3]])
 
 x <- doPCA(R,A,S)
+
+write.table(x, "~/HPC/MSPipeline/tests/HHV8_glaunsinger/BJAB/data/processed/MiST_scores_1.txt", row.names=FALSE, col.names=TRUE, quote=FALSE, sep="\t" )
 
 
 
