@@ -16,10 +16,11 @@ processMatrix <- function(x){
 
 # "normalize" the M3D variable
 getM3D_normalized <- function(x){
+	# divide cols by their bait length
 	x1 <- x[,5:dim(x)[2]]/x[,3]
-	# normalize by column (of x)	-	M3D
+	# normalize by column (of x)	--	M3D
 	x1 <- scale(x1, center=FALSE, scale=colSums(x[,5:dim(x)[2]]))
-	# normalize by column (of x1)	-	M3D normalized
+	# normalize by column (of x1)	--	M3D normalized
 	x1 <- scale(x1, center=FALSE, scale=colSums(x1))	
 	return(x1)
 }
@@ -78,9 +79,9 @@ vectorize <- function(x){
 
 # Perform PCA analysis AS DONE IN MIST
 doPCA <- function(R,A,S){
-	# vectorize the variables -- may need to make changes to carry over names
+	# vectorize the variables
 	m <- cbind(R=R$Xscore, A=A$Xscore, S=S$Xscore )
-	x <- princomp(m)
+	x <- princomp(m)	# <- shouldn't we mean scale per variable before this step?
 	
 	#now do some other stuff??
 	scores <- -x$scores[,1]
