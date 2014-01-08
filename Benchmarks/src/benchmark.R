@@ -2,7 +2,7 @@
 #reads in a results file from MSPipeline
 getScores <- function(filename){
 	dat <- read.delim(filename, sep='\t', header=TRUE, stringsAsFactors =FALSE)
-	dat <- dat2 <- dat[,c(1,2,3,5,11,14)]
+	dat <- dat2 <- dat[,c(1,2,3,5,11,14,16)]
 	return(dat)
 }
 
@@ -126,7 +126,7 @@ createIndex <- function(scores, truths){
 
 #Run the respective pipeline score through with different thresholds to calculate ROC curve
 getROCscores <- function(le_truths, le_scores){
-	print(paste("Calculating ", names(le_scores)[2], " ROC scores"), sep="")
+	print(paste("Calculating ", names(le_scores)[3], " ROC scores"), sep="")
 	tmp = data.frame()
 	#cycle through threshhold values to create ROC curve
 	for(thresh in 100:1){
@@ -134,42 +134,33 @@ getROCscores <- function(le_truths, le_scores){
 		print(thresh)
 		
 		x <- le_scores
+		# Determining which scores are +/- based on threshold
 		quant <- quantile(x[,3], thresh/100)
 		idx1 <- which(x[,3] >= quant)
-		idx2 <- which(x[,3] < quant)
 		x[idx1,3] <- 1
-		x[idx2,3] <- -1
+		x[-idx1,3] <- -1
 		names(x)[3] <- "label"
 
-
-
-
-
-		x = x[order(x$idx.x, x$idx.y),]
-		head(x)
+		# Merging on (bait, prey) = (x,y)
 		x <- merge(x, truths[,c(1,4)], by.x="idx.y", by.y="idx", all.x=TRUE)	
-		x = x[order(x$idx.x, x$idx.y),]
-		head(x)
-		x <- merge(x, truths[,c(1,4)], by.x="idx.x", by.y="idx", all.x=TRUE) #accounting for bait/prey or prey/bait possibility
-		x = x[order(x$idx.x, x$idx.y),]
-		head(x)
-		
-#!!!!!!!!!!!!!!!!!!!!!!!! checking on why label.y == label sometimes :(
-		idx <- which(x$label == x$label.y)
+		# Merging again to account for (bait, prey) = (y,x) possibility
+		x <- merge(x, truths[,c(1,4)], by.x="idx.x", by.y="idx", all.x=TRUE) 
+		names(x)[3:5] = c("score", "truth.xy", "truth.yx")
 		
 		
+	#!!!!!! DO WE INCLUDE NA'S OR COUNT THEM AS NEGATIVES/NEUTRALS  ->it's not included in table() function below	
+		# remove NA's
+		x[is.na(x)] <- 0
+		# finalize determining what True score is
+		x = cbind(x[,1:3], truth = x$truth.xy + x$truth.yx)
 		
+		# check for any >|1| numbers and bring them back to unit distance
+		#idx <- which(abs(x$truth)>1)
+		x$truth <- x$truth/abs(x$truth)		#this also creates NaN's for the case where 
 		
-		#fill in any values that were missed due to bait/prey or prey/bait ordering	
-		idx = which(is.na(x$label.y) & !is.na(x$label))
-		x$label.y[idx] <- x$label[idx]
-		
-		
-		
-		
-
-		#x[is.na(x[,3]),] = -1	#anything that doesn't have a match = -1
+		# make table of scores/truths
 		x = table(x[,3], x[,4])
+		# calculate True Positive/Negative Rates
 		#if the predicted values predict all False or all True
 		if(sum(dim(x) == c(2,2)) <2){
 			if(rownames(x) == "-1"){
@@ -197,7 +188,7 @@ plotROC <- function(rocscores){
 	for(i in 1:length(rocscores)){
 		lines(rocscores[[i]]$tpr ~ rocscores[[i]]$fpr, col=i)
 	}
-	legend(.6,.2, names(rocscores), col=1:length(rocscores), lty=c(1,1), lwd=2.5)
+	legend(.675,.25, names(rocscores), col=1:length(rocscores), lty=c(1,1), lwd=2.5)
 }
 
 
@@ -225,15 +216,16 @@ scoreExperiment <- function(truths, scores){
 
 
 #file that we will be using as benchmark
-resultsfile = '~/HPC/MSPipeline/tests/humanNet/processed/humanNet_data_wKEYS_NoC_MAT_ALLSCORES.txt'
+dat_dir = '~/HPC/MSPipeline/tests/humanNet/data'
+resultsfile = paste(data_dir,'/processed/humanNet_data_wKEYS_NoC_MAT_ALLSCORES.txt', sep="")
 pos_data_file = '~/HPC/Benchmarks/datasets/humanNet/humannet_uniprot_keys.txt'
 human_gene_list = '~/HPC/MSPipeline/files/uniprot_protein_descriptions_HUMAN.txt'	#used for negative list
 
+# get scores from a scored dataset file (ALLSCORES.txt)
 scores = getScores(resultsfile)
 
-
-#check to see if we alread have the Truths scored
-truthsFile = "~/HPC/Benchmarks/datasets/humanNet/scoredTruths.txt"
+#check to see if we alread have the Truths scored. If so, load them. If not, create the file.
+truthsFile = paste(data_dir,"/scoredTruths.txt", sep="")
 if(file.exists(truthsFile)){
 	print("Reading Pre-scored truths file")
 	truths = read.delim(truthsFile, sep='\t', header=TRUE, stringsAsFactors =FALSE)
@@ -242,17 +234,20 @@ if(file.exists(truthsFile)){
 	pos = getPositives(pos_data_file)
 	neg = getNegativeSample(pos, human_gene_list)
 	#create list of truths based on our true positive and true negative sets
+	# scores are 1=positive, -1=negative
 	truths <- scoreTruths(pos, neg)
 	write.table(truths, truthsFile, sep="\t", quote=FALSE, row.names=FALSE, col.names=TRUE)
 }
 
 #create an index of the pairs to hopefully speed up comparisons later
-idx <- createIndex(scores, truths)
+# currently designed for 
+idx <- createIndex(scores, truths)	#what about idx2?
 scores <- idx[[1]]
 truths <- idx[[2]]
 
+#RUN THIS NEXT 
 rocScores <- scoreExperiment(thruths, scores)
-
+write.table(rocScores, truthsFile, sep="\t", quote=FALSE, row.names=FALSE, col.names=TRUE)
 
 
 
