@@ -11,7 +11,7 @@ library(RMySQL)
 ## execute this to access remote server
 ## ssh -L 3307:localhost:3306 higgs.ucsf.edu
 
-con <- dbConnect(MySQL(), user="everschueren", password="$Numer1q", dbname="KroganMS", host="127.0.0.1", port=3307)
+con <- dbConnect(MySQL(), user="everschueren", password="", dbname="KroganMS", host="127.0.0.1", port=3307)
 q = "select M.id, M.`bait_name`, D.`ms_protein_name`, D.`ms_num_unique_peptide` from MT_data D join MT_keys_merged M on D.id=M.id where M.`ip_cell_type` like 
 '293%' and M.`data_set` like '%HHV8_glaunsinger%' and D.`ms_protein_name` like '%HHV8%'"
 summary = dbGetQuery(con, q)
