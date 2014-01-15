@@ -15,11 +15,14 @@ overlapPerBait <- function(dat1, dat2, num_genes){
 	baits <- unique(c(dat1$BAIT,dat2$BAIT))
 	for(bait in baits){
 		idx1 <- which(dat1$BAIT==bait)
-		idx2 <- which(dat2$BAIT==bait)
+		idx2 <- which(dat2$BAIT==bait)		
+		# account for duplicate prey from consolidated datasets
+		prey1 <- unique(dat1[idx1,]$PREY)
+		prey2 <- unique(dat2[idx2,]$PREY)
 		
-		scores_o <- length(intersect(dat1[idx1,]$PREY, dat2[idx2,]$PREY))
-		pval <- phyper(scores_o, length(idx1), num_genes-length(idx1), length(idx2), lower.tail=FALSE)
-		tmp <- c(set=paste(unique(dat1$dataset), unique(dat2$dataset), sep="-"), BAIT=bait, num_preys1=length(idx1), num_preys2=length(idx2), num_overlap=scores_o, p_val=pval)
+		scores_o <- length(intersect(prey1, prey2))
+		pval <- phyper(scores_o-1, length(prey1), num_genes-length(prey1), length(prey2), lower.tail=FALSE)
+		tmp <- c(set=paste(unique(dat1$dataset), unique(dat2$dataset), sep="-"), BAIT=bait, num_preys1=length(prey1), num_preys2=length(prey2), num_overlap=scores_o, p_val=pval)
 		temp <- rbind(temp, t(tmp))
 		
 	}
@@ -34,23 +37,40 @@ overlapPerBait <- function(dat1, dat2, num_genes){
 	return(temp)
 }
 
-
-overlapPerCell <- function(dat1, dat2, num_genes){
+# inter-cell overlap
+overlapPerCell <- function(dat1, dat2, num_genes, output_dir){
 	d1 <- unique(dat1$PREY)
 	d2 <- unique(dat2$PREY)
 	
-	scores_o <- length(which(duplicated(c(d1, d2))))
+	#scores_o <- length(which(duplicated(c(d1, d2))))
+	scores_o <- length(intersect(d1, d2))
 	pval <- phyper(scores_o-1, length(d1), num_genes-length(d1), length(d2), lower.tail=FALSE)
 	
 	tmp <- c(set=paste(unique(dat1$dataset), unique(dat2$dataset), sep="-"), BAIT="_VIRUS_", num_preys1=length(d1), num_preys2=length(d2), num_overlap=scores_o, p_val=pval)
+	
+	interOverlapPreys(dat1, dat2, output_dir)
 	return(tmp)
 }
 
+# spit out a file that labels overlapping and non-overlapping proteins
+interOverlapPreys <- function(dat1, dat2, output_dir){
+	d1 <- unique(dat1$PREY)
+	d2 <- unique(dat2$PREY)
+	overlaps <- intersect(d1, d2)
+	set1 <- cbind(PREY=setdiff(d1, overlaps), dataset=unique(as.character(dat1$dataset)))
+	set2 <- cbind(PREY=setdiff(d2, overlaps), dataset=unique(as.character(dat2$dataset)))
+	dat_name <- paste(unique(set1[,2]), unique(set2[,2]), sep="-")
+	overlaps <- rbind(set1, set2, cbind(PREY=overlaps, dataset = dat_name))[,2:1]
+	
+	if(!file.exists(paste( output_dir, "toEnrich", sep="")))
+		dir.create(paste( output_dir, "toEnrich", sep=""))
+	write.table(overlaps,paste(output_dir, "toEnrich/", dat_name, ".txt", sep=""),, sep="\t", quote=FALSE, row.names=FALSE, col.names=TRUE)	
+}
 
 
 #################
 # wrapper to itterate through all combos of datasets and calculate the overlaps
-getOverlap <- function(dat, thresh){
+getOverlap <- function(dat, thresh, output_dir){
 	# normalize the BAIT/PREY names to all caps
 	dat$BAIT <- toupper(dat$BAIT)
 	dat$PREY <- toupper(dat$PREY)
@@ -61,7 +81,7 @@ getOverlap <- function(dat, thresh){
 	
 	# set threshhold for data
 	#thresh = 0.7
-	dat <- dat[which(dat$MIST_self > thresh),]
+	dat <- dat[which(dat[,3] > thresh),]
 	num_genes = 21121
 
 	temp <- c()
@@ -71,24 +91,20 @@ getOverlap <- function(dat, thresh){
 		if(unique(dat1$group)==unique(dat2$group)){
 			x <- overlapPerBait(dat1, dat2, num_genes)	#calculates all the overlap info
 		}else{
-			x <- overlapPerCell(dat1, dat2, num_genes)
+			x <- overlapPerCell(dat1, dat2, num_genes, output_dir)
 		}
 		temp <- rbind(temp, x)
 	}
 	return(temp)
 }
 
-# remove cases where there's no match
-cleanX <- function(x){
-	idx <- which(x$num_preys1==0 | x$num_preys2==0)
-	temp <- x[-idx,]
-}
-
 # wrapper to just run and return the overlap and p-values
-main <- function(dat, output_file, thresh){
-	x <- getOverlap(dat, thresh)
-	#x <- cleanX(x)	
-	write.table(x, output_file, sep="\t", quote=FALSE, row.names=FALSE, col.names=TRUE)
+main <- function(dat, output_dir, thresh){
+	if(!file.exists(output_dir))
+		dir.create(output_dir)
+		
+	x <- getOverlap(dat, thresh, output_dir)
+	write.table(x, paste(output_dir,"overlap.txt", sep=""), sep="\t", quote=FALSE, row.names=FALSE, col.names=TRUE)
 	return(x)
 }
 
@@ -104,26 +120,28 @@ main <- function(dat, output_file, thresh){
 #-----------------------------
 # read in the SCORES
 #HHV8
-andy <- cbind(read.delim("~/HPC/MSPipeline/tests/HHV8_glaunsinger/293T_Andy/data/processed/293T_Andy_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="293T", group=1)[,c(1,2,5,24,25)]
-vp <- cbind(read.delim("~/HPC/MSPipeline/tests/HHV8_glaunsinger/293T_VP/data/processed/293T_VP_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="293T", group=1)[,c(1,2,5,24,25)]
-bjab <- cbind(read.delim("~/HPC/MSPipeline/tests/HHV8_glaunsinger/BJAB/data/processed/BJAB_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="BJAB", group=1)[,c(1,2,5,24,25)]
-islk <- cbind(read.delim("~/HPC/MSPipeline/tests/HHV8_glaunsinger/iSLK/data/processed/iSLK_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="iSLK", group=1)[,c(1,2,5,24,25)]
+andy <- cbind(read.delim("~/HPC/MSPipeline/tests/HHV8_glaunsinger/293T_Andy/data/processed/293T_Andy_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="293T", group=1)[,c(1,2,16,24,25)]
+vp <- cbind(read.delim("~/HPC/MSPipeline/tests/HHV8_glaunsinger/293T_VP/data/processed/293T_VP_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="293T", group=1)[,c(1,2,16,24,25)]
+bjab <- cbind(read.delim("~/HPC/MSPipeline/tests/HHV8_glaunsinger/BJAB/data/processed/BJAB_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="BJAB", group=1)[,c(1,2,16,24,25)]
+islk <- cbind(read.delim("~/HPC/MSPipeline/tests/HHV8_glaunsinger/iSLK/data/processed/iSLK_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="iSLK", group=1)[,c(1,2,16,24,25)]
 
 #HIV
 hiv_hek <- cbind(read.delim("~/Box Documents/Projects/HIV/HIV_HEK.txt", sep="\t", stringsAsFactors=F), dataset="HIV_HEK", group=2)[,c(1,2,6,8,9)]
 hiv_jurkat <- cbind(read.delim("~/Box Documents/Projects/HIV/HIV_Jurkat.txt", sep="\t", stringsAsFactors=F), dataset="HIV_JURKAT", group=2)[,c(1,2,6,8,9)]
 
 #HCV
-hcv_293andy <- cbind(read.delim("~/Box Documents/Projects/HCV/Data/processed_293Tandy_v7/293T_andy_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="HCV_293T", group=3)[,c(1,2,5,24,25)]
-hcv_293vp <- cbind(read.delim("~/Box Documents/Projects/HCV/Data/processed_293Tvp_v7/293T_vp_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="HCV_293T", group=3)[,c(1,2,5,24,25)]
-hcv_huh <- cbind(read.delim("~/Box Documents/Projects/HCV/Data/processed_huh_v7/huh_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="HCV_HUH", group=3)[,c(1,2,5,24,25)]
+hcv_293andy <- cbind(read.delim("~/Box Documents/Projects/HCV/Data/processed_293Tandy_v7/293T_andy_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="HCV_293T", group=3)[,c(1,2,16,24,25)]
+hcv_293vp <- cbind(read.delim("~/Box Documents/Projects/HCV/Data/processed_293Tvp_v7/293T_vp_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="HCV_293T", group=3)[,c(1,2,16,24,25)]
+hcv_huh <- cbind(read.delim("~/Box Documents/Projects/HCV/Data/processed_huh_v7/huh_data_wKEYS_NoC_MAT_ALLSCORES.txt", sep="\t", stringsAsFactors=F), dataset="HCV_HUH", group=3)[,c(1,2,16,24,25)]
 
-scores <- rbind(andy, vp, islk, bjab, hiv_hek, hiv_jurkat, hcv_293andy, hcv_293vp, hcv_huh)
+#scores <- rbind(andy, vp, islk, bjab, hiv_hek, hiv_jurkat, hcv_293andy, hcv_293vp, hcv_huh)
+scores <- rbind(andy, vp, islk, bjab, hcv_293andy, hcv_293vp, hcv_huh)
 
 ##########################
-output_file <- "~/Desktop/overlap.txt"
-thresh = 0.7
-x <- main(scores, output_file, thresh)
+output_dir <- "~/Desktop/overlaps/SAINT/"
+#thresh = .7
+thresh = quantile(scores[,3], 0.9)
+x <- main(scores, output_dir, thresh)
 
 
 
