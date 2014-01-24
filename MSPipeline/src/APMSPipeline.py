@@ -279,6 +279,17 @@ def pipeline(config):
 		    os.makedirs(enriched_dir)
 
 		all_scores = output_dir+bname+'_ALLSCORES'+".txt"
+		
+		# if we want to only enrich the scores above a threshold: 
+		if config.getboolean('enrich','threshold'):
+			print(">> PERFORMING THRESHHOLDING ON SCORES\t\t")
+			comppass_thresh = config.get('enrich','comppass_thresh')
+			mist_thresh = config.get('enrich','mist_thresh')
+			thresh_file = output_dir+bname+'_ALLSCORES_'+'c'+comppass_thresh.replace(".","")+'m'+mist_thresh.replace(".","")+".txt"
+			subprocess.call([src_dir+'FileIO/ThreshholdResults.R', '-d', all_scores, '-o', thresh_file, '-c', comppass_thresh, '-m', mist_thresh, '-s', config.get('enrich','species')])
+			all_scores = thresh_file
+		#
+		
 		bait_col = config.get("enrich", "bait_col")
 		prey_col = config.get("enrich", "prey_col")
 		
