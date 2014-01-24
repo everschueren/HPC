@@ -97,7 +97,10 @@ Enrichment.uniprotToEntrez = function(ids){
 ## END DEPRECATED? ###############################################################################################
 
 Enrichment.annotate = function(ids, db=org.Hs.eg.db,type="UNIPROT", columns=c("UNIPROT","GO","PFAM","PROSITE","PATH")){
-  keys_ann = select(db, keys=ids, columns=columns, keytype=type)
+  #keys_ann = select(db, keys=ids, columns=columns, keytype=type)
+  keys_ann = tryCatch( 
+  				select(db, keys=ids, columns=columns, keytype=type),
+  				error = function(x) { return(NULL) } )
   keys_ann
 }
 
@@ -139,7 +142,9 @@ Enrichment.getGOEnrichment = function(ids, db="org.Hs.eg.db", ontology=c("CC","B
                pvalueCutoff=p_cutoff,
                conditional=F,
                testDirection="over")
-  over_represented = hyperGTest(params)
+  over_represented = try(hyperGTest(params), silent=TRUE)
+  if(class(over_represented)=="try-error")
+  	return(NULL)
   tmp = geneIdsByCategory(over_represented)
   tmp = Aux.listToDataFrame(tmp)
   colnames(tmp) = c("GO","ENTREZ")
@@ -158,6 +163,8 @@ Enrichment.getKEGGEnrichment = function(ids, db="org.Hs.eg.db", p_cutoff=Enrichm
                testDirection="over")
   over_represented = hyperGTest(params)
   tmp = geneIdsByCategory(over_represented)
+  if(length(tmp)==0)
+  	return(NULL)
   tmp = Aux.listToDataFrame(tmp)
   colnames(tmp) = c("KEGG","ENTREZ")
   summ = summary(over_represented)
@@ -174,6 +181,8 @@ Enrichment.getPFAMEnrichment = function(ids, db="org.Hs.eg.db", p_cutoff=Enrichm
                testDirection="over")
   over_represented = hyperGTest(params)
   tmp = geneIdsByCategory(over_represented)
+  if(length(tmp)==0)
+  	return(NULL)
   tmp = Aux.listToDataFrame(tmp)
   colnames(tmp) = c("PFAM","ENTREZ")
   summ = summary(over_represented)
@@ -218,10 +227,12 @@ Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped
     d = df[df[,set_idx]==set,]
     if(id_type == "ENTREZID"){
       da = Enrichment.annotate(ids=unique(d[,prey_idx]), type="ENTREZID",columns=c("UNIPROT","SYMBOL","ENTREZID"))
+      if(length(is.na(da))==0){next}
       da = da[!is.na(da$ENTREZID),]
       da_entrez_ids = unique(da$ENTREZID)
     }else if(id_type == "UNIPROT"){
       da = Enrichment.annotate(ids=unique(d[,prey_idx]), columns=c("UNIPROT","SYMBOL","ENTREZID"))
+      if(length(is.na(da))==0){next}
       da = da[!is.na(da$ENTREZID),]
       da_entrez_ids = unique(da$ENTREZID)
     }
@@ -229,36 +240,49 @@ Enrichment.main = function(data_file, output_dir, set_idx=1, prey_idx=2, grouped
     ###################
     ## ENRICHMENT WITH GO
     enrichment_p_cutoff = 1 ## set to 1 here to not get empty set error in getXXXEnrichment methods and filter later before writing out tables
-    
+    #print("GO CC enrichment")
     da_GO_CC_enriched = Enrichment.getGOEnrichment(da_entrez_ids, ontology="CC", p_cutoff=enrichment_p_cutoff)
-    da_GO_CC_enriched$Pvalue = p.adjust(da_GO_CC_enriched$Pvalue, method="fdr")
-    da_GO_CC_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_CC_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
-    GO_CC_groups = rbind(GO_CC_groups, da_GO_CC_groups)
-    
+    if(!is.null(da_GO_CC_enriched)){	#corrects for when entrenze ids arent in GO_CC
+	    da_GO_CC_enriched$Pvalue = p.adjust(da_GO_CC_enriched$Pvalue, method="fdr")
+	    da_GO_CC_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_CC_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
+	    GO_CC_groups = rbind(GO_CC_groups, da_GO_CC_groups)
+	}
+	
+    #print("GO MF enrichment")    
     da_GO_MF_enriched = Enrichment.getGOEnrichment(da_entrez_ids, ontology="MF", p_cutoff=enrichment_p_cutoff)
-    da_GO_MF_enriched$Pvalue = p.adjust(da_GO_MF_enriched$Pvalue, method="fdr")
-    da_GO_MF_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_MF_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
-    GO_MF_groups = rbind(GO_MF_groups, da_GO_MF_groups)
-    
+    if(!is.null(da_GO_MF_enriched)){	#corrects for when entrenze ids arent in GO_MF
+	    da_GO_MF_enriched$Pvalue = p.adjust(da_GO_MF_enriched$Pvalue, method="fdr")
+	    da_GO_MF_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_MF_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
+	    GO_MF_groups = rbind(GO_MF_groups, da_GO_MF_groups)
+	}
+	    
+    #print("GO BP enrichment")
     da_GO_BP_enriched = Enrichment.getGOEnrichment(da_entrez_ids, ontology="BP", p_cutoff=enrichment_p_cutoff)
-    da_GO_BP_enriched$Pvalue = p.adjust(da_GO_BP_enriched$Pvalue, method="fdr")
-    da_GO_BP_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_BP_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
-    GO_BP_groups = rbind(GO_BP_groups, da_GO_BP_groups)
+    if(!is.null(da_GO_BP_enriched)){	#corrects for when entrenze ids arent in GO_BP
+	    da_GO_BP_enriched$Pvalue = p.adjust(da_GO_BP_enriched$Pvalue, method="fdr")
+	    da_GO_BP_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_GO_BP_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
+	    GO_BP_groups = rbind(GO_BP_groups, da_GO_BP_groups)
+	}
     
     #####################
     ## GET THE PFAM STUFF
-    
+    #print("PFAM enrichment")
     da_PFAM_enriched = Enrichment.getPFAMEnrichment(da_entrez_ids, p_cutoff=enrichment_p_cutoff)
-    da_PFAM_enriched$Pvalue = p.adjust(da_PFAM_enriched$Pvalue, method="fdr")
-    da_PFAM_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_PFAM_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
-    PFAM_groups = rbind(PFAM_groups, da_PFAM_groups)
+    if(!is.null(da_PFAM_enriched)){	#corrects for when entrenze ids arent in PFAM
+	    da_PFAM_enriched$Pvalue = p.adjust(da_PFAM_enriched$Pvalue, method="fdr")
+	    da_PFAM_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_PFAM_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
+	    PFAM_groups = rbind(PFAM_groups, da_PFAM_groups)
+    }
     
     #####################
     ## GET THE KEGG STUFF
+    #print("KEGG enrichment")
     da_KEGG_enriched = Enrichment.getKEGGEnrichment(da_entrez_ids, p_cutoff=enrichment_p_cutoff)
-    da_KEGG_enriched$Pvalue = p.adjust(da_KEGG_enriched$Pvalue, method="fdr")
-    da_KEGG_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_KEGG_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
-    KEGG_groups = rbind(KEGG_groups, da_KEGG_groups)
+    if(!is.null(da_KEGG_enriched)){	#corrects for when entrenze ids arent in KEGG
+	    da_KEGG_enriched$Pvalue = p.adjust(da_KEGG_enriched$Pvalue, method="fdr")
+	    da_KEGG_groups = sqldf(sprintf("select '%s' as 'setid', DAE.*, UNIPROT as 'uniprot_ac', ENTREZ as 'entrez_id', SYMBOL as 'symbol' from da_KEGG_enriched DAE join da DA on (DA.ENTREZID = DAE.ENTREZ) order by DAE.Pvalue asc",set))
+	    KEGG_groups = rbind(KEGG_groups, da_KEGG_groups)
+	 }
   }
   
   res = list(GO_CC_groups=GO_CC_groups, GO_BP_groups=GO_BP_groups, GO_MF_groups=GO_MF_groups, PFAM_groups=PFAM_groups, KEGG_groups=KEGG_groups)
