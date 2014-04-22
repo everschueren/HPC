@@ -15,7 +15,7 @@ makeQCPlots <- function(data_file, output_file){
 	p = ggplot(dat, aes(x=factor(ID), y=Num.Unique)) ## consider using %coverage 
 	
 	pdf(file=paste(output_file, "Num_Unique_summary.pdf", sep="/"), width=plot_width, height=plot_height)
-		print( p + geom_boxplot() + facet_wrap(~ X, scales="free", drop=T, ncol=plots_per_col) + theme(axis.text=element_text(size=9)) )
+		print( p + geom_boxplot() + facet_wrap(~ X, scales="free", drop=T, ncol=plots_per_col) + theme(axis.text=element_text(size=9),  axis.text.x=element_text(angle=45, vjust=1))  )
 		## consider using scales=free_x to keep y scale fixed across all groups 
 	dev.off()	
 }
