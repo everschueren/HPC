@@ -233,6 +233,8 @@ def pipeline(config):
 		subprocess.call([src_dir+"Saint/SaintInput.py", '--dir', saint_dir, '--prospector_file', prospector_noc, '--collapse_file', collapse_file, '--remove_file', remove_file, '--data_format', config.get('general','data_format')])
 		subprocess.call([bin_dir+"saint/saint-reformat", saint_dir+"saint_interactions.txt", saint_dir+"saint_preys.txt", saint_dir+"saint_baits.txt", control_reduction])
 		subprocess.call([bin_dir+'saint/saint-spc-ctrl', saint_dir+"interaction.new", saint_dir+"prey.new", saint_dir+"bait.new", burnin, iter, lowmode, minfold, normalize])
+		# for cases with NO controls:
+		#subprocess.call([bin_dir+'saint/saint-spc-noctrl', saint_dir+"interaction.new", saint_dir+"prey.new", saint_dir+"bait.new", burnin, iter, "0.2", "0.1", "0", normalize])
 	
 	saint_score_file = saint_dir + "/RESULT/unique_interactions" 		
 
