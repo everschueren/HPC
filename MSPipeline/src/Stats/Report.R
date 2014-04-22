@@ -3,6 +3,7 @@
 suppressMessages(library(reshape2))
 suppressMessages(library(optparse))
 suppressMessages(library(compiler))
+suppressMessages(library(stats))
 
 options(warn=-1)
 
