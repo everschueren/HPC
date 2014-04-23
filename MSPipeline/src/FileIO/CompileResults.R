@@ -68,7 +68,9 @@ CompileResults = function(dir="", output_file="", mist_metrics_file="", mist_sel
 		if(ncol(comppass_results) == 15){ ## format with p-values & negative
 			header = c(header, c("TSC_AVG","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD","COMPPASS_pZ","COMPPASS_pS","COMPPASS_pD","COMPPASS_pWD", "COMPPASS_WD_NEGATIVE"))
 		}else{ ## format without p-values & with negative
-			header = c(header, c("TSC_AVG","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD", "COMPPASS_WD_NEGATIVE"))
+			#REMOVED TO SIMPLIFY OUTPUT
+			#header = c(header, c("TSC_AVG","COMPPASS_Z","COMPPASS_S","COMPPASS_D","COMPPASS_WD", "COMPPASS_WDv2", "COMPPASS_WD_NEGATIVE"))
+			header = c(header, c("TSC_AVG","COMPPASS_WD", "COMPPASS_WDv2", "COMPPASS_WD_NEGATIVE"))
 		}
 		
 	}

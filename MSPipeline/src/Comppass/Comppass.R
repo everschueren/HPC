@@ -115,6 +115,31 @@ Comppass.WD = function(stats_tab, speci_tab, repro_tab, normalized=F, WD_T=1){ #
     WD
   }
 }
+
+Comppass.WDv2 = function(stats_tab, speci_tab, repro_tab, num_reps, normalized=F, WD_T=1){ ## 95% score as normalization bar
+  m = apply(stats_tab, 1, mean)
+  sd = apply(stats_tab, 1, sd)
+  w = sd / m
+  w[w<=1]=1
+  
+  k = ncol(speci_tab)
+  freq = apply(speci_tab, 1, sum)
+  inv_freq = k / freq
+  tmp = stats_tab
+
+  for(i in 1:nrow(tmp)){
+    for(j in 1:ncol(tmp)){
+      tmp[i,j] = tmp[i,j] * (w[i] * inv_freq[i] ^ (repro_tab[i,j]/num_reps[j]))
+     }
+  }
+  WD = sqrt(tmp)
+  if(normalized){
+    WD_threshold = quantile(WD, probs=WD_T)
+    WD / WD_threshold
+  }else{
+    WD
+  }
+}
 # 
 # Comppass.Summary = function(stats_tab, Z, S, D, WD, WD_T=0){ ## WD_T takes everything over this  score
 #   
@@ -141,7 +166,7 @@ Comppass.WD = function(stats_tab, speci_tab, repro_tab, normalized=F, WD_T=1){ #
 #   total_table
 # }
 
-Comppass.Summary = function(stats_tab, Z, S, D, WD, WD_T=0){ 
+Comppass.Summary = function(stats_tab, Z, S, D, WD, WDv2, WD_T=0){ 
   baits = colnames(stats_tab)
   
   stats_m = cbind(rownames(stats_tab),stats_tab)
@@ -164,8 +189,12 @@ Comppass.Summary = function(stats_tab, Z, S, D, WD, WD_T=0){
   colnames(WD_m)[1]="Prey"
   WD_m = melt(WD, id.vars=baits)
   
-  M = cbind(stats_m[,2],stats_m[,c(1,3)], Z_m[,3], S_m[,3], D_m[,3], WD_m[,3])
-  colnames(M) = c("Bait","Prey","Abundance","Z","S","D","WD")  
+  WDv2_m = cbind(rownames(WDv2),WDv2)
+  colnames(WD_m)[1]="Prey"
+  WDv2_m = melt(WDv2, id.vars=baits)
+  
+  M = cbind(stats_m[,2],stats_m[,c(1,3)], Z_m[,3], S_m[,3], D_m[,3], WD_m[,3], WDv2_m[,3])
+  colnames(M) = c("Bait","Prey","Abundance","Z","S","D","WD","WDv2")  
   M
 }
 
@@ -267,10 +296,13 @@ Comppass.main = function(data_file, output_file, resampling=F){
   S = Comppass.S(stats_tab, speci_tab)
   D = Comppass.D(stats_tab, speci_tab, repro_tab)
   WD = Comppass.WD(stats_tab, speci_tab, repro_tab)
+  #get number of replicates
+  num_reps = as.matrix(table(as.character(names(data)[-c(1:4)])))
+  WDv2 = Comppass.WDv2(stats_tab, speci_tab, repro_tab, num_reps)
   
   print("SUMMARIZING")
   ## compile all scores
-  summary = Comppass.Summary(stats_tab, Z, S, D, WD)
+  summary = Comppass.Summary(stats_tab, Z, S, D, WD, WDv2)
   
   if(resampling){
     print("RESAMPLING SCREEN")
