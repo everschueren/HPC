@@ -66,9 +66,21 @@ def pipeline(config):
 
 
 	## ################## 
+	## filter contaminants
+	tmp_in_file = data_file
+	
+	if config.getboolean('general','filter_contaminants'): ## simple format so merge keys
+		print ">> FILTERING COMMON CONTAMINANTS\t\t"
+		tmp_out_file = output_dir+bname+"_filtered.txt"
+		subprocess.call([src_dir+'FileIO/filterContaminants.R', '-k', keys_file, '-d', tmp_in_file, '-o', tmp_out_file, '-c', config.get("general","filter_contaminants")])
+
+	else:
+		tmp_out_file = tmp_in_file
+
+	## ################## 
 	## merge additions
 
-	tmp_in_file = data_file
+	tmp_in_file = tmp_out_file
 	
 	if config.get('general','data_format') == 'S': ## simple format so merge keys
 		print(">> MERGING KEYS TO DATA\t\t" + tmp_in_file)
@@ -77,6 +89,7 @@ def pipeline(config):
 		f = open(tmp_out_file,'w')
 		subprocess.call([src_dir+'FileIO/merge_additions.pl', keys_file, tmp_in_file, config.get("general","data_format")], stdout=f)
 		f.close()
+		
 	else:
 		print(">> FULL FORMAT: NO KEYS WERE MERGED\t\t" + tmp_in_file)
 		tmp_out_file = tmp_in_file ## no action
