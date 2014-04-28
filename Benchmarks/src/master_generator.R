@@ -1,8 +1,8 @@
 
 
 ###############################
-#Formatting HNet data
-
+# Formatting HNet data
+#	Find which hnet data we have in our MT then save data and keys file
 dat <- read.delim("~/HPC/Benchmarks/datasets/master/MT_data_20131024.txt", sep="\t", header=TRUE, stringsAsFactors =FALSE)
 keys <- read.delim("~/HPC/Benchmarks/datasets/master/MT_keys_20131024.txt", sep="\t", header=TRUE, stringsAsFactors =FALSE)
 
@@ -61,6 +61,9 @@ rm(list=ls())
 
 
 
+
+###############################
+#	Dont need to run any of this
 ###############################
 #some plots of hnet
 library(ggplot2)
